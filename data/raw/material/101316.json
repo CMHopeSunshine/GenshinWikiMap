@@ -1,0 +1,20 @@
+{
+  "name": "刺葵木",
+  "description": "「刺葵树」出产的木材，虽然没有优秀的质感和纹理，但锁水能力极强，便于维护。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：须弥沙漠砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101316",
+  "rank": 1,
+  "route": "Mountain Date Wood"
+}

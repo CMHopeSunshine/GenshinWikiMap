@@ -1,0 +1,15 @@
+{
+  "name": "布匹",
+  "description": "优质的布匹。制作摆设时应该能派上用场。",
+  "type": "素材",
+  "recipe": {
+    "30001": {
+      "100029": 1
+    }
+  },
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_101401",
+  "rank": 1,
+  "route": "Fabric"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "风车菊",
+  "description": "喜好风的植物。对于崇信风、本身也如风一般爽朗自在的蒙德人而言，风车菊便是「看得见的风」。",
+  "type": "蒙德区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "风起地七天神像附近采集",
+      "type": "single"
+    },
+    {
+      "name": "野外树下采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：风龙废墟采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100024",
+  "rank": 1,
+  "route": "Windwheel Aster"
+}

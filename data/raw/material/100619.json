@@ -1,0 +1,11 @@
+{
+  "name": "汲取了生命力的龙牙",
+  "description": "汲取了生命力的龙牙。无论是光泽还是质感，都愈加让人不安…",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_100619",
+  "rank": 1,
+  "route": "Vitalized Dragontooth"
+}

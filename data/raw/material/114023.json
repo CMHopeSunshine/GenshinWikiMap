@@ -1,0 +1,29 @@
+{
+  "name": "漆黑陨铁的一角",
+  "description": "赋予武器突破之力的材料。\\n提瓦特沿海的诸国把超越七神庇护的外部称之为「暗之外海」，据说许多战败的魔神不愿意活在新的七神秩序之下，于是逃到了远岛，化作了邪神。不过它们的力量和岩王帝君的力量本就同源，和这个吞噬一切的漆黑并不一样。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12017": {
+      "114022": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：古雷试炼场",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114023",
+  "rank": 4,
+  "route": "Bit of Aerosiderite"
+}

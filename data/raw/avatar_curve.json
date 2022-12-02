@@ -1,0 +1,802 @@
+{
+  "1": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1,
+      "GROW_CURVE_ATTACK_S4": 1,
+      "GROW_CURVE_HP_S5": 1,
+      "GROW_CURVE_ATTACK_S5": 1
+    }
+  },
+  "2": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.083,
+      "GROW_CURVE_ATTACK_S4": 1.083,
+      "GROW_CURVE_HP_S5": 1.083,
+      "GROW_CURVE_ATTACK_S5": 1.083
+    }
+  },
+  "3": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.165,
+      "GROW_CURVE_ATTACK_S4": 1.165,
+      "GROW_CURVE_HP_S5": 1.166,
+      "GROW_CURVE_ATTACK_S5": 1.166
+    }
+  },
+  "4": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.248,
+      "GROW_CURVE_ATTACK_S4": 1.248,
+      "GROW_CURVE_HP_S5": 1.25,
+      "GROW_CURVE_ATTACK_S5": 1.25
+    }
+  },
+  "5": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.33,
+      "GROW_CURVE_ATTACK_S4": 1.33,
+      "GROW_CURVE_HP_S5": 1.333,
+      "GROW_CURVE_ATTACK_S5": 1.333
+    }
+  },
+  "6": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.413,
+      "GROW_CURVE_ATTACK_S4": 1.413,
+      "GROW_CURVE_HP_S5": 1.417,
+      "GROW_CURVE_ATTACK_S5": 1.417
+    }
+  },
+  "7": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.495,
+      "GROW_CURVE_ATTACK_S4": 1.495,
+      "GROW_CURVE_HP_S5": 1.5,
+      "GROW_CURVE_ATTACK_S5": 1.5
+    }
+  },
+  "8": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.578,
+      "GROW_CURVE_ATTACK_S4": 1.578,
+      "GROW_CURVE_HP_S5": 1.584,
+      "GROW_CURVE_ATTACK_S5": 1.584
+    }
+  },
+  "9": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.661,
+      "GROW_CURVE_ATTACK_S4": 1.661,
+      "GROW_CURVE_HP_S5": 1.668,
+      "GROW_CURVE_ATTACK_S5": 1.668
+    }
+  },
+  "10": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.743,
+      "GROW_CURVE_ATTACK_S4": 1.743,
+      "GROW_CURVE_HP_S5": 1.751,
+      "GROW_CURVE_ATTACK_S5": 1.751
+    }
+  },
+  "11": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.826,
+      "GROW_CURVE_ATTACK_S4": 1.826,
+      "GROW_CURVE_HP_S5": 1.835,
+      "GROW_CURVE_ATTACK_S5": 1.835
+    }
+  },
+  "12": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.908,
+      "GROW_CURVE_ATTACK_S4": 1.908,
+      "GROW_CURVE_HP_S5": 1.919,
+      "GROW_CURVE_ATTACK_S5": 1.919
+    }
+  },
+  "13": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 1.991,
+      "GROW_CURVE_ATTACK_S4": 1.991,
+      "GROW_CURVE_HP_S5": 2.003,
+      "GROW_CURVE_ATTACK_S5": 2.003
+    }
+  },
+  "14": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.073,
+      "GROW_CURVE_ATTACK_S4": 2.073,
+      "GROW_CURVE_HP_S5": 2.088,
+      "GROW_CURVE_ATTACK_S5": 2.088
+    }
+  },
+  "15": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.156,
+      "GROW_CURVE_ATTACK_S4": 2.156,
+      "GROW_CURVE_HP_S5": 2.172,
+      "GROW_CURVE_ATTACK_S5": 2.172
+    }
+  },
+  "16": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.239,
+      "GROW_CURVE_ATTACK_S4": 2.239,
+      "GROW_CURVE_HP_S5": 2.256,
+      "GROW_CURVE_ATTACK_S5": 2.256
+    }
+  },
+  "17": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.321,
+      "GROW_CURVE_ATTACK_S4": 2.321,
+      "GROW_CURVE_HP_S5": 2.341,
+      "GROW_CURVE_ATTACK_S5": 2.341
+    }
+  },
+  "18": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.404,
+      "GROW_CURVE_ATTACK_S4": 2.404,
+      "GROW_CURVE_HP_S5": 2.425,
+      "GROW_CURVE_ATTACK_S5": 2.425
+    }
+  },
+  "19": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.486,
+      "GROW_CURVE_ATTACK_S4": 2.486,
+      "GROW_CURVE_HP_S5": 2.51,
+      "GROW_CURVE_ATTACK_S5": 2.51
+    }
+  },
+  "20": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.569,
+      "GROW_CURVE_ATTACK_S4": 2.569,
+      "GROW_CURVE_HP_S5": 2.594,
+      "GROW_CURVE_ATTACK_S5": 2.594
+    }
+  },
+  "21": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.651,
+      "GROW_CURVE_ATTACK_S4": 2.651,
+      "GROW_CURVE_HP_S5": 2.679,
+      "GROW_CURVE_ATTACK_S5": 2.679
+    }
+  },
+  "22": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.734,
+      "GROW_CURVE_ATTACK_S4": 2.734,
+      "GROW_CURVE_HP_S5": 2.764,
+      "GROW_CURVE_ATTACK_S5": 2.764
+    }
+  },
+  "23": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.817,
+      "GROW_CURVE_ATTACK_S4": 2.817,
+      "GROW_CURVE_HP_S5": 2.849,
+      "GROW_CURVE_ATTACK_S5": 2.849
+    }
+  },
+  "24": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.899,
+      "GROW_CURVE_ATTACK_S4": 2.899,
+      "GROW_CURVE_HP_S5": 2.934,
+      "GROW_CURVE_ATTACK_S5": 2.934
+    }
+  },
+  "25": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 2.982,
+      "GROW_CURVE_ATTACK_S4": 2.982,
+      "GROW_CURVE_HP_S5": 3.019,
+      "GROW_CURVE_ATTACK_S5": 3.019
+    }
+  },
+  "26": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.064,
+      "GROW_CURVE_ATTACK_S4": 3.064,
+      "GROW_CURVE_HP_S5": 3.105,
+      "GROW_CURVE_ATTACK_S5": 3.105
+    }
+  },
+  "27": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.147,
+      "GROW_CURVE_ATTACK_S4": 3.147,
+      "GROW_CURVE_HP_S5": 3.19,
+      "GROW_CURVE_ATTACK_S5": 3.19
+    }
+  },
+  "28": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.229,
+      "GROW_CURVE_ATTACK_S4": 3.229,
+      "GROW_CURVE_HP_S5": 3.275,
+      "GROW_CURVE_ATTACK_S5": 3.275
+    }
+  },
+  "29": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.312,
+      "GROW_CURVE_ATTACK_S4": 3.312,
+      "GROW_CURVE_HP_S5": 3.361,
+      "GROW_CURVE_ATTACK_S5": 3.361
+    }
+  },
+  "30": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.394,
+      "GROW_CURVE_ATTACK_S4": 3.394,
+      "GROW_CURVE_HP_S5": 3.446,
+      "GROW_CURVE_ATTACK_S5": 3.446
+    }
+  },
+  "31": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.477,
+      "GROW_CURVE_ATTACK_S4": 3.477,
+      "GROW_CURVE_HP_S5": 3.532,
+      "GROW_CURVE_ATTACK_S5": 3.532
+    }
+  },
+  "32": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.56,
+      "GROW_CURVE_ATTACK_S4": 3.56,
+      "GROW_CURVE_HP_S5": 3.618,
+      "GROW_CURVE_ATTACK_S5": 3.618
+    }
+  },
+  "33": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.642,
+      "GROW_CURVE_ATTACK_S4": 3.642,
+      "GROW_CURVE_HP_S5": 3.704,
+      "GROW_CURVE_ATTACK_S5": 3.704
+    }
+  },
+  "34": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.725,
+      "GROW_CURVE_ATTACK_S4": 3.725,
+      "GROW_CURVE_HP_S5": 3.789,
+      "GROW_CURVE_ATTACK_S5": 3.789
+    }
+  },
+  "35": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.807,
+      "GROW_CURVE_ATTACK_S4": 3.807,
+      "GROW_CURVE_HP_S5": 3.875,
+      "GROW_CURVE_ATTACK_S5": 3.875
+    }
+  },
+  "36": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.89,
+      "GROW_CURVE_ATTACK_S4": 3.89,
+      "GROW_CURVE_HP_S5": 3.962,
+      "GROW_CURVE_ATTACK_S5": 3.962
+    }
+  },
+  "37": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 3.972,
+      "GROW_CURVE_ATTACK_S4": 3.972,
+      "GROW_CURVE_HP_S5": 4.048,
+      "GROW_CURVE_ATTACK_S5": 4.048
+    }
+  },
+  "38": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.055,
+      "GROW_CURVE_ATTACK_S4": 4.055,
+      "GROW_CURVE_HP_S5": 4.134,
+      "GROW_CURVE_ATTACK_S5": 4.134
+    }
+  },
+  "39": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.138,
+      "GROW_CURVE_ATTACK_S4": 4.138,
+      "GROW_CURVE_HP_S5": 4.22,
+      "GROW_CURVE_ATTACK_S5": 4.22
+    }
+  },
+  "40": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.22,
+      "GROW_CURVE_ATTACK_S4": 4.22,
+      "GROW_CURVE_HP_S5": 4.307,
+      "GROW_CURVE_ATTACK_S5": 4.307
+    }
+  },
+  "41": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.303,
+      "GROW_CURVE_ATTACK_S4": 4.303,
+      "GROW_CURVE_HP_S5": 4.393,
+      "GROW_CURVE_ATTACK_S5": 4.393
+    }
+  },
+  "42": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.385,
+      "GROW_CURVE_ATTACK_S4": 4.385,
+      "GROW_CURVE_HP_S5": 4.48,
+      "GROW_CURVE_ATTACK_S5": 4.48
+    }
+  },
+  "43": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.468,
+      "GROW_CURVE_ATTACK_S4": 4.468,
+      "GROW_CURVE_HP_S5": 4.567,
+      "GROW_CURVE_ATTACK_S5": 4.567
+    }
+  },
+  "44": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.55,
+      "GROW_CURVE_ATTACK_S4": 4.55,
+      "GROW_CURVE_HP_S5": 4.653,
+      "GROW_CURVE_ATTACK_S5": 4.653
+    }
+  },
+  "45": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.633,
+      "GROW_CURVE_ATTACK_S4": 4.633,
+      "GROW_CURVE_HP_S5": 4.74,
+      "GROW_CURVE_ATTACK_S5": 4.74
+    }
+  },
+  "46": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.716,
+      "GROW_CURVE_ATTACK_S4": 4.716,
+      "GROW_CURVE_HP_S5": 4.827,
+      "GROW_CURVE_ATTACK_S5": 4.827
+    }
+  },
+  "47": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.798,
+      "GROW_CURVE_ATTACK_S4": 4.798,
+      "GROW_CURVE_HP_S5": 4.914,
+      "GROW_CURVE_ATTACK_S5": 4.914
+    }
+  },
+  "48": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.881,
+      "GROW_CURVE_ATTACK_S4": 4.881,
+      "GROW_CURVE_HP_S5": 5.001,
+      "GROW_CURVE_ATTACK_S5": 5.001
+    }
+  },
+  "49": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 4.963,
+      "GROW_CURVE_ATTACK_S4": 4.963,
+      "GROW_CURVE_HP_S5": 5.089,
+      "GROW_CURVE_ATTACK_S5": 5.089
+    }
+  },
+  "50": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.046,
+      "GROW_CURVE_ATTACK_S4": 5.046,
+      "GROW_CURVE_HP_S5": 5.176,
+      "GROW_CURVE_ATTACK_S5": 5.176
+    }
+  },
+  "51": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.128,
+      "GROW_CURVE_ATTACK_S4": 5.128,
+      "GROW_CURVE_HP_S5": 5.263,
+      "GROW_CURVE_ATTACK_S5": 5.263
+    }
+  },
+  "52": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.211,
+      "GROW_CURVE_ATTACK_S4": 5.211,
+      "GROW_CURVE_HP_S5": 5.351,
+      "GROW_CURVE_ATTACK_S5": 5.351
+    }
+  },
+  "53": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.294,
+      "GROW_CURVE_ATTACK_S4": 5.294,
+      "GROW_CURVE_HP_S5": 5.438,
+      "GROW_CURVE_ATTACK_S5": 5.438
+    }
+  },
+  "54": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.376,
+      "GROW_CURVE_ATTACK_S4": 5.376,
+      "GROW_CURVE_HP_S5": 5.526,
+      "GROW_CURVE_ATTACK_S5": 5.526
+    }
+  },
+  "55": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.459,
+      "GROW_CURVE_ATTACK_S4": 5.459,
+      "GROW_CURVE_HP_S5": 5.614,
+      "GROW_CURVE_ATTACK_S5": 5.614
+    }
+  },
+  "56": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.541,
+      "GROW_CURVE_ATTACK_S4": 5.541,
+      "GROW_CURVE_HP_S5": 5.702,
+      "GROW_CURVE_ATTACK_S5": 5.702
+    }
+  },
+  "57": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.624,
+      "GROW_CURVE_ATTACK_S4": 5.624,
+      "GROW_CURVE_HP_S5": 5.79,
+      "GROW_CURVE_ATTACK_S5": 5.79
+    }
+  },
+  "58": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.706,
+      "GROW_CURVE_ATTACK_S4": 5.706,
+      "GROW_CURVE_HP_S5": 5.878,
+      "GROW_CURVE_ATTACK_S5": 5.878
+    }
+  },
+  "59": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.789,
+      "GROW_CURVE_ATTACK_S4": 5.789,
+      "GROW_CURVE_HP_S5": 5.966,
+      "GROW_CURVE_ATTACK_S5": 5.966
+    }
+  },
+  "60": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.872,
+      "GROW_CURVE_ATTACK_S4": 5.872,
+      "GROW_CURVE_HP_S5": 6.054,
+      "GROW_CURVE_ATTACK_S5": 6.054
+    }
+  },
+  "61": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 5.954,
+      "GROW_CURVE_ATTACK_S4": 5.954,
+      "GROW_CURVE_HP_S5": 6.142,
+      "GROW_CURVE_ATTACK_S5": 6.142
+    }
+  },
+  "62": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.037,
+      "GROW_CURVE_ATTACK_S4": 6.037,
+      "GROW_CURVE_HP_S5": 6.23,
+      "GROW_CURVE_ATTACK_S5": 6.23
+    }
+  },
+  "63": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.119,
+      "GROW_CURVE_ATTACK_S4": 6.119,
+      "GROW_CURVE_HP_S5": 6.319,
+      "GROW_CURVE_ATTACK_S5": 6.319
+    }
+  },
+  "64": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.202,
+      "GROW_CURVE_ATTACK_S4": 6.202,
+      "GROW_CURVE_HP_S5": 6.407,
+      "GROW_CURVE_ATTACK_S5": 6.407
+    }
+  },
+  "65": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.284,
+      "GROW_CURVE_ATTACK_S4": 6.284,
+      "GROW_CURVE_HP_S5": 6.496,
+      "GROW_CURVE_ATTACK_S5": 6.496
+    }
+  },
+  "66": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.367,
+      "GROW_CURVE_ATTACK_S4": 6.367,
+      "GROW_CURVE_HP_S5": 6.585,
+      "GROW_CURVE_ATTACK_S5": 6.585
+    }
+  },
+  "67": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.45,
+      "GROW_CURVE_ATTACK_S4": 6.45,
+      "GROW_CURVE_HP_S5": 6.673,
+      "GROW_CURVE_ATTACK_S5": 6.673
+    }
+  },
+  "68": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.532,
+      "GROW_CURVE_ATTACK_S4": 6.532,
+      "GROW_CURVE_HP_S5": 6.762,
+      "GROW_CURVE_ATTACK_S5": 6.762
+    }
+  },
+  "69": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.615,
+      "GROW_CURVE_ATTACK_S4": 6.615,
+      "GROW_CURVE_HP_S5": 6.851,
+      "GROW_CURVE_ATTACK_S5": 6.851
+    }
+  },
+  "70": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.697,
+      "GROW_CURVE_ATTACK_S4": 6.697,
+      "GROW_CURVE_HP_S5": 6.94,
+      "GROW_CURVE_ATTACK_S5": 6.94
+    }
+  },
+  "71": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.78,
+      "GROW_CURVE_ATTACK_S4": 6.78,
+      "GROW_CURVE_HP_S5": 7.029,
+      "GROW_CURVE_ATTACK_S5": 7.029
+    }
+  },
+  "72": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.862,
+      "GROW_CURVE_ATTACK_S4": 6.862,
+      "GROW_CURVE_HP_S5": 7.119,
+      "GROW_CURVE_ATTACK_S5": 7.119
+    }
+  },
+  "73": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 6.945,
+      "GROW_CURVE_ATTACK_S4": 6.945,
+      "GROW_CURVE_HP_S5": 7.208,
+      "GROW_CURVE_ATTACK_S5": 7.208
+    }
+  },
+  "74": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.028,
+      "GROW_CURVE_ATTACK_S4": 7.028,
+      "GROW_CURVE_HP_S5": 7.297,
+      "GROW_CURVE_ATTACK_S5": 7.297
+    }
+  },
+  "75": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.11,
+      "GROW_CURVE_ATTACK_S4": 7.11,
+      "GROW_CURVE_HP_S5": 7.387,
+      "GROW_CURVE_ATTACK_S5": 7.387
+    }
+  },
+  "76": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.193,
+      "GROW_CURVE_ATTACK_S4": 7.193,
+      "GROW_CURVE_HP_S5": 7.476,
+      "GROW_CURVE_ATTACK_S5": 7.476
+    }
+  },
+  "77": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.275,
+      "GROW_CURVE_ATTACK_S4": 7.275,
+      "GROW_CURVE_HP_S5": 7.566,
+      "GROW_CURVE_ATTACK_S5": 7.566
+    }
+  },
+  "78": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.358,
+      "GROW_CURVE_ATTACK_S4": 7.358,
+      "GROW_CURVE_HP_S5": 7.656,
+      "GROW_CURVE_ATTACK_S5": 7.656
+    }
+  },
+  "79": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.44,
+      "GROW_CURVE_ATTACK_S4": 7.44,
+      "GROW_CURVE_HP_S5": 7.746,
+      "GROW_CURVE_ATTACK_S5": 7.746
+    }
+  },
+  "80": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.523,
+      "GROW_CURVE_ATTACK_S4": 7.523,
+      "GROW_CURVE_HP_S5": 7.836,
+      "GROW_CURVE_ATTACK_S5": 7.836
+    }
+  },
+  "81": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.606,
+      "GROW_CURVE_ATTACK_S4": 7.606,
+      "GROW_CURVE_HP_S5": 7.926,
+      "GROW_CURVE_ATTACK_S5": 7.926
+    }
+  },
+  "82": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.688,
+      "GROW_CURVE_ATTACK_S4": 7.688,
+      "GROW_CURVE_HP_S5": 8.016,
+      "GROW_CURVE_ATTACK_S5": 8.016
+    }
+  },
+  "83": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.771,
+      "GROW_CURVE_ATTACK_S4": 7.771,
+      "GROW_CURVE_HP_S5": 8.106,
+      "GROW_CURVE_ATTACK_S5": 8.106
+    }
+  },
+  "84": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.853,
+      "GROW_CURVE_ATTACK_S4": 7.853,
+      "GROW_CURVE_HP_S5": 8.196,
+      "GROW_CURVE_ATTACK_S5": 8.196
+    }
+  },
+  "85": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 7.936,
+      "GROW_CURVE_ATTACK_S4": 7.936,
+      "GROW_CURVE_HP_S5": 8.286,
+      "GROW_CURVE_ATTACK_S5": 8.286
+    }
+  },
+  "86": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.018,
+      "GROW_CURVE_ATTACK_S4": 8.018,
+      "GROW_CURVE_HP_S5": 8.377,
+      "GROW_CURVE_ATTACK_S5": 8.377
+    }
+  },
+  "87": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.101,
+      "GROW_CURVE_ATTACK_S4": 8.101,
+      "GROW_CURVE_HP_S5": 8.467,
+      "GROW_CURVE_ATTACK_S5": 8.467
+    }
+  },
+  "88": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.183,
+      "GROW_CURVE_ATTACK_S4": 8.183,
+      "GROW_CURVE_HP_S5": 8.558,
+      "GROW_CURVE_ATTACK_S5": 8.558
+    }
+  },
+  "89": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.266,
+      "GROW_CURVE_ATTACK_S4": 8.266,
+      "GROW_CURVE_HP_S5": 8.649,
+      "GROW_CURVE_ATTACK_S5": 8.649
+    }
+  },
+  "90": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.349,
+      "GROW_CURVE_ATTACK_S4": 8.349,
+      "GROW_CURVE_HP_S5": 8.739,
+      "GROW_CURVE_ATTACK_S5": 8.739
+    }
+  },
+  "91": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.431,
+      "GROW_CURVE_ATTACK_S4": 8.431,
+      "GROW_CURVE_HP_S5": 8.83,
+      "GROW_CURVE_ATTACK_S5": 8.83
+    }
+  },
+  "92": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.514,
+      "GROW_CURVE_ATTACK_S4": 8.514,
+      "GROW_CURVE_HP_S5": 8.921,
+      "GROW_CURVE_ATTACK_S5": 8.921
+    }
+  },
+  "93": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.596,
+      "GROW_CURVE_ATTACK_S4": 8.596,
+      "GROW_CURVE_HP_S5": 9.012,
+      "GROW_CURVE_ATTACK_S5": 9.012
+    }
+  },
+  "94": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.679,
+      "GROW_CURVE_ATTACK_S4": 8.679,
+      "GROW_CURVE_HP_S5": 9.103,
+      "GROW_CURVE_ATTACK_S5": 9.103
+    }
+  },
+  "95": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.761,
+      "GROW_CURVE_ATTACK_S4": 8.761,
+      "GROW_CURVE_HP_S5": 9.195,
+      "GROW_CURVE_ATTACK_S5": 9.195
+    }
+  },
+  "96": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.844,
+      "GROW_CURVE_ATTACK_S4": 8.844,
+      "GROW_CURVE_HP_S5": 9.286,
+      "GROW_CURVE_ATTACK_S5": 9.286
+    }
+  },
+  "97": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 8.927,
+      "GROW_CURVE_ATTACK_S4": 8.927,
+      "GROW_CURVE_HP_S5": 9.377,
+      "GROW_CURVE_ATTACK_S5": 9.377
+    }
+  },
+  "98": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 9.009,
+      "GROW_CURVE_ATTACK_S4": 9.009,
+      "GROW_CURVE_HP_S5": 9.469,
+      "GROW_CURVE_ATTACK_S5": 9.469
+    }
+  },
+  "99": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 9.092,
+      "GROW_CURVE_ATTACK_S4": 9.092,
+      "GROW_CURVE_HP_S5": 9.56,
+      "GROW_CURVE_ATTACK_S5": 9.56
+    }
+  },
+  "100": {
+    "curveInfos": {
+      "GROW_CURVE_HP_S4": 9.174,
+      "GROW_CURVE_ATTACK_S4": 9.174,
+      "GROW_CURVE_HP_S5": 9.652,
+      "GROW_CURVE_ATTACK_S5": 9.652
+    }
+  }
+}

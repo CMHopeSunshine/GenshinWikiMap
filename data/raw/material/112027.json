@@ -1,0 +1,28 @@
+{
+  "name": "雾虚草囊",
+  "description": "保存完好的雾虚草。有的人会利用飞萤对雾虚草的喜好，来控制它们。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11017": {
+      "112026": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上愚人众·萤术士掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112027",
+  "rank": 3,
+  "route": "Mist Grass"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "「浮世」的指引",
+  "description": "天赋培养素材。\\n雷之国土的梦想是浮世。\\n浮世之难求乃是人之美的价值所在。人之在世岂不与雷影相似？意欲追逐掇取则遥踞云端，灯火阑珊的静谧之时却不期而来。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13013": {
+      "104320": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：菫染之国",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104321",
+  "rank": 3,
+  "route": "Guide to Transience"
+}

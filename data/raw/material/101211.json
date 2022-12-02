@@ -1,0 +1,16 @@
+{
+  "name": "堇瓜",
+  "description": "有着色泽艳丽的外皮的果实，其中的果肉可以在烹饪后转化为口感独特的食物。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "稻妻野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101211",
+  "rank": 1,
+  "route": "Lavender Melon"
+}

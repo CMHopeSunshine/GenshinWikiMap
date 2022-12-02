@@ -1,0 +1,20 @@
+{
+  "name": "流浪者的经验",
+  "description": "角色经验素材，含有1000点经验值。\\n如果不在大陆七国生活，这些经验还是很必要的。",
+  "type": "角色经验素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "冒险与探索奖励",
+      "type": "single"
+    },
+    {
+      "name": "洞天百宝兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104001",
+  "rank": 2,
+  "route": "Wanderer's Advice"
+}

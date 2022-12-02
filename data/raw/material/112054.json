@@ -1,0 +1,28 @@
+{
+  "name": "浮游幽核",
+  "description": "能让飘浮灵浮游的能量核。\\n这种元素生物似乎有奇异的习性，会周期性大量涌现、消失。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11035": {
+      "112053": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上飘浮灵掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112054",
+  "rank": 2,
+  "route": "Spectral Heart"
+}

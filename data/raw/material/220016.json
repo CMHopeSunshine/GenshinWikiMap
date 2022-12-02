@@ -1,0 +1,11 @@
+{
+  "name": "迷你仙灵·郁金",
+  "description": "「秘宝迷踪」活动的纪念，装备后可以获得迷你仙灵的陪伴。\\n金色的迷你仙灵。散发着与摩拉近似的气息，传说这种颜色的仙灵象征着幸运。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220016",
+  "rank": 4,
+  "route": "Mini Seelie: Curcuma"
+}

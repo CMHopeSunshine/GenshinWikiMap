@@ -1,0 +1,16 @@
+{
+  "name": "墩墩桃",
+  "description": "林中灌木结出的果实。肉质敦实，味道香甜可口。据说食用后还有宁心安神的功效。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101218",
+  "rank": 1,
+  "route": "Zaytun Peach"
+}

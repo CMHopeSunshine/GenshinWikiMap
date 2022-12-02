@@ -1,0 +1,11 @@
+{
+  "name": "「森林书」",
+  "description": "兰罗摩交给你的书。\\n看起来经历了很多年月。原本似乎有人在上面记录过什么，但那些内容已经失落了。\\n用来记载与兰那罗一同冒险的故事吧。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220055",
+  "rank": 4,
+  "route": "Aranyaka"
+}

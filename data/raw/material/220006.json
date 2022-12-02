@@ -1,0 +1,16 @@
+{
+  "name": "「寻仙的美食家」",
+  "description": "能在场景中快速架设烹饪的锅炉。在附近进入战斗状态时，该道具会被破坏。\\n璃月的土地广袤、地形错综复杂；璃月人爱好美食。能同时体现这些特点的，恐怕就是这种便携烹饪用锅。利用这种装置，即使身处绝云间的高峰，或是在孤云阁的礁岛上，都能随时做出新鲜的菜肴。",
+  "type": "消耗品",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "锻造获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_220006",
+  "rank": 3,
+  "route": "Adepti Seeker's Stove"
+}

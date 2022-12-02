@@ -1,0 +1,20 @@
+{
+  "name": "绯樱绣球",
+  "description": "从鸣神大社的神樱上飘落的花瓣，怀着稻妻大地的眷顾。",
+  "type": "稻妻区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：鸣神岛采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101202",
+  "rank": 1,
+  "route": "Sakura Bloom"
+}

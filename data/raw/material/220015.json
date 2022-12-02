@@ -1,0 +1,11 @@
+{
+  "name": "迷你仙灵·薄红",
+  "description": "「秘宝迷踪」活动的纪念，装备后可以获得迷你仙灵的陪伴。\\n粉色的迷你仙灵。虽然不能说话，但会默默随着自己钟情的旅人走遍世界。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220015",
+  "rank": 4,
+  "route": "Mini Seelie: Rosé"
+}

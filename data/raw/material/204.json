@@ -1,0 +1,11 @@
+{
+  "name": "洞天宝钱",
+  "description": "洞天宝钱。可在壶灵处交换各类物品。",
+  "type": "稀有货币",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_204",
+  "rank": 3,
+  "route": "Realm Currency"
+}

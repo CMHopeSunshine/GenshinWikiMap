@@ -1,0 +1,24 @@
+{
+  "name": "浮游晶化核",
+  "description": "击败飘浮灵后有时能发现的完整的能量核。\\n在热衷于给任何事物都分个高下的人当中，经常发生这样的争论：飘浮灵和风史莱姆的浮力，究竟孰高孰低。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11036": {
+      "112054": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上飘浮灵掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112055",
+  "rank": 3,
+  "route": "Spectral Nucleus"
+}

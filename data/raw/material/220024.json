@@ -1,0 +1,11 @@
+{
+  "name": "风花节纪念气球",
+  "description": "使用后，会释放可以被打破的气球。\\n气球在风之国土有着特殊的意义，因为它的意象代表着随风而行的无拘无束。当然实际上气球上升至一定的高度之后就会因为气压破裂。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220024",
+  "rank": 4,
+  "route": "Windblume Festival Commemorative Balloon"
+}

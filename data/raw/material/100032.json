@@ -1,0 +1,20 @@
+{
+  "name": "马尾",
+  "description": "偶然随荻草生长的紫色植物。比周围的荻草更为挺拔、饱满，如同崇高的人。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "荻草丛中，湿地采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：荻花洲采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100032",
+  "rank": 1,
+  "route": "Horsetail"
+}

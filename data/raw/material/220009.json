@@ -1,0 +1,11 @@
+{
+  "name": "风之寻宝罗盘",
+  "description": "在蒙德使用时，能寻找附近的宝箱。\\n寻宝罗盘的指针并不遵循大地的磁场转动，而是沿着地脉，寻找附近的财宝。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220009",
+  "rank": 4,
+  "route": "Anemo Treasure Compass"
+}

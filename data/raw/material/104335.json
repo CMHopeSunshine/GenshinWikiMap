@@ -1,0 +1,21 @@
+{
+  "name": "「笃行」的教导",
+  "description": "天赋培养素材。\\n「笃行」是智慧之国的根系。\\n笃行源于明晰的真性。不懈求索的实践，正是一切智慧最终显现的必经之途。不拘善行，明思与雅言亦无土壤。",
+  "type": "天赋培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "精通秘境：律藏",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104335",
+  "rank": 2,
+  "route": "Teachings of Praxis"
+}

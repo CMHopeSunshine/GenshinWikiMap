@@ -1,0 +1,24 @@
+{
+  "name": "却砂木",
+  "description": "产自「却砂树」的木材，据说有着风雨不侵，百年不朽的卓越木质。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：珉林砍伐",
+      "type": "single"
+    },
+    {
+      "name": "推荐：璃沙郊砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101304",
+  "rank": 1,
+  "route": "Sandbearer Wood"
+}

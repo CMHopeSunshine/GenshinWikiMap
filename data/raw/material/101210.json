@@ -1,0 +1,16 @@
+{
+  "name": "海草",
+  "description": "生长在浅海中的植物，能为菜肴增添特殊的风味。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "稻妻海域采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101210",
+  "rank": 1,
+  "route": "Seagrass"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "蘑菇",
+  "description": "生命力旺盛的常见菌类。只要拥有适宜的荫蔽与水分，在何处都能蓬勃生长。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100011",
+  "rank": 1,
+  "route": "Mushroom"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "地脉的新芽",
+  "description": "据说有一株巨木曾经贯彻了世界的各处；据说这枝是它的一部分。仿佛从未被人折下带到遥远的地表，仍然充满了勃发的生机，长出了新叶。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11014": {
+      "112021": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上深渊法师掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112022",
+  "rank": 4,
+  "route": "Ley Line Sprout"
+}

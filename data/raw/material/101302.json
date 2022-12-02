@@ -1,0 +1,24 @@
+{
+  "name": "萃华木",
+  "description": "产自「萃华树」的木材，色泽秀美，木质独特，经过适当的加工，能胜任各种用途。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：坠星山谷砍伐",
+      "type": "single"
+    },
+    {
+      "name": "推荐：碧水原砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101302",
+  "rank": 1,
+  "route": "Cuihua Wood"
+}

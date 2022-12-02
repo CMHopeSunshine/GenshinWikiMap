@@ -1,0 +1,28 @@
+{
+  "name": "微光花蜜",
+  "description": "元素纯度较高的花蜜。\\n学界一般认为骗骗花是元素植物的高级生命形态，但始终无法解明它的掠食习性。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11025": {
+      "112038": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上骗骗花掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112039",
+  "rank": 2,
+  "route": "Shimmering Nectar"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "紫晶块",
+  "description": "未经削切的矿物晶体，仅在稻妻列岛上产生。经过专门处理后，能展现其真正的价值。",
+  "type": "锻造用矿石",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：鸣神岛采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101008",
+  "rank": 1,
+  "route": "Amethyst Lump"
+}

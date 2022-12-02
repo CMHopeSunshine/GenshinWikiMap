@@ -1,0 +1,16 @@
+{
+  "name": "金鱼草",
+  "description": "烹饪后可食用的植株。作为香料能给食材带来奇妙的滋味。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "河岸湖泊采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100015",
+  "rank": 1,
+  "route": "Snapdragon"
+}

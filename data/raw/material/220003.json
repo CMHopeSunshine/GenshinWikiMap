@@ -1,0 +1,11 @@
+{
+  "name": "岩之寻宝罗盘",
+  "description": "在璃月使用时，能寻找附近的宝箱。\\n岩之国土上物产丰富，山间与原野各处都藏着财宝。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220003",
+  "rank": 4,
+  "route": "Geo Treasure Compass"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "流明石触媒",
+  "description": "「层岩巨渊·地下矿区」中装备时，能够提供光照的珍贵晶体。\\n\\n在成分上与仅在层岩巨渊出产的琉璃晶砂有相当的共同之处，但其中含有更加浓烈的力量。\\n但愿它能如同掌心的小太阳一样，为黑暗中的跋涉带来些许光亮、些许慰藉。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220048_01",
+  "rank": 4,
+  "route": "Lumenstone Adjuvant"
+}

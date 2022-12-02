@@ -1,0 +1,16 @@
+{
+  "name": "恒常机关之心",
+  "description": "驱使恒常机关阵列自律行动的核心。\\n有人推测这种核心上的纹样当中以肉眼不可见的语言写上了智能与逻辑，也有人进一步认为这种特殊的遗迹机关因为格外庞大的核心与复杂的纹样，自发选择抛弃了生物的姿态，转而追求性能的强大。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "30级以上恒常机关阵列掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_113023",
+  "rank": 4,
+  "route": "Perpetual Heart"
+}

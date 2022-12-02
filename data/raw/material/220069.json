@@ -1,0 +1,11 @@
+{
+  "name": "赤沙石板",
+  "description": "教令院学者提尔扎德多年来的研究对象，从纹样与工艺来看是赤王文明的造物。似乎隐藏着催动赤王遗迹机关的权能…",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220069a",
+  "rank": 4,
+  "route": "Scarlet Sand Slate"
+}

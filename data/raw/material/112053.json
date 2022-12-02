@@ -1,0 +1,20 @@
+{
+  "name": "浮游干核",
+  "description": "能让飘浮灵浮游的能量核，其中含有些微的元素。\\n大部分的能量似乎已经逸散了。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "飘浮灵掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112053",
+  "rank": 1,
+  "route": "Spectral Husk"
+}

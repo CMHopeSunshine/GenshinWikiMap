@@ -1,0 +1,20 @@
+{
+  "name": "毗波耶",
+  "description": "没有种子的花卉。\\n只要大地重新记起，毗波耶就会绽放。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：桓那兰那采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101228",
+  "rank": 1,
+  "route": "Viparyas"
+}

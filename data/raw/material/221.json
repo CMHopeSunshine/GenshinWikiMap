@@ -1,0 +1,16 @@
+{
+  "name": "无主的星辉",
+  "description": "可以在商城兑换珍稀资源的货币。\\n过剩的命运星之光辉。或许可以点亮宇宙其他角落。",
+  "type": "高级兑换券",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "祈愿",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_221",
+  "rank": 5,
+  "route": "Masterless Starglitter"
+}

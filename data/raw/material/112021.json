@@ -1,0 +1,28 @@
+{
+  "name": "地脉的枯叶",
+  "description": "来自深邃地底的植物枝条。即使远离它的原主，其中也残留着低沉脉动的力量。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11013": {
+      "112020": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上深渊法师掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112021",
+  "rank": 3,
+  "route": "Dead Ley Line Leaves"
+}

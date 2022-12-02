@@ -1,0 +1,36 @@
+{
+  "name": "荧光孢粉",
+  "description": "小小一包散发着荧光的蕈兽孢子粉末，在雨林之国是一剂常见的药材，往往被商人用纸包封装起来贩售。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11041": {
+      "112059": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上蕈兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上活化状态下蕈兽少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上枯焦状态下蕈兽少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112060",
+  "rank": 2,
+  "route": "Luminescent Pollen"
+}

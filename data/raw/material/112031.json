@@ -1,0 +1,24 @@
+{
+  "name": "督察长祭刀",
+  "description": "在故主手中，曾处理过许多「债务」的凶恶武具。世上无人背后长眼，而这种兵器与相关的武艺则是针对这种弱点设计的。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11020": {
+      "112030": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上愚人众·债务处理人掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112031",
+  "rank": 4,
+  "route": "Inspector's Sacrificial Knife"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "结实的骨片",
+  "description": "出于某种理由，龙蜥十分珍惜的某种生物骨片。\\n看上去有一定的年头。即使是这种不通人言的龙兽，似乎对这种遗骸也拥有某种特殊的憧憬。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11027": {
+      "112041": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上幼岩龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上岩龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上深海龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112042",
+  "rank": 3,
+  "route": "Sturdy Bone Shard"
+}

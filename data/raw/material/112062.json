@@ -1,0 +1,24 @@
+{
+  "name": "失活菌核",
+  "description": "蕈兽的部分身体组织，在外界元素的剧烈刺激下才会形成。\\n手感很好，适合用来解压，但容易造成蕈兽大量孳生，所以不宜商用。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "活化状态下蕈兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "枯焦状态下蕈兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112062",
+  "rank": 2,
+  "route": "Inactivated Fungal Nucleus"
+}

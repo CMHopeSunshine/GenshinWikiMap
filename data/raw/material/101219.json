@@ -1,0 +1,16 @@
+{
+  "name": "须弥蔷薇",
+  "description": "明艳而深沉的紫色花卉，散发出使行人驻足的馥郁芬芳。虽然被称作蔷薇但其实严格来说应该算作玫瑰。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101219",
+  "rank": 1,
+  "route": "Sumeru Rose"
+}

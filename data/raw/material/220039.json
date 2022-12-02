@@ -1,0 +1,11 @@
+{
+  "name": "奇特的羽毛",
+  "description": "奇特的羽毛。\\n在鹤观的土地上，有时似乎能发挥神奇的作用。\\n带着这枚羽毛，走遍世界吧。\\n\\n毕竟，已经和他说好了。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_100950",
+  "rank": 4,
+  "route": "Peculiar Pinion"
+}

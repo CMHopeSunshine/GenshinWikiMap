@@ -1,0 +1,44 @@
+{
+  "name": "污秽的面具",
+  "description": "沾满了难以辨认的污渍，散发着微妙气味的骨质面具。\\n即使这样也要戴在脸上，这就是丘丘人的执着。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11003": {
+      "112005": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘人掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘射手少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘萨满少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘暴徒少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘王少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112006",
+  "rank": 2,
+  "route": "Stained Mask"
+}

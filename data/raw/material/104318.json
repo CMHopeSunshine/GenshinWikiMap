@@ -1,0 +1,29 @@
+{
+  "name": "「黄金」的哲学",
+  "description": "天赋培养素材。\\n岩之国土的象征是黄金。\\n黄金是璃月的财富。但璃月真正的财富，是璃月的人们那如黄金般闪耀的心灵。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13012": {
+      "104317": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：焚尽之环",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104318",
+  "rank": 4,
+  "route": "Philosophies of Gold"
+}

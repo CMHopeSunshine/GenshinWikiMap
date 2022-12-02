@@ -1,0 +1,11 @@
+{
+  "name": "草之寻宝罗盘",
+  "description": "在须弥使用时，能寻找附近的宝箱。\\n对一些人而言，生命的意义在于探索与开拓吧。而在探索与开拓的终点，往往有着丰厚的宝藏等着他们。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220058",
+  "rank": 4,
+  "route": "Dendro Treasure Compass"
+}

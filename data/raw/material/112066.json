@@ -1,0 +1,28 @@
+{
+  "name": "镶边红绸",
+  "description": "镶有简单装饰的红色绸缎。\\n老练的战士能够从对手眼神中的破绽，找到先机。镀金旅团早已失去了可效忠的主，能够相信的只有自己。据说，他们坚信万物皆会背叛，连自己的双眼也不例外。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11045": {
+      "112065": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上镀金旅团掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112066",
+  "rank": 2,
+  "route": "Trimmed Red Silk"
+}

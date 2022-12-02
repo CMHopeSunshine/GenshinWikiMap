@@ -1,0 +1,20 @@
+{
+  "name": "孔雀木",
+  "description": "「柳杉」出产的木材，质地柔软，纹理平直，散发着浅淡的清香。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：鸣神岛砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101311",
+  "rank": 1,
+  "route": "Aralia Wood"
+}

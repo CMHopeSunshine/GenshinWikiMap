@@ -1,0 +1,16 @@
+{
+  "name": "「四方八方之网」",
+  "description": "若紫用阴阳术式再次改造过的网子。据说可以拘出小动物的神形，并且以网子为媒介，再次化出小动物的形体。",
+  "type": "消耗品",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "从若紫处购买",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_220043",
+  "rank": 3,
+  "route": "Omni-Ubiquity Net"
+}

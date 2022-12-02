@@ -1,0 +1,28 @@
+{
+  "name": "锐利的箭簇",
+  "description": "做工精良的箭簇。锐利的尖端或许能像投石入水一样轻易穿透敌人的甲胄，没入猎物的体内。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11007": {
+      "112011": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘射手掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112012",
+  "rank": 2,
+  "route": "Sharp Arrowhead"
+}

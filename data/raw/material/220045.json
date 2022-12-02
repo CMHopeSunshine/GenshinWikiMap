@@ -1,0 +1,11 @@
+{
+  "name": "「式小将」",
+  "description": "「式大将」所赠的礼物，极具灵性的拓本。虽然「式小将」无法使用符法，但无论位于何地，它都能与「式大将」保持联系，分享所见所闻，就像将「式大将」带在身边一同旅行。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220045",
+  "rank": 4,
+  "route": "Shiki Koshou"
+}

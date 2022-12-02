@@ -1,0 +1,11 @@
+{
+  "name": "红羽团扇",
+  "description": "使用后的30秒内，滑翔时的移动速度提高30%。\\n\\n具有某种神奇力量的道具。在「天狗」的手中，可以发挥各种各样的力量；而在一般人的手里，也能在空游时发挥「让身体稍微变得轻盈一点」程度的能力。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220035",
+  "rank": 4,
+  "route": "Red Feather Fan"
+}

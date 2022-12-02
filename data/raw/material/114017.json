@@ -1,0 +1,25 @@
+{
+  "name": "雾海云间的铅丹",
+  "description": "赋予武器突破之力的材料。\\n绝云间乃是仙家府地。而相传仙家除了三眼五显神通，可以操纵尘世的元素之力外，另有三项不传秘：丹鼎、符箓与外景。",
+  "type": "武器突破素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "璃月纪念品商店兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：鸣雷城墟",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114017",
+  "rank": 2,
+  "route": "Mist Veiled Lead Elixir"
+}

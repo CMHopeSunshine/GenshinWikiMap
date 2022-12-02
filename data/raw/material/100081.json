@@ -1,0 +1,16 @@
+{
+  "name": "青蛙",
+  "description": "常见的蛙类，生活在潮湿的环境。总是富有活力。身上会分泌出让人充满活力的物质。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "淡水水域采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100081",
+  "rank": 1,
+  "route": "Frog"
+}

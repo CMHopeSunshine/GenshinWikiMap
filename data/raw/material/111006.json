@@ -1,0 +1,21 @@
+{
+  "name": "耐热药剂",
+  "description": "让人忍耐高热的奇特药剂，能提升火元素抗性。\\n原理并不是让人身体变得凉爽，而是让人习惯高温，以此降低置身其中的不适感。",
+  "type": "药剂",
+  "recipe": {
+    "14001": {
+      "100053": 1,
+      "100072": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111006",
+  "rank": 3,
+  "route": "Heatshield Potion"
+}

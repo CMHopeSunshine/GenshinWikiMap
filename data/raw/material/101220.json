@@ -1,0 +1,16 @@
+{
+  "name": "赤念果",
+  "description": "在恶劣的沙漠环境中也能存活的植物所结的果子，赤红的果实在黄沙映衬下显得格外动人。",
+  "type": "须弥区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "须弥沙漠采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101220",
+  "rank": 1,
+  "route": "Henna Berry"
+}

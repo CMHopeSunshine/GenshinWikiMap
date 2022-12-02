@@ -1,0 +1,16 @@
+{
+  "name": "月莲",
+  "description": "生长于林中湿地，散发着同月亮一般皎洁光芒的花卉。只有在夜晚才会绽放。",
+  "type": "须弥区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "须弥水域采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101215",
+  "rank": 1,
+  "route": "Nilotpala Lotus"
+}

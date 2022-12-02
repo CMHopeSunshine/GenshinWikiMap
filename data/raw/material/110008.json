@@ -1,0 +1,16 @@
+{
+  "name": "果酱",
+  "description": "由水果和糖熬制而成的凝胶物质。只要少许就能轻易唤醒疲惫的味蕾。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110008",
+  "rank": 1,
+  "route": "Jam"
+}

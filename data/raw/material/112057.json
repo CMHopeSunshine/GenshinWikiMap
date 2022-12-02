@@ -1,0 +1,28 @@
+{
+  "name": "隐兽利爪",
+  "description": "兽境群狼的身体组织。\\n虽然奇妙，但是和大杰作「腐殖层」杜林相比，「淋溶层」猎犬不值一提。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11037": {
+      "112056": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上兽境之狼掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112057",
+  "rank": 3,
+  "route": "Concealed Unguis"
+}

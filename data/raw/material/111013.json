@@ -1,0 +1,21 @@
+{
+  "name": "烈火精油",
+  "description": "让人更亲和火元素的油膏，能提升造成的火元素伤害。\\n以孕育火元素的物质制成，涂抹后能更有效地汇聚火元素。也会让人变得热情。",
+  "type": "药剂",
+  "recipe": {
+    "14008": {
+      "100053": 1,
+      "100081": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111013",
+  "rank": 3,
+  "route": "Flaming Essential Oil"
+}

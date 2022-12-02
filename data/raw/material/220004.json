@@ -1,0 +1,11 @@
+{
+  "name": "捕风瓶",
+  "description": "能够容纳风种子，并利用风种子的能量产生风场的实用道具。\\n西风骑士团的学者设计了这种能善加利用风神恩惠的道具，让骑士团成员的侦察与旅行更加便利。\\n但正统地使用风之翼需要「飞行执照」，所以反而从法规的层面上减少了它的使用率。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220004",
+  "rank": 4,
+  "route": "Wind Catcher"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "嫣朵拉",
+  "description": "只是一个仍然好奇的纯水精灵，只想要看看世界。说不定和「迷你仙灵·露草」很合得来。不可以把它融合掉哦。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220023",
+  "rank": 4,
+  "route": "Endora"
+}

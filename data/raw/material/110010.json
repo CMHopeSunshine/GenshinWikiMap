@@ -1,0 +1,16 @@
+{
+  "name": "培根",
+  "description": "经过熏制的肋条兽肉。层次丰富、肥而不腻正是它广受欢迎的原因。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110010",
+  "rank": 1,
+  "route": "Bacon"
+}

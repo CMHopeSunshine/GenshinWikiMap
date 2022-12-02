@@ -1,0 +1,16 @@
+{
+  "name": "奶油",
+  "description": "将牛奶快速搅拌后提制的奶制品。是制作美味糕点时必备的材料之一。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110002",
+  "rank": 1,
+  "route": "Cream"
+}

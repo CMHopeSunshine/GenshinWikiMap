@@ -1,0 +1,21 @@
+{
+  "name": "绝缘药剂",
+  "description": "可以防止触电的药水，能提升雷元素抗性。\\n喝下去感觉酥酥麻麻的奇特药物，据说绝缘的原理其实是让人体内充满相反的雷电，以此抵消电击的伤害。",
+  "type": "药剂",
+  "recipe": {
+    "14005": {
+      "100054": 1,
+      "100072": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111010",
+  "rank": 3,
+  "route": "Insulation Potion"
+}

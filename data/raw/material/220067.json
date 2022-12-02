@@ -1,0 +1,11 @@
+{
+  "name": "蹦蹦庆典拉炮",
+  "description": "使用后，会释放出彩带和亮片的拉炮。\\n「蹦蹦是可莉的好朋友，也是一起炸鱼的好帮手，但庆典上把蹦蹦拿出来会被琴团长凶的…不过你别担心，在阿贝多哥哥的完美改良下，蹦蹦已经有了全新的本领！你看，只要拉一下它的小尾巴，就能放出好多漂亮的彩带！」",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220067",
+  "rank": 4,
+  "route": "Jumpy Dumpty Party Popper"
+}

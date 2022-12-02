@@ -1,0 +1,16 @@
+{
+  "name": "蜥蜴尾巴",
+  "description": "失去生命后微微卷曲的蜥蜴尾巴。含有强烈的药性，能让人皮肤变硬。味道很苦。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "捕捉蜥蜴采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100083",
+  "rank": 1,
+  "route": "Lizard Tail"
+}

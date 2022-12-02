@@ -1,0 +1,16 @@
+{
+  "name": "放热瓶",
+  "description": "使用后，会在短时间内小范围中释放热量，削减积累的严寒。\\n「温暖仙灵」是依据气候剧变而进化的形态，能为渴求温暖的人提供慰藉。而这种便利道具，则是曾在雪山挣扎求生的人，依据仙灵的变化创造出的模拟道具。",
+  "type": "消耗品",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "锻造获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_220017",
+  "rank": 3,
+  "route": "Warming Bottle"
+}

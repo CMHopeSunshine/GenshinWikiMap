@@ -1,0 +1,28 @@
+{
+  "name": "影打刀镡",
+  "description": "装配在优秀刀剑上的护具。\\n稻妻有悠久的刀剑锻冶传统。匠人锻造一把刀时，常常会制造数柄样品，从中甄选。其中最为优秀的作品是为「真打」，而其余的则被称为「影打」。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11029": {
+      "112044": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上野伏众掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112045",
+  "rank": 2,
+  "route": "Kageuchi Handguard"
+}

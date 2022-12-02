@@ -1,0 +1,16 @@
+{
+  "name": "魔晶块",
+  "description": "可以通过「委托锻造」，利用原粹树脂，提炼成武器经验材料。\\n受地脉的能量侵蚀的水晶矿，寻常手段无法处理。",
+  "type": "锻造用矿石",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101004",
+  "rank": 1,
+  "route": "Magical Crystal Chunk"
+}

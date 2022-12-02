@@ -1,0 +1,11 @@
+{
+  "name": "浪船修理工具箱",
+  "description": "装有各式器具的工具箱，可以修理「浪船」所受的损伤。\\n·能够为浪船回复50%完好度；\\n·具有90秒冷却时间。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220028",
+  "rank": 4,
+  "route": "Waverider Repair Toolbox"
+}

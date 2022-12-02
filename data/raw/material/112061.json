@@ -1,0 +1,32 @@
+{
+  "name": "孢囊晶尘",
+  "description": "从完整的孢子囊中精心收集的大团孢子粉末，想必在合适的环境条件下，将会孕育出一个颇有规模的蕈兽群落吧…",
+  "type": "角色培养素材",
+  "recipe": {
+    "11042": {
+      "112060": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上蕈兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "60级以上活化状态下蕈兽少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "60级以上枯焦状态下蕈兽少量掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112061",
+  "rank": 3,
+  "route": "Crystalline Cyst Dust"
+}

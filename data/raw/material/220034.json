@@ -1,0 +1,11 @@
+{
+  "name": "雷之寻宝罗盘",
+  "description": "在稻妻使用时，能寻找附近的宝箱。\\n雷之列岛的土地曾经受过诸多伤害。伴随着创伤与恢复而来的是遍布各岛的诸多宝藏。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220034",
+  "rank": 4,
+  "route": "Electro Treasure Compass"
+}

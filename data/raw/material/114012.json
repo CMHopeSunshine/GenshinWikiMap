@@ -1,0 +1,29 @@
+{
+  "name": "狮牙斗士的理想",
+  "description": "赋予武器突破之力的材料。\\n温妮莎从奴役之中得到了自由。结果锁住她的东西越来越大了：从族人变成了整个蒙德，甚至变成了「自由」，乃至这个世界。\\n她是发自真心这么希望着的：愿这个世界变得更加坚强一些。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12009": {
+      "114011": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：渴水的废都",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114012",
+  "rank": 5,
+  "route": "Dream of the Dandelion Gladiator"
+}

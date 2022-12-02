@@ -1,0 +1,11 @@
+{
+  "name": "迷你仙灵·苔绿",
+  "description": "「秘宝迷踪」活动的纪念，装备后可以获得迷你仙灵的陪伴。\\n绿色的迷你仙灵。每次靠近树木时，它都会格外高兴。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220062",
+  "rank": 4,
+  "route": "Mini Seelie: Moss"
+}

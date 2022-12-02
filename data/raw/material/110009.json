@@ -1,0 +1,16 @@
+{
+  "name": "奶酪",
+  "description": "由牛奶浓缩发酵制成的奶制品。提供热量的同时，赋予了烹饪无限可能性。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110009",
+  "rank": 1,
+  "route": "Cheese"
+}

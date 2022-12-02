@@ -1,0 +1,16 @@
+{
+  "name": "面粉",
+  "description": "由小麦磨成的粉末。无论做成怎样的主食，都能给食客的胃带来片刻充实。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110001",
+  "rank": 1,
+  "route": "Flour"
+}

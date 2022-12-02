@@ -1,0 +1,24 @@
+{
+  "name": "攫金鸦印",
+  "description": "象征着盗宝团唯一的原则与傲骨的徽印。只要广袤的大地上、幽邃的深渊里、未知的海洋中仍有待发掘的秘宝，那么手段不论地征服宝藏的盗宝之魂，就永远不会熄灭。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11024": {
+      "112036": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上盗宝团掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112037",
+  "rank": 3,
+  "route": "Golden Raven Insignia"
+}

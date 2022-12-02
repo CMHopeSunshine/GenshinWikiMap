@@ -1,0 +1,11 @@
+{
+  "name": "迷你仙灵·露草",
+  "description": "「秘宝迷踪」活动的纪念，装备后可以获得迷你仙灵的陪伴。\\n水色的迷你仙灵。和其他的仙灵不同，似乎不想引导人，而是随着人去看看这个世界。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220014",
+  "rank": 4,
+  "route": "Mini Seelie: Dayflower"
+}

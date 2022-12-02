@@ -1,0 +1,20 @@
+{
+  "name": "石珀",
+  "description": "极纯的岩元素凝成的珍稀晶石，常与其他矿物伴生。也被称为「岩之心」。",
+  "type": "璃月区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "璃月山壁下采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：琥牢山采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100058",
+  "rank": 1,
+  "route": "Cor Lapis"
+}

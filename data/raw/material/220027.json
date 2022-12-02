@@ -1,0 +1,11 @@
+{
+  "name": "风佑之羽球",
+  "description": "以纯净的鸟羽和坚韧的布料所制作的羽球，或许拥有某种奇妙的力量…",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220027",
+  "rank": 4,
+  "route": "Wind-Blessed Harpastum"
+}

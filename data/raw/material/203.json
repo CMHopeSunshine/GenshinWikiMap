@@ -1,0 +1,11 @@
+{
+  "name": "创世结晶",
+  "description": "开辟宇宙的能量结晶。虚无的真空中，由足以点亮新星的潜力和希望结晶而成。",
+  "type": "稀有货币",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_203",
+  "rank": 5,
+  "route": "Genesis Crystal"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "蓝色染料",
+  "description": "蓝色的染料。制作摆设时应该能派上用场。",
+  "type": "素材",
+  "recipe": {
+    "30007": {
+      "100016": 1
+    },
+    "30008": {
+      "100021": 1
+    }
+  },
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_101404",
+  "rank": 1,
+  "route": "Blue Dye"
+}

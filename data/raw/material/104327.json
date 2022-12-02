@@ -1,0 +1,29 @@
+{
+  "name": "「天光」的指引",
+  "description": "天赋培养素材。\\n雷之国土的愿望是天光。\\n即使晖光被重重雷云所掩盖，鸣神的国土之上，依旧有志士如云雀般突破雷光与天之怒海，追寻天光之迹，哪怕迎来冷酷的殛灭。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13017": {
+      "104326": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：真葛废都",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104327",
+  "rank": 3,
+  "route": "Guide to Light"
+}

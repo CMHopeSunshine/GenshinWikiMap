@@ -1,0 +1,25 @@
+{
+  "name": "孤云寒林的光砂",
+  "description": "赋予武器突破之力的材料。\\n孤云阁耸立的岩柱，曾经都是摩拉克斯为了镇伏敌手降下的岩枪。久而久之，魔神之体渗入了岩柱，使之拥有了圣性。岩柱偶尔会剥落一些散发着怨恨和不祥的碎屑。",
+  "type": "武器突破素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "璃月纪念品商店兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：雷云祭坛",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114013",
+  "rank": 2,
+  "route": "Luminous Sands from Guyun"
+}

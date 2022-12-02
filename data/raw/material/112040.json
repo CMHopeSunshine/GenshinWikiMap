@@ -1,0 +1,24 @@
+{
+  "name": "原素花蜜",
+  "description": "饱含能量的黏稠蜜汁。\\n骗骗花欺瞒猎物是为了狩猎，而狩猎进食或许是为了进化成某种更强大、更纯粹的姿态吧…",
+  "type": "角色培养素材",
+  "recipe": {
+    "11026": {
+      "112039": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上骗骗花掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112040",
+  "rank": 3,
+  "route": "Energy Nectar"
+}

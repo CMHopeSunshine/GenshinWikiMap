@@ -1,0 +1,21 @@
+{
+  "name": "防潮药剂",
+  "description": "让人忍耐潮湿环境的药物，能提升水元素抗性。\\n这种药剂据信能够防潮，对于保存物件十分实用。内服亦可，对风湿病患者而言是宝物。",
+  "type": "药剂",
+  "recipe": {
+    "14002": {
+      "100026": 1,
+      "100072": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111007",
+  "rank": 3,
+  "route": "Desiccant Potion"
+}

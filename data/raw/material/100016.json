@@ -1,0 +1,16 @@
+{
+  "name": "薄荷",
+  "description": "饱含清凉成分的植物叶子。清爽冰凉的滋味能将暑气荡涤一空。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100016",
+  "rank": 1,
+  "route": "Mint"
+}

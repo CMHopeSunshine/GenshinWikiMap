@@ -1,0 +1,24 @@
+{
+  "name": "史莱姆原浆",
+  "description": "浓缩的史莱姆原浆，静置时会自主进行不规则运动。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11002": {
+      "112003": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上史莱姆掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112004",
+  "rank": 3,
+  "route": "Slime Concentrate"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "兽肉",
+  "description": "兽类的新鲜肉块。经过适当处理可以制成让人元气满满的美食。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "动物掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100061",
+  "rank": 1,
+  "route": "Raw Meat"
+}

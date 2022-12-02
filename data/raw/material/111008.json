@@ -1,0 +1,21 @@
+{
+  "name": "耐寒药剂",
+  "description": "让人忍耐寒冷的奇异药水，能提升冰元素抗性。\\n喝下去时，舌尖会有种冻僵的感觉。等这种感觉扩散到全身以后，就不再会感到寒冷了。",
+  "type": "药剂",
+  "recipe": {
+    "14003": {
+      "100052": 1,
+      "100085": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111008",
+  "rank": 3,
+  "route": "Frostshield Potion"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "脆弱树脂",
+  "description": "可以补充原粹树脂的道具，一个能补充60点。\\n蕴含着少许能量的晶体，可以被原粹树脂吸收。\\n种种能量的流动构成了这个世界的诸多美好与挑战。这枚晶体中也蕴含着这些能量。",
+  "type": "消耗品",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_210",
+  "rank": 4,
+  "route": "Fragile Resin"
+}

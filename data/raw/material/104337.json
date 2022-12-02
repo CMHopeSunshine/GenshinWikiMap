@@ -1,0 +1,29 @@
+{
+  "name": "「笃行」的哲学",
+  "description": "天赋培养素材。\\n「笃行」是智慧之国的根系。\\n笃行促生智慧的果实。行为实证行为本身的意义，行、言、思的联结一体，是令贤智之人得见完美的唯一通途。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13024": {
+      "104336": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：律藏",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104337",
+  "rank": 4,
+  "route": "Philosophies of Praxis"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "雾海云间的汞丹",
+  "description": "赋予武器突破之力的材料。\\n符箓可以让仙人力量借符号残留，外景可以用心像造出宇宙洞天。丹鼎之术，则一直笼罩在秘密之中。毕竟尝试吞下这些金丹的话，结果必定十死无生。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12013": {
+      "114017": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：鸣雷城墟",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114018",
+  "rank": 3,
+  "route": "Mist Veiled Mercury Elixir"
+}

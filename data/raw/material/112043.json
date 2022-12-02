@@ -1,0 +1,32 @@
+{
+  "name": "石化的骨片",
+  "description": "击败龙蜥后有时能找到的石化骨片。\\n龙蜥都梦想着成长为真正的龙。会把古老的化石认作是龙之骨而加以珍惜，或许是因为希冀着龙的永恒与强大吧。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11028": {
+      "112042": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上幼岩龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "60级以上岩龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "60级以上深海龙蜥掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112043",
+  "rank": 4,
+  "route": "Fossilized Bone Shard"
+}

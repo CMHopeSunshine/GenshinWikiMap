@@ -1,0 +1,21 @@
+{
+  "name": "丛林精油",
+  "description": "让人更亲和草元素的油膏，能提升造成的草元素伤害。\\n富有营养的外用药剂，如果用在土地中一定是高效的生长剂。能让人更轻松地引导草元素。",
+  "type": "药剂",
+  "recipe": {
+    "14014": {
+      "100083": 1,
+      "101219": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111019",
+  "rank": 3,
+  "route": "Forest Essential Oil"
+}

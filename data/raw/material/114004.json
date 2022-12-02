@@ -1,0 +1,29 @@
+{
+  "name": "高塔孤王的碎梦",
+  "description": "赋予武器突破之力的材料。\\n众人对高塔上的孤王俯身并非出于敬仰爱戴，而是被它的烈风吹得无法起身。这是巴巴托斯崛起之前，风神之一柱的野心与碎梦。\\n它是如此用力地做梦，因此梦的碎片也带着强大的力量。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12003": {
+      "114003": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：水光之城",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114004",
+  "rank": 5,
+  "route": "Scattered Piece of Decarabian's Dream"
+}

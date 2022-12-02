@@ -1,0 +1,28 @@
+{
+  "name": "水晶棱镜",
+  "description": "能够偏转光线的棱镜。\\n利用这种棱镜，可以制造虚幻的影像。从某种意义而言，也因此有着操纵人心的力量。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11033": {
+      "112050": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上愚人众·冬国仕女掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112051",
+  "rank": 3,
+  "route": "Crystal Prism"
+}

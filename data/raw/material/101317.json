@@ -1,0 +1,20 @@
+{
+  "name": "柽木",
+  "description": "产自「柽树」的木材，质地特别，能够同时抵抗干旱和潮湿，极耐衰损。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：须弥沙漠砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101317",
+  "rank": 1,
+  "route": "Athel Wood"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "镜花之琴",
+  "description": "使用后，可以进行演奏的乐器。\\n材质特异，工艺与市面流行之物大为不同。空灵的弦音中似乎蕴含着一股不可捉摸的力量，甚至能勾出乐者心中潜藏的幻想。\\n璃月有古诫：镜花迷眼，泥形溺心则陷。如此看，只有意志坚定者才能驾驭此物吧。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220044",
+  "rank": 4,
+  "route": "Floral Zither"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "狮牙斗士的铁链",
+  "description": "赋予武器突破之力的材料。\\n曾经施在大英雄温妮莎身上的枷锁——或者这么说吧，那个时代里，所有剑斗士都会背负镣铐。狮牙的斗士也只是其中一员。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12007": {
+      "114009": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：渴水的废都",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114010",
+  "rank": 3,
+  "route": "Chains of the Dandelion Gladiator"
+}

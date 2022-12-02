@@ -1,0 +1,28 @@
+{
+  "name": "混沌模块",
+  "description": "来自不再活动的古代遗迹龙兽。\\n「龙」是最为原始、古老的顶级元素受肉之形态，直到它们被击溃、被征服，抑或是被同化。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11047": {
+      "112068": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上遗迹龙兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112069",
+  "rank": 3,
+  "route": "Chaos Module"
+}

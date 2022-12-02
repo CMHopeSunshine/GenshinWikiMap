@@ -1,0 +1,28 @@
+{
+  "name": "脆弱的骨片",
+  "description": "从龙蜥身上找到的某种骨片。\\n尽管十分脆弱，其中似乎蕴含着某种难以言喻的力量。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "幼岩龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "岩龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "深海龙蜥掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112041",
+  "rank": 2,
+  "route": "Fragile Bone Shard"
+}

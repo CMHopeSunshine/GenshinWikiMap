@@ -1,0 +1,20 @@
+{
+  "name": "混沌容器",
+  "description": "来自不再活动的古代遗迹龙兽。\\n遗迹龙兽可以吸收外界的元素能量，并储存在「颈部」的构件中。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "遗迹龙兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112068",
+  "rank": 2,
+  "route": "Chaos Storage"
+}

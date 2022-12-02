@@ -1,0 +1,16 @@
+{
+  "name": "慕风蘑菇",
+  "description": "沐浴着和煦的风而生长的菌类，与风一样生生不息，滋养生命。",
+  "type": "蒙德区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "房檐下采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100025",
+  "rank": 1,
+  "route": "Philanemo Mushroom"
+}

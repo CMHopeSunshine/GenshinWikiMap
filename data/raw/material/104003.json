@@ -1,0 +1,24 @@
+{
+  "name": "大英雄的经验",
+  "description": "角色经验素材，含有20000点经验值。\\n如果向往着天空岛而在大陆开始巡礼，这些经验可称得上弥足珍贵。",
+  "type": "角色经验素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "解决事件报酬",
+      "type": "single"
+    },
+    {
+      "name": "激活启示之花奖励",
+      "type": "single"
+    },
+    {
+      "name": "洞天百宝兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104003",
+  "rank": 4,
+  "route": "Hero's Wit"
+}

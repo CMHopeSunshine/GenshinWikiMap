@@ -1,0 +1,20 @@
+{
+  "name": "鸣草",
+  "description": "即使在无风的日子里，亦会随雷鸣之声隐隐振动的植物。看起来像是花瓣的结构其实是叶片的延伸，保护着脆弱的花朵。",
+  "type": "稻妻区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：踏鞴砂采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101205",
+  "rank": 1,
+  "route": "Naku Weed"
+}

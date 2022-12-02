@@ -1,0 +1,20 @@
+{
+  "name": "枫木",
+  "description": "产自「羽扇枫」的木材，硬度适中，品质优异，色泽与纹理上佳。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：鸣神岛砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101310",
+  "rank": 1,
+  "route": "Maple Wood"
+}

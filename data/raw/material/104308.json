@@ -1,0 +1,29 @@
+{
+  "name": "「诗文」的指引",
+  "description": "天赋培养素材。\\n风之国土的灵魂是诗文。\\n诗文是激励的心意。在黯淡的日子里，穿过巷道的风中低语着愤怒的诗文，如同战鼓，如同风暴前的低鸣。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13005": {
+      "104307": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：沉睡之国",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104308",
+  "rank": 3,
+  "route": "Guide to Ballad"
+}

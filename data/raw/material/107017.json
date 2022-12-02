@@ -1,0 +1,11 @@
+{
+  "name": "散失的草神瞳",
+  "description": "浓烈的草元素能量积聚成的物质。献给草的神像，能弥补它在漫长岁月中散失的力量。",
+  "type": "冒险道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_107017",
+  "rank": 1,
+  "route": "Dendroculus"
+}

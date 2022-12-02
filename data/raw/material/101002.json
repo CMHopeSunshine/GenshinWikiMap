@@ -1,0 +1,24 @@
+{
+  "name": "白铁块",
+  "description": "白铁的矿石，在拥有相应技能的工匠手中能大放异彩吧。",
+  "type": "锻造用矿石",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：望风山地采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：奔狼领采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101002",
+  "rank": 1,
+  "route": "White Iron Chunk"
+}

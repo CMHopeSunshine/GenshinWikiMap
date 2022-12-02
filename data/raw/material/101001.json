@@ -1,0 +1,16 @@
+{
+  "name": "铁块",
+  "description": "铁的矿石，在拥有相应技能的工匠手中能绽放光采吧。",
+  "type": "锻造用矿石",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101001",
+  "rank": 1,
+  "route": "Iron Chunk"
+}

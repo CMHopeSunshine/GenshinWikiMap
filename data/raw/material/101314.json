@@ -1,0 +1,20 @@
+{
+  "name": "业果木",
+  "description": "「业果树」出产的木材，只需简单的处理就能得到光滑的切面，无需精细加工就极为美观。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：须弥森林砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101314",
+  "rank": 1,
+  "route": "Karmaphala Wood"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "休眠菌核",
+  "description": "蕈兽的部分身体组织，在外界元素的剧烈刺激下才会形成。\\n生论派的学者们曾对蕈兽究竟属于植物还是动物展开过旷日持久的论战。最后两派达成和解，将蕈兽单列在动植物之外，并不再讨论。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11043": {
+      "112062": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上活化状态下蕈兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上枯焦状态下蕈兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112063",
+  "rank": 3,
+  "route": "Dormant Fungal Nucleus"
+}

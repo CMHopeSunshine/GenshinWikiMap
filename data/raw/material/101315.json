@@ -1,0 +1,20 @@
+{
+  "name": "证悟木",
+  "description": "产自「证悟树」的木材，几乎随处可见，看似平凡，实则有着轻便耐用的特点。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：须弥森林砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101315",
+  "rank": 1,
+  "route": "Adhigama Wood"
+}

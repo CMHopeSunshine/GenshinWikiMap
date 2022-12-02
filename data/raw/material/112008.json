@@ -1,0 +1,20 @@
+{
+  "name": "导能绘卷",
+  "description": "大抵是某种关于魔法的绘卷残篇。隐隐地散发着某种异样的、不祥的温暖。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "丘丘萨满掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112008",
+  "rank": 1,
+  "route": "Divining Scroll"
+}

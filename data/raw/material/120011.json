@@ -1,0 +1,11 @@
+{
+  "name": "枯萎的苦舍桓",
+  "description": "耗尽全部力量的苦舍桓，看起来已经枯萎了。但留存了宝贵记忆的种子仍然没有死去。",
+  "type": "任务道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_120011",
+  "rank": 1,
+  "route": "Withered Kusava"
+}

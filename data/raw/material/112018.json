@@ -1,0 +1,28 @@
+{
+  "name": "夤夜刻像",
+  "description": "刻画着某人形象的独目偶像。\\n握在手中时似乎能感受到其中散发的丝丝暖意，就像挚友的臂膀那般。或许能给予明白雕像背后个中含义的人持续前进的勇气吧。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11039": {
+      "112017": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上黑蛇众掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112018",
+  "rank": 3,
+  "route": "Dark Statuette"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "绯红玉髓",
+  "description": "某种浓郁的生命力与龙脊雪山的特殊能量结合产生的结晶。对于渴求生长的忍冬之树，是绝好的「养分」。",
+  "type": "冒险道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_107010",
+  "rank": 1,
+  "route": "Crimson Agate"
+}

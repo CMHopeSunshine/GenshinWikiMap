@@ -1,0 +1,24 @@
+{
+  "name": "混沌装置",
+  "description": "来自不再活动的古代遗迹构装体。曾经是维系它身躯的某个部位，有着精妙的工学美感。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "遗迹守卫掉落",
+      "type": "single"
+    },
+    {
+      "name": "遗迹猎者掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112023",
+  "rank": 2,
+  "route": "Chaos Device"
+}

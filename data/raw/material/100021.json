@@ -1,0 +1,20 @@
+{
+  "name": "钩钩果",
+  "description": "带着勾刺的莓果，会挂在狼的毛皮上来迁徙。看见它时，仿佛能听见狼的凄嚎在林间回荡…",
+  "type": "蒙德区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：奔狼领采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100021",
+  "rank": 1,
+  "route": "Wolfhook"
+}

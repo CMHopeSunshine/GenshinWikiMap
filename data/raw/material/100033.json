@@ -1,0 +1,16 @@
+{
+  "name": "星螺",
+  "description": "随着海潮来到沙滩上的螺。将耳朵凑近空壳，能听见海充满思念的呼唤。",
+  "type": "璃月区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "璃月海滩采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100033",
+  "rank": 1,
+  "route": "Starconch"
+}

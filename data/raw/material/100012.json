@@ -1,0 +1,16 @@
+{
+  "name": "甜甜花",
+  "description": "香气浓郁的植株。即便在黑暗中，也能循着芬芳的气息找到的花朵。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100012",
+  "rank": 1,
+  "route": "Sweet Flower"
+}

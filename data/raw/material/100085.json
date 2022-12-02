@@ -1,0 +1,16 @@
+{
+  "name": "晶核",
+  "description": "晶蝶的核心。是吸食着大气中逸散的细小元素的晶蝶长出的奇妙器官。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "捕捉晶蝶采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100085",
+  "rank": 1,
+  "route": "Crystal Core"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "迷你仙灵·紫苑",
+  "description": "「秘宝迷踪」活动的纪念，装备后可以获得迷你仙灵的陪伴。\\n紫色的迷你仙灵。色泽和雷元素有几分相似的迷你仙灵，如果触碰的话，不知道会不会有酥酥麻麻的感觉。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220038",
+  "rank": 4,
+  "route": "Mini Seelie: Viola"
+}

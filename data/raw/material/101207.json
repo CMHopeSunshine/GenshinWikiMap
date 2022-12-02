@@ -1,0 +1,20 @@
+{
+  "name": "珊瑚真珠",
+  "description": "与海祇的珊瑚相伴而生的宝珠，散发着月光般的丝丝凉意。",
+  "type": "稻妻区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：海祇岛采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101207",
+  "rank": 1,
+  "route": "Sango Pearl"
+}

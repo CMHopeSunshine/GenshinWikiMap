@@ -1,0 +1,11 @@
+{
+  "name": "原粹树脂",
+  "description": "能激活石化古树、地脉之花，以获得秘宝。其中的能量会随时间恢复。\\n传说所有银白的古木与银白的花的根系在大地的极深处隐秘相连，而它们联通的痕迹绘制出了地脉的轨迹…",
+  "type": "挑战结算道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_210",
+  "rank": 3,
+  "route": "Original Resin"
+}

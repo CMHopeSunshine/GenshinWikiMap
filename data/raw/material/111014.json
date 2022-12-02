@@ -1,0 +1,21 @@
+{
+  "name": "激流精油",
+  "description": "让人更亲和水元素的油膏，能提升造成的水元素伤害。\\n湿湿滑滑的外用药，能让人更有效地引导水元素。有种微妙的气味。",
+  "type": "药剂",
+  "recipe": {
+    "14009": {
+      "100026": 1,
+      "100081": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111014",
+  "rank": 3,
+  "route": "Streaming Essential Oil"
+}

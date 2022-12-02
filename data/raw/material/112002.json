@@ -1,0 +1,20 @@
+{
+  "name": "史莱姆凝液",
+  "description": "覆于史莱姆体表的浓稠流体，各地元素工坊中最常见的原料。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "史莱姆掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112002",
+  "rank": 1,
+  "route": "Slime Condensate"
+}

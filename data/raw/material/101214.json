@@ -1,0 +1,16 @@
+{
+  "name": "帕蒂沙兰",
+  "description": "圣洁而高贵的花卉，对生长环境的要求十分苛刻。花蕊经过加工后可以制成珍贵的香料。",
+  "type": "须弥区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "须弥城附近采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101214",
+  "rank": 1,
+  "route": "Padisarah"
+}

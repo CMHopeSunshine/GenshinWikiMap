@@ -1,0 +1,16 @@
+{
+  "name": "水之印",
+  "description": "蒙德周围的特殊纪念货币，可在城市商店中兑换珍稀物品",
+  "type": "七国徽印",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "探索奖励",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_302",
+  "rank": 3,
+  "route": "Hydro Sigil"
+}

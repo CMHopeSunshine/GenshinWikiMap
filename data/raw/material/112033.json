@@ -1,0 +1,36 @@
+{
+  "name": "士官的徽记",
+  "description": "标识着士官身份的徽记，有着区分一般士兵的奇异造型。其中或许蕴含着复杂的情绪吧。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11021": {
+      "112032": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上愚人众·先遣队掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上愚人众·债务处理人少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "40级以上愚人众·萤术士少量掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112033",
+  "rank": 2,
+  "route": "Sergeant's Insignia"
+}

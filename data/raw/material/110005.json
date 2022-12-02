@@ -1,0 +1,16 @@
+{
+  "name": "火腿",
+  "description": "经过熏制的腿部兽肉。薄薄的一片就能带来满嘴的芳香。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110005",
+  "rank": 1,
+  "route": "Ham"
+}

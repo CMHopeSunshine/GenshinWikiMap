@@ -1,0 +1,29 @@
+{
+  "name": "漆黑陨铁的一片",
+  "description": "赋予武器突破之力的材料。\\n璃月之地向来都有海怪的传说，毕竟彼方是超越提瓦特的未知区域了。没有了尘世七神的守护，外面不知道是怎样的一团混沌。能把岩王帝君的力量都染黑的，正是提瓦特秩序之外的力量。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12016": {
+      "114021": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：古雷试炼场",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114022",
+  "rank": 3,
+  "route": "Piece of Aerosiderite"
+}

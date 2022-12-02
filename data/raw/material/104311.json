@@ -1,0 +1,29 @@
+{
+  "name": "「繁荣」的指引",
+  "description": "天赋培养素材。\\n岩之国土的追求是繁荣。\\n繁荣是璃月对它的子女的许诺：以繁荣回报勤劳者，以黄金照亮这片土地。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13007": {
+      "104310": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：炽炎祭场",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104311",
+  "rank": 3,
+  "route": "Guide to Prosperity"
+}

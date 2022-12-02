@@ -1,0 +1,11 @@
+{
+  "name": "原石",
+  "description": "超出世界的原初晶石。黑暗的宇宙中，由无主的梦想与希望凝结而成的辉光。",
+  "type": "稀有货币",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_201",
+  "rank": 5,
+  "route": "Primogem"
+}

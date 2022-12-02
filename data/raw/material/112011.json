@@ -1,0 +1,20 @@
+{
+  "name": "牢固的箭簇",
+  "description": "做工粗糙的箭簇。即使如此，也不容小觑：弩是危险的武器，即使贵为骑士，也可能被从后方来的弩矢击倒。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "丘丘射手掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112011",
+  "rank": 1,
+  "route": "Firm Arrowhead"
+}

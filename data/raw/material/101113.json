@@ -1,0 +1,21 @@
+{
+  "name": "央陆双手剑原胚",
+  "description": "生产武器的原材料。通过锻造，可以生产出4星的双手剑。\\n哲学中认为尘世间事物，皆具备四种成因。这些原胚的「目的」，正是成为陪伴英雄的武器。",
+  "type": "素材",
+  "recipe": {
+    "70801": {
+      "101103": 1,
+      "113021": 2
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "须弥地区「征讨领域」挑战奖励",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101113",
+  "rank": 4,
+  "route": "Midlander Claymore Billet"
+}

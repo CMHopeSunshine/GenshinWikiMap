@@ -1,0 +1,11 @@
+{
+  "name": "留影机",
+  "description": "使用时，会记录储存当前景象的便利道具。\\n来自枫丹的奇特道具，能将景象牢牢记录下来。对巡游世界的旅行者而言，值得纪念的景象、值得铭记于心的人物应当相当多吧。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220018",
+  "rank": 4,
+  "route": "Kamera"
+}

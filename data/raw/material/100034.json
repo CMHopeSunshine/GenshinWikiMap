@@ -1,0 +1,16 @@
+{
+  "name": "琉璃袋",
+  "description": "拥有旺盛生命力的小花，传说朝下盛开的花姿是为了守住它的香气。",
+  "type": "璃月区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "璃月山壁采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100034",
+  "rank": 1,
+  "route": "Violetgrass"
+}

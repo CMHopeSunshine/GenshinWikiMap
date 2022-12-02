@@ -1,0 +1,11 @@
+{
+  "name": "奇异的「牙齿」",
+  "description": "从雪山上拾得的「牙齿」。也许有人会知道关于它的一些信息…",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_100618",
+  "rank": 1,
+  "route": "Strange Tooth"
+}

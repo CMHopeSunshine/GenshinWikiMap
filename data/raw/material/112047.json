@@ -1,0 +1,20 @@
+{
+  "name": "混沌机关",
+  "description": "来自不再活动的古代遗迹机关。\\n似乎是拟生机关的动力来源。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "遗迹机兵掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112047",
+  "rank": 2,
+  "route": "Chaos Gear"
+}

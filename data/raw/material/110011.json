@@ -1,0 +1,16 @@
+{
+  "name": "香肠",
+  "description": "灌入肠衣后制成的条状兽肉。便于储存的特性，极大地满足了肉食爱好者的日常需要。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "烹饪加工获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_110011",
+  "rank": 1,
+  "route": "Sausage"
+}

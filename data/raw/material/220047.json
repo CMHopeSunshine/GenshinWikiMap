@@ -1,0 +1,11 @@
+{
+  "name": "「烟花筒」",
+  "description": "由工匠朋义开发的奇妙机关，同时具备熔炼烟花和自动燃放烟花的功能。在富有才思与灵感之人手中，想必能发挥无穷的作用，创造一场无比绚烂的烟花演出。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220047",
+  "rank": 4,
+  "route": "Launch Tube"
+}

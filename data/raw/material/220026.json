@@ -1,0 +1,11 @@
+{
+  "name": "尘歌壶",
+  "description": "从萍姥姥那里得到的茶壶。里面似乎别有洞天…",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220026",
+  "rank": 5,
+  "route": "Serenitea Pot"
+}

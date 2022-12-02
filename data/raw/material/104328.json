@@ -1,0 +1,29 @@
+{
+  "name": "「天光」的哲学",
+  "description": "天赋培养素材。\\n雷之国土的愿望是天光。\\n即使永远生活在地下，人也会不屈地祈求天光。人总是追逐超越，无可止步。静止封闭的永恒亦固然壮丽，但其本质终究是死亡。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13018": {
+      "104327": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：真葛废都",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104328",
+  "rank": 4,
+  "route": "Philosophies of Light"
+}

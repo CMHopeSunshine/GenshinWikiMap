@@ -1,0 +1,16 @@
+{
+  "name": "璀璨原钻断片",
+  "description": "角色突破素材。\\n「欢迎来到世界。」",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "冒险等阶奖励",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104102",
+  "rank": 3,
+  "route": "Brilliant Diamond Fragment"
+}

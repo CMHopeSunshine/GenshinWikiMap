@@ -1,0 +1,11 @@
+{
+  "name": "叁零式·便携营养袋",
+  "description": "能将大部分美食转化为能瞬间摄入的「营养物质」。尽管能大大提高营养补充的效率，但愿意使用它的骑士似乎不多…",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220008",
+  "rank": 4,
+  "route": "NRE (Menu 30)"
+}

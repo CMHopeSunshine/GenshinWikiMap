@@ -1,0 +1,16 @@
+{
+  "name": "无主的星尘",
+  "description": "可以在商城兑换珍稀资源的货币。\\n过剩的命运星之晶尘。累积起来，或许可以创造新的命运。",
+  "type": "普通兑换券",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "祈愿",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_222",
+  "rank": 4,
+  "route": "Masterless Stardust"
+}

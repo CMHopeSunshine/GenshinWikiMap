@@ -1,0 +1,29 @@
+{
+  "name": "「黄金」的指引",
+  "description": "天赋培养素材。\\n岩之国土的象征是黄金。\\n黄金意味着转换，这是璃月的岩山、大地、港城与人们的默契。在璃月，勤劳被转换为黄金，而黄金被转换为繁荣。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13011": {
+      "104316": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：焚尽之环",
+      "type": "domain",
+      "days": [
+        "wednesday",
+        "saturday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104317",
+  "rank": 3,
+  "route": "Guide to Gold"
+}

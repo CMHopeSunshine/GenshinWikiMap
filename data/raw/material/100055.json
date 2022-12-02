@@ -1,0 +1,24 @@
+{
+  "name": "小灯草",
+  "description": "在夜间会隐隐散发辉光的野花。与其他食材一同烹饪能提升鲜味。",
+  "type": "蒙德区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "夜间野外寻找",
+      "type": "single"
+    },
+    {
+      "name": "推荐：奔狼领采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：低语森林采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100055",
+  "rank": 1,
+  "route": "Small Lamp Grass"
+}

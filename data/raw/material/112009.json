@@ -1,0 +1,28 @@
+{
+  "name": "封魔绘卷",
+  "description": "模糊地绘制了难解形象的古书断章。通过模仿其中的人物形象，一些魔物能小小地再现魔法的奇迹。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11005": {
+      "112008": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘萨满掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112009",
+  "rank": 2,
+  "route": "Sealed Scroll"
+}

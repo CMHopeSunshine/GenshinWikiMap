@@ -1,0 +1,20 @@
+{
+  "name": "小麦",
+  "description": "金灿灿的穗子，让人充满希望。要经过磨砺与水火才能成为终极形态。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "杂货店购买",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100017",
+  "rank": 1,
+  "route": "Wheat"
+}

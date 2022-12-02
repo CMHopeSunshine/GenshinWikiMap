@@ -1,0 +1,28 @@
+{
+  "name": "史莱姆清",
+  "description": "略加提纯的史莱姆分泌物，对皮肤有害，请务必避免不加防护措施的接触。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11001": {
+      "112002": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上史莱姆掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112003",
+  "rank": 2,
+  "route": "Slime Secretions"
+}

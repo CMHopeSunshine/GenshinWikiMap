@@ -1,0 +1,21 @@
+{
+  "name": "治草药剂",
+  "description": "可以抑制草木生长的药物，能提升草元素抗性。\\n原理和一般的除草剂不同，不是杀死草木，而是让它们陷入沉睡。内服据说可以调理身体。",
+  "type": "药剂",
+  "recipe": {
+    "14007": {
+      "100085": 1,
+      "101219": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111012",
+  "rank": 3,
+  "route": "Dendrocide Potion"
+}

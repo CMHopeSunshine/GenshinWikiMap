@@ -1,0 +1,21 @@
+{
+  "name": "「自由」的教导",
+  "description": "天赋培养素材。\\n风之国土的精神是自由。\\n自由其一，是生存的自由，即是能健全、健康地生活，而不必担心朝不保夕的自由。",
+  "type": "天赋培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "精通秘境：霜凝祭坛",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104301",
+  "rank": 2,
+  "route": "Teachings of Freedom"
+}

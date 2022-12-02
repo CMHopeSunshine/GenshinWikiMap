@@ -1,0 +1,20 @@
+{
+  "name": "寻宝鸦印",
+  "description": "骄傲地标识着盗宝团身份的印记，描绘着他们对宝藏永无止境的追求。话虽如此，盗贼的身份真的需要骄傲地展示吗…？",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "盗宝团掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112035",
+  "rank": 1,
+  "route": "Treasure Hoarder Insignia"
+}

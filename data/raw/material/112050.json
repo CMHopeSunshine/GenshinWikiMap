@@ -1,0 +1,20 @@
+{
+  "name": "黯淡棱镜",
+  "description": "原本是能偏转光线的棱镜，在流水般的年岁中渐渐变得黯淡。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "愚人众·冬国仕女掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112050",
+  "rank": 2,
+  "route": "Dismal Prism"
+}

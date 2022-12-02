@@ -1,0 +1,29 @@
+{
+  "name": "「繁荣」的哲学",
+  "description": "天赋培养素材。\\n岩之国土的追求是繁荣。\\n繁荣是璃月的过去、现在与未来。在此世间一切国度都无法企及的繁荣，均归于璃月，以及璃月的子女。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13008": {
+      "104311": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：炽炎祭场",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104312",
+  "rank": 4,
+  "route": "Philosophies of Prosperity"
+}

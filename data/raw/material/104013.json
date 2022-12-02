@@ -1,0 +1,20 @@
+{
+  "name": "精锻用魔矿",
+  "description": "武器经验素材，含有10000点经验值。\\n传说，精炼的矿锭中凝结了大地上战斗的记忆。而受益于这些记忆的兵器，自然也是有灵魂的了。",
+  "type": "武器强化素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "锻造获得",
+      "type": "single"
+    },
+    {
+      "name": "解决事件报酬",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104013",
+  "rank": 3,
+  "route": "Mystic Enhancement Ore"
+}

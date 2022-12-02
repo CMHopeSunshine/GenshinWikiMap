@@ -1,0 +1,16 @@
+{
+  "name": "鱼肉",
+  "description": "鱼类的新鲜肉块。经过适当处理可以制成让人回味无穷的菜式。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "捕捉鱼类采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100084",
+  "rank": 1,
+  "route": "Fish"
+}

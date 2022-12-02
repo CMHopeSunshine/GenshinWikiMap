@@ -1,0 +1,24 @@
+{
+  "name": "禁咒绘卷",
+  "description": "绘制着古代形象的古书抄本。鲜有人能解读它的含义；据说最终理解了其中真意的学者都陷入了癫狂。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11006": {
+      "112009": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上丘丘萨满掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112010",
+  "rank": 3,
+  "route": "Forbidden Curse Scroll"
+}

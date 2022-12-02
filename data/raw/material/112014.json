@@ -1,0 +1,24 @@
+{
+  "name": "沉重号角",
+  "description": "粗砺的号角，是丘丘人用来警告同伴的道具。现在散布在号角上的战损使其失去了发声的功能。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "丘丘暴徒掉落",
+      "type": "single"
+    },
+    {
+      "name": "丘丘王掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112014",
+  "rank": 2,
+  "route": "Heavy Horn"
+}

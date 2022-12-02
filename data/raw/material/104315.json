@@ -1,0 +1,29 @@
+{
+  "name": "「勤劳」的哲学",
+  "description": "天赋培养素材。\\n岩之国土的根基是勤劳。\\n勤劳即为相信自己，即为相信通过汗水、智慧与力量，在诸神的土地上，人人都可以拥有自己的一席之地。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13010": {
+      "104314": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：深炎之底",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104315",
+  "rank": 4,
+  "route": "Philosophies of Diligence"
+}

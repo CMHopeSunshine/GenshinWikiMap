@@ -1,0 +1,21 @@
+{
+  "name": "防风药剂",
+  "description": "让人抵抗强风的神秘药剂，能提升风元素抗性。\\n对于时常需要风餐露宿的冒险家来说，是非常实用的药剂。据说能防止风寒。",
+  "type": "药剂",
+  "recipe": {
+    "14004": {
+      "100057": 1,
+      "100085": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111009",
+  "rank": 3,
+  "route": "Windbarrier Potion"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "狂风精油",
+  "description": "让人更亲和风元素的油膏，能提升造成的风元素伤害。\\n有着清香的气味。据说，如果使用这种药，在原野上旅行时，从来都是顺风而行。",
+  "type": "药剂",
+  "recipe": {
+    "14011": {
+      "100057": 1,
+      "100083": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_111016",
+  "rank": 3,
+  "route": "Gushing Essential Oil"
+}

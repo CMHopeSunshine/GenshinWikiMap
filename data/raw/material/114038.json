@@ -1,0 +1,29 @@
+{
+  "name": "谧林涓露的铁符",
+  "description": "赋予武器突破之力的材料。\\n后来，草木的主人教会了人们锻造黑铁的奥秘。就这样，天真的凡人学会了使用火与利刃的知识。\\n草木的主人为之欢欣，纵使火与金属会伤害她，但亦会使凡人强大。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12028": {
+      "114037": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：云垢",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114038",
+  "rank": 3,
+  "route": "Iron Talisman of the Forest Dew"
+}

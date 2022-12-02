@@ -1,0 +1,16 @@
+{
+  "name": "雷之印",
+  "description": "受到稻妻群岛的鸣雷认可，获授的印记。\\n可以缴纳给鸣神大社的神樱，提高「神樱眷顾」的等级。",
+  "type": "七国徽印",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "稻妻地区探索奖励",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_304",
+  "rank": 3,
+  "route": "Electro Sigil"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "鬼兜虫",
+  "description": "栖息在雷元素富集区域的奇异甲虫。与甲壳上宛如怒目而视的恶鬼之相相反，鬼兜虫其实非常温顺迟钝。",
+  "type": "稻妻区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：鸣神岛采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：踏鞴砂采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101201",
+  "rank": 1,
+  "route": "Onikabuto"
+}

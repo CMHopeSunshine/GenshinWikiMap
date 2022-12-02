@@ -1,0 +1,20 @@
+{
+  "name": "地脉的旧枝",
+  "description": "来自深邃地底的脆弱枯枝。即使饱经岁月，也能从斑驳的树皮下，看出尚未散尽的力量。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "深渊法师掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112020",
+  "rank": 2,
+  "route": "Dead Ley Line Branch"
+}

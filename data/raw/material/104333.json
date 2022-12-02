@@ -1,0 +1,29 @@
+{
+  "name": "「巧思」的指引",
+  "description": "天赋培养素材。\\n「巧思」是智慧之国的叶脉。\\n巧思引导正直的言语。巧妙而周密的向善思索，令出口之言不偏离福祉之正道；怠慢与歹意则令言行卑劣不堪。",
+  "type": "天赋培养素材",
+  "recipe": {
+    "13021": {
+      "104332": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "精通秘境：妙语",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_104333",
+  "rank": 3,
+  "route": "Guide to Ingenuity"
+}

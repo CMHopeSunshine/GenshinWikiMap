@@ -1,0 +1,25 @@
+{
+  "name": "高塔孤王的破瓦",
+  "description": "赋予武器突破之力的材料。\\n最近被称为风龙废墟的地方，曾经是烈风的魔神「迭卡拉庇安」建造的王都。因这繁华之梦全是魔神之力所造，因此梦碎瞬间的破瓦断片也有强大的力量。",
+  "type": "武器突破素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "蒙德纪念品商店兑换",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：水光之城",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114001",
+  "rank": 2,
+  "route": "Tile of Decarabian's Tower"
+}

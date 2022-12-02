@@ -1,0 +1,29 @@
+{
+  "name": "高塔孤王的残垣",
+  "description": "赋予武器突破之力的材料。\\n烈风的魔神「迭卡拉庇安」对自己所造的王城十分满意，他在高塔上接受所有追随者的跪拜。但他却不知道，众人对他俯身并非出于敬仰爱戴。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12001": {
+      "114001": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：水光之城",
+      "type": "domain",
+      "days": [
+        "monday",
+        "thursday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114002",
+  "rank": 3,
+  "route": "Debris of Decarabian's City"
+}

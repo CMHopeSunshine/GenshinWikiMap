@@ -1,0 +1,12 @@
+{
+  "name": "秘典之盒",
+  "description": "由「七圣召唤」的牌手协会发行的牌盒道具，只有学习完基础规则，得到认可的新人牌手能够领取。\\n据说是由须弥教令院的学者制作，牌盒中有一个特殊设置的机关，可以借此来感应周围的秘典之盒持有者。\\n利用这个功能，多与身边的牌手进行对局吧！",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220056",
+  "rank": 4,
+  "route": "Casket of Tomes",
+  "beta": true
+}

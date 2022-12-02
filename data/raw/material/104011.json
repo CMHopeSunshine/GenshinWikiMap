@@ -1,0 +1,20 @@
+{
+  "name": "精锻用杂矿",
+  "description": "武器经验素材，含有400点经验值。\\n蕴含着无限可能性的精炼矿锭，可以用来强化武器。",
+  "type": "武器强化素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "锻造获得",
+      "type": "single"
+    },
+    {
+      "name": "解决事件报酬",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104011",
+  "rank": 1,
+  "route": "Enhancement Ore"
+}

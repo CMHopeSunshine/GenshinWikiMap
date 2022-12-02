@@ -1,0 +1,24 @@
+{
+  "name": "杉木",
+  "description": "「冷杉」出产的木材，有着不错的木质和纹理，被广泛使用于各种领域。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：坠星山谷砍伐",
+      "type": "single"
+    },
+    {
+      "name": "推荐：风啸山坡砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101308",
+  "rank": 1,
+  "route": "Fir Wood"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "雾海云间的转还",
+  "description": "赋予武器突破之力的材料。\\n这是金丹的最高品质，它模拟了混沌初开、清浊不分、天地一体的状态。据说这个是天地创世的缩影。当然，那位是知道的，世界的重现不是这样的。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12015": {
+      "114019": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "炼武秘境：鸣雷城墟",
+      "type": "domain",
+      "days": [
+        "tuesday",
+        "friday",
+        "sunday"
+      ]
+    }
+  ],
+  "icon": "UI_ItemIcon_114020",
+  "rank": 5,
+  "route": "Mist Veiled Primo Elixir"
+}
