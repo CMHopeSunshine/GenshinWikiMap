@@ -258,4 +258,4 @@ def draw_character_map(chara: Character):
 
 
 if __name__ == '__main__':
-    draw_character_map(Character.parse_file(Path(__file__).parent / 'data' / 'raw' / 'avatar' / '10000005-geo.json'))
+    draw_character_map(Character.parse_file(Path(__file__).parent / 'data' / 'raw' / 'avatar' / '10000052.json'))

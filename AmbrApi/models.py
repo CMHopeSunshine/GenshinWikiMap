@@ -128,14 +128,14 @@ class Talent(BaseModel):
         for promote in self.promote.values():
             for desc in promote.description:
                 desc_name, param_str = desc.split('|')
-                for param in re.findall(r'{param\d+:(?:F1P|F1|P|I|F2P)}', param_str):
+                for param in re.findall(r'{param\d+:(?:F1P|F1|P|I|F2P|F2)}', param_str):
                     split = param.strip('{').strip('}').split(':')
                     num, fm = int(re.search(r'\d+', split[0]).group()), split[1]
                     if self.name == '蒲公英之风' and num >= 8:  # 琴的大招技能参数有问题
                         num -= 1
                     p = promote.params[num - 1]
                     param_str = param_str.replace(param,
-                                                  f'{str(round(p * 100, 1))}%' if fm in ['F1P', 'P', 'F2P'] else str(
+                                                  f'{str(round(p * 100, 1))}%' if fm in ['F1P', 'P', 'F2P', 'F2'] else str(
                                                       int(p)))
                 new_dict[desc_name].append(param_str)
 
