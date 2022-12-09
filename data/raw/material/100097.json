@@ -1,0 +1,17 @@
+{
+  "name": "神秘的肉",
+  "description": "散发着神秘气息的新鲜肉块。不知道吃起来会是什么味道呢？",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "动物掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100097",
+  "rank": 1,
+  "route": "Mysterious Meat",
+  "beta": true
+}

@@ -105,3 +105,19 @@ def get_prop_map() -> Optional[dict]:
         data = resp.json()
         return data['data']
     return None
+
+
+def get_artifact_list() -> Optional[dict]:
+    resp = httpx.get(ARTIFACT_LIST_API, headers=HEADERS)
+    if resp.status_code == 200:
+        data = resp.json()
+        return data['data']['items']
+    return None
+
+
+def get_artifact_info(artifact_id: str) -> Optional[dict]:
+    resp = httpx.get(ARTIFACT_INFO_API.format(artifact_id), headers=HEADERS)
+    if resp.status_code == 200:
+        data = resp.json()
+        return data['data']
+    return None

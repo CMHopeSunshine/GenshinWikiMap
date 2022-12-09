@@ -1,0 +1,21 @@
+{
+  "name": "沙脂蛹",
+  "description": "在沙漠深处流沙鳗鳗的繁殖地才能找到的枯壳。其坚硬的表壳是为了保护流沙鳗鳗的幼体，直到它们得以适应炎热干燥的沙漠环境而存在的。",
+  "type": "须弥区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "须弥沙漠采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：沙虫隧道采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101222",
+  "rank": 1,
+  "route": "Sand Grease Pupa",
+  "beta": true
+}

@@ -790,6 +790,17 @@
       "rank": 1,
       "route": "Glabrous Beans"
     },
+    "100097": {
+      "id": 100097,
+      "name": "神秘的肉",
+      "type": "cookingIngredient",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_100097",
+      "rank": 1,
+      "route": "Mysterious Meat",
+      "beta": true
+    },
     "100584": {
       "id": 100584,
       "name": "深邃之血",
@@ -1199,6 +1210,17 @@
       "icon": "UI_ItemIcon_101221",
       "rank": 1,
       "route": "Ajilenakh Nut"
+    },
+    "101222": {
+      "id": 101222,
+      "name": "沙脂蛹",
+      "type": "localSpecialtySumeru",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101222",
+      "rank": 1,
+      "route": "Sand Grease Pupa",
+      "beta": true
     },
     "101225": {
       "id": 101225,
@@ -3220,6 +3242,39 @@
       "rank": 4,
       "route": "Radiant Prism"
     },
+    "112074": {
+      "id": 112074,
+      "name": "残毁的横脊",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112074",
+      "rank": 2,
+      "route": "Desiccated Shell",
+      "beta": true
+    },
+    "112075": {
+      "id": 112075,
+      "name": "密固的横脊",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112075",
+      "rank": 3,
+      "route": "Sturdy Shell",
+      "beta": true
+    },
+    "112076": {
+      "id": 112076,
+      "name": "锲纹的横脊",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112076",
+      "rank": 4,
+      "route": "Marked Shell",
+      "beta": true
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -3639,6 +3694,17 @@
       "icon": "UI_ItemIcon_113043",
       "rank": 5,
       "route": "Daka's Bell"
+    },
+    "113044": {
+      "id": 113044,
+      "name": "苍砾蕊羽",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113044",
+      "rank": 4,
+      "route": "Pseudo-Stamens",
+      "beta": true
     },
     "114001": {
       "id": 114001,
@@ -4599,6 +4665,17 @@
       "icon": "UI_ItemIcon_220069a",
       "rank": 4,
       "route": "Scarlet Sand Slate"
+    },
+    "220072": {
+      "id": 220072,
+      "name": "魔瓶镇灵·利露帕尔",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220072_01",
+      "rank": 4,
+      "route": "",
+      "beta": true
     },
     "220074": {
       "id": 220074,

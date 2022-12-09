@@ -1,0 +1,29 @@
+{
+  "name": "密固的横脊",
+  "description": "圣骸兽脊背上坚实的骨壳。\\n噬啮殒落的伟大生灵之躯骸，并藉此升衍的灾兽之骨。纵然窃得昔日权能的片影，兽群终究无法逃过与诸神相同的终局。",
+  "type": "角色培养素材",
+  "recipe": {
+    "11051": {
+      "112074": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上圣骸兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112075",
+  "rank": 3,
+  "route": "Sturdy Shell",
+  "beta": true
+}

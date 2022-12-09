@@ -1,0 +1,21 @@
+{
+  "name": "残毁的横脊",
+  "description": "圣骸兽脊背上残毁的骨壳。\\n昔日遍布四方之土的灾厄之证，如今唯有在人迹罕至之处方能寻得踪影。",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "圣骸兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112074",
+  "rank": 2,
+  "route": "Desiccated Shell",
+  "beta": true
+}

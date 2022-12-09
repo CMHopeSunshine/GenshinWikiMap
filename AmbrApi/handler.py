@@ -3,8 +3,7 @@ import random
 from path import CHARACTER_MAP_RESULT_RAW, RAW, AVATAR_RAW, MATERIAL_RAW, DATA
 from utils import load_json, save_json
 from .models import Character
-from .data_source import get_avatar_info, get_avatar_list, get_avatar_curve, \
-    get_weapon_curve, get_material_list, get_prop_map, get_material_info
+from .data_source import *
 
 
 def update_constant():
@@ -40,9 +39,8 @@ def update_constant():
 
 
 def get_update_characters_map() -> list[str]:
-    new_avatar_list = load_json(RAW / 'avatar_list.json')
-    return [avatar_id for avatar_id in new_avatar_list if not (CHARACTER_MAP_RESULT_RAW / f'{avatar_id}.png').exists()]
-    # return list(new_avatar_list.keys())
+    # new_avatar_list = load_json(RAW / 'avatar_list.json')
+    # return [avatar_id for avatar_id in new_avatar_list if not (CHARACTER_MAP_RESULT_RAW / f'{avatar_id}.png').exists()]
     new_avatar_list = get_avatar_list()
     old_avatar_list = load_json(RAW / 'avatar_list.json')
 
@@ -68,13 +66,13 @@ def get_update_characters_map() -> list[str]:
     save_json(new_avatar_list, RAW / 'avatar_list.json')
     print('>>>角色信息及列表更新完成')
     # 角色立绘偏移有更新
-    paint_offset = load_json(DATA / 'paint_offset.json')
-    paint_offset_done = load_json(DATA / 'paint_offset_done.json')
+    paint_offset = load_json(DATA / '角色立绘偏移.json')
+    paint_offset_done = load_json(DATA / '角色立绘偏移已用.json')
     for avatar_id, offset in paint_offset.items():
         if avatar_id not in paint_offset_done or offset != paint_offset_done[avatar_id]:
             need_update.append(avatar_id)
     # 保存新的角色立绘偏移
-    save_json(paint_offset, DATA / 'paint_offset_done.json')
+    save_json(paint_offset, DATA / '角色立绘偏移已用.json')
     print('>>>角色立绘偏移更新完成')
 
     need_update = list(set(need_update))
@@ -107,3 +105,15 @@ def update_material_need():
     save_json(material_dict, DATA / '材料列表.json')
     print('>>>材料列表更新完成')
 
+
+def update_artifact_info():
+    artifact_list = get_artifact_list()
+    old_data = load_json(DATA / '圣遗物.json')
+    for suit in artifact_list.values():
+        if suit['name'] not in old_data['套装'].values():
+            artifact_info = get_artifact_info(suit['id'])
+            for artifact in artifact_info['suit'].values():
+                old_data['名称'][artifact['icon']] = artifact['name']
+                old_data['套装'][artifact['name']] = suit['name']
+    save_json(old_data, DATA / '圣遗物.json')
+    print('>>>圣遗物信息更新完成')
