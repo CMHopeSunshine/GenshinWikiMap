@@ -822,9 +822,8 @@
       1,
       3
     ],
-    "release": 1669910400,
-    "route": "Wanderer",
-    "beta": true
+    "release": 1670277600,
+    "route": "Wanderer"
   },
   "10000076": {
     "id": 10000076,
@@ -837,9 +836,8 @@
       8,
       20
     ],
-    "release": 1669845600,
-    "route": "Faruzan",
-    "beta": true
+    "release": 1670277600,
+    "route": "Faruzan"
   },
   "10000005-anemo": {
     "id": "10000005-anemo",

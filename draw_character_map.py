@@ -58,11 +58,29 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
             img.text('20', 30, 5, constellation_name_font, 'white')
     elif index == 5:
         img.text('60', 30, 5, constellation_name_font, 'white')
-    talent_name_length = talent_data_font.getlength(talent.name.strip('普通攻击·'))
-    left = 97 - talent_name_length / 2 - 5
-    right = 97 + talent_name_length / 2 + 5
-    img.draw_rounded_rectangle((left, 100, right, 100 + 38), 5, '#ff6f30')
-    img.text(talent.name.strip('普通攻击·'), (left, right), (100, 100 + 38), talent_data_font, 'white', 'center')
+    # talent_name_length = talent_data_font.getlength(talent.name.strip('普通攻击·'))
+    if len(talent.name) > 7:
+        talent_name_high = 38 * 2
+        if '·' in talent.name:
+            cut_index = talent.name.index('·')
+        elif '，' in talent.name:
+            cut_index = talent.name.index('，')
+        else:
+            cut_index = len(talent.name) // 2
+        talent_name = [talent.name[:cut_index + 1], talent.name[cut_index + 1:]]
+        talent_name_length = talent_data_font.getlength(talent_name[0] if len(talent_name[0]) > len(talent_name[1]) else talent_name[1])
+        left = 97 - talent_name_length / 2 - 5
+        right = 97 + talent_name_length / 2 + 5
+        img.draw_rounded_rectangle((left, 100, right, 100 + 38 * 2), 5, '#ff6f30')
+        img.text(talent_name[0], (left, right), (100, 100 + 38), talent_data_font, 'white', 'center')
+        img.text(talent_name[1], (left, right), (100 + 38, 100 + 38 * 2), talent_data_font, 'white', 'center')
+    else:
+        talent_name_high = 38
+        talent_name_length = talent_data_font.getlength(talent.name)
+        left = 97 - talent_name_length / 2 - 5
+        right = 97 + talent_name_length / 2 + 5
+        img.draw_rounded_rectangle((left, 100, right, 100 + 38), 5, '#ff6f30')
+        img.text(talent.name.strip('普通攻击·'), (left, right), (100, 100 + 38), talent_data_font, 'white', 'center')
     # ----------图标----------
 
     # ----------描述----------
@@ -92,7 +110,7 @@ def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
             this_width += promote_text_size[0] + 10 + 10
         now_height += 41
     # ----------倍率----------
-    now_height = max(now_height, 157)
+    now_height = max(now_height, 120 + talent_name_high)
     img.crop((0, 0, 882, now_height))
     return img
 
@@ -130,7 +148,7 @@ def draw_character_map(chara: Character):
     # 角色名称标题
     img.text(chara.title_name, 573, 83, title_font, '#252525')
     # ---------------立绘---------------
-    offset = load_json(DATA / 'paint_offset_done.json').get(chara.id, [0, 0])
+    offset = load_json(DATA / '角色立绘偏移已用.json').get(chara.id, [0, 0])
     gacha_img = download_from_ambr(GACHA_IMG / f'UI_Gacha_AvatarImg_{chara.icon.split("_")[-1]}.png')
     img.paste(CHARACTER_MAP_RESOURCES / '立绘下花纹.png', (35, 40))
     gacha_img = gacha_img.crop((gacha_img.width // 2 - 250 + offset[0],
@@ -258,4 +276,4 @@ def draw_character_map(chara: Character):
 
 
 if __name__ == '__main__':
-    draw_character_map(Character.parse_file(Path(__file__).parent / 'data' / 'raw' / 'avatar' / '10000052.json'))
+    draw_character_map(Character.parse_file(Path(__file__).parent / 'data' / 'raw' / 'avatar' / '10000026.json'))

@@ -9,7 +9,7 @@
     1,
     3
   ],
-  "release": 1669910400,
+  "release": 1670277600,
   "route": "Wanderer",
   "fetter": {
     "title": "久世浮倾",
@@ -17,10 +17,10 @@
     "constellation": "浪客座",
     "native": "无",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "帕特里克·佩德拉萨",
+      "CHS": "鹿喑",
+      "JP": "柿原彻也",
+      "KR": "闵丞釪"
     }
   },
   "upgrade": {
@@ -158,8 +158,8 @@
   "other": {
     "nameCard": {
       "id": 210143,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "流浪者·浮歌",
+      "description": "名片纹饰。\\n浮世隐昔话，薄雪伴流花。",
       "icon": "UI_NameCardIcon_Wanderer"
     },
     "specialFood": {
@@ -2364,7 +2364,7 @@
       "icon": "UI_Talent_S_Wanderer_01"
     },
     "1": {
-      "name": "二番·箙岛月白浪",
+      "name": "二番·箙岛廓白浪",
       "description": "在<color=#FFD780FF>优风倾姿<\/color>状态下，<color=#FFD780FF>狂言·式乐五番<\/color>将依据空居力上限与当前的空居力的差值，每1点使此次狂言·式乐五番造成的伤害提升4%。\\n通过这种方式，至多使狂言·式乐五番造成的伤害提升200%。",
       "icon": "UI_Talent_S_Wanderer_02"
     },
@@ -2388,6 +2388,5 @@
       "description": "在<color=#FFD780FF>优风倾姿<\/color>状态下，流浪者主动施放的空居·不生断命中敌人时，将产生如下效果：\\n·在命中的位置额外进行一次空居·不生断，造成原本40%的伤害，该伤害视为普通攻击伤害；\\n·当流浪者的空居力低于40点时，为流浪者恢复4点空居力。每0.2秒至多通过这种方式恢复1次空居力，在一次优风倾姿的持续期间，至多触发5次。",
       "icon": "UI_Talent_S_Wanderer_04"
     }
-  },
-  "beta": true
+  }
 }

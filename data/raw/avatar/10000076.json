@@ -9,7 +9,7 @@
     8,
     20
   ],
-  "release": 1669845600,
+  "release": 1670277600,
   "route": "Faruzan",
   "fetter": {
     "title": "机逐封秘",
@@ -17,10 +17,10 @@
     "constellation": "蔓藤花饰座",
     "native": "室罗婆耽学院",
     "cv": {
-      "EN": "",
-      "CHS": "",
-      "JP": "",
-      "KR": ""
+      "EN": "婵达妮·帕雷克",
+      "CHS": "阎萌萌",
+      "JP": "堀江由衣",
+      "KR": "金愈琳"
     }
   },
   "upgrade": {
@@ -158,8 +158,8 @@
   "other": {
     "nameCard": {
       "id": 210144,
-      "name": "？？？",
-      "description": "？？？",
+      "name": "珐露珊·封秘",
+      "description": "名片纹饰。\\n「总、总之，下次提问之前，要先叫前辈！真是的…」",
       "icon": "UI_NameCardIcon_Faruzan"
     },
     "specialFood": {
@@ -2388,6 +2388,5 @@
       "description": "处于<color=#FFD780FF>抟风秘道<\/color>的「祈风之赐」效果影响下的角色，造成<color=#80FFD7FF>风元素伤害<\/color>时的暴击伤害提升40%；处于「祈风之赐」效果影响下的当前场上角色造成伤害时，将为该敌人施加「风压坍陷」。此效果3秒至多触发一次，队伍中所有角色共享冷却时间。",
       "icon": "UI_Talent_S_Faruzan_04"
     }
-  },
-  "beta": true
+  }
 }
