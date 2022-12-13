@@ -12,7 +12,7 @@
   "release": 1672524000,
   "route": "Yaoyao",
   "fetter": {
-    "title": "？？？",
+    "title": "仙蕊玲珑",
     "detail": "？？？",
     "constellation": "木樨座",
     "native": "？？？",
@@ -2365,7 +2365,7 @@
     },
     "1": {
       "name": "正思无邪",
-      "description": "处于<color=#FFD780FF>玉颗珊珊月中落<\/color>的桂子仙机状态下时，若白玉萝卜的炸裂伤害命中敌人，瑶瑶将恢复3点元素能量。每0.8至多通过这种方式恢复一次元素能量。",
+      "description": "处于<color=#FFD780FF>玉颗珊珊月中落<\/color>的桂子仙机状态下时，若白玉萝卜的炸裂伤害命中敌人，瑶瑶将恢复3点元素能量。每0.8秒至多通过这种方式恢复一次元素能量。",
       "icon": "UI_Talent_S_Yaoyao_02"
     },
     "2": {
