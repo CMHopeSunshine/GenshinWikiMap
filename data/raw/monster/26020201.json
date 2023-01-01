@@ -1,0 +1,146 @@
+{
+  "id": 26020201,
+  "name": "爆炎树",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Regisvine_Fire",
+  "route": "Pyro Regisvine",
+  "title": "爆炎树",
+  "specialName": "摇曳的炽热火花",
+  "description": "吸收了地脉中奔涌的古老烈焰的巨大藤蔓。\\n如同充满怒火一般，永不止息的植物。\\n诗人、歌手乃至一些学者认为「元素」中蕴含着情感和愿望。如果属实，又是什么情感与愿望驱使着爆炎树恒常燃烧，如同渴求着挣脱大地的束缚一般挣扎舞动呢…",
+  "entries": {
+    "26020201": {
+      "id": 26020201,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113011": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113011",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "26501": {
+      "images": [
+        "UI_Tutorial_53"
+      ],
+      "description": "蛰伏在地下，利用怒放的鲜艳花朵诱骗猎物的巨大元素植物，会狂暴地攻击靠近它的人。在根部似乎生长着类似<color=#FFE14BFF>火元素核心<\/color>的某种果实，也许能通过它有效地造成伤害吧…"
+    }
+  }
+}

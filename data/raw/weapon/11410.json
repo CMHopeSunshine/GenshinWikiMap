@@ -1,0 +1,168 @@
+{
+  "id": 11410,
+  "rank": 4,
+  "type": "单手剑",
+  "name": "暗巷闪光",
+  "description": "有着黑夜颜色的笔直长剑，曾属于穿行于暗巷的盗贼。",
+  "icon": "UI_EquipIcon_Sword_Outlaw",
+  "storyId": 191410,
+  "affix": {
+    "111410": {
+      "name": "街巷游侠",
+      "upgrade": {
+        "0": "角色造成的伤害提升<color=#99FFFFFF>12%<\/color>。受到伤害后，该伤害提升效果会失效5秒。",
+        "1": "角色造成的伤害提升<color=#99FFFFFF>15%<\/color>。受到伤害后，该伤害提升效果会失效5秒。",
+        "2": "角色造成的伤害提升<color=#99FFFFFF>18%<\/color>。受到伤害后，该伤害提升效果会失效5秒。",
+        "3": "角色造成的伤害提升<color=#99FFFFFF>21%<\/color>。受到伤害后，该伤害提升效果会失效5秒。",
+        "4": "角色造成的伤害提升<color=#99FFFFFF>24%<\/color>。受到伤害后，该伤害提升效果会失效5秒。"
+      }
+    }
+  },
+  "route": "The Alley Flash",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.0687,
+        "type": "GROW_CURVE_ATTACK_203"
+      },
+      {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 11.99999,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112008": 2,
+          "112014": 3,
+          "114001": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112008": 8,
+          "112014": 12,
+          "114002": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112009": 6,
+          "112015": 6,
+          "114002": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112009": 9,
+          "112015": 12,
+          "114003": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112010": 6,
+          "112016": 9,
+          "114003": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112010": 12,
+          "112016": 18,
+          "114004": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112008": 1,
+    "112009": 2,
+    "112010": 3,
+    "112014": 2,
+    "112015": 3,
+    "112016": 4,
+    "114001": 2,
+    "114002": 3,
+    "114003": 4,
+    "114004": 5
+  }
+}

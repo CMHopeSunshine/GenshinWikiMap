@@ -1,0 +1,276 @@
+{
+  "id": 24020301,
+  "name": "遗迹防卫者",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Apparatus_Enigma_BionicInsecta",
+  "route": "Ruin Defender",
+  "title": "遗迹防卫者",
+  "specialName": "Ald-46395",
+  "description": "为了适应特殊的目标，有着定制化外形与机能的异形机械。\\n传说是已经覆灭的国度留下的战争机械。相比更为广泛存在的「遗迹守卫」，在设计上有着更强的仿生学意义。模仿昆虫的肢体相较于拟人机器更加方便移动，各部件结成的护盾能够抵御任何来自正面的攻击。",
+  "entries": {
+    "24020301": {
+      "id": 24020301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 57.0528,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112047": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112047",
+          "count": "2.6263"
+        },
+        "112048": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112048",
+          "count": "0.7003"
+        },
+        "112049": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112049",
+          "count": "0.1751"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "24020302": {
+      "id": 24020302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "拟生机关假死",
+          "description": "boss战中假死逻辑",
+          "abilityName": [
+            "Monster_Apparatus_Enigma_FakeDie"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "普通版本拟生机关",
+          "description": "普通版本拟生机关",
+          "abilityName": [
+            "MonsterAffix_Enigma_Summoned_Normal"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 57.0528,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "reward": null
+    },
+    "24020303": {
+      "id": 24020303,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "拟生机关假死",
+          "description": "boss战中假死逻辑",
+          "abilityName": [
+            "Monster_Apparatus_Enigma_FakeDie"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "强化版本拟生机关",
+          "description": "强化版本拟生机关",
+          "abilityName": [
+            "MonsterAffix_Enigma_Summoned_Enhanced"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 57.0528,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "reward": null
+    },
+    "24020304": {
+      "id": 24020304,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "提纳里个人线遗迹防卫者",
+          "description": "提纳里个人线遗迹防卫者",
+          "abilityName": [
+            "MonsterAffix_Apparatus_Enigma_BionicInsecta_KarkataTag"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 57.0528,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

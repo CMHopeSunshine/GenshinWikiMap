@@ -1,0 +1,213 @@
+{
+  "id": 28020108,
+  "name": "沙狐",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Fox_03",
+  "route": "Desert Fox",
+  "title": null,
+  "specialName": null,
+  "description": "精灵般隐匿的狡黠生灵，在民话传说中拥有奇特的智慧与悠远的记忆。\\n生活在广阔的沙漠之中，或许是因为与同类相比体型更小的缘故而躲过了古时的灾厄。长长的耳朵是为了适应适应酷热干燥的沙漠环境而演化出来的。",
+  "entries": {
+    "28020101": {
+      "id": 28020101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020102": {
+      "id": 28020102,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020103": {
+      "id": 28020103,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020104": {
+      "id": 28020104,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020105": {
+      "id": 28020105,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020106": {
+      "id": 28020106,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020107": {
+      "id": 28020107,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020108": {
+      "id": 28020108,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

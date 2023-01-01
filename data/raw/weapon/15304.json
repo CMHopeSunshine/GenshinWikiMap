@@ -1,0 +1,168 @@
+{
+  "id": 15304,
+  "rank": 3,
+  "type": "弓",
+  "name": "弹弓",
+  "description": "其实就是一把弓。在无数的改进和实验中，发明出究极弹弓的人发现自己做了一把弓。",
+  "icon": "UI_EquipIcon_Bow_Sling",
+  "storyId": 195304,
+  "affix": {
+    "115304": {
+      "name": "弹弓",
+      "upgrade": {
+        "0": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>36%<\/color>；否则，造成的伤害下降10%。",
+        "1": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>42%<\/color>；否则，造成的伤害下降10%。",
+        "2": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>48%<\/color>；否则，造成的伤害下降10%。",
+        "3": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>54%<\/color>；否则，造成的伤害下降10%。",
+        "4": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加<color=#99FFFFFF>60%<\/color>；否则，造成的伤害下降10%。"
+      }
+    }
+  },
+  "route": "Slingshot",
+  "upgrade": {
+    "awakenCost": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 37.6075,
+        "type": "GROW_CURVE_ATTACK_104"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.068,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112005": 1,
+          "112029": 2,
+          "114013": 2
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 19.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112005": 5,
+          "112029": 8,
+          "114014": 2
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 38.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112006": 4,
+          "112030": 4,
+          "114014": 4
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 58.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112006": 6,
+          "112030": 8,
+          "114015": 2
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112007": 4,
+          "112031": 6,
+          "114015": 4
+        },
+        "coinCost": 25000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 97.3,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112007": 8,
+          "112031": 12,
+          "114016": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 116.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112005": 1,
+    "112006": 2,
+    "112007": 3,
+    "112029": 2,
+    "112030": 3,
+    "112031": 4,
+    "114013": 2,
+    "114014": 3,
+    "114015": 4,
+    "114016": 5
+  }
+}

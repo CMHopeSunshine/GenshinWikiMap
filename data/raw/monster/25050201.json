@@ -1,0 +1,60 @@
+{
+  "id": 25050201,
+  "name": "千岩军教头",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Millelith_Male_02",
+  "route": "Millelith Sergeant",
+  "title": "千岩军教头",
+  "specialName": "军中人称「阿辉」",
+  "description": "（test）待IP补充",
+  "entries": {
+    "25050201": {
+      "id": 25050201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 32.6016,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

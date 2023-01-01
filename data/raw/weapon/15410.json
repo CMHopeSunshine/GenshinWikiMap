@@ -1,0 +1,168 @@
+{
+  "id": 15410,
+  "rank": 4,
+  "type": "弓",
+  "name": "暗巷猎手",
+  "description": "外形精巧奢华的长弓，曾属于某位从未被抓获的义贼。",
+  "icon": "UI_EquipIcon_Bow_Outlaw",
+  "storyId": 195410,
+  "affix": {
+    "115410": {
+      "name": "街巷伏击",
+      "upgrade": {
+        "0": "装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升<color=#99FFFFFF>2%<\/color>，最多通过这种方式获得<color=#99FFFFFF>20%<\/color>的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失<color=#99FFFFFF>4%<\/color>，直到降低至0%。",
+        "1": "装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升<color=#99FFFFFF>2.5%<\/color>，最多通过这种方式获得<color=#99FFFFFF>25%<\/color>的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失<color=#99FFFFFF>5%<\/color>，直到降低至0%。",
+        "2": "装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升<color=#99FFFFFF>3%<\/color>，最多通过这种方式获得<color=#99FFFFFF>30%<\/color>的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失<color=#99FFFFFF>6%<\/color>，直到降低至0%。",
+        "3": "装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升<color=#99FFFFFF>3.5%<\/color>，最多通过这种方式获得<color=#99FFFFFF>35%<\/color>的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失<color=#99FFFFFF>7%<\/color>，直到降低至0%。",
+        "4": "装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升<color=#99FFFFFF>4%<\/color>，最多通过这种方式获得<color=#99FFFFFF>40%<\/color>的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失<color=#99FFFFFF>8%<\/color>，直到降低至0%。"
+      }
+    }
+  },
+  "route": "Alley Hunter",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.06,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112002": 2,
+          "112023": 3,
+          "114009": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112002": 8,
+          "112023": 12,
+          "114010": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112003": 6,
+          "112024": 6,
+          "114010": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112003": 9,
+          "112024": 12,
+          "114011": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112004": 6,
+          "112025": 9,
+          "114011": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112004": 12,
+          "112025": 18,
+          "114012": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112002": 1,
+    "112003": 2,
+    "112004": 3,
+    "112023": 2,
+    "112024": 3,
+    "112025": 4,
+    "114009": 2,
+    "114010": 3,
+    "114011": 4,
+    "114012": 5
+  }
+}

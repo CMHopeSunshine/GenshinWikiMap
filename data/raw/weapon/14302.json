@@ -1,0 +1,168 @@
+{
+  "id": 14302,
+  "rank": 3,
+  "type": "法器",
+  "name": "讨龙英杰谭",
+  "description": "五名英雄踏上屠龙征途的虚构故事。文笔很差，结构散乱。失败的教训是这本书所拥有的伟大力量。",
+  "icon": "UI_EquipIcon_Catalyst_Pulpfic",
+  "storyId": 194302,
+  "affix": {
+    "114302": {
+      "name": "传承",
+      "upgrade": {
+        "0": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>24%<\/color>，持续10秒。该效果每20秒只能触发一次。",
+        "1": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>30%<\/color>，持续10秒。该效果每20秒只能触发一次。",
+        "2": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>36%<\/color>，持续10秒。该效果每20秒只能触发一次。",
+        "3": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>42%<\/color>，持续10秒。该效果每20秒只能触发一次。",
+        "4": "主动切换角色时，新登场的角色攻击力提升<color=#99FFFFFF>48%<\/color>，持续10秒。该效果每20秒只能触发一次。"
+      }
+    }
+  },
+  "route": "Thrilling Tales of Dragon Slayers",
+  "upgrade": {
+    "awakenCost": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 38.7413,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.0766,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112008": 1,
+          "112020": 2,
+          "114005": 2
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 19.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112008": 5,
+          "112020": 8,
+          "114006": 2
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 38.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112009": 4,
+          "112021": 4,
+          "114006": 4
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 58.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112009": 6,
+          "112021": 8,
+          "114007": 2
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112010": 4,
+          "112022": 6,
+          "114007": 4
+        },
+        "coinCost": 25000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 97.3,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112010": 8,
+          "112022": 12,
+          "114008": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 116.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112008": 1,
+    "112009": 2,
+    "112010": 3,
+    "112020": 2,
+    "112021": 3,
+    "112022": 4,
+    "114005": 2,
+    "114006": 3,
+    "114007": 4,
+    "114008": 5
+  }
+}

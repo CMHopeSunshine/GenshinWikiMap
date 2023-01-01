@@ -1,0 +1,374 @@
+{
+  "id": 22010301,
+  "name": "水深渊法师",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Abyss_Water_01",
+  "route": "Hydro Abyss Mage",
+  "title": "水之咏者",
+  "specialName": "深渊法师·埃兰别特",
+  "description": "利用水元素战斗的深渊魔物。\\n在冒险者当中有传说说，深渊法师作为「深渊教团」底层的执行者，活跃在世界各地、从事各种阴谋破坏。尽管他们还戏称这种水深渊法师的最大危害是会导致风湿发作，其实它们有着不容小觑的力量。",
+  "entries": {
+    "22010301": {
+      "id": 22010301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112020": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112020",
+          "count": "2.2324"
+        },
+        "112021": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112021",
+          "count": "0.5953"
+        },
+        "112022": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112022",
+          "count": "0.1487"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22010302": {
+      "id": 22010302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "防护",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Defence_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010303": {
+      "id": 22010303,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "灵动",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Agility_Enhance"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "灵动-深渊法师逻辑",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_AgilityEnhance_Abyss_Plugin"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010304": {
+      "id": 22010304,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010012,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010305": {
+      "id": 22010305,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "13201": {
+      "images": [
+        "UI_Abyss_Water_01_Tutorial01"
+      ],
+      "description": "利用<color=#FFE14BFF>水元素护罩<\/color>保护自己。如果用冰元素等能<color=#FFE14BFF>与之产生反应的元素攻击<\/color>的话，或许能突破它的防御…"
+    }
+  }
+}

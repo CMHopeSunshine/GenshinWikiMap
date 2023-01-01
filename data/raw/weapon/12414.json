@@ -1,0 +1,168 @@
+{
+  "id": 12414,
+  "rank": 4,
+  "type": "双手剑",
+  "name": "桂木斩长正",
+  "description": "过去在踏鞴砂打造的刀，沉重而坚韧。",
+  "icon": "UI_EquipIcon_Claymore_Bakufu",
+  "storyId": 192414,
+  "affix": {
+    "112414": {
+      "name": "名士振舞",
+      "upgrade": {
+        "0": "元素战技造成的伤害提升<color=#99FFFFFF>6%<\/color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>3<\/color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。",
+        "1": "元素战技造成的伤害提升<color=#99FFFFFF>7.5%<\/color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>3.5<\/color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。",
+        "2": "元素战技造成的伤害提升<color=#99FFFFFF>9%<\/color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>4<\/color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。",
+        "3": "元素战技造成的伤害提升<color=#99FFFFFF>10.5%<\/color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>4.5<\/color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。",
+        "4": "元素战技造成的伤害提升<color=#99FFFFFF>12%<\/color>。元素战技命中后，角色流失3点元素能量，并在此后的6秒内，每2秒恢复<color=#99FFFFFF>5<\/color>点元素能量。该效果每10秒至多触发一次，角色处于队伍后台也能触发。"
+      }
+    }
+  },
+  "route": "Katsuragikiri Nagamasa",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.1,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112044": 2,
+          "112047": 3,
+          "114029": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112044": 8,
+          "112047": 12,
+          "114030": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112045": 6,
+          "112048": 6,
+          "114030": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112045": 9,
+          "112048": 12,
+          "114031": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112046": 6,
+          "112049": 9,
+          "114031": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112046": 12,
+          "112049": 18,
+          "114032": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112044": 1,
+    "112045": 2,
+    "112046": 3,
+    "112047": 2,
+    "112048": 3,
+    "112049": 4,
+    "114029": 2,
+    "114030": 3,
+    "114031": 4,
+    "114032": 5
+  }
+}

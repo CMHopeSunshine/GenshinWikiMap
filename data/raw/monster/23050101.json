@@ -1,0 +1,111 @@
+{
+  "id": 23050101,
+  "name": "愚人众·藏镜仕女",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Fatuus_Maiden_Water",
+  "route": "Mirror Maiden",
+  "title": "冬国仕女·水镜的使者",
+  "specialName": "愚人众·安妮雅",
+  "description": "操纵着水镜进行战斗，有着仿如侍奉神明般的端庄姿态的愚人众仕女。\\n优雅自如地操控着水镜的力量，让为之所炫的人，心甘情愿地坠入她的幻境。似乎一切都逃不过她的耳朵。被蒙住的双眼，不知见识过什么景象，也不知其中会倒映出怎样的执妄…",
+  "entries": {
+    "23050101": {
+      "id": 23050101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.144,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.5,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112050": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112050",
+          "count": "5.2526"
+        },
+        "112051": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112051",
+          "count": "1.4006"
+        },
+        "112052": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112052",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "28001": {
+      "images": [
+        "UI_Tutorial_92"
+      ],
+      "description": "利用水之镜战斗的愚人众仕女。部分技能命中角色后，<color=#FFE14BFF>会对角色施加「水光破镜」的标记<\/color>。她的身边存在处于「水光破镜」状态下的角色时，进入偏光状态，获得强化。"
+    }
+  }
+}

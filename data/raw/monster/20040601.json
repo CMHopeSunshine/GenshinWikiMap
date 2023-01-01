@@ -1,0 +1,202 @@
+{
+  "id": 20040601,
+  "name": "无相之火",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Fire",
+  "route": "Pyro Hypostasis",
+  "title": "无相之火",
+  "specialName": "「亚因」",
+  "description": "代号为「亚因」的高级火元素生命。\\n根据学者的研究，无相元素与当地元素脉络的异常有着密切的关联。但究竟是无相元素的存在影响了元素脉络，还是异变的元素能量创生了无相元素，就不得而知了。",
+  "entries": {
+    "20040601": {
+      "id": 20040601,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "113024": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113024",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    },
+    "20040602": {
+      "id": 20040602,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010031,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010031,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "28101": {
+      "images": [
+        "UI_Tutorial_93"
+      ],
+      "description": "用惰性的方壳保护自己与战斗的强大元素魔物。具有「燃烧」与「熄灭」两种状态。处于燃烧状态下时，无相之火的元素核心不会暴露，并会持续恢复生命；<color=#FFE14BFF>通过合适的元素反应使其熄灭<\/color>后，才能得到突破的机会。在熄灭状态下，无相之火会创造「火种」，尝试复燃…"
+    }
+  }
+}

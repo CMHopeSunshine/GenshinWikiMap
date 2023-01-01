@@ -1,0 +1,83 @@
+{
+  "id": 23010401,
+  "name": "愚人众先遣队·岩使游击兵",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Staff_Rock_01",
+  "route": "Fatui Skirmisher - Geochanter Bracer",
+  "title": "先遣队·岩使游击兵",
+  "specialName": "愚人众·列夫",
+  "description": "能驱使岩元素构成护罩，保护战友的先遣队士兵。\\n不同于少数精锐的债务处理人与萤术士，先遣队的单兵实力与装备较为薄弱。\\n为了完成任务，为了减少人员与物资的损耗，先遣队的战术更讲究团队协作。",
+  "entries": {
+    "23010401": {
+      "id": 23010401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010027,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010027,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112032": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112032",
+          "count": "4.202"
+        },
+        "112033": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112033",
+          "count": "1.1205"
+        },
+        "112034": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112034",
+          "count": "0.28"
+        }
+      }
+    }
+  },
+  "tips": {
+    "26101": {
+      "images": [
+        "UI_Tutorial_50"
+      ],
+      "description": "持有驾驭尘岩的法杖，能够创造晶岩护罩的愚人众士兵。能进入某种<color=#FFE14BFF>元素增幅<\/color>状态。如果要破除他的增幅状态与护罩，或许可以利用<color=#FFE14BFF>对付岩元素的方法<\/color>对付他…"
+    }
+  }
+}

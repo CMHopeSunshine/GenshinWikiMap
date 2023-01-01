@@ -1,0 +1,250 @@
+{
+  "id": 24010101,
+  "name": "遗迹守卫",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Defender_Noner_01",
+  "route": "Ruin Guard",
+  "title": "遗迹守卫",
+  "specialName": "Hu-91943",
+  "description": "古老的人形战斗机械。\\n传说是已经覆灭的国度留下的战争机械，会徘徊至世界各地的遗迹废都，并攻击冒失的旅人。研究表明遗迹守卫与这些废墟并非同源，表明两者的时代也相差至少数千年，为何遗迹守卫会驻留在其中，并以「爆炸性的火力」守护这些残垣断壁呢…",
+  "entries": {
+    "24010101": {
+      "id": 24010101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112023": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112023",
+          "count": "2.6263"
+        },
+        "112024": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112024",
+          "count": "0.7003"
+        },
+        "112025": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112025",
+          "count": "0.1751"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "24010102": {
+      "id": 24010102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": null
+    },
+    "24010108": {
+      "id": 24010108,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 24451.19922,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "24010109": {
+      "id": 24010109,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 24451.19922,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "13601": {
+      "images": [
+        "UI_Defender_None_01_Tutorial01"
+      ],
+      "description": "头部与背部裸露的<color=#FFE14BFF>核心<\/color>是最大的弱点。如果能命中的话…"
+    }
+  }
+}

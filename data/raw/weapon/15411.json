@@ -1,0 +1,168 @@
+{
+  "id": 15411,
+  "rank": 4,
+  "type": "弓",
+  "name": "落霞",
+  "description": "以白金精制而成的宝弓，其上镶嵌着霞光闪烁的宝珠。",
+  "icon": "UI_EquipIcon_Bow_Fallensun",
+  "storyId": 195411,
+  "affix": {
+    "115411": {
+      "name": "渊中霞彩",
+      "upgrade": {
+        "0": "具有夕暮、流霞、朝晖三种状态，分别能使造成的伤害提升<color=#99FFFFFF>6%\/10%\/14%<\/color>。攻击命中敌人后，将转换为下一种状态，每7秒至多转换一次状态。装备该武器的角色处于队伍后台时该效果依旧能触发转换。",
+        "1": "具有夕暮、流霞、朝晖三种状态，分别能使造成的伤害提升<color=#99FFFFFF>7.5%\/12.5%\/17.5%<\/color>。攻击命中敌人后，将转换为下一种状态，每7秒至多转换一次状态。装备该武器的角色处于队伍后台时该效果依旧能触发转换。",
+        "2": "具有夕暮、流霞、朝晖三种状态，分别能使造成的伤害提升<color=#99FFFFFF>9%\/15%\/21%<\/color>。攻击命中敌人后，将转换为下一种状态，每7秒至多转换一次状态。装备该武器的角色处于队伍后台时该效果依旧能触发转换。",
+        "3": "具有夕暮、流霞、朝晖三种状态，分别能使造成的伤害提升<color=#99FFFFFF>10.5%\/17.5%\/24.5%<\/color>。攻击命中敌人后，将转换为下一种状态，每7秒至多转换一次状态。装备该武器的角色处于队伍后台时该效果依旧能触发转换。",
+        "4": "具有夕暮、流霞、朝晖三种状态，分别能使造成的伤害提升<color=#99FFFFFF>12%\/20%\/28%<\/color>。攻击命中敌人后，将转换为下一种状态，每7秒至多转换一次状态。装备该武器的角色处于队伍后台时该效果依旧能触发转换。"
+      }
+    }
+  },
+  "route": "Fading Twilight",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.06667,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112008": 2,
+          "112029": 3,
+          "114021": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112008": 8,
+          "112029": 12,
+          "114022": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112009": 6,
+          "112030": 6,
+          "114022": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112009": 9,
+          "112030": 12,
+          "114023": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112010": 6,
+          "112031": 9,
+          "114023": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112010": 12,
+          "112031": 18,
+          "114024": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112008": 1,
+    "112009": 2,
+    "112010": 3,
+    "112029": 2,
+    "112030": 3,
+    "112031": 4,
+    "114021": 2,
+    "114022": 3,
+    "114023": 4,
+    "114024": 5
+  }
+}

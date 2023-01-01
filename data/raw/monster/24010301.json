@@ -1,0 +1,309 @@
+{
+  "id": 24010301,
+  "name": "遗迹重机",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Konungmathr",
+  "route": "Ruin Grader",
+  "title": "遗迹重机",
+  "specialName": "Ra-36875",
+  "description": "古老的人形战斗机械。\\n形态与遗迹守卫相似，但形态更为扭曲、力量更为强大。似乎是为了驱动过于沉重的躯体，在双脚上还额外装配了能量核心。",
+  "entries": {
+    "24010301": {
+      "id": 24010301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112023": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112023",
+          "count": "2.6263"
+        },
+        "112024": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112024",
+          "count": "0.7003"
+        },
+        "112025": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112025",
+          "count": "0.1751"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "24010302": {
+      "id": 24010302,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": null
+    },
+    "24010303": {
+      "id": 24010303,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "遗迹重机挖矿活动-强化",
+          "description": "遗迹重机挖矿活动-强化",
+          "abilityName": [
+            "Monster_Konungmathr_None_BattleState",
+            "Monster_Konungmathr_None_Enhance",
+            "Monster_Konungmathr_None_Enhance_CountDown",
+            "Monster_Konungmathr_None_Enhance_Tag",
+            "Monster_Konungmathr_None_Enhance_Keep",
+            "Monster_Konungmathr_None_Limbo",
+            "Monster_Konungmathr_None_Limbo_StateChange",
+            "Monster_Konungmathr_None_RealDie",
+            "Monster_Konungmathr_None_MachineCount_Improve",
+            "Monster_Konungmathr_None_Destroy_HatreControl",
+            "Monster_Konungmathr_None_Destroy_Move",
+            "Monster_Konungmathr_None_Destroy_Find",
+            "Monster_Konungmathr_None_DestroyLaser_Find",
+            "Monster_Konungmathr_None_Destroy_Laser",
+            "Monster_Konungmathr_None_Destroy_LaserDamage"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 190.17599,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": null
+    },
+    "24010304": {
+      "id": 24010304,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "森林书WQ遗迹重机",
+          "description": "遗迹重机复活逻辑",
+          "abilityName": [
+            "Monster_Konungmathr_None_WQ_Limbo",
+            "Monster_Konungmathr_None_WQ_Limbo_StateChange"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010040,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010040,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 87.92,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "27001": {
+      "images": [
+        "UI_DragonspineTutorial_Monster_02"
+      ],
+      "description": "进行某些攻击时，遗迹重机头部与双脚的<color=#FFE14BFF>核心<\/color>会裸露出来。如果能抓住这个机会，攻击核心的话，或许能比较轻松地战胜它…"
+    }
+  }
+}

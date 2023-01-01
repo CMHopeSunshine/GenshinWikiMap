@@ -1,0 +1,198 @@
+{
+  "id": 20040401,
+  "name": "无相之水",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Water",
+  "route": "Hydro Hypostasis",
+  "title": "无相之水",
+  "specialName": "「希伊」",
+  "description": "代号为「希伊」的高级水元素生命。\\n无相元素有强大的排异本能，会无情地驱逐试探它的人。\\n排异习性的对象似乎甚至会延展到天然的元素上。",
+  "entries": {
+    "20040401": {
+      "id": 20040401,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 113.04,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104121": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "113028": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113028",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400047": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400132": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15010_3"
+        },
+        "400133": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15010_3"
+        }
+      }
+    },
+    "20040402": {
+      "id": 20040402,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "28301": {
+      "images": [
+        "UI_Tutorial_103"
+      ],
+      "description": "会利用惰性的方壳保护自己，抓住<color=#FFE14BFF>元素核心<\/color>暴露在外的时机，才能有效攻击。命悬一线时，会分裂出三个向核心移动的「水滴」。<color=#FFE14BFF>及时消灭这些水滴<\/color>，才能阻止无相之水复苏。"
+    }
+  }
+}

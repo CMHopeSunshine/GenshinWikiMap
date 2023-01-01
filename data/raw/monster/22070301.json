@@ -1,0 +1,210 @@
+{
+  "id": 22070301,
+  "name": "黯色空壳·近卫",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_ForlornVessel_Strong_Chargebow_Ice",
+  "route": "Shadowy Husk: Defender",
+  "title": "黑蛇骑士的终末",
+  "specialName": "黯色空壳·近卫",
+  "description": "漆黑的士兵。曾经是地下古国的骄傲军人，如今不过是一具残留着战斗记忆的空壳罢了。\\n万物尽头皆是废退，而这种空壳就是「黑蛇骑士」在罪、诅咒、时间的冲刷之下变成的模样。",
+  "entries": {
+    "22070301": {
+      "id": 22070301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.3,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "6.5658"
+        },
+        "112018": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "1.7508"
+        },
+        "112019": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22070302": {
+      "id": 22070302,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.3,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "6.5658"
+        },
+        "112018": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "1.7508"
+        },
+        "112019": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "301001": {
+      "images": [
+        "UI_Tutorial_132"
+      ],
+      "description": "谜样的漆黑弓手。它的攻击在<color=#FFE14BFF>命中处于护盾庇护下的角色<\/color>后，会在一定时间内变换武器的形姿，展开抵御伤害的坚盾，并以生命值为代价，在此期间获得攻击力提升。黯色空壳·近卫通过这种方式获得的攻击力提升能够叠加多次。"
+    }
+  }
+}

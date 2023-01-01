@@ -1,0 +1,168 @@
+{
+  "id": 13509,
+  "rank": 5,
+  "type": "长柄武器",
+  "name": "薙草之稻光",
+  "description": "用于「斩草」的薙刀。对向此物之军势，也会如苇草般倒下吧…",
+  "icon": "UI_EquipIcon_Pole_Narukami",
+  "storyId": 193509,
+  "affix": {
+    "113509": {
+      "name": "非时之梦·常世灶食",
+      "upgrade": {
+        "0": "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的<color=#99FFFFFF>28%<\/color>，至多通过这种方式提升<color=#99FFFFFF>80%<\/color>。施放元素爆发后的12秒内，元素充能效率提升<color=#99FFFFFF>30%<\/color>。",
+        "1": "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的<color=#99FFFFFF>35%<\/color>，至多通过这种方式提升<color=#99FFFFFF>90%<\/color>。施放元素爆发后的12秒内，元素充能效率提升<color=#99FFFFFF>35%<\/color>。",
+        "2": "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的<color=#99FFFFFF>42%<\/color>，至多通过这种方式提升<color=#99FFFFFF>100%<\/color>。施放元素爆发后的12秒内，元素充能效率提升<color=#99FFFFFF>40%<\/color>。",
+        "3": "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的<color=#99FFFFFF>49%<\/color>，至多通过这种方式提升<color=#99FFFFFF>110%<\/color>。施放元素爆发后的12秒内，元素充能效率提升<color=#99FFFFFF>45%<\/color>。",
+        "4": "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的<color=#99FFFFFF>56%<\/color>，至多通过这种方式提升<color=#99FFFFFF>120%<\/color>。施放元素爆发后的12秒内，元素充能效率提升<color=#99FFFFFF>50%<\/color>。"
+      }
+    }
+  },
+  "route": "Engulfing Lightning",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112044": 3,
+          "112047": 5,
+          "114033": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112044": 12,
+          "112047": 18,
+          "114034": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112045": 9,
+          "112048": 9,
+          "114034": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112045": 14,
+          "112048": 18,
+          "114035": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112046": 9,
+          "112049": 14,
+          "114035": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112046": 18,
+          "112049": 27,
+          "114036": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112044": 1,
+    "112045": 2,
+    "112046": 3,
+    "112047": 2,
+    "112048": 3,
+    "112049": 4,
+    "114033": 2,
+    "114034": 3,
+    "114035": 4,
+    "114036": 5
+  }
+}

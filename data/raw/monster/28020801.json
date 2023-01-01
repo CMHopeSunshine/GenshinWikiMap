@@ -1,0 +1,88 @@
+{
+  "id": 28020801,
+  "name": "妖狸",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Inu_Tanuki_01",
+  "route": "Bake-Danuki",
+  "title": null,
+  "specialName": null,
+  "description": "生性乐天、神出鬼没的狸，懂得只在一族中流传的法术。有着变化成其他物体，乃至于人类的能力。\\n尽管经常会和某个隶属于幕府的神秘组织扯上关系，但狸子可没有那么多的坏心眼，捉弄人类也只是喜欢玩闹罢了。\\n例外在记载中只有一次。很多年前，以妖狸五百藏为首，镇守之森的妖狸发起了一场「狸合战」，似乎是因为其首领与一位妖狐的纠葛。但这件事的结果就是大部分的妖狸都被封印在石像中。",
+  "entries": {
+    "28020801": {
+      "id": 28020801,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 9999,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020802": {
+      "id": 28020802,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 9999,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020803": {
+      "id": 28020803,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 9999,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

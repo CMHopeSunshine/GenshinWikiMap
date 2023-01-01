@@ -1,0 +1,145 @@
+{
+  "id": 20010201,
+  "name": "大型草史莱姆",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Slime_Grass_03",
+  "route": "Large Dendro Slime",
+  "title": "大型草史莱姆",
+  "specialName": "圆滚滚的元素之力",
+  "description": "因为充沛的草元素，而发生了生态上的质变的史莱姆。\\n但也有人认为，从热衷于通过欺骗性的伪装来偷袭猎物，类似骗骗花的捕猎行为来看，或许是被特殊的植物寄生的史莱姆。从这个角度来看，草史莱姆在某些文化当中，或许被认为具有特别的药用价值…？",
+  "entries": {
+    "20010201": {
+      "id": 20010201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "召唤怪同生同死",
+          "description": "召唤怪跟随创建者的生命周期",
+          "abilityName": [
+            "MonsterAffix_Summon_Lifetime"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 35.168,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112002": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112002",
+          "count": "0.6723"
+        },
+        "112003": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112003",
+          "count": "0.1792"
+        },
+        "112004": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112004",
+          "count": "0.0448"
+        }
+      }
+    },
+    "20010202": {
+      "id": 20010202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "召唤怪同生同死",
+          "description": "召唤怪跟随创建者的生命周期",
+          "abilityName": [
+            "MonsterAffix_Summon_Lifetime"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010013,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 35.168,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

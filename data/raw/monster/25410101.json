@@ -1,0 +1,67 @@
+{
+  "id": 25410101,
+  "name": "镀金旅团·魔岩役使",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Eremite_Male_Strong_Katar",
+  "route": "Eremite Stone Enchanter",
+  "title": "镀金旅团·灵风猎手",
+  "specialName": "使役风之魔鸢的猎手",
+  "description": "从沙漠中走出的松散佣兵团体中的一员，为了报酬愿意为任何人效力。\\n在古代，这些重装的武士乃是烈日君王最为亲信的宿卫。或许正是由于这个缘故，他们身上至今仍流溢着太阳般的金色光辉。\\n使用的武器中封印着残破的厄灵，会在危急时苏醒。只有战败者的哀嚎才能平息他们的愤怒。——不论败者是武器的主人，抑或是敌人。",
+  "entries": {
+    "25410101": {
+      "id": 25410101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "302501": {
+      "images": [
+        "UI_Tutorial_146"
+      ],
+      "description": "来自沙漠的松散佣兵团体中的战士。在承受一定伤害后，会解放封印在体内的岩之魔蜥厄灵，一同面对敌手，并<color=#FFE14BFF>进入魔化状态<\/color>。<color=#FFE14BFF>击败魔蜥厄灵<\/color>后，他会陷入一定时间的虚弱状态。"
+    }
+  }
+}

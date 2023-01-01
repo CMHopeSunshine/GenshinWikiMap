@@ -1,0 +1,175 @@
+{
+  "id": 22030101,
+  "name": "深渊咏者·紫电",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Invoker_Deacon_Electric_01",
+  "route": "Abyss Lector: Violet Lightning",
+  "title": "降下紫电的福音使者",
+  "specialName": "深渊咏者·奥奇里克",
+  "description": "驱雷掣电，高颂着漆黑渊薮的魔物，隶属于「深渊教团」。\\n它们是深渊的布道者、学士。以狂雷将冥冥长夜所扭曲的深黑智慧，灌入不信者的心中，以无边的紫电，昭告侵蚀人智的伟大力量的存在。",
+  "entries": {
+    "22030101": {
+      "id": 22030101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22030102": {
+      "id": 22030102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "剧情任务-脱战逻辑标签",
+          "description": "剧情任务-脱战逻辑标签",
+          "abilityName": [
+            "MonsterAffix_Quest_ReturnToBorn"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22030103": {
+      "id": 22030103,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "剧情任务-脱战逻辑标签",
+          "description": "剧情任务-脱战逻辑标签",
+          "abilityName": [
+            "MonsterAffix_Quest_ReturnToBorn"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "WQ深渊咏者·紫电-落石",
+          "description": "WQ深渊咏者·紫电-落石",
+          "abilityName": [
+            "MonsterAffix_Drop_Rock"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "27701": {
+      "images": [
+        "UI_Tutorial_85b"
+      ],
+      "description": "「深渊教团」的魔物，驱雷掣电，高颂着漆黑渊薮。一定程度上拥有消解元素的能力。它的一些攻击对角色造成伤害时，会<color=#FFE14BFF>损耗角色的元素能量<\/color>。"
+    }
+  }
+}

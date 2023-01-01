@@ -1,0 +1,138 @@
+{
+  "id": 28020605,
+  "name": "青雷鼬",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Marten_05",
+  "route": "Bluethunder Weasel",
+  "title": null,
+  "specialName": null,
+  "description": "出没在层岩巨渊的矿道、洞窟深处，生活在地下的机智鼬类，皮毛泛着特异的青色光泽。\\n适应了长期光线黯淡的生活，拥有非常优秀的听力与嗅觉。\\n因为玉色的眼瞳与异色的毛皮，所以这种鼬的出没也被矿工们视为开采出宝石的征兆。实际上这两者之间毫无关系。",
+  "entries": {
+    "28020601": {
+      "id": 28020601,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020602": {
+      "id": 28020602,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020603": {
+      "id": 28020603,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020604": {
+      "id": 28020604,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28020605": {
+      "id": 28020605,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

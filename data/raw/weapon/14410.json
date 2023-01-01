@@ -1,0 +1,168 @@
+{
+  "id": 14410,
+  "rank": 4,
+  "type": "法器",
+  "name": "暗巷的酒与诗",
+  "description": "过去贵族时代流行的歌谱，作者已无从考究。其中记载了某位侠盗的故事…",
+  "icon": "UI_EquipIcon_Catalyst_Outlaw",
+  "storyId": 194410,
+  "affix": {
+    "114410": {
+      "name": "变化万端",
+      "upgrade": {
+        "0": "普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低<color=#99FFFFFF>14%<\/color>，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升<color=#99FFFFFF>20%<\/color>，持续5秒。",
+        "1": "普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低<color=#99FFFFFF>16%<\/color>，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升<color=#99FFFFFF>25%<\/color>，持续5秒。",
+        "2": "普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低<color=#99FFFFFF>18%<\/color>，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升<color=#99FFFFFF>30%<\/color>，持续5秒。",
+        "3": "普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低<color=#99FFFFFF>20%<\/color>，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升<color=#99FFFFFF>35%<\/color>，持续5秒。",
+        "4": "普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低<color=#99FFFFFF>22%<\/color>，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升<color=#99FFFFFF>40%<\/color>，持续5秒。"
+      }
+    }
+  },
+  "route": "Wine and Song",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.06667,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112020": 3,
+          "112035": 2,
+          "114005": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112020": 12,
+          "112035": 8,
+          "114006": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112021": 6,
+          "112036": 6,
+          "114006": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112021": 12,
+          "112036": 9,
+          "114007": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112022": 9,
+          "112037": 6,
+          "114007": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112022": 18,
+          "112037": 12,
+          "114008": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112020": 2,
+    "112021": 3,
+    "112022": 4,
+    "112035": 1,
+    "112036": 2,
+    "112037": 3,
+    "114005": 2,
+    "114006": 3,
+    "114007": 4,
+    "114008": 5
+  }
+}

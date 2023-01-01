@@ -1,0 +1,111 @@
+{
+  "id": 26030101,
+  "name": "幼岩龙蜥",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Wyrm_Rock",
+  "route": "Geovishap Hatchling",
+  "title": "幼岩龙蜥",
+  "specialName": "梦想成为巨龙的幼兽",
+  "description": "有着坚硬岩质甲壳的小型龙蜥。\\n行动非常灵活，是不容小觑的对手。须弥教令院的研究认为，即使是这种幼兽，也有成为「龙」的潜质。假以时日，如果不受天灾与敌害，或许也有一天能成为撼动高山的巨大魔物吧。",
+  "entries": {
+    "26030101": {
+      "id": 26030101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 54.2592,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112041": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112041",
+          "count": "5.2526"
+        },
+        "112042": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112042",
+          "count": "1.4006"
+        },
+        "112043": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112043",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "26601": {
+      "images": [
+        "UI_Tutorial_54"
+      ],
+      "description": "体格不大，行动非常灵活的龙蜥幼兽。攻击中的某一式命中受到<color=#FFE14BFF>护盾<\/color>庇护的角色时，好像会因为反作用力而暂时陷入瘫痪…"
+    }
+  }
+}

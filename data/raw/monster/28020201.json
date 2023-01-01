@@ -1,0 +1,38 @@
+{
+  "id": 28020201,
+  "name": "松鼠",
+  "type": "走兽",
+  "icon": "UI_AnimalIcon_Squirrel_01",
+  "route": "Squirrel",
+  "title": null,
+  "specialName": null,
+  "description": "大尾巴的松鼠，荒野中常见的小动物。\\n最善于囤积食粮的小小鼠类，尤其偏好松树的种实。",
+  "entries": {
+    "28020201": {
+      "id": 28020201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

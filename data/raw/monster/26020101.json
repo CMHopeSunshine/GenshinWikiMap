@@ -1,0 +1,202 @@
+{
+  "id": 26020101,
+  "name": "急冻树",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Regisvine_Ice",
+  "route": "Cryo Regisvine",
+  "title": "急冻树",
+  "specialName": "静静绽放的霜花",
+  "description": "地脉中的寒霜附着在藤蔓上，由此形成的魔物。\\n有研究认为，植物就像世界的器官一样，调和着元素奔涌的地脉；而这种生态在地表上的结晶就是冰雾花、骗骗花等，充满了元素能量的产物。\\n而生长在特定环境的特定植物，经年累月或许就会成为急冻树这样的，如同魔兽一般庞大而凶猛的生命体吧…",
+  "entries": {
+    "26020101": {
+      "id": 26020101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.7,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113010": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113010",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400147": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15013_3"
+        },
+        "400148": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15013_3"
+        }
+      }
+    },
+    "26020102": {
+      "id": 26020102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "急冻树雪山活动",
+          "description": "急冻树雪山活动",
+          "abilityName": [
+            "MonsterAffix_Regisvine_Ice_Activity"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.7,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "26401": {
+      "images": [
+        "UI_Tutorial_52"
+      ],
+      "description": "会利用怒放花朵的外形欺瞒猎物的掠食性植物，形似藤蔓的茎干十分坚硬。在根部似乎生长着类似<color=#FFE14BFF>冰元素核心<\/color>的某种器官，或许是战胜它的关键也说不定…"
+    }
+  }
+}

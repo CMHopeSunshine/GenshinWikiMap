@@ -1,0 +1,215 @@
+{
+  "id": 20010501,
+  "name": "雷史莱姆",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Slime_Electric_02",
+  "route": "Electro Slime",
+  "title": "雷史莱姆",
+  "specialName": "圆滚滚的元素之力",
+  "description": "逸散在自然之中的雷元素凝聚形成的小小魔物，能够放出微弱的电力。\\n根据分析，雷史莱姆蹦蹦跳跳的运动方式能反映地面上的电势差。在雷元素极其丰沛的地方，可以通过观察雷史莱姆的异常运动，避开危险。",
+  "entries": {
+    "20010501": {
+      "id": 20010501,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "感电免疫",
+          "description": "免疫感电伤害和效果",
+          "abilityName": [
+            "MonsterAffix_ShockResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 7.536,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112002": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112002",
+          "count": "0.6723"
+        },
+        "112003": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112003",
+          "count": "0.1792"
+        },
+        "112004": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112004",
+          "count": "0.0448"
+        }
+      }
+    },
+    "20010502": {
+      "id": 20010502,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "感电免疫",
+          "description": "免疫感电伤害和效果",
+          "abilityName": [
+            "MonsterAffix_ShockResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 7.536,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "20010503": {
+      "id": 20010503,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "感电免疫",
+          "description": "免疫感电伤害和效果",
+          "abilityName": [
+            "MonsterAffix_ShockResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "3.2奇趣妙园特殊小史莱姆",
+          "description": "3.2奇趣妙园特殊小史莱姆",
+          "abilityName": [
+            "MonsterAffix_Slime_SimpleStick"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 7.536,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

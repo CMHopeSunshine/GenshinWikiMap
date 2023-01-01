@@ -1,0 +1,255 @@
+{
+  "id": 22010401,
+  "name": "雷深渊法师",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Abyss_Electric_01",
+  "route": "Electro Abyss Mage",
+  "title": "雷之咏者",
+  "specialName": "深渊法师·埃兰别特",
+  "description": "利用雷元素战斗的深渊魔物。\\n曾经有一名学者阿尔瓦·尼古拉，在教令院学习时曾对雷深渊法师使用的雷元素模型进行过系统的研究，最终提出了名为「尼古拉线圈」的理论武器，可惜至今无人将其付诸实践。一说认为他的研究资料在蕈兽泛滥的时候被吃掉了。",
+  "entries": {
+    "22010401": {
+      "id": 22010401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 47.1,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010402": {
+      "id": 22010402,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 47.1,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010403": {
+      "id": 22010403,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "防护",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Defence_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 47.1,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010404": {
+      "id": 22010404,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 47.1,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

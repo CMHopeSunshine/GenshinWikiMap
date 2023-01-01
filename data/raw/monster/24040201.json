@@ -1,0 +1,115 @@
+{
+  "id": 24040201,
+  "name": "元能构装体·重塑仪",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Monolith_Ordinator",
+  "route": "Primal Construct: Reshaper",
+  "title": "元能构装体·重塑仪",
+  "specialName": "砂原王都的建造者",
+  "description": "失落在荒漠中的古老遗迹的守护者，其力量足以惩罚一切敢于惊扰君王清梦之人。\\n统治沙海的烈日之王曾向他的子民许诺过彼岸的乐土，然而事实证明那不过是君王愚痴的妄念。\\n如今「乐园」早已湮灭，只有蚀刻在这些机械上的咒文还记录着那些已被世人忘却的梦想与承诺。",
+  "entries": {
+    "24040201": {
+      "id": 24040201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 46.1856,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45.216,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112071": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112071",
+          "count": "2.6263"
+        },
+        "112072": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112072",
+          "count": "0.7003"
+        },
+        "112073": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112073",
+          "count": "0.1751"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "302301": {
+      "images": [
+        "UI_Tutorial_144"
+      ],
+      "description": "来自沙漠的古代机械，与遗迹机关有着显著的区别。在战斗中，元能构装体会将其元件投射出去，核心会进入「不可视」状态，隐身并且提升伤害抵抗能力。<color=#FFE14BFF>使激化反应波及其核心，或是在元件被破坏后恢复期间利用雷元素攻击<\/color>，能够破除元能构装体的不可视状态，并使其进入超频过载的瘫痪状态。"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": 25010401,
+  "name": "盗宝团·水之药剂师",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Thoarder_Male_Chemist_Water_01",
+  "route": "Treasure Hoarders: Hydro Potioneer",
+  "title": "盗宝团·水之药剂师",
+  "specialName": "雅号「泥鳅」",
+  "description": "足迹遍布大陆各处，甚至深入未知秘境的松散盗贼组织中的一员。\\n据说部分盗宝团的药剂师，在加入盗宝团之前，曾经是在城镇间漫游，兜售自己调配的…「灵药」、「圣水」的江湖骗子。这些灵药、圣水显然在战斗中更能大放异彩。",
+  "entries": {
+    "25010401": {
+      "id": 25010401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 20.096,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112035": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112035",
+          "count": "1.2606"
+        },
+        "112036": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112036",
+          "count": "0.3362"
+        },
+        "112037": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112037",
+          "count": "0.084"
+        }
+      }
+    }
+  },
+  "tips": null
+}

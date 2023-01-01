@@ -1,0 +1,168 @@
+{
+  "id": 11404,
+  "rank": 4,
+  "type": "单手剑",
+  "name": "宗室长剑",
+  "description": "曾支配蒙德的旧日贵族的佩剑。做工精良，装饰与雕花彰显着挥舞者的身份。",
+  "icon": "UI_EquipIcon_Sword_Theocrat",
+  "storyId": 191404,
+  "affix": {
+    "111404": {
+      "name": "专注",
+      "upgrade": {
+        "0": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>8%<\/color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+        "1": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>10%<\/color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+        "2": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>12%<\/color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+        "3": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>14%<\/color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+        "4": "攻击造成伤害时，暴击率提升<color=#99FFFFFF>16%<\/color>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。"
+      }
+    }
+  },
+  "route": "Royal Longsword",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.09,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112005": 2,
+          "112014": 3,
+          "114001": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112005": 8,
+          "112014": 12,
+          "114002": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112006": 6,
+          "112015": 6,
+          "114002": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112006": 9,
+          "112015": 12,
+          "114003": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112007": 6,
+          "112016": 9,
+          "114003": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112007": 12,
+          "112016": 18,
+          "114004": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112005": 1,
+    "112006": 2,
+    "112007": 3,
+    "112014": 2,
+    "112015": 3,
+    "112016": 4,
+    "114001": 2,
+    "114002": 3,
+    "114003": 4,
+    "114004": 5
+  }
+}

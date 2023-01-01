@@ -1,0 +1,168 @@
+{
+  "id": 14509,
+  "rank": 5,
+  "type": "法器",
+  "name": "神乐之真意",
+  "description": "表演神乐之舞时所用的神铃，为宫司所赐福。神樱之香萦绕其上。",
+  "icon": "UI_EquipIcon_Catalyst_Narukami",
+  "storyId": 194509,
+  "affix": {
+    "114509": {
+      "name": "神樱神游神乐舞",
+      "upgrade": {
+        "0": "施放元素战技时，将获得「神乐舞」的效果，使装备该武器的角色的元素战技造成的伤害提高<color=#99FFFFFF>12%<\/color>，该效果持续16秒，至多叠加3层。持有3层时，该角色获得<color=#99FFFFFF>12%<\/color>所有元素伤害加成。",
+        "1": "施放元素战技时，将获得「神乐舞」的效果，使装备该武器的角色的元素战技造成的伤害提高<color=#99FFFFFF>15%<\/color>，该效果持续16秒，至多叠加3层。持有3层时，该角色获得<color=#99FFFFFF>15%<\/color>所有元素伤害加成。",
+        "2": "施放元素战技时，将获得「神乐舞」的效果，使装备该武器的角色的元素战技造成的伤害提高<color=#99FFFFFF>18%<\/color>，该效果持续16秒，至多叠加3层。持有3层时，该角色获得<color=#99FFFFFF>18%<\/color>所有元素伤害加成。",
+        "3": "施放元素战技时，将获得「神乐舞」的效果，使装备该武器的角色的元素战技造成的伤害提高<color=#99FFFFFF>21%<\/color>，该效果持续16秒，至多叠加3层。持有3层时，该角色获得<color=#99FFFFFF>21%<\/color>所有元素伤害加成。",
+        "4": "施放元素战技时，将获得「神乐舞」的效果，使装备该武器的角色的元素战技造成的伤害提高<color=#99FFFFFF>24%<\/color>，该效果持续16秒，至多叠加3层。持有3层时，该角色获得<color=#99FFFFFF>24%<\/color>所有元素伤害加成。"
+      }
+    }
+  },
+  "route": "Kagura's Verity",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112053": 3,
+          "112056": 5,
+          "114033": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112053": 12,
+          "112056": 18,
+          "114034": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112054": 9,
+          "112057": 9,
+          "114034": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112054": 14,
+          "112057": 18,
+          "114035": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112055": 9,
+          "112058": 14,
+          "114035": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112055": 18,
+          "112058": 27,
+          "114036": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112053": 1,
+    "112054": 2,
+    "112055": 3,
+    "112056": 2,
+    "112057": 3,
+    "112058": 4,
+    "114033": 2,
+    "114034": 3,
+    "114035": 4,
+    "114036": 5
+  }
+}

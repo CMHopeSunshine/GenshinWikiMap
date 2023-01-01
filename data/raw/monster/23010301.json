@@ -1,0 +1,83 @@
+{
+  "id": 23010301,
+  "name": "愚人众先遣队·雷锤前锋军",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Skirmisher_Male_Strong_GreatHammer_Electric_01",
+  "route": "Fatui Skirmisher - Electrohammer Vanguard",
+  "title": "先遣队·雷锤前锋军",
+  "specialName": "愚人众·列夫",
+  "description": "体格健壮的先遣队士兵，装备了附有雷元素的战锤。\\n成为愚人众的军人意味着优渥的资源：军饷、武装与物资。\\n但与此同时，也意味着远离故土与亲眷，将余命交给过去不曾谋面的战友。",
+  "entries": {
+    "23010301": {
+      "id": 23010301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010024,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010024,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112032": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112032",
+          "count": "4.202"
+        },
+        "112033": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112033",
+          "count": "1.1205"
+        },
+        "112034": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112034",
+          "count": "0.28"
+        }
+      }
+    }
+  },
+  "tips": {
+    "26001": {
+      "images": [
+        "UI_Tutorial_49"
+      ],
+      "description": "挥舞传导电能的战锤的愚人众士兵，能进入某种<color=#FFE14BFF>元素增幅<\/color>状态。这种状态最大的弱点，恐怕是<color=#FFE14BFF>某种能与雷电发生反应的元素之一<\/color>…"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": 20060101,
+  "name": "水飘浮灵",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Sylph_Water_01",
+  "route": "Hydro Specter",
+  "title": "水飘浮灵",
+  "specialName": "飘游的元素之灵",
+  "description": "高浓度的水元素孕育而生的魔物，能够飘浮在空中。\\n在月夜里，飘荡在河边的水飘浮灵散发着幽光。鬼鬼祟祟的它们常被路过的旅人当作游魂，也因此成为了不少乡间民话的常客。",
+  "entries": {
+    "20060101": {
+      "id": 20060101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 21.98,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112053": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112053",
+          "count": "1.2606"
+        },
+        "112054": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112054",
+          "count": "0.3362"
+        },
+        "112055": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112055",
+          "count": "0.084"
+        }
+      }
+    }
+  },
+  "tips": {
+    "28501": {
+      "images": [
+        "UI_Tutorial_105b"
+      ],
+      "description": "高浓度的元素孕育而生的魔物，具有飘浮在空中的力量。<color=#FFE14BFF>受到严重的单次伤害时，会积攒「怒气」<\/color>。怒气充满时，飘浮灵会「膨胀」，变得更加强大，并在被击败时剧烈爆炸。"
+    }
+  }
+}

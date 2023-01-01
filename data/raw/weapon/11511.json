@@ -1,0 +1,168 @@
+{
+  "id": 11511,
+  "rank": 5,
+  "type": "单手剑",
+  "name": "圣显之钥",
+  "description": "黑曜石塑造的一对的权杖中的一件。在传说中，隐藏在沙海尽头的乐园门扉是由这柄密钥开启的。",
+  "icon": "UI_EquipIcon_Sword_Deshret",
+  "storyId": 191511,
+  "affix": {
+    "111511": {
+      "name": "沉入沙海的史诗",
+      "upgrade": {
+        "0": "生命值提升<color=#99FFFFFF>20%<\/color>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<color=#99FFFFFF>0.12%<\/color>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<color=#99FFFFFF>0.2%<\/color>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+        "1": "生命值提升<color=#99FFFFFF>25%<\/color>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<color=#99FFFFFF>0.15%<\/color>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<color=#99FFFFFF>0.25%<\/color>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+        "2": "生命值提升<color=#99FFFFFF>30%<\/color>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<color=#99FFFFFF>0.18%<\/color>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<color=#99FFFFFF>0.3%<\/color>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+        "3": "生命值提升<color=#99FFFFFF>35%<\/color>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<color=#99FFFFFF>0.21%<\/color>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<color=#99FFFFFF>0.35%<\/color>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+        "4": "生命值提升<color=#99FFFFFF>40%<\/color>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<color=#99FFFFFF>0.24%<\/color>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<color=#99FFFFFF>0.4%<\/color>，为队伍中附近所有角色提供元素精通提升，持续20秒。"
+      }
+    }
+  },
+  "route": "Key of Khaj-Nisut",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112065": 3,
+          "112071": 5,
+          "114037": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112065": 12,
+          "112071": 18,
+          "114038": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112066": 9,
+          "112072": 9,
+          "114038": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112066": 14,
+          "112072": 18,
+          "114039": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112067": 9,
+          "112073": 14,
+          "114039": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112067": 18,
+          "112073": 27,
+          "114040": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112065": 1,
+    "112066": 2,
+    "112067": 3,
+    "112071": 2,
+    "112072": 3,
+    "112073": 4,
+    "114037": 2,
+    "114038": 3,
+    "114039": 4,
+    "114040": 5
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": 28010302,
+  "name": "泥蛙",
+  "type": "其他",
+  "icon": "UI_AnimalIcon_Frog_02",
+  "route": "Mud Frog",
+  "title": null,
+  "specialName": null,
+  "description": "常在湿地出没的小小青蛙。\\n潮湿地带十分常见的小动物，身上会分泌奇特的粘液，拥有多种药用用途。相比青蛙，黄色的泥蛙更容易在潮湿的岸边隐藏自己。\\n据说枫丹人会形容难以捉拿的贼匪，或者逃过审判的恶人为「黄油里的泥蛙」。",
+  "entries": {
+    "28010301": {
+      "id": 28010301,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28010302": {
+      "id": 28010302,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28010303": {
+      "id": 28010303,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    },
+    "28010304": {
+      "id": 28010304,
+      "type": "MONSTER_ENV_ANIMAL",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 0.14,
+          "type": "GROW_CURVE_HP_LITTLEMONSTER"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 0.51,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 0,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": null,
+      "reward": null
+    }
+  },
+  "tips": null
+}

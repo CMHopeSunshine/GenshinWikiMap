@@ -1,0 +1,168 @@
+{
+  "id": 15502,
+  "rank": 5,
+  "type": "弓",
+  "name": "阿莫斯之弓",
+  "description": "极为古老的弓。即使原主不复存在，其中蕴藏之力依旧——那种力量无主，却在万物当中。距离心系之物越是遥远，那种力量愈是剧烈。",
+  "icon": "UI_EquipIcon_Bow_Amos",
+  "storyId": 195502,
+  "affix": {
+    "115502": {
+      "name": "矢志不忘",
+      "upgrade": {
+        "0": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>12%<\/color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>8%<\/color>，至多提升5次。",
+        "1": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>15%<\/color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>10%<\/color>，至多提升5次。",
+        "2": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>18%<\/color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>12%<\/color>，至多提升5次。",
+        "3": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>21%<\/color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>14%<\/color>，至多提升5次。",
+        "4": "普通攻击与重击造成的伤害提升<color=#99FFFFFF>24%<\/color>；普通攻击与重击的箭矢发射后每经过0.1秒，伤害还会提升<color=#99FFFFFF>16%<\/color>，至多提升5次。"
+      }
+    }
+  },
+  "route": "Amos' Bow",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.108,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112002": 3,
+          "112023": 5,
+          "114009": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112002": 12,
+          "112023": 18,
+          "114010": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112003": 9,
+          "112024": 9,
+          "114010": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112003": 14,
+          "112024": 18,
+          "114011": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112004": 9,
+          "112025": 14,
+          "114011": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112004": 18,
+          "112025": 27,
+          "114012": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112002": 1,
+    "112003": 2,
+    "112004": 3,
+    "112023": 2,
+    "112024": 3,
+    "112025": 4,
+    "114009": 2,
+    "114010": 3,
+    "114011": 4,
+    "114012": 5
+  }
+}

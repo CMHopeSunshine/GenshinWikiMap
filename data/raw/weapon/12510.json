@@ -1,0 +1,168 @@
+{
+  "id": 12510,
+  "rank": 5,
+  "type": "双手剑",
+  "name": "赤角石溃杵",
+  "description": "依据过去的主人的说法，这是何等鬼怪精妖都能打跑的大杵「赤角石见石溃金涂金啮御狮子」。",
+  "icon": "UI_EquipIcon_Claymore_Itadorimaru",
+  "storyId": 192510,
+  "affix": {
+    "112510": {
+      "name": "御伽大王御伽话",
+      "upgrade": {
+        "0": "防御力提高<color=#99FFFFFF>28%<\/color>；普通攻击与重击造成的伤害值提高，提高数值相当于防御力的<color=#99FFFFFF>40%<\/color>。",
+        "1": "防御力提高<color=#99FFFFFF>35%<\/color>；普通攻击与重击造成的伤害值提高，提高数值相当于防御力的<color=#99FFFFFF>50%<\/color>。",
+        "2": "防御力提高<color=#99FFFFFF>42%<\/color>；普通攻击与重击造成的伤害值提高，提高数值相当于防御力的<color=#99FFFFFF>60%<\/color>。",
+        "3": "防御力提高<color=#99FFFFFF>49%<\/color>；普通攻击与重击造成的伤害值提高，提高数值相当于防御力的<color=#99FFFFFF>70%<\/color>。",
+        "4": "防御力提高<color=#99FFFFFF>56%<\/color>；普通攻击与重击造成的伤害值提高，提高数值相当于防御力的<color=#99FFFFFF>80%<\/color>。"
+      }
+    }
+  },
+  "route": "Redhorn Stonethresher",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.192,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112044": 3,
+          "112056": 5,
+          "114029": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112044": 12,
+          "112056": 18,
+          "114030": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112045": 9,
+          "112057": 9,
+          "114030": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112045": 14,
+          "112057": 18,
+          "114031": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112046": 9,
+          "112058": 14,
+          "114031": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112046": 18,
+          "112058": 27,
+          "114032": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112044": 1,
+    "112045": 2,
+    "112046": 3,
+    "112056": 2,
+    "112057": 3,
+    "112058": 4,
+    "114029": 2,
+    "114030": 3,
+    "114031": 4,
+    "114032": 5
+  }
+}

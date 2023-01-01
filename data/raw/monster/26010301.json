@@ -1,0 +1,60 @@
+{
+  "id": 26010301,
+  "name": "电气骗骗花",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Mimik_Electric",
+  "route": "Electro Whopperflower",
+  "title": "电气骗骗花",
+  "specialName": "伺机而动的拟态植物",
+  "description": "元气满满的拟态植物魔物，会用雷元素攻击猎物。\\n在元素能量充满的时候，可以从花冠中释放出强大的电流，因此也有学者试图将其用于一些其他方面的用途…",
+  "entries": {
+    "26010301": {
+      "id": 26010301,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.5,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

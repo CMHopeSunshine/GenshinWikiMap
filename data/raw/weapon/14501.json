@@ -1,0 +1,168 @@
+{
+  "id": 14501,
+  "rank": 5,
+  "type": "法器",
+  "name": "天空之卷",
+  "description": "象征风龙与其主风之神的云图集。细致记载了北地天空的风与云，蕴含苍空与长风的力量。",
+  "icon": "UI_EquipIcon_Catalyst_Dvalin",
+  "storyId": 194501,
+  "affix": {
+    "114501": {
+      "name": "浮游四方的灵云",
+      "upgrade": {
+        "0": "元素伤害加成提升<color=#99FFFFFF>12%<\/color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>160%<\/color>攻击力的伤害。该效果每30秒只能触发一次。",
+        "1": "元素伤害加成提升<color=#99FFFFFF>15%<\/color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>200%<\/color>攻击力的伤害。该效果每30秒只能触发一次。",
+        "2": "元素伤害加成提升<color=#99FFFFFF>18%<\/color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>240%<\/color>攻击力的伤害。该效果每30秒只能触发一次。",
+        "3": "元素伤害加成提升<color=#99FFFFFF>21%<\/color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>280%<\/color>攻击力的伤害。该效果每30秒只能触发一次。",
+        "4": "元素伤害加成提升<color=#99FFFFFF>24%<\/color>；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于<color=#99FFFFFF>320%<\/color>攻击力的伤害。该效果每30秒只能触发一次。"
+      }
+    }
+  },
+  "route": "Skyward Atlas",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 47.537,
+        "type": "GROW_CURVE_ATTACK_302"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.072,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112011": 3,
+          "112020": 5,
+          "114005": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112011": 12,
+          "112020": 18,
+          "114006": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112012": 9,
+          "112021": 9,
+          "114006": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112012": 14,
+          "112021": 18,
+          "114007": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112013": 9,
+          "112022": 14,
+          "114007": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112013": 18,
+          "112022": 27,
+          "114008": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112011": 1,
+    "112012": 2,
+    "112013": 3,
+    "112020": 2,
+    "112021": 3,
+    "112022": 4,
+    "114005": 2,
+    "114006": 3,
+    "114007": 4,
+    "114008": 5
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 26060201,
+  "name": "水萤",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Cicin_Water_01",
+  "route": "Hydro Cicin",
+  "title": "水萤",
+  "specialName": "湿湿滑滑",
+  "description": "能够稍微导引水元素的小型生物。\\n与其他的萤族生物通称「飞萤」。飞萤对「雾虚草」这种罕见而奇妙的植物情有独钟，而愚人众的术士据此开发了利用飞萤进行战斗的方法。",
+  "entries": {
+    "26060201": {
+      "id": 26060201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010012,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 6.792,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 10.048,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.5,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.5
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,168 @@
+{
+  "id": 11302,
+  "rank": 3,
+  "type": "单手剑",
+  "name": "黎明神剑",
+  "description": "一把曾经耀若朝阳的宝剑，掌握它的人会获得「自我感觉良好」的力量加持。剑身上的发光材料已经褪去。",
+  "icon": "UI_EquipIcon_Sword_Dawn",
+  "storyId": 191302,
+  "affix": {
+    "111302": {
+      "name": "激励",
+      "upgrade": {
+        "0": "生命值高于90%时，暴击率提升<color=#99FFFFFF>14%<\/color>。",
+        "1": "生命值高于90%时，暴击率提升<color=#99FFFFFF>17.5%<\/color>。",
+        "2": "生命值高于90%时，暴击率提升<color=#99FFFFFF>21%<\/color>。",
+        "3": "生命值高于90%时，暴击率提升<color=#99FFFFFF>24.5%<\/color>。",
+        "4": "生命值高于90%时，暴击率提升<color=#99FFFFFF>28%<\/color>。"
+      }
+    }
+  },
+  "route": "Harbinger of Dawn",
+  "upgrade": {
+    "awakenCost": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 38.7413,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.102,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112002": 1,
+          "112020": 2,
+          "114005": 2
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 19.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112002": 5,
+          "112020": 8,
+          "114006": 2
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 38.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112003": 4,
+          "112021": 4,
+          "114006": 4
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 58.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112003": 6,
+          "112021": 8,
+          "114007": 2
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112004": 4,
+          "112022": 6,
+          "114007": 4
+        },
+        "coinCost": 25000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 97.3,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112004": 8,
+          "112022": 12,
+          "114008": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 116.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112002": 1,
+    "112003": 2,
+    "112004": 3,
+    "112020": 2,
+    "112021": 3,
+    "112022": 4,
+    "114005": 2,
+    "114006": 3,
+    "114007": 4,
+    "114008": 5
+  }
+}

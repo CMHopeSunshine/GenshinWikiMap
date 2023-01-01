@@ -1,0 +1,168 @@
+{
+  "id": 11502,
+  "rank": 5,
+  "type": "单手剑",
+  "name": "天空之刃",
+  "description": "象征风龙的荣誉的骑士剑，如今失而复得。剑脊上吹息着风之神的赐福，蕴含苍空与长风的力量。",
+  "icon": "UI_EquipIcon_Sword_Dvalin",
+  "storyId": 191502,
+  "affix": {
+    "111502": {
+      "name": "穿刺高天的利齿",
+      "upgrade": {
+        "0": "暴击率提升<color=#99FFFFFF>4%<\/color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%<\/color>，攻击速度提升<color=#99FFFFFF>10%<\/color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>20%<\/color>攻击力的伤害，持续12秒。",
+        "1": "暴击率提升<color=#99FFFFFF>5%<\/color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%<\/color>，攻击速度提升<color=#99FFFFFF>10%<\/color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>25%<\/color>攻击力的伤害，持续12秒。",
+        "2": "暴击率提升<color=#99FFFFFF>6%<\/color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%<\/color>，攻击速度提升<color=#99FFFFFF>10%<\/color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>30%<\/color>攻击力的伤害，持续12秒。",
+        "3": "暴击率提升<color=#99FFFFFF>7%<\/color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%<\/color>，攻击速度提升<color=#99FFFFFF>10%<\/color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>35%<\/color>攻击力的伤害，持续12秒。",
+        "4": "暴击率提升<color=#99FFFFFF>8%<\/color>；施放元素爆发时，获得破空之势：移动速度提升<color=#99FFFFFF>10%<\/color>，攻击速度提升<color=#99FFFFFF>10%<\/color>，普通攻击与重击命中时，额外造成<color=#99FFFFFF>40%<\/color>攻击力的伤害，持续12秒。"
+      }
+    }
+  },
+  "route": "Skyward Blade",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112002": 3,
+          "112020": 5,
+          "114005": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112002": 12,
+          "112020": 18,
+          "114006": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112003": 9,
+          "112021": 9,
+          "114006": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112003": 14,
+          "112021": 18,
+          "114007": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112004": 9,
+          "112022": 14,
+          "114007": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112004": 18,
+          "112022": 27,
+          "114008": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112002": 1,
+    "112003": 2,
+    "112004": 3,
+    "112020": 2,
+    "112021": 3,
+    "112022": 4,
+    "114005": 2,
+    "114006": 3,
+    "114007": 4,
+    "114008": 5
+  }
+}

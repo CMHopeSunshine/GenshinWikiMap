@@ -1,0 +1,168 @@
+{
+  "id": 13501,
+  "rank": 5,
+  "type": "长柄武器",
+  "name": "护摩之杖",
+  "description": "在早已失落的古老祭仪中，使用的朱赤「柴火杖」。",
+  "icon": "UI_EquipIcon_Pole_Homa",
+  "storyId": 193501,
+  "affix": {
+    "113501": {
+      "name": "无羁的朱赤之蝶",
+      "upgrade": {
+        "0": "生命值提升<color=#99FFFFFF>20%<\/color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>0.8%<\/color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1%<\/color>基于生命值上限的攻击力提升。",
+        "1": "生命值提升<color=#99FFFFFF>25%<\/color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1%<\/color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.2%<\/color>基于生命值上限的攻击力提升。",
+        "2": "生命值提升<color=#99FFFFFF>30%<\/color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.2%<\/color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.4%<\/color>基于生命值上限的攻击力提升。",
+        "3": "生命值提升<color=#99FFFFFF>35%<\/color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.4%<\/color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.6%<\/color>基于生命值上限的攻击力提升。",
+        "4": "生命值提升<color=#99FFFFFF>40%<\/color>。此外，基于装备该武器的角色生命值上限的<color=#99FFFFFF>1.6%<\/color>，获得攻击力加成。当装备该武器的角色生命值低于50%时，进一步获得<color=#99FFFFFF>1.8%<\/color>基于生命值上限的攻击力提升。"
+      }
+    }
+  },
+  "route": "Staff of Homa",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112002": 3,
+          "112020": 5,
+          "114021": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112002": 12,
+          "112020": 18,
+          "114022": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112003": 9,
+          "112021": 9,
+          "114022": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112003": 14,
+          "112021": 18,
+          "114023": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112004": 9,
+          "112022": 14,
+          "114023": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112004": 18,
+          "112022": 27,
+          "114024": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112002": 1,
+    "112003": 2,
+    "112004": 3,
+    "112020": 2,
+    "112021": 3,
+    "112022": 4,
+    "114021": 2,
+    "114022": 3,
+    "114023": 4,
+    "114024": 5
+  }
+}

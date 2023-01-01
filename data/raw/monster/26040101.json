@@ -1,0 +1,535 @@
+{
+  "id": 26040101,
+  "name": "岩龙蜥",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Drake_Rock",
+  "route": "Geovishap",
+  "title": "岩龙蜥",
+  "specialName": "坚若磐石的岩生猛兽",
+  "description": "成熟的岩之龙蜥。\\n据称，幼岩龙蜥历经漫长岁月的积累后，会蜕去原本保护自己的装甲，成为「岩龙蜥」。但这两者，以及更古老、更伟大的「古岩龙蜥」，在过去的许多年中都蛰伏在山下，直到近期才开始活动。因此这种说法没有第一手观测记录证明。",
+  "entries": {
+    "26040101": {
+      "id": 26040101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "岩龙蜥-水",
+          "description": "岩龙蜥-水",
+          "abilityName": [
+            "Monster_Drake_Rock_WaterMode",
+            "Monster_Drake_Rock_WaterEnhance",
+            "Monster_Drake_Rock_CrushAtkCharging_Water",
+            "Monster_Drake_Rock_WaterEnhance_NormalAtkTrigger",
+            "Monster_Drake_Rock_WaterEnhance_SlapGround01Trigger",
+            "Monster_Drake_Rock_WaterEnhance_SlapGround02Trigger",
+            "Monster_Drake_Rock_WaterEnhance_SlapGround03Trigger",
+            "Monster_Drake_Rock_WaterEnhance_JumpAtkTrigger",
+            "Monster_Drake_Rock_WaterEnhance_JumpAtkFinalTrigger",
+            "Monster_Drake_Rock_WaterEnhance_Alert"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112041": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112041",
+          "count": "5.2526"
+        },
+        "112042": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112042",
+          "count": "1.4006"
+        },
+        "112043": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112043",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "26040102": {
+      "id": 26040102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "岩龙蜥-火",
+          "description": "岩龙蜥-火",
+          "abilityName": [
+            "Monster_Drake_Rock_FireMode",
+            "Monster_Drake_Rock_FireEnhance",
+            "Monster_Drake_Rock_JumpAtk_Alert_FireEnhance",
+            "Monster_Drake_Rock_JumpAtkFinal_Alert_FireEnhance",
+            "Monster_Drake_Rock_CrushAtkCharging_Fire",
+            "Monster_Drake_Rock_FireEnhance_JumpAtkTrigger",
+            "Monster_Drake_Rock_FireEnhance_JumpAtkFinalTrigger"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112041": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112041",
+          "count": "5.2526"
+        },
+        "112042": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112042",
+          "count": "1.4006"
+        },
+        "112043": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112043",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "26040103": {
+      "id": 26040103,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "岩龙蜥-冰",
+          "description": "岩龙蜥-冰",
+          "abilityName": [
+            "Monster_Drake_Rock_IceMode",
+            "Monster_Drake_Rock_IceEnhance",
+            "Monster_Drake_Rock_CrushAtkCharging_Ice",
+            "Monster_Drake_Rock_IceEnhance_NormalAtkTrigger",
+            "Monster_Drake_Rock_IceEnhance_SlapGround01Trigger",
+            "Monster_Drake_Rock_IceEnhance_SlapGround02Trigger",
+            "Monster_Drake_Rock_IceEnhance_SlapGround03Trigger",
+            "Monster_Drake_Rock_IceEnhance_JumpAtkTrigger",
+            "Monster_Drake_Rock_IceEnhance_JumpAtkFinalTrigger"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112041": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112041",
+          "count": "5.2526"
+        },
+        "112042": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112042",
+          "count": "1.4006"
+        },
+        "112043": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112043",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "26040104": {
+      "id": 26040104,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "岩龙蜥-电",
+          "description": "岩龙蜥-电",
+          "abilityName": [
+            "Monster_Drake_Rock_ElecMode",
+            "Monster_Drake_Rock_ElecEnhance",
+            "Monster_Drake_Rock_CrushAtkCharging_Elec",
+            "Monster_Drake_Rock_ElecEnhance_NormalAtkTrigger",
+            "Monster_Drake_Rock_ElecEnhance_SlapGround01Trigger",
+            "Monster_Drake_Rock_ElecEnhance_SlapGround02Trigger",
+            "Monster_Drake_Rock_ElecEnhance_SlapGround03Trigger",
+            "Monster_Drake_Rock_ElecEnhance_JumpAtkTrigger",
+            "Monster_Drake_Rock_ElecEnhance_JumpAtkFinalTrigger"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112041": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112041",
+          "count": "5.2526"
+        },
+        "112042": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112042",
+          "count": "1.4006"
+        },
+        "112043": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112043",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "26040105": {
+      "id": 26040105,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "岩龙蜥-水",
+          "description": "岩龙蜥-水",
+          "abilityName": [
+            "Monster_Drake_Rock_WaterMode",
+            "Monster_Drake_Rock_WaterEnhance",
+            "Monster_Drake_Rock_CrushAtkCharging_Water",
+            "Monster_Drake_Rock_WaterEnhance_NormalAtkTrigger",
+            "Monster_Drake_Rock_WaterEnhance_SlapGround01Trigger",
+            "Monster_Drake_Rock_WaterEnhance_SlapGround02Trigger",
+            "Monster_Drake_Rock_WaterEnhance_SlapGround03Trigger",
+            "Monster_Drake_Rock_WaterEnhance_JumpAtkTrigger",
+            "Monster_Drake_Rock_WaterEnhance_JumpAtkFinalTrigger",
+            "Monster_Drake_Rock_WaterEnhance_Alert"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "27101": {
+      "images": [
+        "UI_Tutorial_75a"
+      ],
+      "description": "体格强壮的成年岩龙蜥。攻击中的某一式命中受到<color=#FFE14BFF>护盾<\/color>庇护的角色，并且未能破坏护盾时，会因为反作用力而暂时陷入瘫痪状态…"
+    }
+  }
+}

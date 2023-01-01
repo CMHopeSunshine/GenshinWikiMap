@@ -1,0 +1,116 @@
+{
+  "id": 25020101,
+  "name": "盗宝团·「怪鸟」",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
+  "route": "Treasure Hoarders: Raptor",
+  "title": "盗宝团·「怪鸟」",
+  "specialName": "天际的飞贼",
+  "description": "（test）待IP补充",
+  "entries": {
+    "25020101": {
+      "id": 25020101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    },
+    "25020102": {
+      "id": 25020102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "霸体增强-稻妻前置任务",
+          "description": "霸体提升4倍",
+          "abilityName": [
+            "MonsterAffix_Property_EndureUp_InazumaPrequest"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "AI出手频率提升高",
+          "description": "单个怪物AI出手频率变为2倍",
+          "abilityName": [
+            "MonsterAffix_AISkillCD_Revise02"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,83 @@
+{
+  "id": 23010101,
+  "name": "愚人众先遣队·冰铳重卫士",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+  "route": "Fatui Skirmisher - Cryogunner Legionnaire",
+  "title": "先遣队·冰铳重卫士",
+  "specialName": "愚人众·列夫",
+  "description": "愚人众战争机器中的士兵。\\n配备着能在一定程度上制御元素的装备，可以利用铳形的武器喷射急冻的寒霜。\\n虽然拥有常人不能企及的元素力量，但这种力量或许也是有其代价的吧…",
+  "entries": {
+    "23010101": {
+      "id": 23010101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010026,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010026,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 54.336,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112032": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112032",
+          "count": "4.202"
+        },
+        "112033": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112033",
+          "count": "1.1205"
+        },
+        "112034": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112034",
+          "count": "0.28"
+        }
+      }
+    }
+  },
+  "tips": {
+    "25801": {
+      "images": [
+        "UI_Tutorial_47"
+      ],
+      "description": "利用喷射冰元素的铁铳战斗的愚人众士兵，能进入某种<color=#FFE14BFF>元素增幅<\/color>状态。这种状态最大的弱点，恐怕是<color=#FFE14BFF>某种能与冰发生反应的元素之一<\/color>…"
+    }
+  }
+}

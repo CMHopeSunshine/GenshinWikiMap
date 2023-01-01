@@ -1,0 +1,154 @@
+{
+  "id": 21011201,
+  "name": "岩盾丘丘人",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Hili_None_01",
+  "route": "Rock Shield Hilichurl Guard",
+  "title": "丘丘人",
+  "specialName": "单纯的魔物",
+  "description": "提瓦特荒野中游荡的原始住民。\\n岩元素富集的地域中顽强生存的丘丘人，其坚不可摧的盾牌上增生着层层磐岩。",
+  "entries": {
+    "21011201": {
+      "id": 21011201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112005": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112005",
+          "count": "0.4202"
+        },
+        "112006": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112006",
+          "count": "0.112"
+        },
+        "112007": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112007",
+          "count": "0.028"
+        }
+      }
+    },
+    "21011202": {
+      "id": 21011202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "塔防丘丘格挡判断词缀",
+          "description": "塔防丘丘格挡判断词缀",
+          "abilityName": [
+            "Monster_Hili_Defend_Affix_NoCombat"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "24201": {
+      "images": [
+        "UI_Hili_None_01_RockShield_Tutorial01"
+      ],
+      "description": "与木盾丘丘人不同，利用岩元素构成的盾牌保护自己。厚重的<color=#FFE14BFF>岩元素攻击<\/color>、<color=#FFE14BFF>双手剑<\/color>，或者剧烈的<color=#FFE14BFF>爆炸<\/color>，应该可以有效破坏岩盾吧…"
+    }
+  }
+}

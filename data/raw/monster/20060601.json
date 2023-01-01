@@ -1,0 +1,59 @@
+{
+  "id": 20060601,
+  "name": "火飘浮灵",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Sylph_Fire_01",
+  "route": "Pyro Specter",
+  "title": "火飘浮灵",
+  "specialName": "飘游的元素之灵",
+  "description": "高浓度的火元素孕育而生的魔物，能够飘浮在空中。\\n曾经有教令院的学生对它们的生态进行过研究。他认为晶蝶能飞、会在元素浓度高的区域诞生，和飘浮灵完全一样。所以飘浮灵是一种晶蝶。他现在也没毕业。",
+  "entries": {
+    "20060601": {
+      "id": 20060601,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 21.98,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "300301": {
+      "images": [
+        "UI_Tutorial_121c"
+      ],
+      "description": "高浓度的元素孕育而生的魔物，具有飘浮在空中的力量。<color=#FFE14BFF>受到严重的单次伤害时，会积攒「怒气」<\/color>。怒气充满时，飘浮灵会「膨胀」，变得更加强大，并在被击败时剧烈爆炸。"
+    }
+  }
+}

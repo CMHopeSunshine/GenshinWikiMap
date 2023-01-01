@@ -1,0 +1,168 @@
+{
+  "id": 14409,
+  "rank": 4,
+  "type": "法器",
+  "name": "昭心",
+  "description": "幽暗的琉璃宝珠，传说中拥有洞察人心清白的力量。",
+  "icon": "UI_EquipIcon_Catalyst_Truelens",
+  "storyId": 194409,
+  "affix": {
+    "114409": {
+      "name": "回响",
+      "upgrade": {
+        "0": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>240%<\/color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>12<\/color>秒至多触发一次。",
+        "1": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>270%<\/color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>11<\/color>秒至多触发一次。",
+        "2": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>300%<\/color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>10<\/color>秒至多触发一次。",
+        "3": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>330%<\/color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>9<\/color>秒至多触发一次。",
+        "4": "普通攻击与重击命中时，有50%几率发射一枚昭心法球，造成<color=#99FFFFFF>360%<\/color>攻击力伤害，至多在敌人之间弹射4次。该效果每<color=#99FFFFFF>8<\/color>秒至多触发一次。"
+      }
+    }
+  },
+  "route": "Eye of Perception",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112005": 2,
+          "112026": 3,
+          "114017": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112005": 8,
+          "112026": 12,
+          "114018": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112006": 6,
+          "112027": 6,
+          "114018": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112006": 9,
+          "112027": 12,
+          "114019": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112007": 6,
+          "112028": 9,
+          "114019": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112007": 12,
+          "112028": 18,
+          "114020": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112005": 1,
+    "112006": 2,
+    "112007": 3,
+    "112026": 2,
+    "112027": 3,
+    "112028": 4,
+    "114017": 2,
+    "114018": 3,
+    "114019": 4,
+    "114020": 5
+  }
+}

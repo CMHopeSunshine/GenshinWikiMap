@@ -1,0 +1,72 @@
+{
+  "id": 20010101,
+  "name": "草史莱姆",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Slime_Grass_02",
+  "route": "Dendro Slime",
+  "title": "草史莱姆",
+  "specialName": "圆滚滚的元素之力",
+  "description": "因为充沛的草元素，而发生了生态上的质变的史莱姆。\\n从生态而言，也获得了草元素的弱点。一旦遇上明火，就会剧烈地燃烧。",
+  "entries": {
+    "20010101": {
+      "id": 20010101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010013,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 7.536,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112002": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112002",
+          "count": "0.6723"
+        },
+        "112003": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112003",
+          "count": "0.1792"
+        },
+        "112004": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112004",
+          "count": "0.0448"
+        }
+      }
+    }
+  },
+  "tips": null
+}

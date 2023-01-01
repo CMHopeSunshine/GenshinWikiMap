@@ -1,0 +1,112 @@
+{
+  "id": 26100501,
+  "name": "圣骸飞蛇",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Chrysopelea_Sacred_Wind",
+  "route": "Blessbone Flying Serpent",
+  "beta": true,
+  "title": "驭风·圣骸飞蛇",
+  "specialName": "啃噬伟大生命的风之兽",
+  "description": "因为啃噬伟大的生命体，而扭曲异变的爬行动物。\\n即使获得了操使元素的异能，圣骸兽自身无法将体内不朽的亡骸彻底消化。其中的力量与动物本身融合，长出的骨质甲壳据说在成分上与主要产自稻妻的冶炼材料有相近之处。",
+  "entries": {
+    "26100501": {
+      "id": 26100501,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010025,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010025,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112074": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112074",
+          "count": "6.5658"
+        },
+        "112075": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112075",
+          "count": "1.7508"
+        },
+        "112076": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112076",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "303001": {
+      "images": [
+        "UI_Tutorial_168"
+      ],
+      "description": "因为啃噬伟大的生命体，而扭曲异变的爬行动物。在战斗中，会进入强大的噬骸状态。它的一些攻击将排出噬骸能量块；<color=#FFE14BFF>利用对应的元素攻击破坏能量块<\/color>，能够汲取其中的强大力量，并在攻击圣骸飞蛇时释放这些能量，造成可观的伤害，并使其暂时瘫痪。"
+    }
+  }
+}

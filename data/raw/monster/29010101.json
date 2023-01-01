@@ -1,0 +1,229 @@
+{
+  "id": 29010101,
+  "name": "裂空的魔龙",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_Dvalin",
+  "route": "Stormterror",
+  "title": "席卷蒙德的飓风",
+  "specialName": "风魔龙·特瓦林",
+  "description": "蒙德的「四风守护」之一，东风之龙特瓦林。\\n在漫长的岁月与无边的黑暗中，清澈的宝石也会蒙尘而变得黯淡，高傲的龙也会被侵蚀而充满了忿恨。\\n不过，要记住，尘埃能被轻易拭去，疑惧与毒也能被粉碎。\\n\\n<i>「自由地在深空中翱翔吧。<\/i>\\n<i>「就如当年你我相遇时，我行走在大地上，唱着风的歌曲；<\/i>\\n<i>「你则在大气稀薄的高天上，俯瞰世界。<\/i>\\n<i>「如今的天空中没有风雪，大地上充满了绿草，会很美丽吧。<\/i>\\n<i>「如果你也在地面上行走过，听过牧歌和风铃在远方错落的歌，尝过蜜一样甜的酒，就会明白吧。<\/i>\\n<i>「如果你曾是我，看见过你在蓝蓝的天上滑翔的孤高模样，见识过你的美丽身姿就好了。<\/i>\\n<i>「如此，你就会明白，这样的天空与大地，是值得为之奋战的。」<\/i>",
+  "entries": {
+    "29010102": {
+      "id": 29010102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "风魔龙-初见",
+          "description": "风魔龙初见标识",
+          "abilityName": [
+            "MonsterAffix_Dvalin_S04_FirstSight"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 42.704,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "29010104": {
+      "id": 29010104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101101": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101101"
+        },
+        "101102": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101102"
+        },
+        "101103": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101103"
+        },
+        "101104": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101104"
+        },
+        "101105": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101105"
+        },
+        "104121": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104151": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113003": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113003"
+        },
+        "113004": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113004"
+        },
+        "113005": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113005"
+        },
+        "113021": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

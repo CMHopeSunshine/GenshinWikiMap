@@ -1,0 +1,175 @@
+{
+  "id": 22020101,
+  "name": "深渊使徒·激流",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
+  "route": "Abyss Herald: Wicked Torrents",
+  "title": "操纵激流的漆黑先兆",
+  "specialName": "深渊使徒·弗兰柯拜忒",
+  "description": "利用水元素战斗的魔物，隶属于「深渊教团」。\\n这些沉默的身影是深渊的先行者，挥舞着席卷一切的浪潮之锋，斩碎一切铠甲的防御与不信的异端之心，向无虑的愚氓降下宿命的惩戒。",
+  "entries": {
+    "22020101": {
+      "id": 22020101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22020102": {
+      "id": 22020102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "剧情任务-脱战逻辑标签",
+          "description": "剧情任务-脱战逻辑标签",
+          "abilityName": [
+            "MonsterAffix_Quest_ReturnToBorn"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22020103": {
+      "id": 22020103,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "剧情任务-脱战逻辑标签",
+          "description": "剧情任务-脱战逻辑标签",
+          "abilityName": [
+            "MonsterAffix_Quest_ReturnToBorn"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "剧情任务-难度调节标签",
+          "description": "剧情任务-难度调节标签",
+          "abilityName": [
+            "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 108.672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "27601": {
+      "images": [
+        "UI_Tutorial_85a"
+      ],
+      "description": "「深渊教团」的魔物，以漆黑的力量，操使着被扭曲的激流进行战斗。它的部分攻击对角色造成伤害时，会<color=#FFE14BFF>延长处于冷却状态下的技能的冷却时间</color>。"
+    }
+  }
+}

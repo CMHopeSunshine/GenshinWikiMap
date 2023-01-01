@@ -1,0 +1,197 @@
+{
+  "id": 21020601,
+  "name": "冰盾丘丘暴徒",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Brute_None_01",
+  "route": "Ice Shieldwall Mitachurl",
+  "title": "丘丘暴徒·冰盾",
+  "specialName": "「古鲁·布卡」",
+  "description": "以严冰为盾的丘丘人大块头，会利用坚冰的巨盾战斗。\\n普遍而言，体积庞大、活动频繁的生物需要消耗大量的热量来维持生存。由此，当代的艾尔·马斯克提出了「暴徒指数」，根据某地区中活动的丘丘暴徒数量在丘丘人总人口中占的比例，计算这些丘丘人食物获取的丰富、稳定性。",
+  "entries": {
+    "21020601": {
+      "id": 21020601,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.144,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112005": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112005",
+          "count": "0.5253"
+        },
+        "112006": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112006",
+          "count": "0.1401"
+        },
+        "112007": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112007",
+          "count": "0.035"
+        },
+        "112014": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112014",
+          "count": "1.5758"
+        },
+        "112015": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112015",
+          "count": "0.4202"
+        },
+        "112016": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112016",
+          "count": "0.1051"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "21020602": {
+      "id": 21020602,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.144,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "26901": {
+      "images": [
+        "UI_DragonspineTutorial_Monster_01"
+      ],
+      "description": "利用冰元素构成的盾牌保护自己的丘丘暴徒。<color=#FFE14BFF>在极寒环境下，冰盾会恢复<\/color>。利用火元素等能<color=#FFE14BFF>与冰盾反应的元素<\/color>攻击，一鼓作气地粉碎它的防御吧！"
+    }
+  }
+}

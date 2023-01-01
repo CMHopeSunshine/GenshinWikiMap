@@ -1,0 +1,72 @@
+{
+  "id": 20020101,
+  "name": "狂风之核",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Elemental_Wind_01",
+  "route": "Eye of the Storm",
+  "title": "狂风之核",
+  "specialName": "躁动的纯粹元素",
+  "description": "质量极高的风元素结核后产生的形态。\\n狂风之核的形成意味着地方的元素地脉阻塞，其中出现了淤积。会肆无忌惮地挥霍狂风的力量，扫荡周围的人，或许也是因为它象征着此间天地的病痛吧。",
+  "entries": {
+    "20020101": {
+      "id": 20020101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "风抗-100%",
+          "description": "同系伤害抵抗-风-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Wind_03"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010035,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "14801": {
+      "images": [
+        "UI_Elemental_Wind_01_Tutorial01"
+      ],
+      "description": "能召唤飓风领域，造成持续范围伤害的危险敌人。找到其中不断产生的<color=#FFE14BFF>风场<\/color>，迅速离开地面的话…"
+    }
+  }
+}

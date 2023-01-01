@@ -1,0 +1,210 @@
+{
+  "id": 20011501,
+  "name": "大型岩史莱姆",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Slime_Rock_03",
+  "route": "Large Geo Slime",
+  "title": "大型岩史莱姆",
+  "specialName": "圆滚滚的元素之力",
+  "description": "大地之中的岩元素凝聚形成的魔物。\\n能将体内的力量凝结成岩壳，保护自己不受伤害。过去在盗宝团中一度流传着「大黄金岩史莱姆王」的说法，认为既然不少宝石与矿物中蕴含岩元素，那蕴含岩元素的史莱姆同样很可能是宝石与矿物。",
+  "entries": {
+    "20011501": {
+      "id": 20011501,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 52.752,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112002": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112002",
+          "count": "0.6723"
+        },
+        "112003": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112003",
+          "count": "0.1792"
+        },
+        "112004": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112004",
+          "count": "0.0448"
+        }
+      }
+    },
+    "20011502": {
+      "id": 20011502,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 52.752,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "20011503": {
+      "id": 20011503,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "史莱姆元素盾重生-塔防",
+          "description": "史莱姆元素盾重生-塔防",
+          "abilityName": [
+            "MonsterAffix_SlimeShieldReborn_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 52.752,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "12801": {
+      "images": [
+        "UI_Slime_Rock_03_Tutorial01"
+      ],
+      "description": "利用坚硬的<color=#FFE14BFF>岩元素护罩<\/color>保护自己的史莱姆。厚重的<color=#FFE14BFF>岩元素攻击<\/color>、<color=#FFE14BFF>双手剑<\/color>，或者剧烈的<color=#FFE14BFF>爆炸<\/color>，应该可以有效破坏护罩吧…"
+    }
+  }
+}

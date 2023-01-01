@@ -1,0 +1,235 @@
+{
+  "id": 20040101,
+  "name": "无相之雷",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Electric",
+  "route": "Electro Hypostasis",
+  "title": "无相之雷",
+  "specialName": "「阿莱夫」",
+  "description": "代号为「阿莱夫」的高级雷元素生命。\\n无相元素是顶尖的元素构造体，会在元素能量喷涌的位置，或元素地脉阻塞的地点形成。\\n不同的无相元素会基于其元素特性，进化出战斗的方式。",
+  "entries": {
+    "20040101": {
+      "id": 20040101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "电抗-100%",
+          "description": "同系伤害抵抗-电-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Electric_03"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "感电免疫",
+          "description": "免疫感电伤害和效果",
+          "abilityName": [
+            "MonsterAffix_ShockResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "113002": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113002",
+          "count": "2.5556"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400137": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15011_3"
+        },
+        "400138": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15011_3"
+        }
+      }
+    },
+    "20040102": {
+      "id": 20040102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "电抗-100%",
+          "description": "同系伤害抵抗-电-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Electric_03"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "感电免疫",
+          "description": "免疫感电伤害和效果",
+          "abilityName": [
+            "MonsterAffix_ShockResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "23601": {
+      "images": [
+        "UI_Effigy_Electric_01_Tutorial01"
+      ],
+      "description": "会利用惰性的方壳保护自己，抓住<color=#FFE14BFF>元素核心<\/color>暴露在外的时机，才能有效攻击。命悬一线时，会分裂出三个汲取能量的棱晶，不将其全部摧毁的话…"
+    }
+  }
+}

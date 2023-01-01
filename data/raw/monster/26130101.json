@@ -1,0 +1,139 @@
+{
+  "id": 26130101,
+  "name": "风蚀沙虫",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Sandworm",
+  "route": "Setekh Wenut",
+  "beta": true,
+  "title": "风蚀沙虫",
+  "specialName": "一万万砂砾最后的亲王",
+  "description": "生活在沙海深处的无目掠食者，会依据声音与大地的震动寻找猎物的踪迹。\\n传说在时间开始之前的过去，它们所统辖地上遍布芳草与巨木，而它们的主宰与其子嗣一同，在湿润的泥土中穿梭，如同鱼之游于水中。\\n许多纪元之后，天降的恩赐让泥土化为砂砾。许多生命陨落了，许多物种消失了，而依托土地而生的这一族则成为了「沙虫」。\\n或许是因为生物习性中的共同之处，似乎有沙漠的居民错误地认为，「沙虫」是流沙鳗鳗蛹化成熟之后的完整形态。",
+  "entries": {
+    "26130101": {
+      "id": 26130101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010035,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 190.17599,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.25,
+        "grassSubHurt": 0.25,
+        "waterSubHurt": 0.25,
+        "elecSubHurt": 0.25,
+        "windSubHurt": 0.6,
+        "iceSubHurt": 0.25,
+        "rockSubHurt": 0.25,
+        "physicalSubHurt": 0.25
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104151": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113044": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113044",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "303101": {
+      "images": [
+        "UI_Tutorial_169"
+      ],
+      "description": "沙漠深处的顶级掠食者，在一定程度上能操使风元素的力量，并能据此在面对强敌时离开地面，进入浮游状态。在浮游时，将排出多个「风蚀弹」。未能及时破坏的话，风蚀弹将转化为密集的风蚀弹幕。<color=#FFE14BFF>能与风元素反应的元素类型的攻击<\/color>可以破坏风蚀弹，并在一段时间内降低风蚀沙虫对应的元素抗性。连续破坏两枚风蚀弹后，将击落浮游中的风蚀沙虫。"
+    }
+  }
+}

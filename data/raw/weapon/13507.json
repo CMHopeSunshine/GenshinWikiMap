@@ -1,0 +1,168 @@
+{
+  "id": 13507,
+  "rank": 5,
+  "type": "长柄武器",
+  "name": "息灾",
+  "description": "由奇异晶石打造成的锋锐利器。幽幽蓝光似乎诉说着无尽往事。",
+  "icon": "UI_EquipIcon_Pole_Santika",
+  "storyId": 193507,
+  "affix": {
+    "113507": {
+      "name": "灭却之戒法",
+      "upgrade": {
+        "0": "获得<color=#99FFFFFF>12%<\/color>所有元素伤害加成；施放元素战技后，获得持续20秒的「圆顿」，攻击力每1秒提升<color=#99FFFFFF>3.2%<\/color>，该攻击力提升效果至多叠加6次。当装备此武器的角色处于队伍后台时，「圆顿」的攻击力提升效果翻倍。",
+        "1": "获得<color=#99FFFFFF>15%<\/color>所有元素伤害加成；施放元素战技后，获得持续20秒的「圆顿」，攻击力每1秒提升<color=#99FFFFFF>4%<\/color>，该攻击力提升效果至多叠加6次。当装备此武器的角色处于队伍后台时，「圆顿」的攻击力提升效果翻倍。",
+        "2": "获得<color=#99FFFFFF>18%<\/color>所有元素伤害加成；施放元素战技后，获得持续20秒的「圆顿」，攻击力每1秒提升<color=#99FFFFFF>4.8%<\/color>，该攻击力提升效果至多叠加6次。当装备此武器的角色处于队伍后台时，「圆顿」的攻击力提升效果翻倍。",
+        "3": "获得<color=#99FFFFFF>21%<\/color>所有元素伤害加成；施放元素战技后，获得持续20秒的「圆顿」，攻击力每1秒提升<color=#99FFFFFF>5.6%<\/color>，该攻击力提升效果至多叠加6次。当装备此武器的角色处于队伍后台时，「圆顿」的攻击力提升效果翻倍。",
+        "4": "获得<color=#99FFFFFF>24%<\/color>所有元素伤害加成；施放元素战技后，获得持续20秒的「圆顿」，攻击力每1秒提升<color=#99FFFFFF>6.4%<\/color>，该攻击力提升效果至多叠加6次。当装备此武器的角色处于队伍后台时，「圆顿」的攻击力提升效果翻倍。"
+      }
+    }
+  },
+  "route": "Calamity Queller",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 49.1377,
+        "type": "GROW_CURVE_ATTACK_303"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.036,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112026": 5,
+          "112038": 3,
+          "114017": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112026": 18,
+          "112038": 12,
+          "114018": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112027": 9,
+          "112039": 9,
+          "114018": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112027": 18,
+          "112039": 14,
+          "114019": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112028": 14,
+          "112040": 9,
+          "114019": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112028": 27,
+          "112040": 18,
+          "114020": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112026": 2,
+    "112027": 3,
+    "112028": 4,
+    "112038": 1,
+    "112039": 2,
+    "112040": 3,
+    "114017": 2,
+    "114018": 3,
+    "114019": 4,
+    "114020": 5
+  }
+}

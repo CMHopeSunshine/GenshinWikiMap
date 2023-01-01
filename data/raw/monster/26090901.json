@@ -1,0 +1,157 @@
+{
+  "id": 26090901,
+  "name": "伸缩岩蕈兽",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Fungus_Deux_Beta_Rock",
+  "route": "Stretchy Geo Fungus",
+  "title": "伸缩岩蕈兽",
+  "specialName": "格外具有弹性",
+  "description": "拥有一定智能的孢子生物。具有强大的环境适应能力。\\n富集的岩元素在它们的菌盖上形成了坚硬的外壳。为了挥舞沉重的头部，想必其身体结构相比同类也更加紧密。",
+  "entries": {
+    "26090901": {
+      "id": 26090901,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.2,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.2,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112059": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112059",
+          "count": "0.2101"
+        },
+        "112060": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112060",
+          "count": "0.056"
+        },
+        "112061": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112061",
+          "count": "0.014"
+        },
+        "112062": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112062",
+          "count": "1.0505"
+        },
+        "112063": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112063",
+          "count": "0.2801"
+        },
+        "112064": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112064",
+          "count": "0.07"
+        }
+      }
+    },
+    "26090990": {
+      "id": 26090990,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 43.4688,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 43.40736,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.2,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.2,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "26090991": {
+      "id": 26090991,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 22.608,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.2,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.2,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "301401": {
+      "images": [
+        "UI_Tutorial_136"
+      ],
+      "description": "孢子演化而成的，具有基础智能的魔物。初次受到<color=#FFE14BFF>雷元素或火元素攻击<\/color>后，将依据元素类型进入活化或枯焦状态。击败状态改变后的蕈兽，可能能收获不同的战利品…"
+    }
+  }
+}

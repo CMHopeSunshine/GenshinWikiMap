@@ -1,0 +1,140 @@
+{
+  "id": 24010401,
+  "name": "遗迹巨蛇",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Nithhoggr_None",
+  "route": "Ruin Serpent",
+  "title": "遗迹巨蛇",
+  "specialName": "进路开掘·SI\/Glp",
+  "description": "古老的异形自律机关。\\n传说是已经覆灭的国度留下的工程重机，「头部」的齿盘结构能够轻松挖开坚硬的岩盘。果真如此的话，借由这种能力，应该能开凿出足以让大军通行大陆各地的黯道吧。",
+  "entries": {
+    "24010401": {
+      "id": 24010401,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104171": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104174"
+        },
+        "113035": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113035",
+          "count": "2.5556"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "301101": {
+      "images": [
+        "UI_Tutorial_134"
+      ],
+      "description": "异形的遗迹机械。在战斗中会创造「淤泥涌口」，并在一些状态下试图从中汲取能量，以进行破坏力强大的攻击。"
+    },
+    "301102": {
+      "images": [
+        "UI_Tutorial_134"
+      ],
+      "description": "利用「流明石触媒」的纯光绽放，<color=#FFE14BFF>破坏向遗迹巨蛇输送能量的淤泥涌口<\/color>，可以打断这种状态，并使它分布在身躯上的能量核心失能。当4个能量核心均失能后，遗迹巨蛇会进入虚弱状态。"
+    }
+  }
+}

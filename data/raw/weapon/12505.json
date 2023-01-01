@@ -1,0 +1,111 @@
+{
+  "id": 12505,
+  "rank": 5,
+  "type": "双手剑",
+  "name": "",
+  "description": "",
+  "icon": "UI_EquipIcon_Claymore_Aniki",
+  "storyId": null,
+  "affix": null,
+  "route": "Primordial Jade Greatsword",
+  "upgrade": {
+    "awakenCost": [],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 47.537,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      {
+        "initValue": 0,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112011": 1,
+          "112014": 1,
+          "114001": 1
+        },
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 11.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112011": 2,
+          "112014": 4,
+          "114002": 1
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 23.3,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112012": 2,
+          "112015": 2,
+          "114002": 2
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 35,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112012": 3,
+          "112015": 4,
+          "114003": 1
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 46.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      }
+    ]
+  },
+  "ascension": {
+    "112011": 1,
+    "112012": 2,
+    "112014": 2,
+    "112015": 3,
+    "114001": 2,
+    "114002": 3,
+    "114003": 4
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": 20070101,
+  "name": "雷音权现",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Raijin",
+  "route": "Thunder Manifestation",
+  "title": "雷音权现",
+  "specialName": "霆雷的忿恨意志",
+  "description": "异常的雷元素生命。虽然外貌上与纯水精灵有相似之处，却不具备她的智慧与记忆。\\n驱动雷音权现的是更为原始纯粹的愤怒。\\n据说这种生物只会随着雷霆降生在遗留着强大忿恨的地方，譬如说支离破碎、雷云黝黝的天云峠。只要土地中的怨恨不消，那雷鸣也不会断绝吧。",
+  "entries": {
+    "20070101": {
+      "id": 20070101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010034,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010034,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 190.17599,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 90.432,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "113029": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113029",
+          "count": "2.5556"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400137": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15011_3"
+        },
+        "400138": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15011_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "28401": {
+      "images": [
+        "UI_Tutorial_104"
+      ],
+      "description": "忿恨的雷声具象而成的元素生命体，会运用雷鸣的攻击与探针<color=#FFE14BFF>锁定敌人<\/color>。存在被锁定的对象时，雷音权现会进入狂怒状态，并优先歼灭被锁定的目标。"
+    }
+  }
+}

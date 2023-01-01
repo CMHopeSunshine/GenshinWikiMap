@@ -1,0 +1,114 @@
+{
+  "id": 26050801,
+  "name": "深海龙蜥·吞雷",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Drake_Deepsea_Electric",
+  "route": "Bolteater Bathysmal Vishap",
+  "title": "深海龙蜥·吞雷",
+  "specialName": "盘踞深海的水栖猛兽",
+  "description": "生活在海渊之下的龙蜥。因为社会分工，而出现了雷元素的形态。\\n古七王凋零之后，新一代的七王正在陆续诞生。只是深海龙蜥如此进化，失去了纯粹。水之龙已经不会在它们族群中诞生了。根据预言，新的水之龙一定会以人形降临…",
+  "entries": {
+    "26050801": {
+      "id": 26050801,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 163.008,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.3,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    },
+    "26050802": {
+      "id": 26050802,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010014,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 163.008,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.3,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "300601": {
+      "images": [
+        "UI_Tutorial_122b"
+      ],
+      "description": "蛰伏于漆黑深水中的掠食者。应对着深海中的未知力量，或许也演化出了水元素以外的变体…面对强敌时，会使出威力强大的「涤魔喷吐」。命中角色后，角色将<color=#FFE14BFF>流失一定元素能量<\/color>。若角色的元素能量不足，将<color=#FFE14BFF>损失生命值<\/color>。"
+    }
+  }
+}

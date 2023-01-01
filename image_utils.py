@@ -26,17 +26,14 @@ class PMImage:
                  mode: Literal["1", "CMYK", "F", "HSV", "I", "L", "LAB", "P", "RGB", "RGBA", "RGBX", "YCbCr"] = 'RGBA'
                  ):
         """
-            初始化图像，优先读取image参数，如无则新建图像
-        :param image: PIL对象或图像路径
-        :param size: 图像大小
-        :param color: 图像颜色
-        :param mode: 图像模式
+        初始化图像，优先读取image参数，如无则新建图像
+            :param image: PIL对象或图像路径
+            :param size: 图像大小
+            :param color: 图像颜色
+            :param mode: 图像模式
         """
         if image:
-            if isinstance(image, Path):
-                self.image = load_image(image)
-            else:
-                self.image = image.copy()
+            self.image = load_image(image) if isinstance(image, Path) else image.copy()
         else:
             if mode == 'RGB':
                 color = (color[0], color[1], color[2])
@@ -69,7 +66,7 @@ class PMImage:
     def save(self, path: Union[str, Path], **kwargs):
         """
         保存图像
-        :param path: 保存路径
+            :param path: 保存路径
         """
         self.image.save(path, **kwargs)
 
@@ -88,8 +85,8 @@ class PMImage:
         width_now = width[0]
         height_now = height[0]
         for c in text:
-            # if c in ['.', '。'] and width_now == width[0] and c == text[-1]:
-            #     continue
+            if c in ['.', '。'] and width_now == width[0] and c == text[-1]:
+                continue
             if c == '^':
                 width_now = width[0]
                 height_now += text_height

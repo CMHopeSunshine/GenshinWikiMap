@@ -1,0 +1,209 @@
+{
+  "id": 21030401,
+  "name": "岩丘丘萨满",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Shaman_Rock_01",
+  "route": "Geo Samachurl",
+  "title": "岩丘丘萨满",
+  "specialName": "「萨达·乌列那」",
+  "description": "嘟嘟囔囔的老年丘丘人，岩元素的倾听者。\\n在元素掌控方面颇富天资的丘丘人，其能力往往会在年老时达到顶峰。同千古的顽岩相比，即使最年老的丘丘人也不过孩童，但记忆与经验引导它们获得了操使岩石的权能。",
+  "entries": {
+    "21030401": {
+      "id": 21030401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112005": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112005",
+          "count": "0.1681"
+        },
+        "112006": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112006",
+          "count": "0.0448"
+        },
+        "112007": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112007",
+          "count": "0.0112"
+        },
+        "112008": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112008",
+          "count": "2.5212"
+        },
+        "112009": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112009",
+          "count": "0.6723"
+        },
+        "112010": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112010",
+          "count": "0.168"
+        }
+      }
+    },
+    "21030402": {
+      "id": 21030402,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "支援",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Support_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "21030403": {
+      "id": 21030403,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "25001": {
+      "images": [
+        "UI_Shaman_Rock_01_Tutorial01"
+      ],
+      "description": "会利用岩元素构成牢固的石柱，使自己与其他魔物远离危险。厚重的<color=#FFE14BFF>岩元素攻击<\/color>、<color=#FFE14BFF>双手剑<\/color>，或者剧烈的<color=#FFE14BFF>爆炸<\/color>能有效摧毁石柱。如果能快速打倒它，也能使石柱失去维持的魔力…"
+    }
+  }
+}

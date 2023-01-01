@@ -1,0 +1,168 @@
+{
+  "id": 15417,
+  "rank": 4,
+  "type": "弓",
+  "name": "王下近侍",
+  "description": "从兰那罗的故事中得到的武器。具有弓的形制，能够射落森林的敌人。",
+  "icon": "UI_EquipIcon_Bow_Arakalari",
+  "storyId": 195417,
+  "affix": {
+    "115417": {
+      "name": "迷宫之王的教导",
+      "upgrade": {
+        "0": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<color=#99FFFFFF>60<\/color>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<color=#99FFFFFF>100%<\/color>攻击力的伤害。森林教诲每20秒至多触发一次。",
+        "1": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<color=#99FFFFFF>80<\/color>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<color=#99FFFFFF>120%<\/color>攻击力的伤害。森林教诲每20秒至多触发一次。",
+        "2": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<color=#99FFFFFF>100<\/color>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<color=#99FFFFFF>140%<\/color>攻击力的伤害。森林教诲每20秒至多触发一次。",
+        "3": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<color=#99FFFFFF>120<\/color>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<color=#99FFFFFF>160%<\/color>攻击力的伤害。森林教诲每20秒至多触发一次。",
+        "4": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<color=#99FFFFFF>140<\/color>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<color=#99FFFFFF>180%<\/color>攻击力的伤害。森林教诲每20秒至多触发一次。"
+      }
+    }
+  },
+  "route": "King's Squire",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112011": 2,
+          "112062": 3,
+          "114045": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112011": 8,
+          "112062": 12,
+          "114046": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112012": 6,
+          "112063": 6,
+          "114046": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112012": 9,
+          "112063": 12,
+          "114047": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112013": 6,
+          "112064": 9,
+          "114047": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112013": 12,
+          "112064": 18,
+          "114048": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112011": 1,
+    "112012": 2,
+    "112013": 3,
+    "112062": 2,
+    "112063": 3,
+    "112064": 4,
+    "114045": 2,
+    "114046": 3,
+    "114047": 4,
+    "114048": 5
+  }
+}

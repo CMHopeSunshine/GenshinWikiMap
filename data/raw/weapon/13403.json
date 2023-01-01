@@ -1,0 +1,168 @@
+{
+  "id": 13403,
+  "rank": 4,
+  "type": "长柄武器",
+  "name": "流月针",
+  "description": "枪尖狭长，尾部分出半月刀刃的异国兵器，经由商路流落到璃月。稍事练习掌握，便有极其出众的杀伤力。",
+  "icon": "UI_EquipIcon_Pole_Exotic",
+  "storyId": 193403,
+  "affix": {
+    "113403": {
+      "name": "注能之针",
+      "upgrade": {
+        "0": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>20<\/color>%攻击力伤害。",
+        "1": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>25<\/color>%攻击力伤害。",
+        "2": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>30<\/color>%攻击力伤害。",
+        "3": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>35<\/color>%攻击力伤害。",
+        "4": "获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成<color=#99FFFFFF>40<\/color>%攻击力伤害。"
+      }
+    }
+  },
+  "route": "Crescent Pike",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+        "initValue": 0.07507,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112029": 3,
+          "112035": 2,
+          "114013": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112029": 12,
+          "112035": 8,
+          "114014": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112030": 6,
+          "112036": 6,
+          "114014": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112030": 12,
+          "112036": 9,
+          "114015": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112031": 9,
+          "112037": 6,
+          "114015": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112031": 18,
+          "112037": 12,
+          "114016": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112029": 2,
+    "112030": 3,
+    "112031": 4,
+    "112035": 1,
+    "112036": 2,
+    "112037": 3,
+    "114013": 2,
+    "114014": 3,
+    "114015": 4,
+    "114016": 5
+  }
+}

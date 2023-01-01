@@ -1,0 +1,168 @@
+{
+  "id": 12410,
+  "rank": 4,
+  "type": "双手剑",
+  "name": "千岩古剑",
+  "description": "以璃月的基岩为原料削凿成的厚重大剑。",
+  "icon": "UI_EquipIcon_Claymore_Lapis",
+  "storyId": 192410,
+  "affix": {
+    "112410": {
+      "name": "千岩诀·同心",
+      "upgrade": {
+        "0": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>7%<\/color>攻击力提升与<color=#99FFFFFF>3%<\/color>暴击率提升。至多获得4层提升效果。",
+        "1": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>8%<\/color>攻击力提升与<color=#99FFFFFF>4%<\/color>暴击率提升。至多获得4层提升效果。",
+        "2": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>9%<\/color>攻击力提升与<color=#99FFFFFF>5%<\/color>暴击率提升。至多获得4层提升效果。",
+        "3": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>10%<\/color>攻击力提升与<color=#99FFFFFF>6%<\/color>暴击率提升。至多获得4层提升效果。",
+        "4": "队伍中每有一位璃月角色，装备该武器的角色便获得<color=#99FFFFFF>11%<\/color>攻击力提升与<color=#99FFFFFF>7%<\/color>暴击率提升。至多获得4层提升效果。"
+      }
+    }
+  },
+  "route": "Lithic Blade",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.09,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112011": 2,
+          "112029": 3,
+          "114013": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112011": 8,
+          "112029": 12,
+          "114014": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112012": 6,
+          "112030": 6,
+          "114014": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112012": 9,
+          "112030": 12,
+          "114015": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112013": 6,
+          "112031": 9,
+          "114015": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112013": 12,
+          "112031": 18,
+          "114016": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112011": 1,
+    "112012": 2,
+    "112013": 3,
+    "112029": 2,
+    "112030": 3,
+    "112031": 4,
+    "114013": 2,
+    "114014": 3,
+    "114015": 4,
+    "114016": 5
+  }
+}

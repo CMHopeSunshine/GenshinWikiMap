@@ -1,0 +1,94 @@
+{
+  "id": 26120201,
+  "name": "有翼冰本真蕈",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Fungus_Amanita_Unu_Svarita_Ice",
+  "route": "Winged Cryoshroom",
+  "title": "有翼冰本真蕈",
+  "specialName": "蕈群的超越者",
+  "description": "孢子构成的拟态生物，具有强大的环境适应能力。\\n不仅看上去像，连生活习性也模仿了鸟类。飞舞的时候会散落出轻盈的冰花，这些冰晶的晶核其实也是孢子。\\n在蕈兽群落中占有主导地位，显示出其拥有着更高的智能。",
+  "entries": {
+    "26120201": {
+      "id": 26120201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 38.0352,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.144,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.3,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.3,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112059": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112059",
+          "count": "0.2101"
+        },
+        "112060": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112060",
+          "count": "0.056"
+        },
+        "112061": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112061",
+          "count": "0.014"
+        },
+        "112062": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112062",
+          "count": "1.0505"
+        },
+        "112063": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112063",
+          "count": "0.2801"
+        },
+        "112064": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112064",
+          "count": "0.07"
+        }
+      }
+    }
+  },
+  "tips": {
+    "301401": {
+      "images": [
+        "UI_Tutorial_136"
+      ],
+      "description": "孢子演化而成的，具有基础智能的魔物。初次受到<color=#FFE14BFF>雷元素或火元素攻击<\/color>后，将依据元素类型进入活化或枯焦状态。击败状态改变后的蕈兽，可能能收获不同的战利品…"
+    }
+  }
+}

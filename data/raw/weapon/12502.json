@@ -1,0 +1,168 @@
+{
+  "id": 12502,
+  "rank": 5,
+  "type": "双手剑",
+  "name": "狼的末路",
+  "description": "狼的骑士所使的大剑。原本只是城中铁匠赠予的厚重的铁片，却在他与狼的情谊中，获得神话般的力量。",
+  "icon": "UI_EquipIcon_Claymore_Wolfmound",
+  "storyId": 192502,
+  "affix": {
+    "112502": {
+      "name": "如狼般狩猎者",
+      "upgrade": {
+        "0": "攻击力提高<color=#99FFFFFF>20%<\/color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>40%<\/color>，持续12秒。该效果30秒只能触发一次。",
+        "1": "攻击力提高<color=#99FFFFFF>25%<\/color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>50%<\/color>，持续12秒。该效果30秒只能触发一次。",
+        "2": "攻击力提高<color=#99FFFFFF>30%<\/color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>60%<\/color>，持续12秒。该效果30秒只能触发一次。",
+        "3": "攻击力提高<color=#99FFFFFF>35%<\/color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>70%<\/color>，持续12秒。该效果30秒只能触发一次。",
+        "4": "攻击力提高<color=#99FFFFFF>40%<\/color>；攻击命中生命值低于30%的敌人时，队伍中所有成员的攻击力提高<color=#99FFFFFF>80%<\/color>，持续12秒。该效果30秒只能触发一次。"
+      }
+    }
+  },
+  "route": "Wolf's Gravestone",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.108,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112008": 3,
+          "112023": 5,
+          "114009": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112008": 12,
+          "112023": 18,
+          "114010": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112009": 9,
+          "112024": 9,
+          "114010": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112009": 14,
+          "112024": 18,
+          "114011": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112010": 9,
+          "112025": 14,
+          "114011": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112010": 18,
+          "112025": 27,
+          "114012": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112008": 1,
+    "112009": 2,
+    "112010": 3,
+    "112023": 2,
+    "112024": 3,
+    "112025": 4,
+    "114009": 2,
+    "114010": 3,
+    "114011": 4,
+    "114012": 5
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": 26120401,
+  "name": "陆行岩本真蕈",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Fungus_Amanita_Du_Udatta_Rock",
+  "route": "Grounded Geoshroom",
+  "title": "陆行岩本真蕈",
+  "specialName": "蕈群的超越者",
+  "description": "孢子构成的拟态生物，具有强大的环境适应能力。\\n受到岩元素的影响，部分组织似乎已经完全角质化了。考虑到蕈类本就是从孢子进化而来，假以时日，或许可以以此为基础发展出另一种全新的生命形态。\\n在蕈兽群落中占有主导地位，显示出其拥有着更高的智能。",
+  "entries": {
+    "26120401": {
+      "id": 26120401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 38.0352,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 30.144,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.3,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.3,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "301401": {
+      "images": [
+        "UI_Tutorial_136"
+      ],
+      "description": "孢子演化而成的，具有基础智能的魔物。初次受到<color=#FFE14BFF>雷元素或火元素攻击<\/color>后，将依据元素类型进入活化或枯焦状态。击败状态改变后的蕈兽，可能能收获不同的战利品…"
+    }
+  }
+}

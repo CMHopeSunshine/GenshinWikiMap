@@ -1,0 +1,202 @@
+{
+  "id": 22070201,
+  "name": "黯色空壳·破阵",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_ForlornVessel_Strong_Lance_Water",
+  "route": "Shadowy Husk: Line Breaker",
+  "title": "黑蛇骑士的终末",
+  "specialName": "黯色空壳·破阵",
+  "description": "漆黑的士兵。曾经是地下古国的骄傲军人，如今已经不再具备身为「人」的智性了。\\n为了歼敌、为了守护而陷阵的意志似乎仍然刻在这幅空壳当中，就算已经没有人能告诉它们敌在何方，要守护的又是什么。",
+  "entries": {
+    "22070201": {
+      "id": 22070201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010022,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010022,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.3,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "6.5658"
+        },
+        "112018": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "1.7508"
+        },
+        "112019": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22070202": {
+      "id": 22070202,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010022,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010022,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.3,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "6.5658"
+        },
+        "112018": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "1.7508"
+        },
+        "112019": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "300901": {
+      "images": [
+        "UI_Tutorial_131"
+      ],
+      "description": "谜样的漆黑枪兵。它的攻击在<color=#FFE14BFF>命中处于护盾庇护下的角色<\/color>后，会以生命值为代价，产生愈疗的波纹，为自己、身边的「黯色空壳」与「黑蛇骑士」持续恢复生命值。该生命值恢复效果能够叠加多次。"
+    }
+  }
+}

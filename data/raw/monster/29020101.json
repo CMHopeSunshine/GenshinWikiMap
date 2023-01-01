@@ -1,0 +1,229 @@
+{
+  "id": 29020101,
+  "name": "北风的王狼，奔狼的领主",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_LupiBoreas",
+  "route": "Lupus Boreas, Dominator of Wolves",
+  "title": "北风的王狼",
+  "specialName": "安德留斯",
+  "description": "守望着奔狼领的「卢皮卡」，无比崇高的伟大灵魂。\\n当群狼受到威胁时，会以狼的姿态现世，展现自己的苍牙与利爪。\\n\\n奔狼领的狼对蒙德人而言，通常是诡谲的魅影：\\n树木之间一闪而过的模糊形象、方位难辨的凄嚎，以及独行郊野林中时，时常能隐约感受到的视线。\\n人与狼冰冷的双眸直视的机会很少，因为「王狼」为自己的族类订立了规矩。",
+  "entries": {
+    "29020101": {
+      "id": 29020101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "北风狼-雷泽线",
+          "description": "北风狼雷泽线任务标识",
+          "abilityName": [
+            "MonsterAffix_LupiBoreas_Razor"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 244.51199,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 90.432,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.3,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "29020102": {
+      "id": 29020102,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 244.51199,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 90.432,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.3,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101101": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101101"
+        },
+        "101102": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101102"
+        },
+        "101103": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101103"
+        },
+        "101104": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101104"
+        },
+        "101105": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101105"
+        },
+        "104111": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "104171": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104174"
+        },
+        "113006": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113006"
+        },
+        "113007": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113007"
+        },
+        "113008": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113008"
+        },
+        "113021": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

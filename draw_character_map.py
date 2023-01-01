@@ -33,7 +33,6 @@ constellation_name_font = load_font(FONT / 'SourceHanSansCN-Bold.otf', 30)
 
 
 def draw_talent(talent: Talent, index: int, chara_name: str) -> PMImage:
-    # sourcery skip: simplify-numeric-comparison
     # 宽度882，两边空21，可用区域840
     img = PMImage(size=(882, 2500), mode='RGBA', color=(255, 255, 255, 0))
     # ----------图标----------
@@ -200,13 +199,13 @@ def draw_character_map(chara: Character):
     i = 0
     book_pass = False
     for material in materials:
-        name = material['material'].name
+        name = material.material.name
         if name == '智识之冕' or (chara.name == '旅行者' and name == '历战的箭簇'):
             continue
         elif len(name) == 7 and name.startswith('「') and name[3] == '」':
             if book_pass:
                 continue
-            if len(next_name := materials[materials.index(material) + 1]['material'].name) == 7 and next_name.startswith('「') and next_name[3] == '」':
+            if len(next_name := materials[materials.index(material) + 1].material.name) == 7 and next_name.startswith('「') and next_name[3] == '」':
                 book_pass = True
                 name = '多种天赋书'
             else:
@@ -219,7 +218,7 @@ def draw_character_map(chara: Character):
         elif len(name) > 5:
             name = name[:5]
         img.paste(CHARACTER_MAP_RESOURCES / '圆框.png', (641 + i * 143, 472))
-        icon_img = download_from_ambr(MATERIALS / f'{material["material"].icon}.png')
+        icon_img = download_from_ambr(MATERIALS / f'{material.material.icon}.png')
         icon_img = icon_img.resize((100, 100))
         img.paste(icon_img, (651 + i * 143, 482))
         img.draw_rounded_rectangle((642 + i * 143, 567, 765 + i * 143, 597), 5, '#ff6f30')
@@ -267,7 +266,7 @@ def draw_character_map(chara: Character):
     bg_img.save(CHARACTER_MAP_RESULT_RAW / f'{chara.id}.png')
     bg_img.convert('RGB')
     if chara.name == '旅行者':
-        save_name = f'{chara.element}荧' if chara.icon.endswith('PlayerGirl') else f'{chara.element}空'
+        save_name = f'旅行者{chara.element}' if chara.icon.endswith('PlayerGirl') else f'旅行者男{chara.element}'
     else:
         save_name = chara.name
     bg_img.save(CHARACTER_MAP_RESULT / f'{save_name}.jpg', mode='JPEG', quality=50)
@@ -276,4 +275,4 @@ def draw_character_map(chara: Character):
 
 
 if __name__ == '__main__':
-    draw_character_map(Character.parse_file(Path(__file__).parent / 'data' / 'raw' / 'avatar' / '10000026.json'))
+    draw_character_map(Character.parse_file(Path(__file__).parent / 'data' / 'raw' / 'avatar' / '10000078.json'))

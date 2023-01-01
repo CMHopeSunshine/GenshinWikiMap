@@ -1,0 +1,168 @@
+{
+  "id": 15414,
+  "rank": 4,
+  "type": "弓",
+  "name": "破魔之弓",
+  "description": "曾经属于某个巫女的战弓。以优越的技法打造，精巧而耐用。",
+  "icon": "UI_EquipIcon_Bow_Bakufu",
+  "storyId": 195414,
+  "affix": {
+    "115414": {
+      "name": "浅濑之弭",
+      "upgrade": {
+        "0": "普通攻击造成的伤害提升<color=#99FFFFFF>16%<\/color>，重击造成的伤害提升<color=#99FFFFFF>12%<\/color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。",
+        "1": "普通攻击造成的伤害提升<color=#99FFFFFF>20%<\/color>，重击造成的伤害提升<color=#99FFFFFF>15%<\/color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。",
+        "2": "普通攻击造成的伤害提升<color=#99FFFFFF>24%<\/color>，重击造成的伤害提升<color=#99FFFFFF>18%<\/color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。",
+        "3": "普通攻击造成的伤害提升<color=#99FFFFFF>28%<\/color>，重击造成的伤害提升<color=#99FFFFFF>21%<\/color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。",
+        "4": "普通攻击造成的伤害提升<color=#99FFFFFF>32%<\/color>，重击造成的伤害提升<color=#99FFFFFF>24%<\/color>。当装备该武器的角色元素能量等于100%时，这个效果提升100%。"
+      }
+    }
+  },
+  "route": "Hamayumi",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112011": 2,
+          "112050": 3,
+          "114029": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112011": 8,
+          "112050": 12,
+          "114030": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112012": 6,
+          "112051": 6,
+          "114030": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112012": 9,
+          "112051": 12,
+          "114031": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112013": 6,
+          "112052": 9,
+          "114031": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112013": 12,
+          "112052": 18,
+          "114032": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112011": 1,
+    "112012": 2,
+    "112013": 3,
+    "112050": 2,
+    "112051": 3,
+    "112052": 4,
+    "114029": 2,
+    "114030": 3,
+    "114031": 4,
+    "114032": 5
+  }
+}

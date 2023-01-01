@@ -1,0 +1,158 @@
+{
+  "id": 24030301,
+  "name": "兆载永劫龙兽",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Gargoyle_Fafnir",
+  "route": "Aeonblight Drake",
+  "title": "兆载永劫龙兽",
+  "specialName": "永续永动·GL-Faf",
+  "description": "如同古时曾制御大地的君王一般，令人望而生畏的龙形战斗机械。\\n传说已经覆灭的国度曾渴求着禁忌的技术，试图拟造出可以匹敌，乃至超越亘古生命的永续机关。这架不知疲倦的神秘机械巨兽似乎证明，他们确已触及了人所不应抵达的领域。",
+  "entries": {
+    "24030301": {
+      "id": 24030301,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 230.92799,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.7
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104121": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113038": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113038",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400147": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15013_3"
+        },
+        "400148": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15013_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "302201": {
+      "images": [
+        "UI_Tutorial_143"
+      ],
+      "description": "能够吸收能量、反制攻击的遗迹机关。具有比遗迹龙兽更强的性能，能在地面与升空状态下进行攻击。兆载永劫龙兽在战斗中会周期性释放危险的能量洪流，并根据此前受到伤害的主要元素类型，提高对应的元素抗性。在一些状态下，它身体诸多部位的<color=#FFE14BFF>核心<\/color>会暴露出来。抓住这样的机会攻击核心的话，或许能使其瘫痪，并<color=#FFE14BFF>清除已提升的元素抗性<\/color>。从瘫痪状态恢复后，会切换升空或地面状态。"
+    }
+  }
+}

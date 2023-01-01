@@ -1,0 +1,80 @@
+{
+  "id": 25070101,
+  "name": "盗宝团·粉碎者",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Thoarder_MuscleMan_Miner_01",
+  "route": "Treasure Hoarders: Crusher",
+  "title": "盗宝团·粉碎者",
+  "specialName": "雅号「泥鳅」",
+  "description": "足迹遍布大陆各处，甚至深入未知秘境的松散盗贼组织中的一员。\\n原本是在矿下工作的人。层岩巨渊封锁后，尽管领取着津贴，还是出于各种缘由加入了盗宝团。",
+  "entries": {
+    "25070101": {
+      "id": 25070101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 20.096,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112035": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112035",
+          "count": "1.2606"
+        },
+        "112036": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112036",
+          "count": "0.3362"
+        },
+        "112037": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112037",
+          "count": "0.084"
+        }
+      }
+    }
+  },
+  "tips": null
+}

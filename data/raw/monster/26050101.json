@@ -1,0 +1,231 @@
+{
+  "id": 26050101,
+  "name": "古岩龙蜥",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Drake_Primo_Rock",
+  "route": "Primo Geovishap",
+  "title": "古岩龙蜥",
+  "specialName": "自漫长蛰眠中苏醒的撼地之龙",
+  "description": "经历了长久岁月，拥有伟大力量的巨大岩龙蜥，能够适应元素环境的异变。\\n根据民话，导致天遒谷毁灭的「龙灾」发生后，岩龙蜥与古岩龙蜥的王者被禁锢在大地深处，而它们则在地壳之下休眠，等待着复起的时机…",
+  "entries": {
+    "26050101": {
+      "id": 26050101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "古岩龙蜥-水",
+          "description": "古岩龙蜥-水",
+          "abilityName": [
+            "Drake_Primo_Rock_SkinController_Water",
+            "Drake_Primo_Rock_Breathe_Water",
+            "Drake_Primo_Rock_ElementExplodeBS_Water",
+            "Drake_Primo_Rock_ScaleShot_Water",
+            "Drake_Primo_Rock_ScaleBurst_Water",
+            "Drake_Primo_Rock_BrokenH_Water"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010017,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 407.51999,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.5,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104121": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "104171": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104174"
+        },
+        "113016": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113016"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400128": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400133": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15010_3"
+        },
+        "400138": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15011_3"
+        },
+        "400148": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15013_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "27201": {
+      "images": [
+        "UI_Tutorial_75b"
+      ],
+      "description": "从悠古的长眠中苏醒的古岩龙蜥，能汲取各种元素的力量，进行水、火、冰、雷四种元素的「原岩喷吐」攻击。当这种攻击命中受到<color=#FFE14BFF>护盾<\/color>庇护的角色时，古岩龙蜥会受到伤害反噬；如果<color=#FFE14BFF>护盾的元素属性与原岩喷吐的元素属性相同<\/color>，或者是<color=#FFE14BFF>岩元素护盾<\/color>，反噬的伤害会更加剧烈…"
+    }
+  }
+}

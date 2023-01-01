@@ -1,0 +1,306 @@
+{
+  "id": 25090101,
+  "name": "魔偶剑鬼",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Samurai_Ningyo",
+  "route": "Maguu Kenki",
+  "title": "魔偶剑鬼",
+  "specialName": "万般机巧·剑豪人形",
+  "description": "自律的人形机关剑士。\\n似乎没有说话的能力与意愿，只愿意用剑沟通。\\n据说在试作时，集成了某个剑道流派初代宗主的记忆，却又因为不明的原因而失控，最终被废弃了。\\n根据歌人的描述，剑鬼会徘徊在因缘断绝的地方，而守护它的凶恶之面似乎取自那个时代有名的鬼人。",
+  "entries": {
+    "25090101": {
+      "id": 25090101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "傀儡将军强制后撤词缀",
+          "description": "傀儡将军强制后撤词缀",
+          "abilityName": [
+            "MonsterAffix_Samurai_Ningyo_ForceDodgeAffix"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 271.67999,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104151": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113022": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113022",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "25090102": {
+      "id": 25090102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "傀儡将军挑战风分身默认剑气词缀",
+          "description": "傀儡将军挑战风分身默认剑气词缀",
+          "abilityName": [
+            "MonsterAffix_Samurai_Ningyo_02_ChallengeAffix_01_Unique1"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.3,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "25090103": {
+      "id": 25090103,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.3,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "25090104": {
+      "id": 25090104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

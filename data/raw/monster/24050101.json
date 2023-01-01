@@ -1,0 +1,158 @@
+{
+  "id": 24050101,
+  "name": "半永恒统辖矩阵",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Monolith_Starchild",
+  "route": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+  "title": "半永恒统辖矩阵",
+  "specialName": "砂原王之梦的守墓者",
+  "description": "统辖着散落在沙漠中的众多遗迹构装体的永恒机关，其中似乎仍残留着孤独君王的执着意念。\\n或许是因为梦中的友人曾经的教诲，又或是因为觊觎着天上诸圣的权能，王创造出了本应不属于地上的神秘机关，并以此构建砂原上的国都。\\n在千柱之城的废墟之上，古老的晶石中仍折射着黄金乐园的美景，即便王的梦想早已无人铭记。",
+  "entries": {
+    "24050101": {
+      "id": 24050101,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 217.34399,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 82.896,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104111": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104151": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113039": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113039",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400127": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15009_3"
+        },
+        "400128": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15009_3"
+        }
+      }
+    }
+  },
+  "tips": {
+    "302401": {
+      "images": [
+        "UI_Tutorial_145"
+      ],
+      "description": "来自沙漠的古代机械集合体，拥有现今文明无法理解的特性。在战斗中，半永恒统辖矩阵会将其元件投射出去，核心会进入「不可视」状态，隐身并且大幅提升伤害抵抗能力。<color=#FFE14BFF>使激化反应波及其核心，或是在元件被破坏后恢复期间利用雷元素攻击<\/color>，能够破除半永恒统辖矩阵的不可视状态，并使其进入超频过载的瘫痪状态。如果长时间无法破除核心的不可视状态，半永恒统辖矩阵会施展威力强大的超频冲击…"
+    }
+  }
+}

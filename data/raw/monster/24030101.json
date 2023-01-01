@@ -1,0 +1,111 @@
+{
+  "id": 24030101,
+  "name": "遗迹龙兽·空巡",
+  "type": "自律机关",
+  "icon": "UI_MonsterIcon_Gargoyle",
+  "route": "Ruin Drake: Skywatch",
+  "title": "遗迹龙兽·空巡",
+  "specialName": "Faf-10227",
+  "description": "令人望而生畏的龙形战斗机械。\\n传说是已经覆灭的国度留下的战争机械。形态上模仿了「龙蜥」这一物种，但为了性能进行了结构的优化。较之真正的龙蜥，具有更强的「吸收」，抑或是说「反制」元素的能力。\\n能创造出这样可怕兵器的文明，又会因为什么而覆灭呢…",
+  "entries": {
+    "24030101": {
+      "id": 24030101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.5
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112068": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112068",
+          "count": "3.9394"
+        },
+        "112069": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112069",
+          "count": "1.0505"
+        },
+        "112070": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112070",
+          "count": "0.2626"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "301701": {
+      "images": [
+        "UI_Tutorial_138"
+      ],
+      "description": "能够吸收能量、反制攻击的遗迹机关。遗迹龙兽·空巡在战斗中会周期性释放危险的能量洪流，并根据此前受到伤害的主要元素类型，提高对应的元素抗性。在一些状态下，它身体诸多部位的<color=#FFE14BFF>核心<\/color>会暴露出来。抓住这样的机会攻击核心的话，或许能使其瘫痪并解除元素抗性的提升…"
+    }
+  }
+}

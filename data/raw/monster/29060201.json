@@ -1,0 +1,249 @@
+{
+  "id": 29060201,
+  "name": "祸津御建鸣神命",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_Shougun_Mitakenarukami",
+  "route": "Magatsu Mitake Narukami no Mikoto",
+  "title": "祸津御建鸣神命",
+  "specialName": "雷电之稻妻殿",
+  "description": "代行雷电将军权能的人偶，在对抗威胁「永恒」之敌时展现出的形态。\\n作为雷电影践行「永恒」的协助者，她从未质疑，亦无畏惧，一直以来全力以赴，心无杂念。\\n她曾听闻在真与影的时代，影承担着与她类似的责任，经历了诸多惨痛失去。\\n当两个影子交叠为一时，她却只能看见在「她」本应永恒的意志上留下的无数细密的凿痕吧。既然命运注定是一场轮回，就如约定那样，向其宣战吧。\\n\\n<i>「此身，象征无上威严，被授予统领一国之权，凝聚了『雷电将军』的一切。<\/i>\\n<i>「自然也继承了影前行时不断失去的痛苦，以及，想要抵达永恒的决心。<\/i>\\n<i>「决心、勇气、爱慕、仇恨…都会在时间长河中变质扭曲。<\/i>\\n<i>「唯有『法则』永恒不变。」<\/i>",
+  "entries": {
+    "29060201": {
+      "id": 29060201,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "雷电将军标记",
+          "description": "雷电将军标记-2.5Quest1",
+          "abilityName": [
+            "Monster_Shougun_Mitakenarukami_HpControl_QuestDungeon_01"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 48.9024,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "29060202": {
+      "id": 29060202,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "雷电将军标记",
+          "description": "雷电将军标记-2.5Quest2",
+          "abilityName": [
+            "Monster_Shougun_Mitakenarukami_HpControl_QuestDungeon_02"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 244.51199,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "29060203": {
+      "id": 29060203,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "雷电将军标记",
+          "description": "雷电将军标记-2.5Weekly",
+          "abilityName": [
+            "Monster_Shougun_Mitakenarukami_ToStage3_WeaklyDungeon"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 543.35999,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 150.72,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101101": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101101"
+        },
+        "101102": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101102"
+        },
+        "101103": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101103"
+        },
+        "101104": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101104"
+        },
+        "101105": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101105"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "113021": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "113032": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113032"
+        },
+        "113033": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113033"
+        },
+        "113034": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113034"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

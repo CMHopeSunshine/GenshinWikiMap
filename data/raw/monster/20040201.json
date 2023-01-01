@@ -1,0 +1,211 @@
+{
+  "id": 20040201,
+  "name": "无相之风",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Wind",
+  "route": "Anemo Hypostasis",
+  "title": "无相之风",
+  "specialName": "「贝特」",
+  "description": "代号为「贝特」的高级风元素生命。\\n「无相」指的是抛弃了其他元素生物的形态与生态，达到的纯粹境地。\\n针对无相元素的研究，主要由须弥教令院的学者主导进行。但由于其危险性，除了代号与命名以外，基本没有取得什么值得参考的研究成果…",
+  "entries": {
+    "20040201": {
+      "id": 20040201,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "风抗-100%",
+          "description": "同系伤害抵抗-风-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Wind_03"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010035,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104151": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104154"
+        },
+        "113001": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113001",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "20040202": {
+      "id": 20040202,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "风抗-100%",
+          "description": "同系伤害抵抗-风-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Wind_03"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010035,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010035,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "24801": {
+      "images": [
+        "UI_Effigy_Wind_01_Tutorial01"
+      ],
+      "description": "用惰性的方壳保护自己与战斗的强大元素魔物。抓住<color=#FFE14BFF>元素核心<\/color>暴露在外的时机，才能有效攻击。会利用特殊的<color=#FFE14BFF>元素晶球<\/color>战斗，及在危急时恢复生命。如果无法利用上升气流将这些晶球吸收的话，战斗会陷入十分不妙的境地…"
+    }
+  }
+}

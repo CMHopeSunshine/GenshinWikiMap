@@ -1,0 +1,290 @@
+{
+  "id": 29050101,
+  "name": "「女士」",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_LaSignora",
+  "route": "La Signora",
+  "title": "愚人众执行官第八席",
+  "specialName": "「女士」",
+  "description": "愚人众执行官第八席的「女士」。\\n与行使邪眼之权能的其他愚人众不同，邪眼是抑制啃噬一切的烈火的器物。比起厮杀用的兵器，说是刑拘道具才更为贴切。\\n而这就是漫长的岁月中积郁的余烬，冲破邪眼霜封后为她涂抹的扭曲妆容。\\n\\n瞳仁中倒映着破晓的赤红，她最后展开烈焰之翼向黎明飞去。\\n<i>「但那并不是曙光，亲爱的罗莎琳。那是焚尽一切的火海。」<\/i>\\n在光芒中，一个声音这么对她说。\\n\\n但这也没什么所谓。因为她心中明白，自己早已被烈火吞没。",
+  "entries": {
+    "29050101": {
+      "id": 29050101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "剧情任务-难度调节标签",
+          "description": "剧情任务-难度调节标签",
+          "abilityName": [
+            "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "29050102": {
+      "id": 29050102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "剧情任务-难度调节标签",
+          "description": "剧情任务-难度调节标签",
+          "abilityName": [
+            "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 190.17599,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101101": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101101"
+        },
+        "101102": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101102"
+        },
+        "101103": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101103"
+        },
+        "101104": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101104"
+        },
+        "101105": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101105"
+        },
+        "104111": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104114"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113021": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "113025": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113025"
+        },
+        "113026": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113026"
+        },
+        "113027": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113027"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "29050103": {
+      "id": 29050103,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 135.84,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "29050104": {
+      "id": 29050104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 271.67999,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 60.288,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.7,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,168 @@
+{
+  "id": 14511,
+  "rank": 5,
+  "type": "法器",
+  "name": "千夜浮梦",
+  "description": "浮映千夜之梦的灯盏，苍翠的光中流溢着遥世的歌。",
+  "icon": "UI_EquipIcon_Catalyst_Ayus",
+  "storyId": 194511,
+  "affix": {
+    "114511": {
+      "name": "千夜的曙歌",
+      "upgrade": {
+        "0": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<color=#99FFFFFF>32<\/color>点；不同：装备者元素类型的元素伤害加成提升<color=#99FFFFFF>10%<\/color>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<color=#99FFFFFF>40<\/color>点，多件同名武器产生的此效果可以叠加。",
+        "1": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<color=#99FFFFFF>40<\/color>点；不同：装备者元素类型的元素伤害加成提升<color=#99FFFFFF>14%<\/color>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<color=#99FFFFFF>42<\/color>点，多件同名武器产生的此效果可以叠加。",
+        "2": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<color=#99FFFFFF>48<\/color>点；不同：装备者元素类型的元素伤害加成提升<color=#99FFFFFF>18%<\/color>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<color=#99FFFFFF>44<\/color>点，多件同名武器产生的此效果可以叠加。",
+        "3": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<color=#99FFFFFF>56<\/color>点；不同：装备者元素类型的元素伤害加成提升<color=#99FFFFFF>22%<\/color>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<color=#99FFFFFF>46<\/color>点，多件同名武器产生的此效果可以叠加。",
+        "4": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<color=#99FFFFFF>64<\/color>点；不同：装备者元素类型的元素伤害加成提升<color=#99FFFFFF>26%<\/color>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<color=#99FFFFFF>48<\/color>点，多件同名武器产生的此效果可以叠加。"
+      }
+    }
+  },
+  "route": "A Thousand Floating Dreams",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 57.6,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112059": 3,
+          "112071": 5,
+          "114041": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112059": 12,
+          "112071": 18,
+          "114042": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112060": 9,
+          "112072": 9,
+          "114042": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112060": 14,
+          "112072": 18,
+          "114043": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112061": 9,
+          "112073": 14,
+          "114043": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112061": 18,
+          "112073": 27,
+          "114044": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112059": 1,
+    "112060": 2,
+    "112061": 3,
+    "112071": 2,
+    "112072": 3,
+    "112073": 4,
+    "114041": 2,
+    "114042": 3,
+    "114043": 4,
+    "114044": 5
+  }
+}

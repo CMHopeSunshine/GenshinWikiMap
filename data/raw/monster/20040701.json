@@ -1,0 +1,194 @@
+{
+  "id": 20040701,
+  "name": "无相之草",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Grass",
+  "route": "Dendro Hypostasis",
+  "title": "无相之草",
+  "specialName": "「扎因」",
+  "description": "代号为「扎因」的高级草元素生命。\\n依据学者的推想，无相元素具有「学习」的智慧，进而产生了利用「拟态」进行攻击的能力。但能够摄入信息、产生变化，就可能遭受信息的污染。在学习、变化的过程中，原本诞生的目的——尽管如今在学界中仍是未解之谜——或许也会被歪曲、变得无关紧要吧。",
+  "entries": {
+    "20040701": {
+      "id": 20040701,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010033,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104131": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104134"
+        },
+        "113040": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113040",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400047": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "20040702": {
+      "id": 20040702,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010033,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010033,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "302701": {
+      "images": [
+        "UI_Tutorial_149"
+      ],
+      "description": "会利用惰性的方壳保护自己的无相元素，似乎因为某种侵蚀的影响而陷入了异常。抓住元素核心暴露在外的时机，才能有效攻击。在危急时，会分散出具有三相众物性质的愈疗草芯。利用<color=#FFE14BFF>草元素<\/color>将其激活，使其进入常态可以持续净化无相之草，通过<color=#FFE14BFF>雷元素<\/color>使其活化则能提高净化的效率。对无相之草的核心进行草元素攻击，也能为其进行净化。<color=#FFE14BFF>完成净化<\/color>即能完成挑战。"
+    }
+  }
+}

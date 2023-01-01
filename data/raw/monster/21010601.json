@@ -1,0 +1,137 @@
+{
+  "id": 21010601,
+  "name": "爆弹丘丘人",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Hili_Fire_Range",
+  "route": "Hilichurl Grenadier",
+  "title": "丘丘人",
+  "specialName": "单纯的魔物",
+  "description": "提瓦特荒野中游荡的原始住民。\\n擅长活用火史莱姆的狡猾家伙，把火史莱姆用作迎击来犯者的武器。利用火史莱姆的爆炸，投掷技巧精湛的爆弹丘丘人或许可以一次击碎五根木柱吧。",
+  "entries": {
+    "21010601": {
+      "id": 21010601,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "点燃免疫",
+          "description": "免疫点燃伤害",
+          "abilityName": [
+            "MonsterAffix_BurningResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45.216,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112005": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112005",
+          "count": "0.4202"
+        },
+        "112006": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112006",
+          "count": "0.112"
+        },
+        "112007": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112007",
+          "count": "0.028"
+        }
+      }
+    },
+    "21010603": {
+      "id": 21010603,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "点燃免疫",
+          "description": "免疫点燃伤害",
+          "abilityName": [
+            "MonsterAffix_BurningResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 13.584,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 45.216,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

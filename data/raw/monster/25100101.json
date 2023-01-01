@@ -1,0 +1,123 @@
+{
+  "id": 25100101,
+  "name": "海乱鬼·雷腾",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Samurai_Kairagi_01",
+  "route": "Kairagi: Dancing Thunder",
+  "title": "海乱鬼·雷腾",
+  "specialName": "「剑舞文之助」",
+  "description": "落草为寇的流浪武人。\\n有着高强的武道修养，却因为种种原因而没有用武之地，走投无路中踏上了恶逆之道。会利用本应在数百年前失传的惟神技术制造的符纸，为刀剑附上雷霆的力量。",
+  "entries": {
+    "25100101": {
+      "id": 25100101,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "海乱鬼成就判定词缀",
+          "description": "非幽灵海乱鬼成就判定",
+          "abilityName": [
+            "MonsterAffix_Samurai_Kairagi_Watcher_82107"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 65.2032,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 94.2,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112044": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112044",
+          "count": "0.8404"
+        },
+        "112045": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112045",
+          "count": "0.2241"
+        },
+        "112046": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112046",
+          "count": "0.056"
+        }
+      }
+    },
+    "25100102": {
+      "id": 25100102,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 103.2384,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

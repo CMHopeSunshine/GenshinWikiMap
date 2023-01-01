@@ -1,0 +1,168 @@
+{
+  "id": 15507,
+  "rank": 5,
+  "type": "弓",
+  "name": "冬极白星",
+  "description": "如同深冬坚冰一样尖锐的无垢之弓。",
+  "icon": "UI_EquipIcon_Bow_Worldbane",
+  "storyId": 195507,
+  "affix": {
+    "115507": {
+      "name": "极昼的先兆者",
+      "upgrade": {
+        "0": "元素战技和元素爆发造成的伤害提高<color=#99FFFFFF>12%<\/color>；普通攻击、重击、元素战技或元素爆发命中敌人后，将产生1层持续12秒的「白夜极星」效果。处于1\/2\/3\/4层「白夜极星」效果下时，攻击力将提高<color=#99FFFFFF>10\/20\/30\/48%<\/color>。由普通攻击、重击、元素战技或元素爆发产生的「白夜极星」将分别独立存在。",
+        "1": "元素战技和元素爆发造成的伤害提高<color=#99FFFFFF>15%<\/color>；普通攻击、重击、元素战技或元素爆发命中敌人后，将产生1层持续12秒的「白夜极星」效果。处于1\/2\/3\/4层「白夜极星」效果下时，攻击力将提高<color=#99FFFFFF>12.5\/25\/37.5\/60%<\/color>。由普通攻击、重击、元素战技或元素爆发产生的「白夜极星」将分别独立存在。",
+        "2": "元素战技和元素爆发造成的伤害提高<color=#99FFFFFF>18%<\/color>；普通攻击、重击、元素战技或元素爆发命中敌人后，将产生1层持续12秒的「白夜极星」效果。处于1\/2\/3\/4层「白夜极星」效果下时，攻击力将提高<color=#99FFFFFF>15\/30\/45\/72%<\/color>。由普通攻击、重击、元素战技或元素爆发产生的「白夜极星」将分别独立存在。",
+        "3": "元素战技和元素爆发造成的伤害提高<color=#99FFFFFF>21%<\/color>；普通攻击、重击、元素战技或元素爆发命中敌人后，将产生1层持续12秒的「白夜极星」效果。处于1\/2\/3\/4层「白夜极星」效果下时，攻击力将提高<color=#99FFFFFF>17.5\/35\/52.5\/84%<\/color>。由普通攻击、重击、元素战技或元素爆发产生的「白夜极星」将分别独立存在。",
+        "4": "元素战技和元素爆发造成的伤害提高<color=#99FFFFFF>24%<\/color>；普通攻击、重击、元素战技或元素爆发命中敌人后，将产生1层持续12秒的「白夜极星」效果。处于1\/2\/3\/4层「白夜极星」效果下时，攻击力将提高<color=#99FFFFFF>20\/40\/60\/96%<\/color>。由普通攻击、重击、元素战技或元素爆发产生的「白夜极星」将分别独立存在。"
+      }
+    }
+  },
+  "route": "Polar Star",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.072,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112053": 3,
+          "112056": 5,
+          "114033": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112053": 12,
+          "112056": 18,
+          "114034": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112054": 9,
+          "112057": 9,
+          "114034": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112054": 14,
+          "112057": 18,
+          "114035": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112055": 9,
+          "112058": 14,
+          "114035": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112055": 18,
+          "112058": 27,
+          "114036": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112053": 1,
+    "112054": 2,
+    "112055": 3,
+    "112056": 2,
+    "112057": 3,
+    "112058": 4,
+    "114033": 2,
+    "114034": 3,
+    "114035": 4,
+    "114036": 5
+  }
+}

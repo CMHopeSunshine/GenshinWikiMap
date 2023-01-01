@@ -1,0 +1,198 @@
+{
+  "id": 21020501,
+  "name": "丘丘岩盔王",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Brute_Rock_None",
+  "route": "Stonehide Lawachurl",
+  "title": "丘丘岩盔王",
+  "specialName": "磐岩刻印的丘丘王者",
+  "description": "千嶂中漫行的神秘「王者」。\\n被同胞称为「Lawa」的庞大丘丘人。环境中增生的岩元素化成了它们身体的一部分，仿佛血肉与皮肤皆由不移的山岩雕琢而成。",
+  "entries": {
+    "21020501": {
+      "id": 21020501,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010050,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010050,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010050,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 113.04,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.7,
+        "physicalSubHurt": 0.5
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112005": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112005",
+          "count": "0.5253"
+        },
+        "112006": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112006",
+          "count": "0.1401"
+        },
+        "112007": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112007",
+          "count": "0.035"
+        },
+        "112014": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112014",
+          "count": "5.2526"
+        },
+        "112015": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112015",
+          "count": "1.4006"
+        },
+        "112016": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112016",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "21020502": {
+      "id": 21020502,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "丘丘王非入战强化-塔防",
+          "description": "丘丘王非入战强化-塔防",
+          "abilityName": [
+            "MonsterAffix_Brute_TowerDefence_PowerUp"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 113.04,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.7,
+        "physicalSubHurt": 0.5
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

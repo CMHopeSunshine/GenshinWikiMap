@@ -1,0 +1,111 @@
+{
+  "id": 22050201,
+  "name": "嗜雷·兽境猎犬",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Hound_Riftstalker_Electric",
+  "route": "Thundercraven Rifthound",
+  "title": "兽境猎犬",
+  "specialName": "隙间侵入的异兽",
+  "description": "能够侵蚀世界边界的魔血之兽。「黄金」的造物。\\n曾经肆虐大陆，然后遭到反抗与猎捕而一度绝迹。但最近它们却又再度出现了。威胁到了清泉镇与奔狼领的黑狼之群，说的正是它们。",
+  "entries": {
+    "22050201": {
+      "id": 22050201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010024,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010024,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 40.192,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.25,
+        "grassSubHurt": 0.25,
+        "waterSubHurt": 0.25,
+        "elecSubHurt": 0.25,
+        "windSubHurt": 0.25,
+        "iceSubHurt": 0.25,
+        "rockSubHurt": 0.25,
+        "physicalSubHurt": 0.25
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112056": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112056",
+          "count": "5.2526"
+        },
+        "112057": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112057",
+          "count": "1.4006"
+        },
+        "112058": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112058",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "29201": {
+      "images": [
+        "UI_Tutorial_110b"
+      ],
+      "description": "兽境幼兽的成年体…虽然看起来是这样，但这种魔物有没有自然成长的规律，迄今仍是谜团。兽境猎犬的攻击会施加可叠加的「侵蚀」状态，使队伍中所有角色<color=#FFE14BFF>持续损失生命值<\/color>。此外，承受对应的元素攻击后，兽境猎犬将进入「嗜魔」状态，<color=#FFE14BFF>以该元素抗性的降低为代价，变得极为凶猛<\/color>。"
+    }
+  }
+}

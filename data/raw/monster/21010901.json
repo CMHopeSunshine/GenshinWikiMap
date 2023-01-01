@@ -1,0 +1,135 @@
+{
+  "id": 21010901,
+  "name": "冰箭丘丘人",
+  "type": "丘丘部族",
+  "icon": "UI_MonsterIcon_Hili_Ice_Range",
+  "route": "Cryo Hilichurl Shooter",
+  "title": "射手丘丘人",
+  "specialName": "单纯的魔物",
+  "description": "提瓦特荒野中游荡的原始住民。\\n手持简陋弩机的射手，箭头上凝着不化的寒冰。好像听说这种箭头留下的伤口很难愈合，因为寒冷会减缓血液流通的速度。",
+  "entries": {
+    "21010901": {
+      "id": 21010901,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 11.304,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112005": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112005",
+          "count": "0.1681"
+        },
+        "112006": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112006",
+          "count": "0.0448"
+        },
+        "112007": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112007",
+          "count": "0.0112"
+        },
+        "112011": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112011",
+          "count": "0.8404"
+        },
+        "112012": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112012",
+          "count": "0.2241"
+        },
+        "112013": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112013",
+          "count": "0.056"
+        }
+      }
+    },
+    "21010902": {
+      "id": 21010902,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 10.8672,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 11.304,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

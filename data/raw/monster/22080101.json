@@ -1,0 +1,63 @@
+{
+  "id": 22080101,
+  "name": "黑蛇骑士·斩风之剑",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Darkwraith_Strong_Wind",
+  "route": "Black Serpent Knight: Windcutter",
+  "title": "「曾经行于微风之中…」",
+  "specialName": "黑蛇骑士·爱尔德里克",
+  "description": "在宫廷当中颇具地位的近卫军人，以名唤「至真之术」的剑斗技巧，扫除王家的敌人。\\n「末光之剑」也曾是他们当中的一员。在王国的光荣尽数失落、一切都无可挽回之前。",
+  "entries": {
+    "22080101": {
+      "id": 22080101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010025,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010025,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.5,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "301201": {
+      "images": [
+        "UI_Tutorial_133"
+      ],
+      "description": "曾经是何处颇具地位的近卫军人，能够驾驭风的力量。它的攻击在<color=#FFE14BFF>命中处于护盾庇护下的角色<\/color>后，会以生命为代价，变得更加强大、敏捷。"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": 23010601,
+  "name": "愚人众先遣队·火铳游击兵",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Skirmisher_Male_Standard_Rifle_Fire_01",
+  "route": "Fatui Skirmisher - Pyroslinger Bracer",
+  "title": "先遣队·火铳游击兵",
+  "specialName": "愚人众·列夫",
+  "description": "操使着烈焰之铳的愚人众士兵。\\n先遣队配置的武器在一定程度上能制御元素，战斗策略上则会利用元素反应。\\n因为拥有这样的武装与知识，先遣队团队作战时能带来无法小觑的威胁。",
+  "entries": {
+    "23010601": {
+      "id": 23010601,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010021,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010021,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 56.52,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112032": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112032",
+          "count": "4.202"
+        },
+        "112033": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112033",
+          "count": "1.1205"
+        },
+        "112034": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112034",
+          "count": "0.28"
+        }
+      }
+    }
+  },
+  "tips": {
+    "26301": {
+      "images": [
+        "UI_Tutorial_51"
+      ],
+      "description": "利用喷射火元素的铁铳战斗的愚人众士兵，能进入某种<color=#FFE14BFF>元素增幅<\/color>状态。这种状态最大的弱点，恐怕是<color=#FFE14BFF>某种能与火发生反应的元素之一<\/color>…"
+    }
+  }
+}

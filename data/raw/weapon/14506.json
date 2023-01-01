@@ -1,0 +1,168 @@
+{
+  "id": 14506,
+  "rank": 5,
+  "type": "法器",
+  "name": "不灭月华",
+  "description": "出自深海的美玉之环，闪烁着清澈如月的光泽，一如遥远往昔。",
+  "icon": "UI_EquipIcon_Catalyst_Kaleido",
+  "storyId": 194506,
+  "affix": {
+    "114506": {
+      "name": "白夜皓月",
+      "upgrade": {
+        "0": "治疗加成提升<color=#99FFFFFF>10%<\/color>；普通攻击造成的伤害增加，增加值为装备该武器的角色生命值上限的<color=#99FFFFFF>1%<\/color>。在施放元素爆发后的12秒内，普通攻击命中敌人时恢复0.6点元素能量，每0.1秒至多通过这种方式恢复一次元素能量。",
+        "1": "治疗加成提升<color=#99FFFFFF>12.5%<\/color>；普通攻击造成的伤害增加，增加值为装备该武器的角色生命值上限的<color=#99FFFFFF>1.5%<\/color>。在施放元素爆发后的12秒内，普通攻击命中敌人时恢复0.6点元素能量，每0.1秒至多通过这种方式恢复一次元素能量。",
+        "2": "治疗加成提升<color=#99FFFFFF>15%<\/color>；普通攻击造成的伤害增加，增加值为装备该武器的角色生命值上限的<color=#99FFFFFF>2%<\/color>。在施放元素爆发后的12秒内，普通攻击命中敌人时恢复0.6点元素能量，每0.1秒至多通过这种方式恢复一次元素能量。",
+        "3": "治疗加成提升<color=#99FFFFFF>17.5%<\/color>；普通攻击造成的伤害增加，增加值为装备该武器的角色生命值上限的<color=#99FFFFFF>2.5%<\/color>。在施放元素爆发后的12秒内，普通攻击命中敌人时恢复0.6点元素能量，每0.1秒至多通过这种方式恢复一次元素能量。",
+        "4": "治疗加成提升<color=#99FFFFFF>20%<\/color>；普通攻击造成的伤害增加，增加值为装备该武器的角色生命值上限的<color=#99FFFFFF>3%<\/color>。在施放元素爆发后的12秒内，普通攻击命中敌人时恢复0.6点元素能量，每0.1秒至多通过这种方式恢复一次元素能量。"
+      }
+    }
+  },
+  "route": "Everlasting Moonglow",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.108,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112050": 5,
+          "112053": 3,
+          "114025": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112050": 18,
+          "112053": 12,
+          "114026": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112051": 9,
+          "112054": 9,
+          "114026": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112051": 18,
+          "112054": 14,
+          "114027": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112052": 14,
+          "112055": 9,
+          "114027": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112052": 27,
+          "112055": 18,
+          "114028": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112050": 2,
+    "112051": 3,
+    "112052": 4,
+    "112053": 1,
+    "112054": 2,
+    "112055": 3,
+    "114025": 2,
+    "114026": 3,
+    "114027": 4,
+    "114028": 5
+  }
+}

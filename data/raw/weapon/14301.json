@@ -1,0 +1,168 @@
+{
+  "id": 14301,
+  "rank": 3,
+  "type": "法器",
+  "name": "魔导绪论",
+  "description": "第十二版。结合时代发展加注了新内容，并修订了第十一版的错别字。",
+  "icon": "UI_EquipIcon_Catalyst_Intro",
+  "storyId": 194301,
+  "affix": {
+    "114301": {
+      "name": "止水息雷",
+      "upgrade": {
+        "0": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>12%<\/color>。",
+        "1": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>15%<\/color>。",
+        "2": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>18%<\/color>。",
+        "3": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>21%<\/color>。",
+        "4": "对处于水元素或雷元素影响下的敌人，造成的伤害提高<color=#99FFFFFF>24%<\/color>。"
+      }
+    }
+  },
+  "route": "Magic Guide",
+  "upgrade": {
+    "awakenCost": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 37.6075,
+        "type": "GROW_CURVE_ATTACK_104"
+      },
+      {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 40.8,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112002": 1,
+          "112014": 2,
+          "114001": 2
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 19.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112002": 5,
+          "112014": 8,
+          "114002": 2
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 38.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112003": 4,
+          "112015": 4,
+          "114002": 4
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 58.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112003": 6,
+          "112015": 8,
+          "114003": 2
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112004": 4,
+          "112016": 6,
+          "114003": 4
+        },
+        "coinCost": 25000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 97.3,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112004": 8,
+          "112016": 12,
+          "114004": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 116.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112002": 1,
+    "112003": 2,
+    "112004": 3,
+    "112014": 2,
+    "112015": 3,
+    "112016": 4,
+    "114001": 2,
+    "114002": 3,
+    "114003": 4,
+    "114004": 5
+  }
+}

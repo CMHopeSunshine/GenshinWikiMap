@@ -1,0 +1,343 @@
+{
+  "id": 29030101,
+  "name": "「公子」",
+  "type": "值得铭记的强敌",
+  "icon": "UI_MonsterIcon_Tartaglia",
+  "route": "Childe",
+  "title": "愚人众执行官末席",
+  "specialName": "「公子」",
+  "description": "愚人众执行官第十一席，「公子」达达利亚。\\n自不祥的「邪眼」之中汲取力量，以至暗之地习得的武艺战斗。\\n\\n拥有无穷争斗欲望的纯粹战士。\\n每次浴血的纷争、每场生死攸关的挑战，于他而言皆是快意试炼。\\n人皆言年轻的「公子」战绩远近闻名。\\n但他本人却对这种大话从来不以为然。\\n\\n毕竟…\\n<i>「你的命运将成为纷争的风暴之眼，<\/i>\\n<i>「铁剑交错的声响是常伴你的奏乐。<\/i>\\n<i>「踏入至暗之处的漆黑记忆，<\/i>\\n<i>「终将成为你颠覆世界的力量吧。」<\/i>",
+  "entries": {
+    "29030101": {
+      "id": 29030101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "剧情任务-难度调节标签",
+          "description": "剧情任务-难度调节标签",
+          "abilityName": [
+            "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "waterSubHurt": 0.5
+      },
+      "reward": null
+    },
+    "29030102": {
+      "id": 29030102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "剧情任务-难度调节标签",
+          "description": "剧情任务-难度调节标签",
+          "abilityName": [
+            "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "elecSubHurt": 0.5
+      },
+      "reward": null
+    },
+    "29030103": {
+      "id": 29030103,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "剧情任务-难度调节标签",
+          "description": "剧情任务-难度调节标签",
+          "abilityName": [
+            "MonsterAffix_Quest_Adjust"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 135.84,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.7
+      },
+      "reward": null
+    },
+    "29030104": {
+      "id": 29030104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "waterSubHurt": 0.5
+      },
+      "reward": null
+    },
+    "29030105": {
+      "id": 29030105,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 81.504,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 125.6,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "elecSubHurt": 0.5
+      },
+      "reward": null
+    },
+    "29030106": {
+      "id": 29030106,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 135.84,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 175.84,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "waterSubHurt": 0.7,
+        "elecSubHurt": 0.7
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "300"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "101101": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101101"
+        },
+        "101102": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101102"
+        },
+        "101103": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101103"
+        },
+        "101104": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101104"
+        },
+        "101105": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_101105"
+        },
+        "104121": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113013": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113013"
+        },
+        "113014": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113014"
+        },
+        "113015": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_113015"
+        },
+        "113021": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113021",
+          "count": "0.33"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    }
+  },
+  "tips": null
+}

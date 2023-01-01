@@ -1,0 +1,79 @@
+{
+  "id": 20060201,
+  "name": "岩飘浮灵",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Sylph_Rock_01",
+  "route": "Geo Specter",
+  "title": "岩飘浮灵",
+  "specialName": "飘游的元素之灵",
+  "description": "高浓度的岩元素孕育而生的魔物，能够飘浮在空中。\\n岩飘浮灵在翅叶闭合时会拟态成某种植物果实的样子。因此在一些古老的传说中，它们被当作天上巨木结出的果实，被认为有着神奇的药用价值。",
+  "entries": {
+    "20060201": {
+      "id": 20060201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010017,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 21.98,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112053": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112053",
+          "count": "1.2606"
+        },
+        "112054": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112054",
+          "count": "0.3362"
+        },
+        "112055": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112055",
+          "count": "0.084"
+        }
+      }
+    }
+  },
+  "tips": {
+    "28601": {
+      "images": [
+        "UI_Tutorial_105a"
+      ],
+      "description": "高浓度的元素孕育而生的魔物，具有飘浮在空中的力量。<color=#FFE14BFF>受到严重的单次伤害时，会积攒「怒气」<\/color>。怒气充满时，飘浮灵会「膨胀」，变得更加强大，并在被击败时剧烈爆炸。"
+    }
+  }
+}

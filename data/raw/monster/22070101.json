@@ -1,0 +1,210 @@
+{
+  "id": 22070101,
+  "name": "黯色空壳·旗令",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_ForlornVessel_Strong_Warbanner_Fire",
+  "route": "Shadowy Husk: Standard Bearer",
+  "title": "黑蛇骑士的终末",
+  "specialName": "黯色空壳·旗令",
+  "description": "漆黑的士兵。曾经是地下古国的骄傲军人，如今已经失去了一切知觉与记忆吧。\\n即使如此，也会高举着王家的旗号进行战斗。就算忘记了同侪的模样、王家的祝福，只有这枚旗印，对它而言是绝对不能放下的。",
+  "entries": {
+    "22070101": {
+      "id": 22070101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.3,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "6.5658"
+        },
+        "112018": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "1.7508"
+        },
+        "112019": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22070102": {
+      "id": 22070102,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.3,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112017": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112017",
+          "count": "6.5658"
+        },
+        "112018": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112018",
+          "count": "1.7508"
+        },
+        "112019": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112019",
+          "count": "0.4378"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "300801": {
+      "images": [
+        "UI_Tutorial_130"
+      ],
+      "description": "谜样的漆黑旗手。它的攻击在<color=#FFE14BFF>命中处于护盾庇护下的角色<\/color>后，会以生命值为代价，为自己、身边的「黯色空壳」与「黑蛇骑士」创造护盾。"
+    }
+  }
+}

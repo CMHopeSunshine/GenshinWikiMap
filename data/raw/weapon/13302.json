@@ -1,0 +1,168 @@
+{
+  "id": 13302,
+  "rank": 3,
+  "type": "长柄武器",
+  "name": "钺矛",
+  "description": "在矛上增加斧刃的兵器，有不俗的破坏力。是千岩军军官青睐的武器。",
+  "icon": "UI_EquipIcon_Pole_Halberd",
+  "storyId": 193302,
+  "affix": {
+    "113302": {
+      "name": "沉重",
+      "upgrade": {
+        "0": "对普通攻击命中的敌人造成<color=#99FFFFFF>160%<\/color>攻击力的额外伤害。该效果每10秒只能触发一次。",
+        "1": "对普通攻击命中的敌人造成<color=#99FFFFFF>200%<\/color>攻击力的额外伤害。该效果每10秒只能触发一次。",
+        "2": "对普通攻击命中的敌人造成<color=#99FFFFFF>240%<\/color>攻击力的额外伤害。该效果每10秒只能触发一次。",
+        "3": "对普通攻击命中的敌人造成<color=#99FFFFFF>280%<\/color>攻击力的额外伤害。该效果每10秒只能触发一次。",
+        "4": "对普通攻击命中的敌人造成<color=#99FFFFFF>320%<\/color>攻击力的额外伤害。该效果每10秒只能触发一次。"
+      }
+    }
+  },
+  "route": "Halberd",
+  "upgrade": {
+    "awakenCost": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 39.8751,
+        "type": "GROW_CURVE_ATTACK_102"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.05107,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112026": 2,
+          "112038": 1,
+          "114017": 2
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 19.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112026": 8,
+          "112038": 5,
+          "114018": 2
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 38.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112027": 4,
+          "112039": 4,
+          "114018": 4
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 58.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112027": 8,
+          "112039": 6,
+          "114019": 2
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112028": 6,
+          "112040": 4,
+          "114019": 4
+        },
+        "coinCost": 25000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 97.3,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112028": 12,
+          "112040": 8,
+          "114020": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 116.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112026": 2,
+    "112027": 3,
+    "112028": 4,
+    "112038": 1,
+    "112039": 2,
+    "112040": 3,
+    "114017": 2,
+    "114018": 3,
+    "114019": 4,
+    "114020": 5
+  }
+}

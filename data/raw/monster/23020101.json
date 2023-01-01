@@ -1,0 +1,171 @@
+{
+  "id": 23020101,
+  "name": "愚人众·火之债务处理人",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Fatuus_Fire_01",
+  "route": "Fatui Pyro Agent",
+  "title": "债务处理人·焚毁之锋",
+  "specialName": "愚人众·列夫",
+  "description": "隶属愚人众的特务人员。\\n债务处理人所处理的「债务」，并不局限于钱货往来的清算。\\n「以眼还眼，以牙还牙」也是一种债。无论是谁，只要损害了愚人众的利益，那就要十倍奉还。",
+  "entries": {
+    "23020101": {
+      "id": 23020101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.5,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112029": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112029",
+          "count": "5.2526"
+        },
+        "112030": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112030",
+          "count": "1.4006"
+        },
+        "112031": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112031",
+          "count": "0.3502"
+        },
+        "112032": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112032",
+          "count": "0.5253"
+        },
+        "112033": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112033",
+          "count": "0.1401"
+        },
+        "112034": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112034",
+          "count": "0.035"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "23020102": {
+      "id": 23020102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010030,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010030,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 67.92,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 100.48,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.5,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

@@ -1,0 +1,89 @@
+{
+  "id": 25100201,
+  "name": "海乱鬼·炎威",
+  "type": "其他人类势力",
+  "icon": "UI_MonsterIcon_Samurai_Kairagi_02",
+  "route": "Kairagi: Fiery Might",
+  "title": "海乱鬼·炎威",
+  "specialName": "「剑舞文之助」",
+  "description": "落草为寇的流浪武人。\\n自幼时便专注于武道从未懈怠，却因为种种原因失去了奉公的机会，背离了正道，走上恶逆之路。刀刃不似一般的钢铁那般冰冷，而是充满了忿恨的炽热怒火——似乎是利用了本应失传的惟神技术制造的符纸，为刀刃附上火焰。",
+  "entries": {
+    "25100201": {
+      "id": 25100201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "海乱鬼成就判定词缀",
+          "description": "非幽灵海乱鬼成就判定",
+          "abilityName": [
+            "MonsterAffix_Samurai_Kairagi_Watcher_82107"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010010,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010010,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 65.2032,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 94.2,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112044": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112044",
+          "count": "0.8404"
+        },
+        "112045": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112045",
+          "count": "0.2241"
+        },
+        "112046": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112046",
+          "count": "0.056"
+        }
+      }
+    }
+  },
+  "tips": null
+}

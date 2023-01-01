@@ -1,0 +1,211 @@
+{
+  "id": 20040301,
+  "name": "无相之岩",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Rock",
+  "route": "Geo Hypostasis",
+  "title": "无相之岩",
+  "specialName": "「基末尔」",
+  "description": "代号为「基末尔」的高级岩元素生命。\\n无相元素本身是超浓缩的构造体，拥有极高的质量。\\n浓缩成硬质固体的元素超质壳是惰性的，只有内部的核会活跃发生元素反应。",
+  "entries": {
+    "20040301": {
+      "id": 20040301,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "岩抗-100%",
+          "description": "同系伤害抵抗-岩-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Rock_03"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010037,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010037,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010037,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104171": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104174"
+        },
+        "113009": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113009",
+          "count": "2.5556"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        }
+      }
+    },
+    "20040302": {
+      "id": 20040302,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "岩抗-100%",
+          "description": "同系伤害抵抗-岩-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Rock_03"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010037,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010037,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010037,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "24901": {
+      "images": [
+        "UI_Effigy_Rock_01_Tutorial01"
+      ],
+      "description": "用惰性的方壳保护自己与战斗的强大元素魔物。抓住<color=#FFE14BFF>元素核心<\/color>暴露在外的时机，才能有效攻击。会利用创造出的<color=#FFE14BFF>岩元素物件<\/color>进行战斗，及在危急时恢复生命。如果不能高效地摧毁这些创造物的话，就无法击败…"
+    }
+  }
+}

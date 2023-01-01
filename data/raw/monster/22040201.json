@@ -1,0 +1,107 @@
+{
+  "id": 22040201,
+  "name": "嗜雷·兽境幼兽",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Hound_Kanis_Electric",
+  "route": "Thundercraven Rifthound Whelp",
+  "title": "兽境幼兽",
+  "specialName": "隙间侵入的异兽",
+  "description": "能够侵蚀世界边界的魔血之兽。「黄金」将其命名为「淋溶」。\\n曾经的年代里，巨大的魔兽降临之时，会有大量猎犬提前显现，溶解世界的边界，打开通道。",
+  "entries": {
+    "22040201": {
+      "id": 22040201,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 32.6016,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 15.072,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.2,
+        "grassSubHurt": 0.2,
+        "waterSubHurt": 0.2,
+        "elecSubHurt": 0.2,
+        "windSubHurt": 0.2,
+        "iceSubHurt": 0.2,
+        "rockSubHurt": 0.2,
+        "physicalSubHurt": 0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112056": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112056",
+          "count": "5.2526"
+        },
+        "112057": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112057",
+          "count": "1.4006"
+        },
+        "112058": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112058",
+          "count": "0.3502"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    }
+  },
+  "tips": {
+    "29001": {
+      "images": [
+        "UI_Tutorial_110a"
+      ],
+      "description": "来自异界的魔物，具有侵蚀事物的能力。兽境幼兽的攻击会施加可叠加的「侵蚀」状态，使队伍中所有角色<color=#FFE14BFF>持续损失生命值<\/color>。此外，承受对应的元素攻击后，兽境幼兽将进入「嗜魔」状态，<color=#FFE14BFF>以该元素抗性的降低为代价，变得极为凶猛<\/color>。"
+    }
+  }
+}

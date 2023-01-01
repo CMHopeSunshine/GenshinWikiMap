@@ -1,0 +1,59 @@
+{
+  "id": 20060401,
+  "name": "冰飘浮灵",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Sylph_Ice_01",
+  "route": "Cryo Specter",
+  "title": "冰飘浮灵",
+  "specialName": "飘游的元素之灵",
+  "description": "高浓度的冰元素孕育而生的魔物，能够飘浮在空中。\\n曾经有炼金术士调查过飘浮灵。他认为史莱姆和旅行者都能不借用神之眼使用元素，所以飘浮灵应该是史莱姆或者旅行者。他被导师训斥了。",
+  "entries": {
+    "20060401": {
+      "id": 20060401,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 21.7344,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 21.98,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "300101": {
+      "images": [
+        "UI_Tutorial_121b"
+      ],
+      "description": "高浓度的元素孕育而生的魔物，具有飘浮在空中的力量。<color=#FFE14BFF>受到严重的单次伤害时，会积攒「怒气」<\/color>。怒气充满时，飘浮灵会「膨胀」，变得更加强大，并在被击败时剧烈爆炸。"
+    }
+  }
+}

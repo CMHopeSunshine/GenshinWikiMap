@@ -1,0 +1,230 @@
+{
+  "id": 26010101,
+  "name": "冰霜骗骗花",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Mimik_Ice",
+  "route": "Cryo Whopperflower",
+  "title": "冰霜骗骗花",
+  "specialName": "伺机而动的拟态植物",
+  "description": "神出鬼没的拟态植物魔物，会利用冰元素战斗。\\n有时会隐藏在地表下，捕猎浑然不觉的猎物。如果有足够的年月、养分与环境，或许能扎根某处，长成巨大的急冻树…",
+  "entries": {
+    "26010101": {
+      "id": 26010101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112038": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112038",
+          "count": "4.202"
+        },
+        "112039": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112039",
+          "count": "1.1205"
+        },
+        "112040": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112040",
+          "count": "0.28"
+        }
+      }
+    },
+    "26010102": {
+      "id": 26010102,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "骗骗花雪山活动",
+          "description": "骗骗花雪山活动",
+          "abilityName": [
+            "MonsterAffix_Mimik_Ice_Activity"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 25.12,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.5,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "26010103": {
+      "id": 26010103,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 149.424,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 50.24,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.7,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "26010104": {
+      "id": 26010104,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.7,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

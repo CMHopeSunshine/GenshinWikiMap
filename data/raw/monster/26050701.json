@@ -1,0 +1,209 @@
+{
+  "id": 26050701,
+  "name": "深海龙蜥·啮冰",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Drake_Deepsea_Ice",
+  "route": "Rimebiter Bathysmal Vishap",
+  "title": "深海龙蜥·啮冰",
+  "specialName": "盘踞深海的水栖猛兽",
+  "description": "生活在海渊之下的龙蜥。因为社会分工，而出现了冰元素的形态。\\n人类的到来引发了对抗，深海龙蜥开始了进化。正如蚂蚁会因性别和分工不同，而产生不同形态。这些龙蜥比起普通深海龙蜥更加强大。",
+  "entries": {
+    "26050701": {
+      "id": 26050701,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 163.008,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.3,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104141": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104144"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113031": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113031",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400147": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15013_3"
+        },
+        "400148": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15013_3"
+        }
+      }
+    },
+    "26050702": {
+      "id": 26050702,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 163.008,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.3,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.3
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "300501": {
+      "images": [
+        "UI_Tutorial_122a"
+      ],
+      "description": "蛰伏于漆黑深水中的掠食者。应对着深海中的未知力量，或许也演化出了水元素以外的变体…面对强敌时，会使出威力强大的「涤魔喷吐」。命中角色后，角色将<color=#FFE14BFF>流失一定元素能量<\/color>。若角色的元素能量不足，将<color=#FFE14BFF>损失生命值<\/color>。"
+    }
+  }
+}

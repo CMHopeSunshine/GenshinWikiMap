@@ -1,0 +1,83 @@
+{
+  "id": 23010501,
+  "name": "愚人众先遣队·风拳前锋军",
+  "type": "愚人众",
+  "icon": "UI_MonsterIcon_Skirmisher_Male_Strong_Gloves_Wind_01",
+  "route": "Fatui Skirmisher - Anemoboxer Vanguard",
+  "title": "先遣队·风拳前锋军",
+  "specialName": "愚人众·列夫",
+  "description": "能利用风的力量，复苏战友的先遣队士兵。\\n远离故土又为了故乡。告别了亲人却获得了能相托以生死的战友。\\n——或许他们以任务的名义干着丑恶的勾当时，也带着这样的想法。",
+  "entries": {
+    "23010501": {
+      "id": 23010501,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010025,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010025,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 40.752,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112032": {
+          "rank": 1,
+          "icon": "UI_ItemIcon_112032",
+          "count": "4.202"
+        },
+        "112033": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112033",
+          "count": "1.1205"
+        },
+        "112034": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112034",
+          "count": "0.28"
+        }
+      }
+    }
+  },
+  "tips": {
+    "26201": {
+      "images": [
+        "UI_Tutorial_55"
+      ],
+      "description": "能操纵风元素，辅助战友的愚人众士兵。当其他先遣队士兵的<color=#FFE14BFF>元素增幅<\/color>状态被破除并陷入虚弱状态时，会释放复苏的风之力，让战友能再度投身战斗。"
+    }
+  }
+}

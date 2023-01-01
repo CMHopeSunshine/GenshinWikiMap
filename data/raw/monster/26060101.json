@@ -1,0 +1,52 @@
+{
+  "id": 26060101,
+  "name": "雷萤",
+  "type": "异种魔兽",
+  "icon": "UI_MonsterIcon_Cicin_Thunder_01",
+  "route": "Electro Cicin",
+  "title": "雷萤",
+  "specialName": "酥酥麻麻",
+  "description": "能够稍微导引雷元素的小型生物。\\n与其他的萤族生物通称「飞萤」。尽管力量十分弱小，但在某些环境下也能造成可观的伤害。",
+  "entries": {
+    "26060101": {
+      "id": 26060101,
+      "type": "MONSTER_ORDINARY",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010014,
+          "hpPercent": 60
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 6.792,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 10.048,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.5,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.5
+      },
+      "reward": null
+    }
+  },
+  "tips": null
+}

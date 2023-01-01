@@ -1,0 +1,415 @@
+{
+  "id": 22010201,
+  "name": "冰深渊法师",
+  "type": "深渊",
+  "icon": "UI_MonsterIcon_Abyss_Ice_01",
+  "route": "Cryo Abyss Mage",
+  "title": "冰之咏者",
+  "specialName": "深渊法师·埃兰别特",
+  "description": "驾驭着极寒的冰元素进行战斗的深渊魔物。\\n尽管染指了强大的力量，甚至能将大气中的水蒸气凝结成冰锥，本身却佝偻而孱弱。一旦保护自身的护罩被打破，就只能任人鱼肉了。",
+  "entries": {
+    "22010201": {
+      "id": 22010201,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "112020": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_112020",
+          "count": "2.2324"
+        },
+        "112021": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_112021",
+          "count": "0.5953"
+        },
+        "112022": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_112022",
+          "count": "0.1487"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400032": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400033": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10007_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400062": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10013_4"
+        }
+      }
+    },
+    "22010202": {
+      "id": 22010202,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "防护",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Defence_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010203": {
+      "id": 22010203,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "灵动",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Agility_Enhance"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "灵动-深渊法师逻辑",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_AgilityEnhance_Abyss_Plugin"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010204": {
+      "id": 22010204,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "强攻",
+          "description": "精英化词缀-详见对应文档",
+          "abilityName": [
+            "MonsterEliteAffix_Attack_Enhance"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010016,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010016,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    },
+    "22010205": {
+      "id": 22010205,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "元素盾含量强化高",
+          "description": "提升单体元素盾含量100%",
+          "abilityName": [
+            "MonsterAffix_ElementShield_DurabilityImprove_03"
+          ],
+          "isCommon": true
+        },
+        {
+          "name": "寒气免疫",
+          "description": "免疫冰冻和寒元素的减速效果",
+          "abilityName": [
+            "MonsterAffix_IceAllResist"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "永不入战-活动",
+          "description": "关闭怪物受击、嘲讽、广播入战",
+          "abilityName": [
+            "MonsterAffix_NeverCombat"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "怪物移速下限放开，受冰冻时间减少50%-塔防",
+          "description": "怪物移速下限放开，受冰冻时间减少50%",
+          "abilityName": [
+            "MonsterAffix_MoveSpeedLimit_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加血量-塔防",
+          "description": "塔防翻牌叠加血量",
+          "abilityName": [
+            "MonsterAffix_AdditionalHP_ForTowerDefense"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "翻牌叠加防御力-塔防",
+          "description": "塔防翻牌叠加防御力",
+          "abilityName": [
+            "MonsterAffix_AdditionalDefence_ForTowerDefense"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 27.168,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 37.68,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "13101": {
+      "images": [
+        "UI_Abyss_Ice_01_Tutorial01"
+      ],
+      "description": "利用<color=#FFE14BFF>冰元素护罩<\/color>保护自己。如果用火元素等能<color=#FFE14BFF>与之产生反应的元素攻击<\/color>的话，或许能突破它的防御…"
+    }
+  }
+}

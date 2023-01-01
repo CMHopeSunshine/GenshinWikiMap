@@ -1,0 +1,214 @@
+{
+  "id": 20040501,
+  "name": "无相之冰",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Effigy_Ice",
+  "route": "Cryo Hypostasis",
+  "title": "无相之冰",
+  "specialName": "「塔勒特」",
+  "description": "代号为「塔勒特」的高级冰元素生命。\\n根据研究，无相元素与常规的元素生物在物质构成上有着细微的差别。而这些细微的成分差别，或许就是它们高度稳定的形态与机械般的行动方式的由来吧。",
+  "entries": {
+    "20040501": {
+      "id": 20040501,
+      "type": "MONSTER_BOSS",
+      "affix": null,
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 66
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 33
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 95.088,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104161": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104164"
+        },
+        "113020": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113020",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400052": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10011_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400147": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15013_3"
+        },
+        "400148": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15013_3"
+        }
+      }
+    },
+    "20040502": {
+      "id": 20040502,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "无相挑战活动",
+          "description": "无相挑战标记",
+          "abilityName": [
+            "MonsterAffix_Effigy_Elite"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "3.2无相挑战-无相冰-再生功能修改",
+          "description": "3.2无相挑战-无相冰-再生功能修改",
+          "abilityName": [
+            "MonsterAffix_Effigy_Ice_Elite_ReviveState"
+          ],
+          "isCommon": null
+        },
+        {
+          "name": "3.2无相挑战-无相冰-冰导弹功能",
+          "description": "3.2无相挑战-无相冰-冰导弹功能",
+          "abilityName": [
+            "MonsterAffix_Effigy_Ice_RangeAtk_Activity"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010036,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010036,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 122.256,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "27801": {
+      "images": [
+        "UI_Tutorial_90"
+      ],
+      "description": "用惰性的方壳保护自己与战斗的强大元素魔物。抓住<color=#FFE14BFF>元素核心<\/color>暴露在外的时机，才能有效攻击。在危急时会进入具有护罩保护的<color=#FFE14BFF>再生模式<\/color>，恢复生命并发射「霜之实」攻击敌人。<color=#FFE14BFF>利用重击将霜之实击向无相之冰<\/color>，可以更为快速地打破再生模式…"
+    }
+  }
+}

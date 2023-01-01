@@ -1,0 +1,198 @@
+{
+  "id": 20050101,
+  "name": "纯水精灵",
+  "type": "元素生命",
+  "icon": "UI_MonsterIcon_Oceanid",
+  "route": "Oceanid",
+  "title": "此地的净水之主",
+  "specialName": "纯水精灵·克利欧",
+  "description": "极纯的水元素凝结成的生命体，常与水体相伴。\\n据说，水体越纯净，其中的水元素越丰沛，纯水精灵的力量就越强。又有传说认为，纯水精灵曾是来自异乡的水之亲眷。怀着已殁之神的碎片，流落到了世界各处，或许是为了让她们的神对世界的爱，循着水流广布大地…",
+  "entries": {
+    "20050101": {
+      "id": 20050101,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "水抗-100%",
+          "description": "同系伤害抵抗-水-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Water_03"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": null,
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 135.84,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": {
+        "102": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_102",
+          "count": "200"
+        },
+        "105": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_105"
+        },
+        "202": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_202"
+        },
+        "104121": {
+          "rank": 2,
+          "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+          "rank": 3,
+          "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+          "rank": 5,
+          "icon": "UI_ItemIcon_104124"
+        },
+        "113012": {
+          "rank": 4,
+          "icon": "UI_ItemIcon_113012",
+          "count": "2.5556"
+        },
+        "400022": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400023": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10005_4"
+        },
+        "400042": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400043": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_10009_4"
+        },
+        "400047": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_10010_4"
+        },
+        "400088": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400089": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        "400098": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400099": {
+          "rank": 5,
+          "icon": "UI_RelicIcon_15003_4"
+        },
+        "400132": {
+          "rank": 3,
+          "icon": "UI_RelicIcon_15010_3"
+        },
+        "400133": {
+          "rank": 4,
+          "icon": "UI_RelicIcon_15010_3"
+        }
+      }
+    },
+    "20050102": {
+      "id": 20050102,
+      "type": "MONSTER_BOSS",
+      "affix": [
+        {
+          "name": "水抗-100%",
+          "description": "同系伤害抵抗-水-100%",
+          "abilityName": [
+            "MonsterAffix_ElementResist_Water_03"
+          ],
+          "isCommon": null
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010032,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010032,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 190.17599,
+          "type": "GROW_CURVE_HP"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 75.36,
+          "type": "GROW_CURVE_ATTACK"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": 0.1
+      },
+      "reward": null
+    }
+  },
+  "tips": {
+    "26801": {
+      "images": [
+        "UI_Tutorial_58"
+      ],
+      "description": "踞身纯净水体的高贵元素生命体。战斗时，会用自己的生命力凝聚成水元素幻形生物，攻击敌人。尽管都是水元素，不同的<color=#FFE14BFF>能与水元素反应的元素<\/color>对不同的幻形生物会更有效果。如果能快速消灭水之幻形，就能轻松击败纯水精灵。"
+    }
+  }
+}
