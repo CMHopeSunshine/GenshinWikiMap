@@ -150,6 +150,7 @@ def draw_monster_map(monster: Monster):
     bg_img.paste(border_img, (0, 0))
     bg_img.covered(ICON / '方块纹理.png')
     bg_img.paste(img, (0, 0))
+    bg_img.text('制作：西北一枝花&惜月', bg_img.width - 50, bg_img.height - 37, prop_name_font, '#252525', 'right')
     bg_img.convert('RGB')
     bg_img.save(MONSTER_MAP_RESULT / f'{monster.name}.jpg', mode='JPEG', quality=60)
     print(f'>>>>>>原魔[{monster.name}]图鉴 制作完成')
