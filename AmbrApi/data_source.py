@@ -60,3 +60,13 @@ def ambr_requests(api: str) -> Union[dict, list, str, None]:
         data = resp.json()
         return data['data']
     return None
+
+
+def github_requests(url: str):
+    """
+    向github发送请求获取数据。
+        :param url: github url
+        :return: 数据
+    """
+    resp = httpx.get(url)
+    return resp.json() if resp.status_code == 200 else None

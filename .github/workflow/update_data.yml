@@ -1,0 +1,37 @@
+name: Update Genshin Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Update Genshin Data:
+    name: Update Genshin Data
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@master
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Set up Poetry
+      uses: Gr1N/setup-poetry@v8
+
+    - name: Install Package
+      run: poetry install
+
+
+    - name: Run Update Script
+      run: python main.py
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: github-actions[bot]
+        author_email: github-actions[bot]@users.noreply.github.com
+        message: ':wrench: 更新数据'
+        add: |
+          '**.json'

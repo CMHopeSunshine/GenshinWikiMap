@@ -1,9 +1,9 @@
 import time
 import random
 from path import *
-from utils import load_json, save_json
+from utils import load_json, save_json, get_describe_name
 from AmbrApi.models import Character, Weapon, ELEMENT_MAP, Monster
-from AmbrApi.data_source import ambr_requests
+from AmbrApi.data_source import ambr_requests, github_requests
 from AmbrApi.api import *
 
 from draw_character_map import draw_character_map
@@ -19,12 +19,21 @@ ARTIFACT_PART_MAP = {
 
 
 def update_constant():
+    """更新基础数据"""
     if avatar_list := ambr_requests(AVATAR_LIST_API):
         save_json(avatar_list['items'], RAW / 'avatar_list.json')
         print('>>>角色列表raw更新完成')
     else:
         print('>>>角色列表raw更新失败')
     time.sleep(2)
+
+    if avatar_detail := github_requests(
+            'https://ghproxy.com/https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Output/Avatar.json'):
+        save_json(avatar_detail, RAW / 'Avatar.json')
+        print('>>>角色信息raw更新完成')
+    else:
+        print('>>>角色信息raw更新失败')
+    time.sleep(1)
 
     if material_list := ambr_requests(MATERIAL_LIST_API):
         save_json(material_list, RAW / 'materials.json')
@@ -71,72 +80,147 @@ def update_constant():
     #     print('>>>属性map更新失败')
 
 
-def update_characters():
+def update_character():
     avatar_list = load_json(RAW / 'avatar_list.json')
-    avatar_info_file = load_json(DATA / '角色信息.json')
+    avatar_alias_file = load_json(DATA / '角色列表.json')
+    type_file = load_json(DATA / '类型.json')
+    weapon_type_data = load_json(DATA / '武器类型.json')
+    prop_map = load_json(RAW / 'prop_map.json')
 
     for avatar_id, avatar_data in avatar_list.items():
-        raw_data_file_path = AVATAR_RAW / f'{avatar_id}.json'
+        if avatar_id.startswith(('10000005', '10000007')):
+            continue
+        ambr_data_file_path = AVATAR_RAW / f'{avatar_id}.json'
         map_img_path = CHARACTER_MAP_RESULT / f'{avatar_data["name"]}.jpg'
 
         need_update = False
+
+        # 更新角色别名数据
+        if avatar_id not in avatar_alias_file:
+            avatar_alias_file[avatar_id] = [avatar_data['name']]
+
+        # 更新类型数据
+        weapon_type = prop_map[avatar_data['weaponType']]
+        if avatar_data['name'] not in weapon_type_data:
+            weapon_type_data[avatar_data['name']] = weapon_type
+        if weapon_type not in type_file['角色']['武器类型']:
+            type_file['角色']['武器类型'][weapon_type] = []
+        if avatar_data['name'] not in type_file['角色']['武器类型'][weapon_type]:
+            type_file['角色']['武器类型'][weapon_type].append(avatar_data['name'])
+        element_type = ELEMENT_MAP[avatar_data['element']]
+        if element_type not in type_file['角色']['元素类型']:
+            type_file['角色']['元素类型'][element_type] = []
+        if avatar_data['name'] not in type_file['角色']['元素类型'][element_type]:
+            type_file['角色']['元素类型'][element_type].append(avatar_data['name'])
+
         if not map_img_path.exists():
             need_update = True
-        if not raw_data_file_path.exists():
-            save_json(ambr_requests(AVATAR_INFO_API.format(avatar_id)), raw_data_file_path)
+        if not ambr_data_file_path.exists():
+            save_json(ambr_requests(AVATAR_INFO_API.format(avatar_id)), ambr_data_file_path)
             need_update = True
-        elif avatar_data['beta']:
+        elif avatar_data.get('beta'):
             new_data = ambr_requests(AVATAR_INFO_API.format(avatar_id))
-            old_data = load_json(raw_data_file_path)
+            old_data = load_json(ambr_data_file_path)
             if new_data != old_data:
                 need_update = True
-                save_json(new_data, raw_data_file_path)
+                save_json(new_data, ambr_data_file_path)
 
         if need_update:
-            avatar_info = Character.parse_file(raw_data_file_path)
-            draw_character_map(avatar_info)
+            draw_character_map(Character.parse_file(ambr_data_file_path))
 
-    # new_avatar_list = ambr_requests(AVATAR_LIST_API)['items']
-    # old_avatar_list = load_json(RAW / 'avatar_list.json')
-    #
-    # # 尚未制作的角色
-    # need_update = [avatar_id for avatar_id in new_avatar_list if
-    #                not (CHARACTER_MAP_RESULT_RAW / f'{avatar_id}.png').exists()]
-    #
-    # # 新角色
-    # need_update.extend([i for i in new_avatar_list if i not in old_avatar_list])
-    # # 角色信息有更新
-    # for character_id in new_avatar_list:
-    #     if '-' in character_id or int(character_id) <= 10000076:  # 艾尔海森
-    #         continue
-    #     data = ambr_requests(AVATAR_INFO_API.format(character_id))
-    #     if not (AVATAR_RAW / f'{character_id}.json').exists():
-    #         need_update.append(character_id)
-    #     if data != load_json(AVATAR_RAW / f'{character_id}.json'):
-    #         need_update.append(character_id)
-    #     save_json(data, AVATAR_RAW / f'{character_id}.json')
-    #     print(f'>>>>>>{character_id}角色信息更新完成')
-    #     time.sleep(random.uniform(0.5, 1.5))
-    # # 保存新的角色列表
-    # save_json(new_avatar_list, RAW / 'avatar_list.json')
-    # print('>>>角色信息及列表更新完成')
-    # # 角色立绘偏移有更新
-    # paint_offset = load_json(DATA / '角色立绘偏移.json')
-    # paint_offset_done = load_json(DATA / '角色立绘偏移已用.json')
-    # for avatar_id, offset in paint_offset.items():
-    #     if avatar_id not in paint_offset_done or offset != paint_offset_done[avatar_id]:
-    #         need_update.append(avatar_id)
-    # # 保存新的角色立绘偏移
-    # save_json(paint_offset, DATA / '角色立绘偏移已用.json')
-    # print('>>>角色立绘偏移更新完成')
-    #
-    # need_update = list(set(need_update))
-    # print(f'>>>>>>共有 {len(need_update)} 个角色图鉴需要更新')
-    #
-    # return need_update
+    save_json(avatar_alias_file, DATA / '角色列表.json')
+    save_json(weapon_type_data, DATA / '武器类型.json')
+    save_json(type_file, DATA / '类型.json')
+
+    avatar_detail_file = load_json(RAW / 'Avatar.json')
+    region_data = load_json(DATA / '角色地区.json')
+    for avatar_detail in avatar_detail_file:
+        ambr_data = load_json(AVATAR_RAW / f"{avatar_detail['Id']}.json")
+        save_file = DATA / 'avatar' / f"{avatar_detail['Id']}.json"
+        if save_file.exists():
+            avatar_info = load_json(save_file)
+        else:
+            avatar_info = {
+                'id':            avatar_detail['Id'],
+                'name':          avatar_detail['Name'],
+                'element':       avatar_detail['FetterInfo']['VisionBefore'],
+                'weapon':        weapon_type_data[avatar_detail['Name']],
+                'rank':          avatar_detail['Quality'],
+                'region':        region_data.get(avatar_detail['Name'], '未知'),
+                'icon': {
+                    'avatar': avatar_detail['Icon'],
+                    'side': avatar_detail['SideIcon'],
+                    'card': avatar_detail['Icon'] + '_Card',
+                    'splash': avatar_detail['Icon'].replace('Icon', 'Img').replace('UI_', 'UI_Gacha_'),
+                    'slice': avatar_detail['Icon'].replace('UI_', 'UI_Gacha_')
+                },
+                'property':      {},
+                'talent':        {},
+                'constellation': {},
+                'buff':          []
+            }
+        avatar_info['property'] = [
+            {
+                'base':    ambr_data['upgrade']['prop'][0],
+                'promote': [p['addProps']['FIGHT_PROP_BASE_HP']
+                            for p in ambr_data['upgrade']['promote'][1:]
+                            ]
+            },
+            {
+                'base':    ambr_data['upgrade']['prop'][1],
+                'promote': [p['addProps']['FIGHT_PROP_BASE_ATTACK']
+                            for p in ambr_data['upgrade']['promote'][1:]
+                            ]
+            },
+            {
+                'base':    ambr_data['upgrade']['prop'][2],
+                'promote': [p['addProps']['FIGHT_PROP_BASE_DEFENSE']
+                            for p in ambr_data['upgrade']['promote'][1:]
+                            ]
+            },
+            {
+                'name': list(ambr_data['upgrade']['promote'][-1]['addProps'].keys())[-1],
+                'promote': [
+                    list(p['addProps'].values())[-1]
+                    for p in ambr_data['upgrade']['promote'][1:]
+                ]
+            }
+        ]
+
+        for skill in avatar_detail['SkillDepot']['Skills']:
+            avatar_info['talent'][str(skill['Id'])] = {
+                'name': skill['Name'],
+                'icon': skill['Icon']}
+        avatar_info['talent'][str(avatar_detail['SkillDepot']['EnergySkill']['Id'])] = {
+            'name': avatar_detail['SkillDepot']['EnergySkill']['Name'],
+            'icon': avatar_detail['SkillDepot']['EnergySkill']['Icon']
+        }
+        for skill in avatar_detail['SkillDepot']['Inherents']:
+            avatar_info['talent'][str(skill['Id'])] = {
+                'name': skill['Name'],
+                'icon': skill['Icon']}
+        for c in avatar_detail['SkillDepot']['Talents']:
+            avatar_info['constellation'][str(c['Id'])] = {
+                'name': c['Name'],
+                'icon': c['Icon']
+            }
+        c3_name = get_describe_name(avatar_detail['SkillDepot']['Talents'][2]['Description'])
+        c5_name = get_describe_name(avatar_detail['SkillDepot']['Talents'][4]['Description'])
+        avatar_info['talent_fix'] = {}
+        if c3_name:
+            for tid, t in avatar_info['talent'].items():
+                if t['name'] == c3_name:
+                    avatar_info['talent_fix'][tid] = t['name']
+        if c5_name:
+            for tid, t in avatar_info['talent'].items():
+                if t['name'] == c5_name:
+                    avatar_info['talent_fix'][tid] = t['name']
+        if 'buff' not in avatar_info:
+            avatar_info['buff'] = []
+        save_json(avatar_info, save_file)
 
 
-def update_material_info():
+def update_material():
     """
     更新材料信息
     """
@@ -165,19 +249,21 @@ def update_material_info():
     print('>>>材料列表更新完成')
 
 
-def update_weapon_info():
+def update_weapon():
     """
     更新武器信息
     """
     weapon_list = load_json(RAW / 'weapon_list.json')
     prop_map = load_json(RAW / 'prop_map.json')
-    type_file = load_json(DATA / '物品类型.json')
+    type_file = load_json(DATA / '类型.json')
     weapon_type_file = load_json(DATA / '武器类型.json')
-    weapon_info_file = load_json(DATA / '武器信息.json')
+    # weapon_info_file = load_json(DATA / '武器信息.json')
     weapon_list_file = load_json(DATA / '武器列表.json')
     for weapon_id, weapon_data in weapon_list.items():
         if not weapon_data['name']:
             continue
+        print(f'>>>>>>更新[{weapon_data["name"]}]武器信息')
+        data_save_path = DATA / 'weapon' / f'{weapon_id}.json'
         # 如果本地没有已下载的武器raw数据，则下载，否则读取本地
         if not (save_path := WEAPON_RAW / f'{weapon_id}.json').exists() or weapon_data.get('beta'):
             weapon_data = ambr_requests(WEAPON_INFO_API.format(weapon_id))
@@ -199,20 +285,26 @@ def update_weapon_info():
             type_file['武器'][weapon_type].append(weapon_data['name'])
 
         # 如果没有这个武器的详细信息，或者需要更新，则更新
-        if need_update or weapon_id not in weapon_info_file:
+        if need_update or not data_save_path.exists():
             weapon_info = Weapon.parse_file(save_path)
-            dict_data = weapon_info.save_to_dict()
-            weapon_info_file[weapon_id] = dict_data
-            print(f'>>>>>>{weapon_info.name} 武器信息更新完成')
+            dict_data = weapon_info.save_data()
+            if data_save_path.exists():
+                old_data = load_json(data_save_path)
+                dict_data['buff'] = old_data['buff']
+            else:
+                dict_data['buff'] = []
 
-            save_json(weapon_info_file, DATA / '武器信息.json')
+            # weapon_info_file[weapon_id] = dict_data
+            save_json(dict_data, data_save_path)
+
+            # save_json(weapon_info_file, DATA / '武器信息.json')
     save_json(weapon_list_file, DATA / '武器列表.json')
-    save_json(type_file, DATA / '物品类型.json')
-    save_json(weapon_type_file, DATA / '物品武器类型.json')
-    print('>>>武器信息全部更新完成')
+    save_json(type_file, DATA / '类型.json')
+    save_json(weapon_type_file, DATA / '武器类型.json')
+    print('>>>[武器信息]全部更新完成')
 
 
-def update_artifact_info():
+def update_artifact():
     """
     更新圣遗物信息
     """
@@ -278,56 +370,10 @@ def update_artifact_info():
     print('>>>圣遗物信息更新完成')
 
 
-def update_type_info():
+def update_monster():
     """
-    更新类型信息
+    更新原魔信息
     """
-    type_file = load_json(DATA / '物品类型.json')
-    weapon_type_file = load_json(DATA / '武器类型.json')
-    avatar_list = load_json(RAW / 'avatar_list.json')
-    prop_map = load_json(RAW / 'prop_map.json')
-    if '角色' not in type_file:
-        type_file['角色'] = {}
-    if '武器类型' not in type_file['角色']:
-        type_file['角色']['武器类型'] = {}
-    if '元素类型' not in type_file['角色']:
-        type_file['角色']['元素类型'] = {}
-    for avatar in avatar_list.values():
-        weapon_type = prop_map[avatar['weaponType']]
-        if weapon_type not in type_file['角色']['武器类型']:
-            type_file['角色']['武器类型'][weapon_type] = []
-        if avatar['name'] not in type_file['角色']['武器类型'][weapon_type]:
-            type_file['角色']['武器类型'][weapon_type].append(avatar['name'])
-        if avatar['name'] not in weapon_type_file:
-            weapon_type_file[avatar['name']] = weapon_type
-
-        element_type = ELEMENT_MAP[avatar['element']]
-        if element_type not in type_file['角色']['元素类型']:
-            type_file['角色']['元素类型'][element_type] = []
-        if avatar['name'] not in type_file['角色']['元素类型'][element_type]:
-            type_file['角色']['元素类型'][element_type].append(avatar['name'])
-
-    if '武器' not in type_file:
-        type_file['武器'] = {}
-    weapon_list = load_json(RAW / 'weapon_list.json')
-    for weapon in weapon_list.values():
-        if not weapon['name']:
-            continue
-        weapon_type = prop_map[weapon['type']]
-        if weapon_type not in type_file['武器']:
-            type_file['武器'][weapon_type] = []
-        if weapon['name'] not in type_file['武器'][weapon_type]:
-            type_file['武器'][weapon_type].append(weapon['name'])
-        if weapon['name'] not in weapon_type_file:
-            weapon_type_file[weapon['name']] = weapon_type
-
-    save_json(type_file, DATA / '物品类型.json')
-    save_json(weapon_type_file, DATA / '物品武器类型.json')
-
-    print('>>>物品类型信息更新完成')
-
-
-def update_monster_info():
     monster_list = load_json(RAW / 'monster_list.json')
     monster_alias_list = load_json(DATA / '原魔列表.json')
 
@@ -344,15 +390,15 @@ def update_monster_info():
             need_update = True
         if not raw_data_file_path.exists():
             save_json(ambr_requests(MONSTER_INFO_API.format(monster_id)), raw_data_file_path)
-            time.sleep(1.5)
+            time.sleep(1)
             need_update = True
-        # elif monster_data.get('beta'):
-        #     new_data = ambr_requests(MONSTER_INFO_API.format(monster_id))
-        #     old_data = load_json(raw_data_file_path)
-        #     if new_data != old_data:
-        #         save_json(new_data, raw_data_file_path)
-        #         need_update = True
-        #     time.sleep(1.5)
+        elif monster_data.get('beta'):
+            new_data = ambr_requests(MONSTER_INFO_API.format(monster_id))
+            old_data = load_json(raw_data_file_path)
+            if new_data != old_data:
+                save_json(new_data, raw_data_file_path)
+                need_update = True
+            time.sleep(1)
 
         if need_update:
             monster_info = Monster.parse_file(raw_data_file_path)

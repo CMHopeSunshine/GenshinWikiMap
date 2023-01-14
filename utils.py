@@ -1,7 +1,8 @@
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 import ujson
+import re
 
 
 def load_json(path: Path, encoding: str = 'utf-8'):
@@ -23,3 +24,14 @@ def save_json(data: Any, path: Path, encoding: str = 'utf-8'):
     """
     path.parent.mkdir(parents=True, exist_ok=True)
     ujson.dump(data, path.open('w', encoding=encoding), ensure_ascii=False, indent=2)
+
+
+def get_describe_name(text: str) -> Optional[str]:
+    """
+    获取文本中<color=#FFD780FF>和</color>之间的文本
+        :param text: 描述文本
+        :return: 名称
+    """
+    if text := re.search(r'<color=#FFD780FF>(.+?)</color>', text):
+        return text[1]
+    return None

@@ -259,18 +259,6 @@ class Character(BaseModel):
 
         return material_group
 
-    def save_to_dict(self) -> dict:
-        return {
-            'id':   self.id,
-            '名称': self.name,
-            '元素': self.element,
-            '武器': self.weaponType,
-            '星级': self.rank,
-            '地区': load_json(DATA / '角色地区.json').get(self.name, '未知'),
-            '天赋': {
-
-            }
-        }
 
     # def save_to_dict(self) -> dict:
     #     return {
@@ -414,7 +402,31 @@ class Weapon(BaseModel):
 
         return material_group
 
-    def save_to_dict(self) -> dict:
+    def save_data(self) -> dict:
+        data = {
+            'id':         self.id,
+            'name':       self.name,
+            'rank':       self.rank,
+            'type':       self.type,
+            'icon':       {
+                'icon': self.icon,
+                'awaken': self.icon + '_Awaken',
+                'gacha': self.icon.replace('UI_EquipIcon', 'UI_Gacha_EquipIcon')
+            },
+            'property': [{
+                'base': self.upgrade.prop[0].dict(),
+                'promote': [p.addProps['FIGHT_PROP_BASE_ATTACK'] for p in self.upgrade.promote[1:]]
+            }]
+        }
+        if len(self.upgrade.prop) > 1 and self.upgrade.prop[1].propType:
+            data['property'].append(
+                {
+                    'base':    self.upgrade.prop[1].dict()
+                }
+            )
+        return data
+
+    def save_detail(self) -> dict:
         return {
             'id':         self.id,
             '名称':       self.name,
@@ -437,10 +449,10 @@ class Weapon(BaseModel):
                 material.material.name: material.count
                 for material in self.get_material_list()
             },
-            # '材料分组':   {
-            #     material.material.name: material.count
-            #     for material in self.get_material_group(material_list)
-            # },
+            '材料分组':   {
+                material.material.name: material.count
+                for material in self.get_material_group()
+            },
             '故事':       self.story
         }
 
