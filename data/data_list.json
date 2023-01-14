@@ -1020,5 +1020,43 @@
       "name": "15028",
       "hash": "79b5aaa0c6c817d7e1b8175f51cce4ea"
     }
+  ],
+  "data": [
+    {
+      "name": "元素精通系数",
+      "hash": "6909c7b1ddd14a458339d77fee9c43f1"
+    },
+    {
+      "name": "原魔列表",
+      "hash": "c47a7e7ad3025b2351d2ad0ff492cd6e"
+    },
+    {
+      "name": "圣遗物信息",
+      "hash": "95c7ab774dcd9f1c8498cd6188f71a99"
+    },
+    {
+      "name": "圣遗物列表",
+      "hash": "b1e2908d5e1ace9c04cfd93e612e1fde"
+    },
+    {
+      "name": "有效词条",
+      "hash": "70d6e9488c92fd4b4aff7efd695b410d"
+    },
+    {
+      "name": "武器列表",
+      "hash": "1e0a7ec7d37ffcb1aabeda11ed7323e8"
+    },
+    {
+      "name": "武器类型",
+      "hash": "74370c662fb2358613cf11bab42bdd9a"
+    },
+    {
+      "name": "类型",
+      "hash": "8d8c6682f977085504c025b25665deaa"
+    },
+    {
+      "name": "角色列表",
+      "hash": "7409b440cd8b32bd3f1b0952be48063e"
+    }
   ]
 }
