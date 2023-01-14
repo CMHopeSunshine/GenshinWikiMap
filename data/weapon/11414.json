@@ -1,0 +1,36 @@
+{
+  "id": "11414",
+  "name": "天目影打刀",
+  "rank": 4,
+  "type": "单手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Sword_Bakufu",
+    "awaken": "UI_EquipIcon_Sword_Bakufu_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Sword_Bakufu"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

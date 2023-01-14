@@ -1,0 +1,36 @@
+{
+  "id": "15305",
+  "name": "信使",
+  "rank": 3,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Msg",
+    "awaken": "UI_EquipIcon_Bow_Msg_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Msg"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 39.8751,
+        "type": "GROW_CURVE_ATTACK_102"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.068,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000016,
+  "name": "迪卢克",
+  "element": "火",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Diluc",
+    "side": "UI_AvatarIcon_Side_Diluc",
+    "card": "UI_AvatarIcon_Diluc_Card",
+    "splash": "UI_Gacha_AvatarImg_Diluc",
+    "slice": "UI_Gacha_AvatarIcon_Diluc"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1010.51923,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        866.42883,
+        1482.04932,
+        2302.87671,
+        2918.49707,
+        3534.11768,
+        4149.73828
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.068,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.34932,
+        38.2291,
+        59.40214,
+        75.28192,
+        91.1617,
+        107.04148
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.0266,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.326,
+        89.505,
+        139.077,
+        176.256,
+        213.435,
+        250.614
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10160": {
+      "name": "普通攻击·淬炼之剑",
+      "icon": "Skill_A_04"
+    },
+    "10161": {
+      "name": "逆焰之刃",
+      "icon": "Skill_S_Diluc_01_01"
+    },
+    "10165": {
+      "name": "黎明",
+      "icon": "Skill_E_Diluc_01"
+    },
+    "162101": {
+      "name": "永不休止",
+      "icon": "UI_Talent_S_Diluc_05"
+    },
+    "162201": {
+      "name": "熔毁之翼",
+      "icon": "UI_Talent_S_Diluc_06"
+    },
+    "162301": {
+      "name": "晨曦的传统",
+      "icon": "UI_Talent_Forge_Claymore"
+    }
+  },
+  "constellation": {
+    "161": {
+      "name": "罪罚裁断",
+      "icon": "UI_Talent_S_Diluc_01"
+    },
+    "162": {
+      "name": "炙热余烬",
+      "icon": "UI_Talent_S_Diluc_02"
+    },
+    "163": {
+      "name": "钢铁炽焰",
+      "icon": "UI_Talent_U_Diluc_01"
+    },
+    "164": {
+      "name": "流火焦灼",
+      "icon": "UI_Talent_S_Diluc_03"
+    },
+    "165": {
+      "name": "昭告黎明的火之鸟",
+      "icon": "UI_Talent_U_Diluc_02"
+    },
+    "166": {
+      "name": "清算黑暗的炎之剑",
+      "icon": "UI_Talent_S_Diluc_04"
+    }
+  },
+  "talent_fix": {
+    "10161": "逆焰之刃",
+    "10165": "黎明"
+  },
+  "damage": [],
+  "buff": []
+}

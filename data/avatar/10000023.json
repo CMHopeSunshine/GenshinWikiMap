@@ -1,0 +1,131 @@
+{
+  "id": 10000023,
+  "name": "香菱",
+  "element": "火",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Xiangling",
+    "side": "UI_AvatarIcon_Side_Xiangling",
+    "card": "UI_AvatarIcon_Xiangling_Card",
+    "splash": "UI_Gacha_AvatarImg_Xiangling",
+    "slice": "UI_Gacha_AvatarIcon_Xiangling"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 911.79102,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        681.15454,
+        1165.13281,
+        1810.43713,
+        2294.41528,
+        2778.39355,
+        3262.37183
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.87648,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.10203,
+        24.12189,
+        37.4817,
+        47.50157,
+        57.52143,
+        67.54129
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 56.0805,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        41.895,
+        71.6625,
+        111.3525,
+        141.12,
+        170.8875,
+        200.655
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "10231": {
+      "name": "普通攻击·白案功夫",
+      "icon": "Skill_A_03"
+    },
+    "10232": {
+      "name": "锅巴出击",
+      "icon": "Skill_S_Xiangling_01"
+    },
+    "10235": {
+      "name": "旋火轮",
+      "icon": "Skill_E_Xiangling_01"
+    },
+    "232101": {
+      "name": "交叉火力",
+      "icon": "UI_Talent_S_Xiangling_05"
+    },
+    "232201": {
+      "name": "绝云朝天椒",
+      "icon": "UI_Talent_S_Xiangling_06"
+    },
+    "232301": {
+      "name": "万民堂大厨",
+      "icon": "UI_Talent_Cook_Attack"
+    }
+  },
+  "constellation": {
+    "231": {
+      "name": "外酥里嫩",
+      "icon": "UI_Talent_S_Xiangling_01"
+    },
+    "232": {
+      "name": "大火宽油",
+      "icon": "UI_Talent_S_Xiangling_02"
+    },
+    "233": {
+      "name": "武火急烹",
+      "icon": "UI_Talent_U_Xiangling_02"
+    },
+    "234": {
+      "name": "文火慢煨",
+      "icon": "UI_Talent_S_Xiangling_03"
+    },
+    "235": {
+      "name": "锅巴凶猛",
+      "icon": "UI_Talent_U_Xiangling_01"
+    },
+    "236": {
+      "name": "大龙卷旋火轮",
+      "icon": "UI_Talent_S_Xiangling_04"
+    }
+  },
+  "talent_fix": {
+    "10235": "旋火轮",
+    "10232": "锅巴出击"
+  },
+  "damage": [],
+  "buff": []
+}

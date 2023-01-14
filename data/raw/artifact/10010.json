@@ -1,0 +1,47 @@
+{
+  "id": 10010,
+  "name": "冒险家",
+  "levelList": [
+    1,
+    2,
+    3
+  ],
+  "affixList": {
+    "2100100": "生命值上限提高1000点。",
+    "2100101": "开启各类宝箱后的5秒内，持续恢复30%生命值。"
+  },
+  "icon": "UI_RelicIcon_10010_4",
+  "route": "Adventurer",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "冒险家之花",
+      "description": "从深邃的古都寻得的绝境求生的小花，被当做骄傲的勋章佩在胸前。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10010_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "冒险家尾羽",
+      "description": "异国的奇妙鸟类的羽毛，在这片大陆上非常罕见。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10010_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "冒险家怀表",
+      "description": "常在不见天日的巨渊还是失落的古都流连的冒险家，会经常忘记时间。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10010_5"
+    },
+    "EQUIP_RING": {
+      "name": "冒险家金杯",
+      "description": "冒险家某次出征的战利品，虽然有缺口，仍然是值得骄傲的猎获。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10010_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "冒险家头带",
+      "description": "束在额前的饰带，吸满了汗液、覆盖着尘土。但脏污难以遮掩冒险家的骄傲。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10010_3"
+    }
+  }
+}

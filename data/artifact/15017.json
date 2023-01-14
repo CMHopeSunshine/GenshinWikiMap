@@ -1,0 +1,33 @@
+{
+  "id": "15017",
+  "name": "千岩牢固",
+  "short_name": "千岩",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15017_4",
+  "part_list": {
+    "UI_RelicIcon_15017_4": {
+      "name": "勋绩之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15017_2": {
+      "name": "昭武翎羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15017_5": {
+      "name": "金铜时晷",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15017_1": {
+      "name": "盟誓金爵",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15017_3": {
+      "name": "将帅兜鍪",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

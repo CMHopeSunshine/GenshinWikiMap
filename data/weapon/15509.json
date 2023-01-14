@@ -1,0 +1,36 @@
+{
+  "id": "15509",
+  "name": "飞雷之弦振",
+  "rank": 5,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Narukami",
+    "awaken": "UI_EquipIcon_Bow_Narukami_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Narukami"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.60001,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}

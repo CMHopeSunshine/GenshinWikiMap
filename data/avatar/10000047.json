@@ -1,0 +1,131 @@
+{
+  "id": 10000047,
+  "name": "枫原万叶",
+  "element": "风",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Kazuha",
+    "side": "UI_AvatarIcon_Side_Kazuha",
+    "card": "UI_AvatarIcon_Kazuha_Card",
+    "splash": "UI_Gacha_AvatarImg_Kazuha",
+    "slice": "UI_Gacha_AvatarIcon_Kazuha"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.11877,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        890.95044,
+        1523.99414,
+        2368.05249,
+        3001.09619,
+        3634.13989,
+        4267.18359
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.0888,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        19.79511,
+        33.86006,
+        52.61332,
+        66.67827,
+        80.74322,
+        94.80817
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.8215,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        53.865,
+        92.1375,
+        143.1675,
+        181.44,
+        219.71249,
+        257.98499
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        28.8,
+        57.6,
+        57.6,
+        86.4,
+        115.2
+      ]
+    }
+  ],
+  "talent": {
+    "10471": {
+      "name": "普通攻击·我流剑术",
+      "icon": "Skill_A_01"
+    },
+    "10472": {
+      "name": "千早振",
+      "icon": "Skill_S_Kazuha_01"
+    },
+    "10475": {
+      "name": "万叶之一刀",
+      "icon": "Skill_E_Kazuha_01"
+    },
+    "472101": {
+      "name": "相闻之剑法",
+      "icon": "UI_Talent_S_Kazuha_05"
+    },
+    "472201": {
+      "name": "风物之诗咏",
+      "icon": "UI_Talent_S_Kazuha_06"
+    },
+    "472301": {
+      "name": "松风霞立",
+      "icon": "UI_Talent_Explosion_Sprint"
+    }
+  },
+  "constellation": {
+    "471": {
+      "name": "千山红遍",
+      "icon": "UI_Talent_S_Kazuha_01"
+    },
+    "472": {
+      "name": "山岚残芯",
+      "icon": "UI_Talent_S_Kazuha_02"
+    },
+    "473": {
+      "name": "枫袖奇谭",
+      "icon": "UI_Talent_U_Kazuha_01"
+    },
+    "474": {
+      "name": "大空幻法",
+      "icon": "UI_Talent_S_Kazuha_03"
+    },
+    "475": {
+      "name": "万世之集",
+      "icon": "UI_Talent_U_Kazuha_02"
+    },
+    "476": {
+      "name": "血赤叶红",
+      "icon": "UI_Talent_S_Kazuha_04"
+    }
+  },
+  "talent_fix": {
+    "10472": "千早振",
+    "10475": "万叶之一刀"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000044,
+  "name": "辛焱",
+  "element": "火",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Xinyan",
+    "side": "UI_AvatarIcon_Side_Xinyan",
+    "card": "UI_AvatarIcon_Xinyan_Card",
+    "splash": "UI_Gacha_AvatarImg_Xinyan",
+    "slice": "UI_Gacha_AvatarIcon_Xinyan"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 939.14471,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        701.58917,
+        1200.08679,
+        1864.75024,
+        2363.2478,
+        2861.74536,
+        3360.24292
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.83536,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.56545,
+        26.6251,
+        41.37132,
+        52.43098,
+        63.49063,
+        74.55029
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 66.95325,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        50.0175,
+        85.55625,
+        132.94125,
+        168.48,
+        204.01875,
+        239.5575
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10441": {
+      "name": "普通攻击·炎舞",
+      "icon": "Skill_A_04"
+    },
+    "10442": {
+      "name": "热情拂扫",
+      "icon": "Skill_S_Xinyan_01"
+    },
+    "10443": {
+      "name": "叛逆刮弦",
+      "icon": "Skill_E_Xinyan_01"
+    },
+    "442101": {
+      "name": "「没听众也要演奏…」",
+      "icon": "UI_Talent_S_Xinyan_05"
+    },
+    "442201": {
+      "name": "「…这才是摇滚！」",
+      "icon": "UI_Talent_S_Xinyan_06"
+    },
+    "442301": {
+      "name": "摇滚的食谱",
+      "icon": "UI_Talent_Cook_Defense"
+    }
+  },
+  "constellation": {
+    "441": {
+      "name": "绝命的加速",
+      "icon": "UI_Talent_S_Xinyan_01"
+    },
+    "442": {
+      "name": "开场即兴段",
+      "icon": "UI_Talent_S_Xinyan_02"
+    },
+    "443": {
+      "name": "摭分的指法",
+      "icon": "UI_Talent_U_Xinyan_01"
+    },
+    "444": {
+      "name": "节奏的传染",
+      "icon": "UI_Talent_S_Xinyan_03"
+    },
+    "445": {
+      "name": "返场的高呼",
+      "icon": "UI_Talent_U_Xinyan_02"
+    },
+    "446": {
+      "name": "地狱里摇摆",
+      "icon": "UI_Talent_S_Xinyan_04"
+    }
+  },
+  "talent_fix": {
+    "10442": "热情拂扫",
+    "10443": "叛逆刮弦"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": 10002,
+  "name": "勇士之心",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2100020": "攻击力提高18%。",
+    "2100021": "对生命值高于50%的敌人，造成的伤害增加30%。"
+  },
+  "icon": "UI_RelicIcon_10002_4",
+  "route": "Brave Heart",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "勇士的勋章",
+      "description": "别在胸前的朴实小花，是一次冒险后得到的纪念品。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10002_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "勇士的期许",
+      "description": "明亮的鸣禽翎羽。能带来小小的勇气。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10002_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "勇士的坚毅",
+      "description": "老旧的微型沙漏，不具有实用性。与岁月一样不可捉摸。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10002_5"
+    },
+    "EQUIP_RING": {
+      "name": "勇士的壮行",
+      "description": "木制的粗糙容器，其中空洞洞地盛满了回忆。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10002_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "勇士的冠冕",
+      "description": "粗略编成的草环。对一些人而言，就像王者的金冠一样贵重吧。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10002_3"
+    }
+  }
+}

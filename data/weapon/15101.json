@@ -1,0 +1,27 @@
+{
+  "id": "15101",
+  "name": "猎弓",
+  "rank": 1,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Hunters",
+    "awaken": "UI_EquipIcon_Bow_Hunters_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Hunters"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.245,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        11.7,
+        23.3,
+        35.0,
+        46.7
+      ]
+    }
+  ],
+  "buff": []
+}

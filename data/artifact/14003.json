@@ -1,0 +1,33 @@
+{
+  "id": "14003",
+  "name": "渡过烈火的贤人",
+  "short_name": "渡过",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_14003_4",
+  "part_list": {
+    "UI_RelicIcon_14003_4": {
+      "name": "渡火者的决绝",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_14003_2": {
+      "name": "渡火者的解脱",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_14003_5": {
+      "name": "渡火者的煎熬",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_14003_1": {
+      "name": "渡火者的醒悟",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_14003_3": {
+      "name": "渡火者的智慧",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

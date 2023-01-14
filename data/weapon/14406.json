@@ -1,0 +1,36 @@
+{
+  "id": "14406",
+  "name": "试作金珀",
+  "rank": 4,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Proto",
+    "awaken": "UI_EquipIcon_Catalyst_Proto_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Proto"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.09,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

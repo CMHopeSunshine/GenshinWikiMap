@@ -1,0 +1,27 @@
+{
+  "id": "14101",
+  "name": "学徒笔记",
+  "rank": 1,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Apprentice",
+    "awaken": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Apprentice"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.245,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        11.7,
+        23.3,
+        35.0,
+        46.7
+      ]
+    }
+  ],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000049,
+  "name": "宵宫",
+  "element": "火",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Yoimiya",
+    "side": "UI_AvatarIcon_Side_Yoimiya",
+    "card": "UI_AvatarIcon_Yoimiya_Card",
+    "splash": "UI_Gacha_AvatarImg_Yoimiya",
+    "slice": "UI_Gacha_AvatarIcon_Yoimiya"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 791.25562,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        678.43011,
+        1160.47253,
+        1803.19592,
+        2285.23828,
+        2767.28076,
+        3249.32324
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.137,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        21.55113,
+        36.86377,
+        57.28064,
+        72.59328,
+        87.90592,
+        103.21857
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 47.864,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        41.04,
+        70.2,
+        109.08,
+        138.24001,
+        167.39999,
+        196.56
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10491": {
+      "name": "普通攻击·烟火打扬",
+      "icon": "Skill_A_02"
+    },
+    "10492": {
+      "name": "焰硝庭火舞",
+      "icon": "Skill_S_Yoimiya_01"
+    },
+    "10495": {
+      "name": "琉金云间草",
+      "icon": "Skill_E_Yoimiya_01"
+    },
+    "492101": {
+      "name": "袖火百景图",
+      "icon": "UI_Talent_S_Yoimiya_05"
+    },
+    "492201": {
+      "name": "炎昼风物诗",
+      "icon": "UI_Talent_S_Yoimiya_06"
+    },
+    "492301": {
+      "name": "炎色配比法",
+      "icon": "UI_Talent_S_Yoimiya_07"
+    }
+  },
+  "constellation": {
+    "491": {
+      "name": "赤玉琉金",
+      "icon": "UI_Talent_S_Yoimiya_01"
+    },
+    "492": {
+      "name": "万灯送火",
+      "icon": "UI_Talent_S_Yoimiya_02"
+    },
+    "493": {
+      "name": "鼠火戏法",
+      "icon": "UI_Talent_U_Yoimiya_01"
+    },
+    "494": {
+      "name": "花火职人心得",
+      "icon": "UI_Talent_S_Yoimiya_03"
+    },
+    "495": {
+      "name": "真夏宵祭锦绘",
+      "icon": "UI_Talent_U_Yoimiya_02"
+    },
+    "496": {
+      "name": "长野原龙势流星群",
+      "icon": "UI_Talent_S_Yoimiya_04"
+    }
+  },
+  "talent_fix": {
+    "10492": "焰硝庭火舞",
+    "10495": "琉金云间草"
+  },
+  "damage": [],
+  "buff": []
+}

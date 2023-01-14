@@ -1,0 +1,17 @@
+{
+  "id": "15009",
+  "name": "祭火之人",
+  "short_name": "祭火",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_15009_3",
+  "part_list": {
+    "UI_RelicIcon_15009_3": {
+      "name": "祭火礼冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000035,
+  "name": "七七",
+  "element": "冰",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Qiqi",
+    "side": "UI_AvatarIcon_Side_Qiqi",
+    "card": "UI_AvatarIcon_Qiqi_Card",
+    "splash": "UI_Gacha_AvatarImg_Qiqi",
+    "slice": "UI_Gacha_AvatarIcon_Qiqi"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 962.85321,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        825.55957,
+        1412.14136,
+        2194.25049,
+        2780.83228,
+        3367.41406,
+        3953.99585
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 22.344,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        19.15656,
+        32.7678,
+        50.91612,
+        64.52736,
+        78.1386,
+        91.74984
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 71.796,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        61.56,
+        105.3,
+        163.62,
+        207.36,
+        251.10001,
+        294.84
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HEAL_ADD",
+      "promote": [
+        0,
+        0.0554,
+        0.1108,
+        0.1108,
+        0.1662,
+        0.2215
+      ]
+    }
+  ],
+  "talent": {
+    "10351": {
+      "name": "普通攻击·云来古剑法",
+      "icon": "Skill_A_01"
+    },
+    "10352": {
+      "name": "仙法·寒病鬼差",
+      "icon": "Skill_S_Qiqi_01"
+    },
+    "10353": {
+      "name": "仙法·救苦度厄",
+      "icon": "Skill_E_Qiqi_01"
+    },
+    "352101": {
+      "name": "延命妙法",
+      "icon": "UI_Talent_S_Qiqi_05"
+    },
+    "352201": {
+      "name": "玉签偶开",
+      "icon": "UI_Talent_S_Qiqi_06"
+    },
+    "352301": {
+      "name": "前尘旧忆",
+      "icon": "UI_Talent_Collect_Local_Liyue"
+    }
+  },
+  "constellation": {
+    "351": {
+      "name": "寒苦回向",
+      "icon": "UI_Talent_S_Qiqi_01"
+    },
+    "352": {
+      "name": "冰寒蚀骨",
+      "icon": "UI_Talent_S_Qiqi_02"
+    },
+    "353": {
+      "name": "升天宝诰",
+      "icon": "UI_Talent_U_Qiqi_01"
+    },
+    "354": {
+      "name": "天威压众",
+      "icon": "UI_Talent_S_Qiqi_03"
+    },
+    "355": {
+      "name": "红莲开绽",
+      "icon": "UI_Talent_U_Qiqi_02"
+    },
+    "356": {
+      "name": "起死回骸",
+      "icon": "UI_Talent_S_Qiqi_04"
+    }
+  },
+  "talent_fix": {
+    "10353": "仙法·救苦度厄",
+    "10352": "仙法·寒病鬼差"
+  },
+  "damage": [],
+  "buff": []
+}

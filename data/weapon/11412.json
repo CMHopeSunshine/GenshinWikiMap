@@ -1,0 +1,36 @@
+{
+  "id": "11412",
+  "name": "降临之剑",
+  "rank": 4,
+  "type": "单手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Sword_Psalmus",
+    "awaken": "UI_EquipIcon_Sword_Psalmus_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Sword_Psalmus"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 38.7413,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.0766,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

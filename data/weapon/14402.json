@@ -1,0 +1,36 @@
+{
+  "id": "14402",
+  "name": "流浪乐章",
+  "rank": 4,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Troupe",
+    "awaken": "UI_EquipIcon_Catalyst_Troupe_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Troupe"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

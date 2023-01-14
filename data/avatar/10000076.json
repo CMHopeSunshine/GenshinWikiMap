@@ -1,0 +1,131 @@
+{
+  "id": 10000076,
+  "name": "珐露珊",
+  "element": "风",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Faruzan",
+    "side": "UI_AvatarIcon_Side_Faruzan",
+    "card": "UI_AvatarIcon_Faruzan_Card",
+    "splash": "UI_Gacha_AvatarImg_Faruzan",
+    "slice": "UI_Gacha_AvatarIcon_Faruzan"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 802.3761,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        599.41602,
+        1025.31689,
+        1593.18469,
+        2019.08557,
+        2444.98633,
+        2870.88721
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.4724,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        12.30602,
+        21.04976,
+        32.70809,
+        41.45184,
+        50.19559,
+        58.93933
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 52.647,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        39.33,
+        67.275,
+        104.535,
+        132.48,
+        160.425,
+        188.37
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10761": {
+      "name": "普通攻击·迴身箭术",
+      "icon": "Skill_A_02"
+    },
+    "10762": {
+      "name": "非想风天",
+      "icon": "Skill_S_Faruzan_01"
+    },
+    "10765": {
+      "name": "抟风秘道",
+      "icon": "Skill_E_Faruzan_01"
+    },
+    "762101": {
+      "name": "迅捷流风",
+      "icon": "UI_Talent_S_Faruzan_05"
+    },
+    "762201": {
+      "name": "七窟遗智",
+      "icon": "UI_Talent_S_Faruzan_06"
+    },
+    "762301": {
+      "name": "千书曜迹",
+      "icon": "UI_Talent_S_Cyno_07"
+    }
+  },
+  "constellation": {
+    "761": {
+      "name": "舍径求真",
+      "icon": "UI_Talent_S_Faruzan_01"
+    },
+    "762": {
+      "name": "忘形炼智",
+      "icon": "UI_Talent_S_Faruzan_02"
+    },
+    "763": {
+      "name": "漫行灵圃",
+      "icon": "UI_Talent_U_Faruzan_01"
+    },
+    "764": {
+      "name": "神机明悟",
+      "icon": "UI_Talent_S_Faruzan_03"
+    },
+    "765": {
+      "name": "繁想奇境",
+      "icon": "UI_Talent_U_Faruzan_02"
+    },
+    "766": {
+      "name": "妙道合真",
+      "icon": "UI_Talent_S_Faruzan_04"
+    }
+  },
+  "talent_fix": {
+    "10762": "非想风天",
+    "10765": "抟风秘道"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "15005",
+  "name": "如雷的盛怒",
+  "short_name": "如雷",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15005_4",
+  "part_list": {
+    "UI_RelicIcon_15005_4": {
+      "name": "雷鸟的怜悯",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15005_2": {
+      "name": "雷灾的孑遗",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15005_5": {
+      "name": "雷霆的时计",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15005_1": {
+      "name": "降雷的凶兆",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15005_3": {
+      "name": "唤雷的头冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000069,
+  "name": "提纳里",
+  "element": "草",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Tighnari",
+    "side": "UI_AvatarIcon_Side_Tighnari",
+    "card": "UI_AvatarIcon_Tighnari_Card",
+    "splash": "UI_Gacha_AvatarImg_Tighnari",
+    "slice": "UI_Gacha_AvatarIcon_Tighnari"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 844.64154,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        724.20374,
+        1238.76953,
+        1924.8573,
+        2439.4231,
+        2953.98901,
+        3468.55469
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.8544,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        17.87946,
+        30.58328,
+        47.52171,
+        60.22554,
+        72.92936,
+        85.63319
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 49.0606,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        42.066,
+        71.955,
+        111.807,
+        141.696,
+        171.58501,
+        201.474
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_GRASS_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10691": {
+      "name": "普通攻击·藏蕴破障",
+      "icon": "Skill_A_02"
+    },
+    "10692": {
+      "name": "识果种雷",
+      "icon": "Skill_S_Tighnari_01"
+    },
+    "10695": {
+      "name": "造生缠藤箭",
+      "icon": "Skill_E_Tighnari_01"
+    },
+    "692101": {
+      "name": "眼识殊明",
+      "icon": "UI_Talent_S_Tighnari_05"
+    },
+    "692201": {
+      "name": "诸叶辨通",
+      "icon": "UI_Talent_S_Tighnari_06"
+    },
+    "692301": {
+      "name": "闳览博物",
+      "icon": "UI_Talent_S_Tighnari_07"
+    }
+  },
+  "constellation": {
+    "691": {
+      "name": "由根须断定肇始",
+      "icon": "UI_Talent_S_Tighnari_01"
+    },
+    "692": {
+      "name": "由茎干剖析来缘",
+      "icon": "UI_Talent_S_Tighnari_02"
+    },
+    "693": {
+      "name": "由枝节知晓造化",
+      "icon": "UI_Talent_U_Tighnari_01"
+    },
+    "694": {
+      "name": "由片叶管窥枯荣",
+      "icon": "UI_Talent_S_Tighnari_03"
+    },
+    "695": {
+      "name": "由繁花明了悟觉",
+      "icon": "UI_Talent_U_Tighnari_02"
+    },
+    "696": {
+      "name": "由硕实品论应果",
+      "icon": "UI_Talent_S_Tighnari_04"
+    }
+  },
+  "talent_fix": {
+    "10695": "造生缠藤箭",
+    "10692": "识果种雷"
+  },
+  "damage": [],
+  "buff": []
+}

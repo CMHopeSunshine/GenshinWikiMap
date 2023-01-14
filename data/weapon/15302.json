@@ -1,0 +1,36 @@
+{
+  "id": "15302",
+  "name": "神射手之誓",
+  "rank": 3,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Arjuna",
+    "awaken": "UI_EquipIcon_Bow_Arjuna_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Arjuna"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 38.7413,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.102,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

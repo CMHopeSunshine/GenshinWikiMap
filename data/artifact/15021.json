@@ -1,0 +1,33 @@
+{
+  "id": "15021",
+  "name": "华馆梦醒形骸记",
+  "short_name": "华馆",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15021_4",
+  "part_list": {
+    "UI_RelicIcon_15021_4": {
+      "name": "荣花之期",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15021_2": {
+      "name": "华馆之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15021_5": {
+      "name": "众生之谣",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15021_1": {
+      "name": "梦醒之瓢",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15021_3": {
+      "name": "形骸之笠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

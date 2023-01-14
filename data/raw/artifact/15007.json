@@ -1,0 +1,46 @@
+{
+  "id": 15007,
+  "name": "昔日宗室之仪",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150070": "元素爆发造成的伤害提升20%。",
+    "2150071": "施放元素爆发后，队伍中所有角色攻击力提升20%，持续12秒。该效果不可叠加。"
+  },
+  "icon": "UI_RelicIcon_15007_4",
+  "route": "Noblesse Oblige",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "宗室之花",
+      "description": "绸缎制成的璃色花，常在典雅场合佩戴。如今仍像被抛弃的那天一样鲜明。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15007_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "宗室之翎",
+      "description": "旧日蒙德贵族会猎时在帽檐上佩戴的羽饰。如今傲然挺立依旧，不谙时光。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15007_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "宗室时计",
+      "description": "曾经属于旧日蒙德贵族的怀表，随漫长的谱系流传至今，见证了过往年岁。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15007_5"
+    },
+    "EQUIP_RING": {
+      "name": "宗室银瓮",
+      "description": "曾经属于旧日蒙德贵族的首饰瓮，空空如也的腹内仿佛回响着哀戚的风声。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15007_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "宗室面具",
+      "description": "曾经属于旧日蒙德贵族的舞会面具，那空洞的眼眶依旧凝望着昔日的盛景。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15007_3"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "15024",
+  "name": "来歆余响",
+  "short_name": "来歆",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15024_4",
+  "part_list": {
+    "UI_RelicIcon_15024_4": {
+      "name": "魂香之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15024_2": {
+      "name": "垂玉之叶",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15024_5": {
+      "name": "祝祀之凭",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15024_1": {
+      "name": "涌泉之盏",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15024_3": {
+      "name": "浮溯之珏",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

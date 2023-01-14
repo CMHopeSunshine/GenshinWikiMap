@@ -1,0 +1,33 @@
+{
+  "id": "10005",
+  "name": "战狂",
+  "short_name": "战狂",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10005_4",
+  "part_list": {
+    "UI_RelicIcon_10005_4": {
+      "name": "战狂的蔷薇",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10005_2": {
+      "name": "战狂的翎羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10005_5": {
+      "name": "战狂的时计",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10005_1": {
+      "name": "战狂的骨杯",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10005_3": {
+      "name": "战狂的鬼面",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

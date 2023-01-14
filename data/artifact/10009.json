@@ -1,0 +1,33 @@
+{
+  "id": "10009",
+  "name": "流放者",
+  "short_name": "流放",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10009_4",
+  "part_list": {
+    "UI_RelicIcon_10009_4": {
+      "name": "流放者之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10009_2": {
+      "name": "流放者之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10009_5": {
+      "name": "流放者怀表",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10009_1": {
+      "name": "流放者之杯",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10009_3": {
+      "name": "流放者头冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000053,
+  "name": "早柚",
+  "element": "风",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Sayu",
+    "side": "UI_AvatarIcon_Side_Sayu",
+    "card": "UI_AvatarIcon_Sayu_Card",
+    "splash": "UI_Gacha_AvatarImg_Sayu",
+    "slice": "UI_Gacha_AvatarIcon_Sayu"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 993.85217,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        742.4585,
+        1269.99475,
+        1973.37646,
+        2500.91284,
+        3028.44897,
+        3555.98535
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.4792,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.29937,
+        26.16998,
+        40.66412,
+        51.53472,
+        62.40533,
+        73.27593
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.43248,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        46.64025,
+        79.77937,
+        123.96487,
+        157.104,
+        190.24312,
+        223.38225
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "10531": {
+      "name": "普通攻击·忍刀·终末番",
+      "icon": "Skill_A_04"
+    },
+    "10532": {
+      "name": "呜呼流·风隐急进",
+      "icon": "Skill_S_Sayu_01"
+    },
+    "10535": {
+      "name": "呜呼流·影貉缭乱",
+      "icon": "Skill_E_Sayu_01"
+    },
+    "532101": {
+      "name": "更加合适的人选",
+      "icon": "UI_Talent_S_Sayu_05"
+    },
+    "532201": {
+      "name": "早柚不用工作啦",
+      "icon": "UI_Talent_S_Sayu_06"
+    },
+    "532301": {
+      "name": "呜呼流·屏息秘传",
+      "icon": "UI_Talent_S_Sayu_07"
+    }
+  },
+  "constellation": {
+    "531": {
+      "name": "一心二用之术",
+      "icon": "UI_Talent_S_Sayu_01"
+    },
+    "532": {
+      "name": "理清逃跑路线",
+      "icon": "UI_Talent_S_Sayu_02"
+    },
+    "533": {
+      "name": "都交给分身吧",
+      "icon": "UI_Talent_U_Sayu_02"
+    },
+    "534": {
+      "name": "偷懒的新方法",
+      "icon": "UI_Talent_S_Sayu_03"
+    },
+    "535": {
+      "name": "快是第一奥义",
+      "icon": "UI_Talent_U_Sayu_01"
+    },
+    "536": {
+      "name": "呼呼大睡时间",
+      "icon": "UI_Talent_S_Sayu_04"
+    }
+  },
+  "talent_fix": {
+    "10535": "呜呼流·影貉缭乱",
+    "10532": "呜呼流·风隐急进"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -23,9 +23,11 @@ jobs:
     - name: Install Package
       run: poetry install
 
-
     - name: Run Update Script
-      run: python main.py
+      run: poetry run python main.py
+
+    - name: Run Generate Script
+      run: poetry run python generate.py
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
@@ -35,3 +37,4 @@ jobs:
         message: ':wrench: 更新数据'
         add: |
           '**.json'
+          '**.zip'

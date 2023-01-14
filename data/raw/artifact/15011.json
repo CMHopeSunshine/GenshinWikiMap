@@ -1,0 +1,21 @@
+{
+  "id": 15011,
+  "name": "祭雷之人",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2150110": "受到的雷元素附着效果的持续时间减少40%。"
+  },
+  "icon": "UI_RelicIcon_15011_3",
+  "route": "Prayers for Wisdom",
+  "suit": {
+    "EQUIP_DRESS": {
+      "name": "祭雷礼冠",
+      "description": "在古老的时代，司祭祀之人佩戴的礼冠。因为常年聆听着雷鸣，具有奇妙的抗性。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15011_3"
+    }
+  }
+}

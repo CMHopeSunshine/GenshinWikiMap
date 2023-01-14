@@ -1,0 +1,33 @@
+{
+  "id": "10008",
+  "name": "赌徒",
+  "short_name": "赌徒",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10008_4",
+  "part_list": {
+    "UI_RelicIcon_10008_4": {
+      "name": "赌徒的胸花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10008_2": {
+      "name": "赌徒的羽饰",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10008_5": {
+      "name": "赌徒的怀表",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10008_1": {
+      "name": "赌徒的骰盅",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10008_3": {
+      "name": "赌徒的耳环",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

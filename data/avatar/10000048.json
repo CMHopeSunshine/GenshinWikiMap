@@ -1,0 +1,131 @@
+{
+  "id": 10000048,
+  "name": "烟绯",
+  "element": "火",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Feiyan",
+    "side": "UI_AvatarIcon_Side_Feiyan",
+    "card": "UI_AvatarIcon_Feiyan_Card",
+    "splash": "UI_Gacha_AvatarImg_Feiyan",
+    "slice": "UI_Gacha_AvatarIcon_Feiyan"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 784.14026,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        585.79291,
+        1002.01422,
+        1556.97595,
+        1973.19727,
+        2389.41846,
+        2805.63989
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.12304,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.03329,
+        25.71485,
+        39.95691,
+        50.63847,
+        61.32001,
+        72.00156
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 49.2135,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        36.765,
+        62.8875,
+        97.7175,
+        123.84,
+        149.96249,
+        176.08501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_FIRE_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10481": {
+      "name": "普通攻击·火漆制印",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10482": {
+      "name": "丹书立约",
+      "icon": "Skill_S_Feiyan_01"
+    },
+    "10485": {
+      "name": "凭此结契",
+      "icon": "Skill_E_Feiyan_01"
+    },
+    "482101": {
+      "name": "关联条款",
+      "icon": "UI_Talent_S_Feiyan_05"
+    },
+    "482201": {
+      "name": "法兽灼眼",
+      "icon": "UI_Talent_S_Feiyan_06"
+    },
+    "482301": {
+      "name": "博闻强记",
+      "icon": "UI_Talent_Collect_Local_Liyue"
+    }
+  },
+  "constellation": {
+    "481": {
+      "name": "占理不饶人",
+      "icon": "UI_Talent_S_Feiyan_01"
+    },
+    "482": {
+      "name": "最终解释权",
+      "icon": "UI_Talent_S_Feiyan_02"
+    },
+    "483": {
+      "name": "真火炼宝印",
+      "icon": "UI_Talent_U_Feiyan_01"
+    },
+    "484": {
+      "name": "丹书金铁券",
+      "icon": "UI_Talent_S_Feiyan_03"
+    },
+    "485": {
+      "name": "遵法切结书",
+      "icon": "UI_Talent_U_Feiyan_02"
+    },
+    "486": {
+      "name": "是额外条款",
+      "icon": "UI_Talent_S_Feiyan_04"
+    }
+  },
+  "talent_fix": {
+    "10482": "丹书立约",
+    "10485": "凭此结契"
+  },
+  "damage": [],
+  "buff": []
+}

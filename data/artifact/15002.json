@@ -1,0 +1,33 @@
+{
+  "id": "15002",
+  "name": "翠绿之影",
+  "short_name": "翠绿",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15002_4",
+  "part_list": {
+    "UI_RelicIcon_15002_4": {
+      "name": "野花记忆的绿野",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15002_2": {
+      "name": "猎人青翠的箭羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15002_5": {
+      "name": "翠绿猎人的笃定",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15002_1": {
+      "name": "翠绿猎人的容器",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15002_3": {
+      "name": "翠绿的猎人之冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

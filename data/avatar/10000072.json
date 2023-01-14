@@ -1,0 +1,131 @@
+{
+  "id": 10000072,
+  "name": "坎蒂丝",
+  "element": "水",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Candace",
+    "side": "UI_AvatarIcon_Side_Candace",
+    "card": "UI_AvatarIcon_Candace_Card",
+    "splash": "UI_Gacha_AvatarImg_Candace",
+    "slice": "UI_Gacha_AvatarIcon_Candace"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 911.79102,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        681.15454,
+        1165.13281,
+        1810.43713,
+        2294.41528,
+        2778.39355,
+        3262.37183
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.808,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.3038,
+        22.7565,
+        35.3601,
+        44.8128,
+        54.2655,
+        63.7182
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 57.225,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        42.75,
+        73.125,
+        113.625,
+        144,
+        174.375,
+        204.75
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10721": {
+      "name": "普通攻击·流耀枪术·守势",
+      "icon": "Skill_A_03"
+    },
+    "10722": {
+      "name": "圣仪·苍鹭庇卫",
+      "icon": "Skill_S_Candace_01"
+    },
+    "10725": {
+      "name": "圣仪·灰鸰衒潮",
+      "icon": "Skill_E_Candace_01"
+    },
+    "722101": {
+      "name": "流羽交护",
+      "icon": "UI_Talent_S_Candace_05"
+    },
+    "722201": {
+      "name": "漫沙陨穹",
+      "icon": "UI_Talent_S_Candace_06"
+    },
+    "722301": {
+      "name": "向拂晓的初光",
+      "icon": "UI_Talent_Explosion_Climb"
+    }
+  },
+  "constellation": {
+    "721": {
+      "name": "赤沙的归嗣",
+      "icon": "UI_Talent_S_Candace_01"
+    },
+    "722": {
+      "name": "贯月的耀锋",
+      "icon": "UI_Talent_S_Candace_02"
+    },
+    "723": {
+      "name": "织狩的奉祀",
+      "icon": "UI_Talent_U_Candace_01"
+    },
+    "724": {
+      "name": "守戍的誓命",
+      "icon": "UI_Talent_S_Candace_03"
+    },
+    "725": {
+      "name": "萦金的苍瞳",
+      "icon": "UI_Talent_U_Candace_02"
+    },
+    "726": {
+      "name": "衍溢的汐潮",
+      "icon": "UI_Talent_S_Candace_04"
+    }
+  },
+  "talent_fix": {
+    "10725": "圣仪·灰鸰衒潮",
+    "10722": "圣仪·苍鹭庇卫"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "15019",
+  "name": "追忆之注连",
+  "short_name": "追忆",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15019_4",
+  "part_list": {
+    "UI_RelicIcon_15019_4": {
+      "name": "羁缠之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15019_2": {
+      "name": "思忆之矢",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15019_5": {
+      "name": "朝露之时",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15019_1": {
+      "name": "祈望之心",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15019_3": {
+      "name": "无常之面",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": 15003,
+  "name": "流浪大地的乐团",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150030": "元素精通提高80点。",
+    "2150031": "装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。"
+  },
+  "icon": "UI_RelicIcon_15003_4",
+  "route": "Wanderer's Troupe",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "乐团的晨光",
+      "description": "小小的花形徽章。侧耳细听的话，仿佛能听到悠扬的笛声和清新的歌唱声。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "琴师的箭羽",
+      "description": "青蓝色的箭羽，并未在漫长岁月中褪色破碎。似乎带来了落珠流水的琴声。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15003_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "终幕的时计",
+      "description": "为乐团的演奏计时的沙漏，曾发出利落的声响。如今他们的表演已经落幕。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15003_5"
+    },
+    "EQUIP_RING": {
+      "name": "吟游者之壶",
+      "description": "外形奇妙的古代水壶，内侧安装着琴弦，随流水而奏出无旋律的奇妙乐声。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15003_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "指挥的礼帽",
+      "description": "尽管饱经风霜，但依旧光彩照人的礼帽。其中似乎回荡着古老悠扬的乐声。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15003_3"
+    }
+  }
+}

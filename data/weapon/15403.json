@@ -1,0 +1,36 @@
+{
+  "id": "15403",
+  "name": "祭礼弓",
+  "rank": 4,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Fossil",
+    "awaken": "UI_EquipIcon_Bow_Fossil_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Fossil"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.06667,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

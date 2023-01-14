@@ -1,0 +1,36 @@
+{
+  "id": "12502",
+  "name": "狼的末路",
+  "rank": 5,
+  "type": "双手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Claymore_Wolfmound",
+    "awaken": "UI_EquipIcon_Claymore_Wolfmound_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Claymore_Wolfmound"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.60001,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.108,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}

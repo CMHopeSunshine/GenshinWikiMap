@@ -1,0 +1,17 @@
+{
+  "id": "15011",
+  "name": "祭雷之人",
+  "short_name": "祭雷",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_15011_3",
+  "part_list": {
+    "UI_RelicIcon_15011_3": {
+      "name": "祭雷礼冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": 10005,
+  "name": "战狂",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2100050": "暴击率提高12%。",
+    "2100051": "生命值低于70%时，暴击率额外提升24%。"
+  },
+  "icon": "UI_RelicIcon_10005_4",
+  "route": "Berserker",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "战狂的蔷薇",
+      "description": "被染红的精致花朵，与狂战士的气质微妙地相符。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "战狂的翎羽",
+      "description": "原本传说中报丧之鸟的黯蓝尾羽，一部分被染成了红色。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10005_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "战狂的时计",
+      "description": "永远无情流动着的器物。提醒着狂战士自己在战场上的时限，和在人世间的时限。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10005_5"
+    },
+    "EQUIP_RING": {
+      "name": "战狂的骨杯",
+      "description": "用不知名的巨大兽类的骨头制成的杯。是某次厮杀后得到的猎获。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10005_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "战狂的鬼面",
+      "description": "在不顾生死的厮杀中一半破碎的骇人铁面具。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10005_3"
+    }
+  }
+}

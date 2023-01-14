@@ -1,0 +1,27 @@
+{
+  "id": "13101",
+  "name": "新手长枪",
+  "rank": 1,
+  "type": "长柄武器",
+  "icon": {
+    "icon": "UI_EquipIcon_Pole_Gewalt",
+    "awaken": "UI_EquipIcon_Pole_Gewalt_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Pole_Gewalt"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.245,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        11.7,
+        23.3,
+        35.0,
+        46.7
+      ]
+    }
+  ],
+  "buff": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "10007",
+  "name": "教官",
+  "short_name": "教官",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10007_4",
+  "part_list": {
+    "UI_RelicIcon_10007_4": {
+      "name": "教官的胸花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10007_2": {
+      "name": "教官的羽饰",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10007_5": {
+      "name": "教官的怀表",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10007_1": {
+      "name": "教官的茶杯",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10007_3": {
+      "name": "教官的帽子",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

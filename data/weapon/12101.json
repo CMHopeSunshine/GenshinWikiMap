@@ -1,0 +1,27 @@
+{
+  "id": "12101",
+  "name": "训练大剑",
+  "rank": 1,
+  "type": "双手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Claymore_Aniki",
+    "awaken": "UI_EquipIcon_Claymore_Aniki_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Claymore_Aniki"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.245,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        11.7,
+        23.3,
+        35.0,
+        46.7
+      ]
+    }
+  ],
+  "buff": []
+}

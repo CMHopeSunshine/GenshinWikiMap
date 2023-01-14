@@ -1,0 +1,131 @@
+{
+  "id": 10000056,
+  "name": "九条裟罗",
+  "element": "雷",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Sara",
+    "side": "UI_AvatarIcon_Side_Sara",
+    "card": "UI_AvatarIcon_Sara_Card",
+    "splash": "UI_Gacha_AvatarImg_Sara",
+    "slice": "UI_Gacha_AvatarIcon_Sara"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 802.3761,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        599.41602,
+        1025.31689,
+        1593.18469,
+        2019.08557,
+        2444.98633,
+        2870.88721
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.38336,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        12.2395,
+        20.93598,
+        32.53129,
+        41.22778,
+        49.92426,
+        58.62074
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 52.647,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        39.33,
+        67.275,
+        104.535,
+        132.48,
+        160.425,
+        188.37
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10561": {
+      "name": "普通攻击·天狗传弓术",
+      "icon": "Skill_A_02"
+    },
+    "10562": {
+      "name": "鸦羽天狗霆雷召咒",
+      "icon": "Skill_S_Sara_01"
+    },
+    "10565": {
+      "name": "煌煌千道镇式",
+      "icon": "Skill_E_Sara_01"
+    },
+    "562101": {
+      "name": "不动心",
+      "icon": "UI_Talent_S_Sara_01"
+    },
+    "562201": {
+      "name": "御公仪",
+      "icon": "UI_Talent_S_Sara_06"
+    },
+    "562301": {
+      "name": "检地",
+      "icon": "UI_Talent_S_Sara_07"
+    }
+  },
+  "constellation": {
+    "561": {
+      "name": "乌眼",
+      "icon": "UI_Talent_S_Sara_05"
+    },
+    "562": {
+      "name": "鸦羽",
+      "icon": "UI_Talent_S_Sara_02"
+    },
+    "563": {
+      "name": "心魔",
+      "icon": "UI_Talent_U_Sara_02"
+    },
+    "564": {
+      "name": "彻证",
+      "icon": "UI_Talent_S_Sara_03"
+    },
+    "565": {
+      "name": "咒咏",
+      "icon": "UI_Talent_U_Sara_01"
+    },
+    "566": {
+      "name": "我界",
+      "icon": "UI_Talent_S_Sara_04"
+    }
+  },
+  "talent_fix": {
+    "10565": "煌煌千道镇式",
+    "10562": "鸦羽天狗霆雷召咒"
+  },
+  "damage": [],
+  "buff": []
+}

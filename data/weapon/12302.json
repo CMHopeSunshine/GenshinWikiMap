@@ -1,0 +1,36 @@
+{
+  "id": "12302",
+  "name": "沐浴龙血的剑",
+  "rank": 3,
+  "type": "双手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Claymore_Siegfry",
+    "awaken": "UI_EquipIcon_Claymore_Siegfry_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Claymore_Siegfry"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 37.6075,
+        "type": "GROW_CURVE_ATTACK_104"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 40.8,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

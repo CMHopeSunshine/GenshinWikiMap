@@ -1,0 +1,131 @@
+{
+  "id": 10000065,
+  "name": "久岐忍",
+  "element": "雷",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Shinobu",
+    "side": "UI_AvatarIcon_Side_Shinobu",
+    "card": "UI_AvatarIcon_Shinobu_Card",
+    "splash": "UI_Gacha_AvatarImg_Shinobu",
+    "slice": "UI_Gacha_AvatarIcon_Shinobu"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1030.32385,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        769.70465,
+        1316.6001,
+        2045.79395,
+        2592.68945,
+        3139.58472,
+        3686.48022
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.808,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.3038,
+        22.7565,
+        35.3601,
+        44.8128,
+        54.2655,
+        63.7182
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.9475,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        47.025,
+        80.4375,
+        124.9875,
+        158.39999,
+        191.8125,
+        225.22501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10651": {
+      "name": "普通攻击·忍流飞刃斩",
+      "icon": "Skill_A_01"
+    },
+    "10652": {
+      "name": "越祓雷草之轮",
+      "icon": "Skill_S_Shinobu_01"
+    },
+    "10655": {
+      "name": "御咏鸣神刈山祭",
+      "icon": "Skill_E_Shinobu_01"
+    },
+    "652101": {
+      "name": "破笼之志",
+      "icon": "UI_Talent_S_Shinobu_05"
+    },
+    "652201": {
+      "name": "安心之所",
+      "icon": "UI_Talent_S_Shinobu_06"
+    },
+    "652301": {
+      "name": "久时的祝祷",
+      "icon": "UI_Talent_S_Shinobu_07"
+    }
+  },
+  "constellation": {
+    "651": {
+      "name": "割舍怜悯之心",
+      "icon": "UI_Talent_S_Shinobu_01"
+    },
+    "652": {
+      "name": "割舍侥幸之心",
+      "icon": "UI_Talent_S_Shinobu_02"
+    },
+    "653": {
+      "name": "割舍痛苦之心",
+      "icon": "UI_Talent_U_Shinobu_01"
+    },
+    "654": {
+      "name": "割舍封闭之心",
+      "icon": "UI_Talent_S_Shinobu_03"
+    },
+    "655": {
+      "name": "割舍逢迎之心",
+      "icon": "UI_Talent_U_Shinobu_02"
+    },
+    "656": {
+      "name": "割舍软弱之心",
+      "icon": "UI_Talent_S_Shinobu_04"
+    }
+  },
+  "talent_fix": {
+    "10652": "越祓雷草之轮",
+    "10655": "御咏鸣神刈山祭"
+  },
+  "damage": [],
+  "buff": []
+}

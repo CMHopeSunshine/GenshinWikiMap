@@ -1,0 +1,131 @@
+{
+  "id": 10000022,
+  "name": "温迪",
+  "element": "风",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Venti",
+    "side": "UI_AvatarIcon_Side_Venti",
+    "card": "UI_AvatarIcon_Venti_Card",
+    "splash": "UI_Gacha_AvatarImg_Venti",
+    "slice": "UI_Gacha_AvatarIcon_Venti"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 819.85522,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        702.95172,
+        1202.41736,
+        1868.37158,
+        2367.8374,
+        2867.30298,
+        3366.7688
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.482,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        17.56018,
+        30.03715,
+        46.67311,
+        59.15008,
+        71.62705,
+        84.10402
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 52.0521,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        44.631,
+        76.3425,
+        118.6245,
+        150.336,
+        182.0475,
+        213.759
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        0,
+        0.08,
+        0.16,
+        0.16,
+        0.24,
+        0.32
+      ]
+    }
+  ],
+  "talent": {
+    "10221": {
+      "name": "普通攻击·神代射术",
+      "icon": "Skill_A_02"
+    },
+    "10224": {
+      "name": "高天之歌",
+      "icon": "Skill_S_Venti_01"
+    },
+    "10225": {
+      "name": "风神之诗",
+      "icon": "Skill_E_Venti_01"
+    },
+    "222101": {
+      "name": "绪风之拥",
+      "icon": "UI_Talent_S_Venti_05"
+    },
+    "222201": {
+      "name": "暴风之眼",
+      "icon": "UI_Talent_S_Venti_06"
+    },
+    "222301": {
+      "name": "恒风随行",
+      "icon": "UI_Talent_Explosion_Glide"
+    }
+  },
+  "constellation": {
+    "221": {
+      "name": "弦发的苍风",
+      "icon": "UI_Talent_S_Venti_01"
+    },
+    "222": {
+      "name": "眷恋的泠风",
+      "icon": "UI_Talent_S_Venti_02"
+    },
+    "223": {
+      "name": "千风的诗篇",
+      "icon": "UI_Talent_U_Venti_02"
+    },
+    "224": {
+      "name": "自由的凛风",
+      "icon": "UI_Talent_S_Venti_03"
+    },
+    "225": {
+      "name": "高天的协奏",
+      "icon": "UI_Talent_U_Venti_01"
+    },
+    "226": {
+      "name": "抗争的暴风",
+      "icon": "UI_Talent_S_Venti_04"
+    }
+  },
+  "talent_fix": {
+    "10225": "风神之诗",
+    "10224": "高天之歌"
+  },
+  "damage": [],
+  "buff": []
+}

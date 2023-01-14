@@ -1,0 +1,131 @@
+{
+  "id": 10000020,
+  "name": "雷泽",
+  "element": "雷",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Razor",
+    "side": "UI_AvatarIcon_Side_Razor",
+    "card": "UI_AvatarIcon_Razor_Card",
+    "splash": "UI_Gacha_AvatarImg_Razor",
+    "slice": "UI_Gacha_AvatarIcon_Razor"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1002.97009,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        749.27002,
+        1281.64612,
+        1991.48083,
+        2523.85693,
+        3056.23291,
+        3588.60913
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.5888,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.63418,
+        25.03215,
+        38.89611,
+        49.29408,
+        59.69205,
+        70.09002
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.9475,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        47.025,
+        80.4375,
+        124.9875,
+        158.39999,
+        191.8125,
+        225.22501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+      "promote": [
+        0,
+        0.075,
+        0.15,
+        0.15,
+        0.225,
+        0.3
+      ]
+    }
+  ],
+  "talent": {
+    "10201": {
+      "name": "普通攻击·钢脊",
+      "icon": "Skill_A_04"
+    },
+    "10202": {
+      "name": "利爪与苍雷",
+      "icon": "Skill_S_Razor_01"
+    },
+    "10203": {
+      "name": "雷牙",
+      "icon": "Skill_E_Razor_01"
+    },
+    "202101": {
+      "name": "觉醒",
+      "icon": "UI_Talent_S_Razor_05"
+    },
+    "202201": {
+      "name": "饥饿",
+      "icon": "UI_Talent_S_Razor_06"
+    },
+    "202301": {
+      "name": "奔狼",
+      "icon": "UI_Talent_Explosion_Sprint"
+    }
+  },
+  "constellation": {
+    "201": {
+      "name": "狼性",
+      "icon": "UI_Talent_S_Razor_01"
+    },
+    "202": {
+      "name": "压制",
+      "icon": "UI_Talent_S_Razor_02"
+    },
+    "203": {
+      "name": "兽魂",
+      "icon": "UI_Talent_U_Razor_02"
+    },
+    "204": {
+      "name": "撕咬",
+      "icon": "UI_Talent_S_Razor_03"
+    },
+    "205": {
+      "name": "利爪",
+      "icon": "UI_Talent_U_Razor_01"
+    },
+    "206": {
+      "name": "天狼",
+      "icon": "UI_Talent_S_Razor_04"
+    }
+  },
+  "talent_fix": {
+    "10203": "雷牙",
+    "10202": "利爪与苍雷"
+  },
+  "damage": [],
+  "buff": []
+}

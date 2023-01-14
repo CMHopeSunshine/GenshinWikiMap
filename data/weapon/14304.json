@@ -1,0 +1,36 @@
+{
+  "id": "14304",
+  "name": "翡玉法球",
+  "rank": 3,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Jade",
+    "awaken": "UI_EquipIcon_Catalyst_Jade_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Jade"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 39.8751,
+        "type": "GROW_CURVE_ATTACK_102"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 20.4,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

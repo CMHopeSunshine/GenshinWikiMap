@@ -1,0 +1,131 @@
+{
+  "id": 10000064,
+  "name": "云堇",
+  "element": "岩",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Yunjin",
+    "side": "UI_AvatarIcon_Side_Yunjin",
+    "card": "UI_AvatarIcon_Yunjin_Card",
+    "splash": "UI_Gacha_AvatarImg_Yunjin",
+    "slice": "UI_Gacha_AvatarIcon_Yunjin"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 893.55518,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        667.53149,
+        1141.8302,
+        1774.22839,
+        2248.5271,
+        2722.82568,
+        3197.12451
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.0272,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.97342,
+        20.48085,
+        31.82409,
+        40.33152,
+        48.83895,
+        57.34638
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.5741,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        45.999,
+        78.6825,
+        122.2605,
+        154.944,
+        187.6275,
+        220.311
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        0,
+        0.0667,
+        0.1333,
+        0.1333,
+        0.2,
+        0.2667
+      ]
+    }
+  ],
+  "talent": {
+    "10641": {
+      "name": "普通攻击·拂云出手",
+      "icon": "Skill_A_03"
+    },
+    "10642": {
+      "name": "旋云开相",
+      "icon": "Skill_S_Yunjin_01"
+    },
+    "10643": {
+      "name": "破嶂见旌仪",
+      "icon": "Skill_E_Yunjin_01"
+    },
+    "642101": {
+      "name": "务守本真",
+      "icon": "UI_Talent_S_Yunjin_05"
+    },
+    "642201": {
+      "name": "莫从恒蹊",
+      "icon": "UI_Talent_S_Yunjin_06"
+    },
+    "642301": {
+      "name": "清食养性",
+      "icon": "UI_Talent_S_Yunjin_07"
+    }
+  },
+  "constellation": {
+    "641": {
+      "name": "飞身趟马",
+      "icon": "UI_Talent_S_Yunjin_01"
+    },
+    "642": {
+      "name": "诸般切末",
+      "icon": "UI_Talent_S_Yunjin_02"
+    },
+    "643": {
+      "name": "牙纛探海",
+      "icon": "UI_Talent_U_Yunjin_01"
+    },
+    "644": {
+      "name": "昇堂吊云",
+      "icon": "UI_Talent_S_Yunjin_03"
+    },
+    "645": {
+      "name": "翘楚名坤",
+      "icon": "UI_Talent_U_Yunjin_02"
+    },
+    "646": {
+      "name": "庄谐并举",
+      "icon": "UI_Talent_S_Yunjin_04"
+    }
+  },
+  "talent_fix": {
+    "10643": "破嶂见旌仪",
+    "10642": "旋云开相"
+  },
+  "damage": [],
+  "buff": []
+}

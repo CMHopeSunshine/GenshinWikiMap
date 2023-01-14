@@ -1,0 +1,131 @@
+{
+  "id": 10000043,
+  "name": "砂糖",
+  "element": "风",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Sucrose",
+    "side": "UI_AvatarIcon_Side_Sucrose",
+    "card": "UI_AvatarIcon_Sucrose_Card",
+    "splash": "UI_Gacha_AvatarImg_Sucrose",
+    "slice": "UI_Gacha_AvatarIcon_Sucrose"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 775.02234,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        578.98138,
+        990.36285,
+        1538.87158,
+        1950.25305,
+        2361.63452,
+        2773.01611
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.2464,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        10.64304,
+        18.2052,
+        28.28808,
+        35.85024,
+        43.4124,
+        50.97456
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.94175,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.0325,
+        75.31875,
+        117.03375,
+        148.32001,
+        179.60625,
+        210.8925
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_WIND_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10431": {
+      "name": "普通攻击·简式风灵作成",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10432": {
+      "name": "风灵作成·陆叁零捌",
+      "icon": "Skill_S_Sucrose_01"
+    },
+    "10435": {
+      "name": "禁·风灵作成·柒伍同构贰型",
+      "icon": "Skill_E_Sucrose_01"
+    },
+    "432101": {
+      "name": "触媒置换术",
+      "icon": "UI_Talent_S_Sucrose_05"
+    },
+    "432201": {
+      "name": "小小的慧风",
+      "icon": "UI_Talent_S_Sucrose_06"
+    },
+    "432301": {
+      "name": "不稳定发现",
+      "icon": "UI_Talent_Combine_Material"
+    }
+  },
+  "constellation": {
+    "431": {
+      "name": "堆叠真空域",
+      "icon": "UI_Talent_S_Sucrose_01"
+    },
+    "432": {
+      "name": "不羁型贝特",
+      "icon": "UI_Talent_S_Sucrose_02"
+    },
+    "433": {
+      "name": "零失误少女",
+      "icon": "UI_Talent_U_Sucrose_01"
+    },
+    "434": {
+      "name": "炼金的偏执",
+      "icon": "UI_Talent_S_Sucrose_03"
+    },
+    "435": {
+      "name": "认真普通瓶",
+      "icon": "UI_Talent_U_Sucrose_02"
+    },
+    "436": {
+      "name": "混元熵增论",
+      "icon": "UI_Talent_S_Sucrose_04"
+    }
+  },
+  "talent_fix": {
+    "10432": "风灵作成·陆叁零捌",
+    "10435": "禁·风灵作成·柒伍同构贰型"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000032,
+  "name": "班尼特",
+  "element": "火",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Bennett",
+    "side": "UI_AvatarIcon_Side_Bennett",
+    "card": "UI_AvatarIcon_Bennett_Card",
+    "splash": "UI_Gacha_AvatarImg_Bennett",
+    "slice": "UI_Gacha_AvatarIcon_Bennett"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.44177,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        776.51617,
+        1328.25134,
+        2063.89844,
+        2615.63354,
+        3167.36865,
+        3719.104
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.0272,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.97342,
+        20.48085,
+        31.82409,
+        40.33152,
+        48.83895,
+        57.34638
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 64.66425,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        48.3075,
+        82.63125,
+        128.39626,
+        162.72,
+        197.04375,
+        231.36749
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        0,
+        0.0667,
+        0.1333,
+        0.1333,
+        0.2,
+        0.2667
+      ]
+    }
+  ],
+  "talent": {
+    "10321": {
+      "name": "普通攻击·好运剑",
+      "icon": "Skill_A_01"
+    },
+    "10322": {
+      "name": "热情过载",
+      "icon": "Skill_S_Bennett_01"
+    },
+    "10323": {
+      "name": "美妙旅程",
+      "icon": "Skill_E_Bennett_01"
+    },
+    "322101": {
+      "name": "热情复燃",
+      "icon": "UI_Talent_S_Bennett_05"
+    },
+    "322201": {
+      "name": "无畏的热血",
+      "icon": "UI_Talent_S_Bennett_06"
+    },
+    "322301": {
+      "name": "应该安全",
+      "icon": "UI_Talent_Expedition_Mengde"
+    }
+  },
+  "constellation": {
+    "321": {
+      "name": "冒险憧憬",
+      "icon": "UI_Talent_S_Bennett_01"
+    },
+    "322": {
+      "name": "踏破绝境",
+      "icon": "UI_Talent_S_Bennett_02"
+    },
+    "323": {
+      "name": "火热激情",
+      "icon": "UI_Talent_U_Bennett_01"
+    },
+    "324": {
+      "name": "热情不灭",
+      "icon": "UI_Talent_S_Bennett_03"
+    },
+    "325": {
+      "name": "开拓的心魂",
+      "icon": "UI_Talent_U_Bennett_02"
+    },
+    "326": {
+      "name": "烈火与勇气",
+      "icon": "UI_Talent_S_Bennett_04"
+    }
+  },
+  "talent_fix": {
+    "10322": "热情过载",
+    "10323": "美妙旅程"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000006,
+  "name": "丽莎",
+  "element": "雷",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Lisa",
+    "side": "UI_AvatarIcon_Side_Lisa",
+    "card": "UI_AvatarIcon_Lisa_Card",
+    "splash": "UI_Gacha_AvatarImg_Lisa",
+    "slice": "UI_Gacha_AvatarIcon_Lisa"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 802.3761,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        599.41602,
+        1025.31689,
+        1593.18469,
+        2019.08557,
+        2444.98633,
+        2870.88721
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.41072,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.50114,
+        24.80458,
+        38.54251,
+        48.84595,
+        59.14939,
+        69.45284
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 48.069,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        35.91,
+        61.425,
+        95.445,
+        120.96,
+        146.47501,
+        171.99001
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "10060": {
+      "name": "普通攻击·指尖雷暴",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10061": {
+      "name": "苍雷",
+      "icon": "Skill_S_Lisa_01"
+    },
+    "10062": {
+      "name": "蔷薇的雷光",
+      "icon": "Skill_E_Lisa_01"
+    },
+    "42101": {
+      "name": "电感余震",
+      "icon": "UI_Talent_S_Lisa_05"
+    },
+    "42201": {
+      "name": "静电场力",
+      "icon": "UI_Talent_S_Lisa_06"
+    },
+    "42301": {
+      "name": "药剂通识",
+      "icon": "UI_Talent_Combine_Potion"
+    }
+  },
+  "constellation": {
+    "41": {
+      "name": "无限的电回路",
+      "icon": "UI_Talent_S_Lisa_01"
+    },
+    "42": {
+      "name": "空间电势结界",
+      "icon": "UI_Talent_S_Lisa_02"
+    },
+    "43": {
+      "name": "谐振的雷光",
+      "icon": "UI_Talent_U_Lisa_02"
+    },
+    "44": {
+      "name": "如雨的电浆",
+      "icon": "UI_Talent_S_Lisa_03"
+    },
+    "45": {
+      "name": "等离态的落雷",
+      "icon": "UI_Talent_U_Lisa_01"
+    },
+    "46": {
+      "name": "脉冲的魔女",
+      "icon": "UI_Talent_S_Lisa_04"
+    }
+  },
+  "talent_fix": {
+    "10062": "蔷薇的雷光",
+    "10061": "苍雷"
+  },
+  "damage": [],
+  "buff": []
+}

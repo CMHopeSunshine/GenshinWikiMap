@@ -1,0 +1,131 @@
+{
+  "id": 10000024,
+  "name": "北斗",
+  "element": "雷",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Beidou",
+    "side": "UI_AvatarIcon_Side_Beidou",
+    "card": "UI_AvatarIcon_Beidou_Card",
+    "splash": "UI_Gacha_AvatarImg_Beidou",
+    "slice": "UI_Gacha_AvatarIcon_Beidou"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1094.14917,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        817.3855,
+        1398.1593,
+        2172.52466,
+        2753.29834,
+        3334.07227,
+        3914.84619
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.87648,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.10203,
+        24.12189,
+        37.4817,
+        47.50157,
+        57.52143,
+        67.54129
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 54.36375,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        40.6125,
+        69.46875,
+        107.94375,
+        136.8,
+        165.65625,
+        194.5125
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEC_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10241": {
+      "name": "普通攻击·征涛",
+      "icon": "Skill_A_04"
+    },
+    "10242": {
+      "name": "捉浪",
+      "icon": "Skill_S_Beidou_01"
+    },
+    "10245": {
+      "name": "斫雷",
+      "icon": "Skill_E_Beidou_01"
+    },
+    "242101": {
+      "name": "遍宇灵光",
+      "icon": "UI_Talent_S_Beidou_05"
+    },
+    "242201": {
+      "name": "霹雳连霄",
+      "icon": "UI_Talent_S_Beidou_06"
+    },
+    "242301": {
+      "name": "拥涛踏潮",
+      "icon": "UI_Talent_Explosion_Swim"
+    }
+  },
+  "constellation": {
+    "241": {
+      "name": "鱼龙沉四方",
+      "icon": "UI_Talent_S_Beidou_02"
+    },
+    "242": {
+      "name": "赫赫雷涌起",
+      "icon": "UI_Talent_S_Beidou_01"
+    },
+    "243": {
+      "name": "潮奔蓦引电",
+      "icon": "UI_Talent_U_Beidou_01"
+    },
+    "244": {
+      "name": "牵星觅乡岸",
+      "icon": "UI_Talent_S_Beidou_03"
+    },
+    "245": {
+      "name": "踏浪霞连阶",
+      "icon": "UI_Talent_U_Beidou_02"
+    },
+    "246": {
+      "name": "北斗祓幽孽",
+      "icon": "UI_Talent_S_Beidou_04"
+    }
+  },
+  "talent_fix": {
+    "10242": "捉浪",
+    "10245": "斫雷"
+  },
+  "damage": [],
+  "buff": []
+}

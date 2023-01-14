@@ -1,0 +1,33 @@
+{
+  "id": "15014",
+  "name": "悠古的磐岩",
+  "short_name": "悠古",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15014_4",
+  "part_list": {
+    "UI_RelicIcon_15014_4": {
+      "name": "磐陀裂生之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15014_2": {
+      "name": "嵯峨群峰之翼",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15014_5": {
+      "name": "星罗圭璧之晷",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15014_1": {
+      "name": "巉岩琢塑之樽",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15014_3": {
+      "name": "不动玄石之相",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

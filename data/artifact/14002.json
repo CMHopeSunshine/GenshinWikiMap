@@ -1,0 +1,33 @@
+{
+  "id": "14002",
+  "name": "平息鸣雷的尊者",
+  "short_name": "平息",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_14002_4",
+  "part_list": {
+    "UI_RelicIcon_14002_4": {
+      "name": "平雷之心",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_14002_2": {
+      "name": "平雷之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_14002_5": {
+      "name": "平雷之刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_14002_1": {
+      "name": "平雷之器",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_14002_3": {
+      "name": "平雷之冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

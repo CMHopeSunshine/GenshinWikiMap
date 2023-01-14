@@ -1,0 +1,131 @@
+{
+  "id": 10000068,
+  "name": "多莉",
+  "element": "雷",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Dori",
+    "side": "UI_AvatarIcon_Side_Dori",
+    "card": "UI_AvatarIcon_Dori_Card",
+    "splash": "UI_Gacha_AvatarImg_Dori",
+    "slice": "UI_Gacha_AvatarIcon_Dori"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.44177,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        776.51617,
+        1328.25134,
+        2063.89844,
+        2615.63354,
+        3167.36865,
+        3719.104
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.89433,
+        37.12811,
+        47.05344,
+        56.97878,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 60.6585,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        45.315,
+        77.5125,
+        120.4425,
+        152.64,
+        184.83749,
+        217.035
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10681": {
+      "name": "普通攻击·妙显剑舞·改",
+      "icon": "Skill_A_04"
+    },
+    "10682": {
+      "name": "镇灵之灯·烦恼解决炮",
+      "icon": "Skill_S_Dori_01"
+    },
+    "10685": {
+      "name": "卡萨扎莱宫的无微不至",
+      "icon": "Skill_E_Dori_01"
+    },
+    "682101": {
+      "name": "披沙沥金",
+      "icon": "UI_Talent_S_Dori_05"
+    },
+    "682201": {
+      "name": "利上加利",
+      "icon": "UI_Talent_S_Dori_06"
+    },
+    "682301": {
+      "name": "意外订单",
+      "icon": "UI_Talent_S_Dori_07"
+    }
+  },
+  "constellation": {
+    "681": {
+      "name": "追加投资",
+      "icon": "UI_Talent_S_Dori_01"
+    },
+    "682": {
+      "name": "特许经营",
+      "icon": "UI_Talent_S_Dori_02"
+    },
+    "683": {
+      "name": "百巧千奇",
+      "icon": "UI_Talent_U_Dori_02"
+    },
+    "684": {
+      "name": "酌盈剂虚",
+      "icon": "UI_Talent_S_Dori_03"
+    },
+    "685": {
+      "name": "物超所值",
+      "icon": "UI_Talent_U_Dori_01"
+    },
+    "686": {
+      "name": "漫掷万镒",
+      "icon": "UI_Talent_S_Dori_04"
+    }
+  },
+  "talent_fix": {
+    "10685": "卡萨扎莱宫的无微不至",
+    "10682": "镇灵之灯·烦恼解决炮"
+  },
+  "damage": [],
+  "buff": []
+}

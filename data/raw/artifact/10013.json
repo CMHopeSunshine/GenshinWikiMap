@@ -1,0 +1,47 @@
+{
+  "id": 10013,
+  "name": "游医",
+  "levelList": [
+    1,
+    2,
+    3
+  ],
+  "affixList": {
+    "2100130": "角色受到的治疗效果提高20%。",
+    "2100131": "施放元素爆发时，恢复20%生命值。"
+  },
+  "icon": "UI_RelicIcon_10013_4",
+  "route": "Traveling Doctor",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "游医的银莲",
+      "description": "是珍贵的药材，但存放了这么久已经失去了药用价值。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10013_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "游医的枭羽",
+      "description": "枭的坚硬羽毛，夜间行医时用夜行猛禽的意象鼓舞自己。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10013_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "游医的怀钟",
+      "description": "用来精确计时的道具。对医者而言，即使是一秒的时间也不能浪费。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10013_5"
+    },
+    "EQUIP_RING": {
+      "name": "游医的药壶",
+      "description": "原本装满了提炼后极浓的药汁，如今只剩下浓烈的药味。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10013_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "游医的方巾",
+      "description": "平时能在行医时绑住乱发，紧急情况下也能用来托起扭伤、折断的手臂。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10013_3"
+    }
+  }
+}

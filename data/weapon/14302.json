@@ -1,0 +1,36 @@
+{
+  "id": "14302",
+  "name": "讨龙英杰谭",
+  "rank": 3,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Pulpfic",
+    "awaken": "UI_EquipIcon_Catalyst_Pulpfic_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Pulpfic"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 38.7413,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.0766,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

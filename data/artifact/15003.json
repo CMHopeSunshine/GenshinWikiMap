@@ -1,0 +1,33 @@
+{
+  "id": "15003",
+  "name": "流浪大地的乐团",
+  "short_name": "流浪",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15003_4",
+  "part_list": {
+    "UI_RelicIcon_15003_4": {
+      "name": "乐团的晨光",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15003_2": {
+      "name": "琴师的箭羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15003_5": {
+      "name": "终幕的时计",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15003_1": {
+      "name": "吟游者之壶",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15003_3": {
+      "name": "指挥的礼帽",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

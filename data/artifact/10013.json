@@ -1,0 +1,34 @@
+{
+  "id": "10013",
+  "name": "游医",
+  "short_name": "游医",
+  "level_list": [
+    1,
+    2,
+    3
+  ],
+  "icon": "UI_RelicIcon_10013_4",
+  "part_list": {
+    "UI_RelicIcon_10013_4": {
+      "name": "游医的银莲",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10013_2": {
+      "name": "游医的枭羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10013_5": {
+      "name": "游医的怀钟",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10013_1": {
+      "name": "游医的药壶",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10013_3": {
+      "name": "游医的方巾",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

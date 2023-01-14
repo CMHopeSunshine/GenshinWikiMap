@@ -1,0 +1,33 @@
+{
+  "id": "15006",
+  "name": "炽烈的炎之魔女",
+  "short_name": "炽烈",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15006_4",
+  "part_list": {
+    "UI_RelicIcon_15006_4": {
+      "name": "魔女的炎之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15006_2": {
+      "name": "魔女常燃之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15006_5": {
+      "name": "魔女破灭之时",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15006_1": {
+      "name": "魔女的心之火",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15006_3": {
+      "name": "焦灼的魔女帽",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

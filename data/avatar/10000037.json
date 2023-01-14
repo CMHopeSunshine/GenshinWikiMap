@@ -1,0 +1,131 @@
+{
+  "id": 10000037,
+  "name": "甘雨",
+  "element": "冰",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ganyu",
+    "side": "UI_AvatarIcon_Side_Ganyu",
+    "card": "UI_AvatarIcon_Ganyu_Card",
+    "splash": "UI_Gacha_AvatarImg_Ganyu",
+    "slice": "UI_Gacha_AvatarIcon_Ganyu"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 762.65601,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        653.90857,
+        1118.52783,
+        1738.02014,
+        2202.6394,
+        2667.25854,
+        3131.87793
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.068,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.34932,
+        38.2291,
+        59.40214,
+        75.28192,
+        91.1617,
+        107.04148
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 49.0606,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        42.066,
+        71.955,
+        111.807,
+        141.696,
+        171.58501,
+        201.474
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10371": {
+      "name": "普通攻击·流天射术",
+      "icon": "Skill_A_02"
+    },
+    "10372": {
+      "name": "山泽麟迹",
+      "icon": "Skill_S_Ganyu_01"
+    },
+    "10373": {
+      "name": "降众天华",
+      "icon": "Skill_E_Ganyu_01"
+    },
+    "372101": {
+      "name": "唯此一心",
+      "icon": "UI_Talent_S_Ganyu_05"
+    },
+    "372201": {
+      "name": "天地交泰",
+      "icon": "UI_Talent_S_Ganyu_06"
+    },
+    "372301": {
+      "name": "藏弓待用",
+      "icon": "UI_Talent_Forge_Bow"
+    }
+  },
+  "constellation": {
+    "371": {
+      "name": "饮露",
+      "icon": "UI_Talent_S_Ganyu_01"
+    },
+    "372": {
+      "name": "获麟",
+      "icon": "UI_Talent_S_Ganyu_02"
+    },
+    "373": {
+      "name": "云行",
+      "icon": "UI_Talent_U_Ganyu_01"
+    },
+    "374": {
+      "name": "西狩",
+      "icon": "UI_Talent_S_Ganyu_03"
+    },
+    "375": {
+      "name": "折草",
+      "icon": "UI_Talent_U_Ganyu_02"
+    },
+    "376": {
+      "name": "履虫",
+      "icon": "UI_Talent_S_Ganyu_04"
+    }
+  },
+  "talent_fix": {
+    "10373": "降众天华",
+    "10372": "山泽麟迹"
+  },
+  "damage": [],
+  "buff": []
+}

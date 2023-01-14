@@ -1,0 +1,17 @@
+{
+  "id": "15010",
+  "name": "祭水之人",
+  "short_name": "祭水",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_15010_3",
+  "part_list": {
+    "UI_RelicIcon_15010_3": {
+      "name": "祭水礼冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

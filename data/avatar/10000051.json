@@ -1,0 +1,131 @@
+{
+  "id": 10000051,
+  "name": "优菈",
+  "element": "冰",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Eula",
+    "side": "UI_AvatarIcon_Side_Eula",
+    "card": "UI_AvatarIcon_Eula_Card",
+    "splash": "UI_Gacha_AvatarImg_Eula",
+    "slice": "UI_Gacha_AvatarIcon_Eula"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1029.58557,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        882.77655,
+        1510.01257,
+        2346.32715,
+        2973.56323,
+        3600.79907,
+        4228.03516
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.6266,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.82823,
+        39.04829,
+        60.67504,
+        76.8951,
+        93.11517,
+        109.33523
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 58.45391,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        50.1201,
+        85.73175,
+        133.21394,
+        168.82561,
+        204.43726,
+        240.0489
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10511": {
+      "name": "普通攻击·西风剑术·宗室",
+      "icon": "Skill_A_04"
+    },
+    "10512": {
+      "name": "冰潮的涡旋",
+      "icon": "Skill_S_Eula_01"
+    },
+    "10515": {
+      "name": "凝浪之光剑",
+      "icon": "Skill_E_Eula_01"
+    },
+    "512101": {
+      "name": "潮卷冰削",
+      "icon": "UI_Talent_S_Eula_05"
+    },
+    "512201": {
+      "name": "战欲涌现",
+      "icon": "UI_Talent_S_Eula_06"
+    },
+    "512301": {
+      "name": "贵族的自省",
+      "icon": "UI_Talent_Eula_Combine"
+    }
+  },
+  "constellation": {
+    "511": {
+      "name": "光潮的幻象",
+      "icon": "UI_Talent_S_Eula_02"
+    },
+    "512": {
+      "name": "海沫的少女",
+      "icon": "UI_Talent_S_Eula_01"
+    },
+    "513": {
+      "name": "劳伦斯的血脉",
+      "icon": "UI_Talent_U_Eula_01"
+    },
+    "514": {
+      "name": "自卑者的逞强",
+      "icon": "UI_Talent_S_Eula_03"
+    },
+    "515": {
+      "name": "骑士的素质",
+      "icon": "UI_Talent_U_Eula_02"
+    },
+    "516": {
+      "name": "高贵者的义务",
+      "icon": "UI_Talent_S_Eula_04"
+    }
+  },
+  "talent_fix": {
+    "10515": "凝浪之光剑",
+    "10512": "冰潮的涡旋"
+  },
+  "damage": [],
+  "buff": []
+}

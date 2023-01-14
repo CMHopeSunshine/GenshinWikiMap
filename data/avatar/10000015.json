@@ -1,0 +1,131 @@
+{
+  "id": 10000015,
+  "name": "凯亚",
+  "element": "冰",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Kaeya",
+    "side": "UI_AvatarIcon_Side_Kaeya",
+    "card": "UI_AvatarIcon_Kaeya_Card",
+    "splash": "UI_Gacha_AvatarImg_Kaeya",
+    "slice": "UI_Gacha_AvatarIcon_Kaeya"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 975.61639,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        728.83539,
+        1246.69214,
+        1937.16772,
+        2455.02441,
+        2972.8811,
+        3490.73779
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.89433,
+        37.12811,
+        47.05344,
+        56.97878,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 66.381,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        49.59,
+        84.825,
+        131.80499,
+        167.03999,
+        202.27499,
+        237.50999
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        0,
+        0.0667,
+        0.1333,
+        0.1333,
+        0.2,
+        0.2667
+      ]
+    }
+  ],
+  "talent": {
+    "10073": {
+      "name": "普通攻击·仪典剑术",
+      "icon": "Skill_A_01"
+    },
+    "10074": {
+      "name": "霜袭",
+      "icon": "Skill_S_Kaeya_01"
+    },
+    "10075": {
+      "name": "凛冽轮舞",
+      "icon": "Skill_E_Kaeya_01"
+    },
+    "152101": {
+      "name": "冷血之剑",
+      "icon": "UI_Talent_S_Kaeya_05"
+    },
+    "152201": {
+      "name": "冰渊之心",
+      "icon": "UI_Talent_S_Kaeya_06"
+    },
+    "152301": {
+      "name": "隐藏的实力",
+      "icon": "UI_Talent_Explosion_Sprint"
+    }
+  },
+  "constellation": {
+    "151": {
+      "name": "卓越的血脉",
+      "icon": "UI_Talent_S_Kaeya_01"
+    },
+    "152": {
+      "name": "无尽的霜舞",
+      "icon": "UI_Talent_S_Kaeya_02"
+    },
+    "153": {
+      "name": "凛冽的冰戏",
+      "icon": "UI_Talent_U_Kaeya_01"
+    },
+    "154": {
+      "name": "极寒的轻吻",
+      "icon": "UI_Talent_S_Kaeya_03"
+    },
+    "155": {
+      "name": "至冷的拥抱",
+      "icon": "UI_Talent_U_Kaeya_02"
+    },
+    "156": {
+      "name": "轮旋的冰凌",
+      "icon": "UI_Talent_S_Kaeya_04"
+    }
+  },
+  "talent_fix": {
+    "10074": "霜袭",
+    "10075": "凛冽轮舞"
+  },
+  "damage": [],
+  "buff": []
+}

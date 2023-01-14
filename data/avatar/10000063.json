@@ -1,0 +1,131 @@
+{
+  "id": 10000063,
+  "name": "申鹤",
+  "element": "冰",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Shenhe",
+    "side": "UI_AvatarIcon_Side_Shenhe",
+    "card": "UI_AvatarIcon_Shenhe_Card",
+    "splash": "UI_Gacha_AvatarImg_Shenhe",
+    "slice": "UI_Gacha_AvatarIcon_Shenhe"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1011.47253,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        867.24622,
+        1483.44751,
+        2305.04907,
+        2921.25049,
+        3537.45166,
+        4153.65283
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.6474,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        20.27403,
+        34.67926,
+        53.88623,
+        68.29146,
+        82.69669,
+        97.10191
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 64.6164,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        55.404,
+        94.77,
+        147.258,
+        186.62399,
+        225.99001,
+        265.35599
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10631": {
+      "name": "普通攻击·踏辰摄斗",
+      "icon": "Skill_A_03"
+    },
+    "10632": {
+      "name": "仰灵威召将役咒",
+      "icon": "Skill_S_Shenhe_01"
+    },
+    "10635": {
+      "name": "神女遣灵真诀",
+      "icon": "Skill_E_Shenhe_01"
+    },
+    "632101": {
+      "name": "大洞弥罗尊法",
+      "icon": "UI_Talent_S_Shenhe_05"
+    },
+    "632201": {
+      "name": "缚灵通真法印",
+      "icon": "UI_Talent_S_Shenhe_06"
+    },
+    "632301": {
+      "name": "来复知时",
+      "icon": "UI_Talent_Expedition_Liyue"
+    }
+  },
+  "constellation": {
+    "631": {
+      "name": "心斋",
+      "icon": "UI_Talent_S_Shenhe_02"
+    },
+    "632": {
+      "name": "定蒙",
+      "icon": "UI_Talent_S_Shenhe_01"
+    },
+    "633": {
+      "name": "潜虚",
+      "icon": "UI_Talent_U_Shenhe_01"
+    },
+    "634": {
+      "name": "洞观",
+      "icon": "UI_Talent_S_Shenhe_03"
+    },
+    "635": {
+      "name": "化神",
+      "icon": "UI_Talent_U_Shenhe_02"
+    },
+    "636": {
+      "name": "忘玄",
+      "icon": "UI_Talent_S_Shenhe_04"
+    }
+  },
+  "talent_fix": {
+    "10632": "仰灵威召将役咒",
+    "10635": "神女遣灵真诀"
+  },
+  "damage": [],
+  "buff": []
+}

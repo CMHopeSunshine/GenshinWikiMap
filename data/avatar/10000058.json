@@ -1,0 +1,131 @@
+{
+  "id": 10000058,
+  "name": "八重神子",
+  "element": "雷",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Yae",
+    "side": "UI_AvatarIcon_Side_Yae",
+    "card": "UI_AvatarIcon_Yae_Card",
+    "splash": "UI_Gacha_AvatarImg_Yae",
+    "slice": "UI_Gacha_AvatarIcon_Yae"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 807.46204,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        692.32568,
+        1184.24133,
+        1840.12878,
+        2332.04443,
+        2823.95996,
+        3315.87573
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.4404,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.6686,
+        38.77523,
+        60.25074,
+        76.35738,
+        92.46401,
+        108.57064
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 44.2742,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        37.962,
+        64.935,
+        100.899,
+        127.872,
+        154.845,
+        181.81799
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10581": {
+      "name": "普通攻击·狐灵食罪式",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10582": {
+      "name": "野干役咒·杀生樱",
+      "icon": "Skill_S_Yae_01"
+    },
+    "10585": {
+      "name": "大密法·天狐显真",
+      "icon": "Skill_E_Yae_01"
+    },
+    "582101": {
+      "name": "神篱之御荫",
+      "icon": "UI_Talent_S_Yae_05"
+    },
+    "582201": {
+      "name": "启蜇之祝词",
+      "icon": "UI_Talent_S_Yae_06"
+    },
+    "582301": {
+      "name": "野狐说禅",
+      "icon": "UI_Talent_S_Yae_07"
+    }
+  },
+  "constellation": {
+    "581": {
+      "name": "野狐供真篇",
+      "icon": "UI_Talent_S_Yae_01"
+    },
+    "582": {
+      "name": "望月吼哕声",
+      "icon": "UI_Talent_S_Yae_02"
+    },
+    "583": {
+      "name": "七段妙变化",
+      "icon": "UI_Talent_U_Yae_01"
+    },
+    "584": {
+      "name": "绯樱引雷章",
+      "icon": "UI_Talent_S_Yae_03"
+    },
+    "585": {
+      "name": "暴恶嗤笑面",
+      "icon": "UI_Talent_U_Yae_02"
+    },
+    "586": {
+      "name": "大杀生咒禁",
+      "icon": "UI_Talent_S_Yae_04"
+    }
+  },
+  "talent_fix": {
+    "10582": "野干役咒·杀生樱",
+    "10585": "大密法·天狐显真"
+  },
+  "damage": [],
+  "buff": []
+}

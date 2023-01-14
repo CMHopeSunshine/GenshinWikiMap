@@ -1,0 +1,36 @@
+{
+  "id": "12303",
+  "name": "白铁大剑",
+  "rank": 3,
+  "type": "双手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Claymore_Tin",
+    "awaken": "UI_EquipIcon_Claymore_Tin_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Claymore_Tin"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 38.7413,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_DEFENSE_PERCENT",
+        "initValue": 0.0956,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

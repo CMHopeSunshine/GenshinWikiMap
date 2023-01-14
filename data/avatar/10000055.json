@@ -1,0 +1,131 @@
+{
+  "id": 10000055,
+  "name": "五郎",
+  "element": "岩",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Gorou",
+    "side": "UI_AvatarIcon_Side_Gorou",
+    "card": "UI_AvatarIcon_Gorou_Card",
+    "splash": "UI_Gacha_AvatarImg_Gorou",
+    "slice": "UI_Gacha_AvatarIcon_Gorou"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 802.3761,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        599.41602,
+        1025.31689,
+        1593.18469,
+        2019.08557,
+        2444.98633,
+        2870.88721
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 15.31488,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.44127,
+        19.57059,
+        30.40969,
+        38.53901,
+        46.66833,
+        54.79765
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 54.36375,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        40.6125,
+        69.46875,
+        107.94375,
+        136.8,
+        165.65625,
+        194.5125
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ROCK_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10551": {
+      "name": "普通攻击·呲牙裂扇箭",
+      "icon": "Skill_A_02"
+    },
+    "10552": {
+      "name": "犬坂吠吠方圆阵",
+      "icon": "Skill_S_Gorou_01"
+    },
+    "10555": {
+      "name": "兽牙逐突形胜战法",
+      "icon": "Skill_E_Gorou_01"
+    },
+    "552101": {
+      "name": "不畏风雨",
+      "icon": "UI_Talent_S_Gorou_05"
+    },
+    "552201": {
+      "name": "报恩之守",
+      "icon": "UI_Talent_S_Gorou_06"
+    },
+    "552301": {
+      "name": "亮晶晶发现术",
+      "icon": "UI_Talent_S_Gorou_07"
+    }
+  },
+  "constellation": {
+    "551": {
+      "name": "犬奔·疾如风",
+      "icon": "UI_Talent_S_Gorou_01"
+    },
+    "552": {
+      "name": "犬坐·稳如钟",
+      "icon": "UI_Talent_S_Gorou_02"
+    },
+    "553": {
+      "name": "犬爪·势如火",
+      "icon": "UI_Talent_U_Gorou_01"
+    },
+    "554": {
+      "name": "犬舐·温如水",
+      "icon": "UI_Talent_S_Gorou_03"
+    },
+    "555": {
+      "name": "犬突·动如雷",
+      "icon": "UI_Talent_U_Gorou_02"
+    },
+    "556": {
+      "name": "犬勇·忠如山",
+      "icon": "UI_Talent_S_Gorou_04"
+    }
+  },
+  "talent_fix": {
+    "10552": "犬坂吠吠方圆阵",
+    "10555": "兽牙逐突形胜战法"
+  },
+  "damage": [],
+  "buff": []
+}

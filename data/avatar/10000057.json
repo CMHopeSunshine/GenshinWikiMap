@@ -1,0 +1,131 @@
+{
+  "id": 10000057,
+  "name": "荒泷一斗",
+  "element": "岩",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Itto",
+    "side": "UI_AvatarIcon_Side_Itto",
+    "card": "UI_AvatarIcon_Itto_Card",
+    "splash": "UI_Gacha_AvatarImg_Itto",
+    "slice": "UI_Gacha_AvatarIcon_Itto"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1000.98602,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        858.255,
+        1468.06775,
+        2281.15137,
+        2890.96411,
+        3500.77686,
+        4110.58984
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.689,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        15.16561,
+        25.94118,
+        40.30859,
+        51.08416,
+        61.85973,
+        72.63529
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 74.66784,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        64.0224,
+        109.512,
+        170.16479,
+        215.6544,
+        261.14401,
+        306.63361
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10571": {
+      "name": "普通攻击· 喧哗屋传说",
+      "icon": "Skill_A_04"
+    },
+    "10572": {
+      "name": "魔杀绝技·赤牛发破！",
+      "icon": "Skill_S_Itto_01"
+    },
+    "10575": {
+      "name": "最恶鬼王·一斗轰临！！",
+      "icon": "Skill_E_Itto_01"
+    },
+    "572101": {
+      "name": "荒泷第一",
+      "icon": "UI_Talent_S_Itto_05"
+    },
+    "572201": {
+      "name": "赤鬼之血",
+      "icon": "UI_Talent_S_Itto_06"
+    },
+    "572301": {
+      "name": "干裂枝碎",
+      "icon": "UI_Talent_S_Itto_07"
+    }
+  },
+  "constellation": {
+    "571": {
+      "name": "倘若不知，我讲你听",
+      "icon": "UI_Talent_S_Itto_01"
+    },
+    "572": {
+      "name": "纠集众人，斗倒御岳",
+      "icon": "UI_Talent_S_Itto_02"
+    },
+    "573": {
+      "name": "水陆自在，牛王同行",
+      "icon": "UI_Talent_U_Itto_01"
+    },
+    "574": {
+      "name": "奉行牢狱，茶饭之所",
+      "icon": "UI_Talent_S_Itto_03"
+    },
+    "575": {
+      "name": "十年花坂，皆知我名",
+      "icon": "UI_Talent_U_Itto_02"
+    },
+    "576": {
+      "name": "在下荒泷一斗是也",
+      "icon": "UI_Talent_S_Itto_04"
+    }
+  },
+  "talent_fix": {
+    "10572": "魔杀绝技·赤牛发破！",
+    "10575": "最恶鬼王·一斗轰临！！"
+  },
+  "damage": [],
+  "buff": []
+}

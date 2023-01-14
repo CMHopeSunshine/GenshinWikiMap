@@ -1,0 +1,131 @@
+{
+  "id": 10000038,
+  "name": "阿贝多",
+  "element": "岩",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Albedo",
+    "side": "UI_AvatarIcon_Side_Albedo",
+    "card": "UI_AvatarIcon_Albedo_Card",
+    "splash": "UI_Gacha_AvatarImg_Albedo",
+    "slice": "UI_Gacha_AvatarIcon_Albedo"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1029.58557,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        882.77655,
+        1510.01257,
+        2346.32715,
+        2973.56323,
+        3600.79907,
+        4228.03516
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.551,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        16.76199,
+        28.67183,
+        44.55161,
+        56.46144,
+        68.37128,
+        80.28111
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 68.2062,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        58.482,
+        100.035,
+        155.439,
+        196.992,
+        238.545,
+        280.09799
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ROCK_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10386": {
+      "name": "普通攻击·西风剑术·白",
+      "icon": "Skill_A_01"
+    },
+    "10387": {
+      "name": "创生法·拟造阳华",
+      "icon": "Skill_S_Albedo_01"
+    },
+    "10388": {
+      "name": "诞生式·大地之潮",
+      "icon": "Skill_E_Albedo_01"
+    },
+    "382101": {
+      "name": "白垩色的威压",
+      "icon": "UI_Talent_S_Albedo_05"
+    },
+    "382201": {
+      "name": "瓶中人的天慧",
+      "icon": "UI_Talent_S_Albedo_06"
+    },
+    "382301": {
+      "name": "天才的发现",
+      "icon": "UI_Talent_Combine_Weapon_Double"
+    }
+  },
+  "constellation": {
+    "381": {
+      "name": "伊甸之花",
+      "icon": "UI_Talent_S_Albedo_01"
+    },
+    "382": {
+      "name": "显生之宙",
+      "icon": "UI_Talent_S_Albedo_02"
+    },
+    "383": {
+      "name": "太阳之华",
+      "icon": "UI_Talent_U_Albedo_01"
+    },
+    "384": {
+      "name": "神性之陨",
+      "icon": "UI_Talent_S_Albedo_03"
+    },
+    "385": {
+      "name": "冥古之潮",
+      "icon": "UI_Talent_U_Albedo_02"
+    },
+    "386": {
+      "name": "无垢之土",
+      "icon": "UI_Talent_S_Albedo_04"
+    }
+  },
+  "talent_fix": {
+    "10387": "创生法·拟造阳华",
+    "10388": "诞生式·大地之潮"
+  },
+  "damage": [],
+  "buff": []
+}

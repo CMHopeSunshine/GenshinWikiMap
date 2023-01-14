@@ -1,0 +1,36 @@
+{
+  "id": "11306",
+  "name": "飞天御剑",
+  "rank": 3,
+  "type": "单手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Sword_Mitsurugi",
+    "awaken": "UI_EquipIcon_Sword_Mitsurugi_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Sword_Mitsurugi"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 37.6075,
+        "type": "GROW_CURVE_ATTACK_104"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.11333,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

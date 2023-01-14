@@ -1,0 +1,131 @@
+{
+  "id": 10000027,
+  "name": "凝光",
+  "element": "岩",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ningguang",
+    "side": "UI_AvatarIcon_Side_Ningguang",
+    "card": "UI_AvatarIcon_Ningguang_Card",
+    "splash": "UI_Gacha_AvatarImg_Ningguang",
+    "slice": "UI_Gacha_AvatarIcon_Ningguang"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 820.61188,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        613.03912,
+        1048.61951,
+        1629.39343,
+        2064.97388,
+        2500.5542,
+        2936.13477
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.808,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.3038,
+        22.7565,
+        35.3601,
+        44.8128,
+        54.2655,
+        63.7182
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 48.069,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        35.91,
+        61.425,
+        95.445,
+        120.96,
+        146.47501,
+        171.99001
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ROCK_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10271": {
+      "name": "普通攻击·千金掷",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10272": {
+      "name": "璇玑屏",
+      "icon": "Skill_S_Ningguang_01"
+    },
+    "10274": {
+      "name": "天权崩玉",
+      "icon": "Skill_E_Ningguang_01"
+    },
+    "272101": {
+      "name": "星移势转",
+      "icon": "UI_Talent_S_Ningguang_02"
+    },
+    "272201": {
+      "name": "储之千日，用之一刻",
+      "icon": "UI_Talent_S_Ningguang_06"
+    },
+    "272301": {
+      "name": "奇石珠宝录",
+      "icon": "UI_Talent_Collect_Ore"
+    }
+  },
+  "constellation": {
+    "271": {
+      "name": "悬星尽散击云碎",
+      "icon": "UI_Talent_S_Ningguang_01"
+    },
+    "272": {
+      "name": "璇玑合璧镇昆仑",
+      "icon": "UI_Talent_S_Ningguang_05"
+    },
+    "273": {
+      "name": "星罗宿列天权临",
+      "icon": "UI_Talent_U_Ningguang_02"
+    },
+    "274": {
+      "name": "攻守易形著神机",
+      "icon": "UI_Talent_S_Ningguang_03"
+    },
+    "275": {
+      "name": "琼屏千扇正天衡",
+      "icon": "UI_Talent_U_Ningguang_01"
+    },
+    "276": {
+      "name": "七星璨璨凝流光",
+      "icon": "UI_Talent_S_Ningguang_04"
+    }
+  },
+  "talent_fix": {
+    "10274": "天权崩玉",
+    "10272": "璇玑屏"
+  },
+  "damage": [],
+  "buff": []
+}

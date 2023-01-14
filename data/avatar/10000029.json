@@ -1,0 +1,131 @@
+{
+  "id": 10000029,
+  "name": "可莉",
+  "element": "火",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Klee",
+    "side": "UI_AvatarIcon_Side_Klee",
+    "card": "UI_AvatarIcon_Klee_Card",
+    "splash": "UI_Gacha_AvatarImg_Klee",
+    "slice": "UI_Gacha_AvatarIcon_Klee"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 800.78882,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        686.604,
+        1174.45422,
+        1824.92114,
+        2312.77124,
+        2800.62158,
+        3288.47168
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 24.206,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        20.75294,
+        35.49845,
+        55.15913,
+        69.90464,
+        84.65015,
+        99.39566
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 47.864,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        41.04,
+        70.2,
+        109.08,
+        138.24001,
+        167.39999,
+        196.56
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_FIRE_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10291": {
+      "name": "普通攻击·砰砰",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10292": {
+      "name": "蹦蹦炸弹",
+      "icon": "Skill_S_Klee_01"
+    },
+    "10295": {
+      "name": "轰轰火花",
+      "icon": "Skill_E_Klee_01"
+    },
+    "292101": {
+      "name": "砰砰礼物",
+      "icon": "UI_Talent_S_Klee_05"
+    },
+    "292201": {
+      "name": "火花无限",
+      "icon": "UI_Talent_S_Klee_06"
+    },
+    "292301": {
+      "name": "全是宝藏",
+      "icon": "UI_Talent_Collect_Local_Mengde"
+    }
+  },
+  "constellation": {
+    "291": {
+      "name": "连环轰隆",
+      "icon": "UI_Talent_S_Klee_01"
+    },
+    "292": {
+      "name": "破破弹片",
+      "icon": "UI_Talent_S_Klee_02"
+    },
+    "293": {
+      "name": "可莉特调",
+      "icon": "UI_Talent_U_Klee_01"
+    },
+    "294": {
+      "name": "一触即发",
+      "icon": "UI_Talent_S_Klee_03"
+    },
+    "295": {
+      "name": "轰击之星",
+      "icon": "UI_Talent_U_Klee_02"
+    },
+    "296": {
+      "name": "火力全开",
+      "icon": "UI_Talent_S_Klee_04"
+    }
+  },
+  "talent_fix": {
+    "10292": "蹦蹦炸弹",
+    "10295": "轰轰火花"
+  },
+  "damage": [],
+  "buff": []
+}

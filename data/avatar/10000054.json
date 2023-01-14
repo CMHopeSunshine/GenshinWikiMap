@@ -1,0 +1,135 @@
+{
+  "id": 10000054,
+  "name": "珊瑚宫心海",
+  "element": "水",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Kokomi",
+    "side": "UI_AvatarIcon_Side_Kokomi",
+    "card": "UI_AvatarIcon_Kokomi_Card",
+    "splash": "UI_Gacha_AvatarImg_Kokomi",
+    "slice": "UI_Gacha_AvatarIcon_Kokomi"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1048.65198,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        899.12427,
+        1537.97571,
+        2389.77759,
+        3028.62915,
+        3667.48047,
+        4306.33203
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.2476,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        15.64452,
+        26.76037,
+        41.5815,
+        52.69735,
+        63.81319,
+        74.92904
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 51.15465,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        43.8615,
+        75.02625,
+        116.57925,
+        147.744,
+        178.90875,
+        210.0735
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_WATER_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10541": {
+      "name": "普通攻击·水有常形",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10542": {
+      "name": "海月之誓",
+      "icon": "Skill_S_Kokomi_01"
+    },
+    "10545": {
+      "name": "海人化羽",
+      "icon": "Skill_E_Kokomi_01"
+    },
+    "542101": {
+      "name": "匣中玉栉",
+      "icon": "UI_Talent_S_Kokomi_05"
+    },
+    "542201": {
+      "name": "真珠御呗",
+      "icon": "UI_Talent_S_Kokomi_06"
+    },
+    "542301": {
+      "name": "海祇姬君",
+      "icon": "UI_Talent_Explosion_Swim"
+    },
+    "542501": {
+      "name": "庙算无遗",
+      "icon": "UI_Talent_S_Kokomi_07"
+    }
+  },
+  "constellation": {
+    "541": {
+      "name": "决水于溪",
+      "icon": "UI_Talent_S_Kokomi_01"
+    },
+    "542": {
+      "name": "波起云海",
+      "icon": "UI_Talent_S_Kokomi_02"
+    },
+    "543": {
+      "name": "海渚月舟",
+      "icon": "UI_Talent_U_Kokomi_02"
+    },
+    "544": {
+      "name": "月摄千川",
+      "icon": "UI_Talent_S_Kokomi_03"
+    },
+    "545": {
+      "name": "百川集海",
+      "icon": "UI_Talent_U_Kokomi_01"
+    },
+    "546": {
+      "name": "珊瑚一心",
+      "icon": "UI_Talent_S_Kokomi_04"
+    }
+  },
+  "talent_fix": {
+    "10545": "海人化羽",
+    "10542": "海月之誓"
+  },
+  "damage": [],
+  "buff": []
+}

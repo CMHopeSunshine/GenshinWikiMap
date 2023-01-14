@@ -1,0 +1,36 @@
+{
+  "id": "13302",
+  "name": "钺矛",
+  "rank": 3,
+  "type": "长柄武器",
+  "icon": {
+    "icon": "UI_EquipIcon_Pole_Halberd",
+    "awaken": "UI_EquipIcon_Pole_Halberd_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Pole_Halberd"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 39.8751,
+        "type": "GROW_CURVE_ATTACK_102"
+      },
+      "promote": [
+        19.5,
+        38.9,
+        58.4,
+        77.8,
+        97.3,
+        116.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.05107,
+        "type": "GROW_CURVE_CRITICAL_101"
+      }
+    }
+  ],
+  "buff": []
+}

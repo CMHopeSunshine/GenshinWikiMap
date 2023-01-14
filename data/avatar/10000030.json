@@ -1,0 +1,131 @@
+{
+  "id": 10000030,
+  "name": "钟离",
+  "element": "岩",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Zhongli",
+    "side": "UI_AvatarIcon_Side_Zhongli",
+    "card": "UI_AvatarIcon_Zhongli_Card",
+    "splash": "UI_Gacha_AvatarImg_Zhongli",
+    "slice": "UI_Gacha_AvatarIcon_Zhongli"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1143.98401,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        980.86279,
+        1677.79175,
+        2607.03027,
+        3303.95898,
+        4000.88794,
+        4697.81689
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.551,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        16.762,
+        28.6718,
+        44.5516,
+        56.4614,
+        68.3713,
+        80.2811
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 57.4368,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        49.248,
+        84.24,
+        130.896,
+        165.888,
+        200.88,
+        235.87199
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ROCK_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10301": {
+      "name": "普通攻击·岩雨",
+      "icon": "Skill_A_03"
+    },
+    "10302": {
+      "name": "地心",
+      "icon": "Skill_S_Zhongli_01"
+    },
+    "10303": {
+      "name": "天星",
+      "icon": "Skill_E_Zhongli_01"
+    },
+    "302101": {
+      "name": "悬岩宸断",
+      "icon": "UI_Talent_S_Zhongli_05"
+    },
+    "302201": {
+      "name": "炊金馔玉",
+      "icon": "UI_Talent_S_Zhongli_06"
+    },
+    "302301": {
+      "name": "晶石命理",
+      "icon": "UI_Talent_Forge_Pole"
+    }
+  },
+  "constellation": {
+    "301": {
+      "name": "岩者，六合引之为骨",
+      "icon": "UI_Talent_S_Zhongli_01"
+    },
+    "302": {
+      "name": "石者，八荒韫玉而明",
+      "icon": "UI_Talent_S_Zhongli_02"
+    },
+    "303": {
+      "name": "圭璋，暝仍不移其晖",
+      "icon": "UI_Talent_U_Zhongli_01"
+    },
+    "304": {
+      "name": "黄琮，破而不夺其坚",
+      "icon": "UI_Talent_S_Zhongli_03"
+    },
+    "305": {
+      "name": "苍璧，驱之长昭天理",
+      "icon": "UI_Talent_U_Zhongli_02"
+    },
+    "306": {
+      "name": "金玉，礼予天地四方",
+      "icon": "UI_Talent_S_Zhongli_04"
+    }
+  },
+  "talent_fix": {
+    "10302": "地心",
+    "10303": "天星"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000021,
+  "name": "安柏",
+  "element": "火",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ambor",
+    "side": "UI_AvatarIcon_Side_Ambor",
+    "card": "UI_AvatarIcon_Ambor_Card",
+    "splash": "UI_Gacha_AvatarImg_Ambor",
+    "slice": "UI_Gacha_AvatarIcon_Ambor"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 793.25818,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        592.60449,
+        1013.66553,
+        1575.08032,
+        1996.14136,
+        2417.20239,
+        2838.26343
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.89433,
+        37.12811,
+        47.05344,
+        56.97878,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.358,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        37.62,
+        64.35,
+        99.99,
+        126.72,
+        153.45,
+        180.17999
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10041": {
+      "name": "普通攻击·神射手",
+      "icon": "Skill_A_02"
+    },
+    "10032": {
+      "name": "爆弹玩偶",
+      "icon": "Skill_S_Ambor_01"
+    },
+    "10017": {
+      "name": "箭雨",
+      "icon": "Skill_E_Ambor"
+    },
+    "212101": {
+      "name": "百发百中！",
+      "icon": "UI_Talent_S_Ambor_05"
+    },
+    "212201": {
+      "name": "压制射击",
+      "icon": "UI_Talent_S_Ambor_06"
+    },
+    "212301": {
+      "name": "飞行冠军",
+      "icon": "UI_Talent_Explosion_Glide"
+    }
+  },
+  "constellation": {
+    "211": {
+      "name": "一箭双丘丘！",
+      "icon": "UI_Talent_S_Ambor_01"
+    },
+    "212": {
+      "name": "一触即发",
+      "icon": "UI_Talent_S_Ambor_02"
+    },
+    "213": {
+      "name": "烧起来啦！",
+      "icon": "UI_Talent_U_Ambor_02"
+    },
+    "214": {
+      "name": "才不是普通的布偶",
+      "icon": "UI_Talent_S_Ambor_03"
+    },
+    "215": {
+      "name": "是兔兔伯爵！",
+      "icon": "UI_Talent_U_Ambor_01"
+    },
+    "216": {
+      "name": "疾如野火",
+      "icon": "UI_Talent_S_Ambor_04"
+    }
+  },
+  "talent_fix": {
+    "10017": "箭雨",
+    "10032": "爆弹玩偶"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "15023",
+  "name": "辰砂往生录",
+  "short_name": "辰砂",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15023_4",
+  "part_list": {
+    "UI_RelicIcon_15023_4": {
+      "name": "生灵之华",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15023_2": {
+      "name": "潜光片羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15023_5": {
+      "name": "阳辔之遗",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15023_1": {
+      "name": "结契之刻",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15023_3": {
+      "name": "虺雷之姿",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

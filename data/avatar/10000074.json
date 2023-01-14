@@ -1,0 +1,131 @@
+{
+  "id": 10000074,
+  "name": "莱依拉",
+  "element": "冰",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Layla",
+    "side": "UI_AvatarIcon_Side_Layla",
+    "card": "UI_AvatarIcon_Layla_Card",
+    "splash": "UI_Gacha_AvatarImg_Layla",
+    "slice": "UI_Gacha_AvatarIcon_Layla"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 930.02679,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        694.77765,
+        1188.43542,
+        1846.64587,
+        2340.30371,
+        2833.96143,
+        3327.61938
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.16416,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.56988,
+        23.21163,
+        36.0673,
+        45.70906,
+        55.35081,
+        64.99256
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 54.936,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        41.04,
+        70.2,
+        109.08,
+        138.24001,
+        167.39999,
+        196.56
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10741": {
+      "name": "普通攻击·熠辉轨度剑",
+      "icon": "Skill_A_01"
+    },
+    "10742": {
+      "name": "垂裳端凝之夜",
+      "icon": "Skill_S_Layla_01"
+    },
+    "10745": {
+      "name": "星流摇床之梦",
+      "icon": "Skill_E_Layla_01"
+    },
+    "742101": {
+      "name": "如光骤现",
+      "icon": "UI_Talent_S_Layla_05"
+    },
+    "742201": {
+      "name": "勿扰沉眠",
+      "icon": "UI_Talent_S_Layla_06"
+    },
+    "742301": {
+      "name": "叠影的梦兆",
+      "icon": "UI_Talent_Eula_Combine"
+    }
+  },
+  "constellation": {
+    "741": {
+      "name": "寐领围垣",
+      "icon": "UI_Talent_S_Layla_01"
+    },
+    "742": {
+      "name": "归芒携信",
+      "icon": "UI_Talent_S_Layla_02"
+    },
+    "743": {
+      "name": "长宵宣秘",
+      "icon": "UI_Talent_U_Layla_01"
+    },
+    "744": {
+      "name": "星示昭明",
+      "icon": "UI_Talent_S_Layla_03"
+    },
+    "745": {
+      "name": "悬神系流",
+      "icon": "UI_Talent_U_Layla_02"
+    },
+    "746": {
+      "name": "曜光灵炬",
+      "icon": "UI_Talent_S_Layla_04"
+    }
+  },
+  "talent_fix": {
+    "10742": "垂裳端凝之夜",
+    "10745": "星流摇床之梦"
+  },
+  "damage": [],
+  "buff": []
+}

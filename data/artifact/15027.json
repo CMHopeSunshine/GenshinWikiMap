@@ -1,0 +1,33 @@
+{
+  "id": "15027",
+  "name": "沙上楼阁史话",
+  "short_name": "沙上",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15027_4",
+  "part_list": {
+    "UI_RelicIcon_15027_4": {
+      "name": "众王之都的开端",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15027_2": {
+      "name": "黄金邦国的结末",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15027_5": {
+      "name": "失落迷途的机芯",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15027_1": {
+      "name": "迷醉长梦的守护",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15027_3": {
+      "name": "流沙贵嗣的遗宝",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

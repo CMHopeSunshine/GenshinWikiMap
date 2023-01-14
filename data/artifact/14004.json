@@ -1,0 +1,33 @@
+{
+  "id": "14004",
+  "name": "被怜爱的少女",
+  "short_name": "被怜",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_14004_4",
+  "part_list": {
+    "UI_RelicIcon_14004_4": {
+      "name": "远方的少女之心",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_14004_2": {
+      "name": "少女飘摇的思念",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_14004_5": {
+      "name": "少女苦短的良辰",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_14004_1": {
+      "name": "少女片刻的闲暇",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_14004_3": {
+      "name": "少女易逝的芳颜",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

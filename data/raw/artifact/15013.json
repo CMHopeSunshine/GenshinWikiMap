@@ -1,0 +1,21 @@
+{
+  "id": 15013,
+  "name": "祭冰之人",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2150130": "受到的冰元素附着效果的持续时间减少40%。"
+  },
+  "icon": "UI_RelicIcon_15013_3",
+  "route": "Prayers to Springtime",
+  "suit": {
+    "EQUIP_DRESS": {
+      "name": "祭冰礼冠",
+      "description": "在古老的时代，司祭祀之人佩戴的礼冠。因为过去饱尝霜寒，具有奇妙的抗性。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15013_3"
+    }
+  }
+}

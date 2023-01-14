@@ -1,1 +1,1196 @@
-{}
+{
+  "UI_RelicIcon_10001_4": {
+    "name": "故人之心",
+    "suit_id": 10001,
+    "suit_name": "行者之心",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10001_2": {
+    "name": "归乡之羽",
+    "suit_id": 10001,
+    "suit_name": "行者之心",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10001_5": {
+    "name": "逐光之石",
+    "suit_id": 10001,
+    "suit_name": "行者之心",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10001_1": {
+    "name": "异国之盏",
+    "suit_id": 10001,
+    "suit_name": "行者之心",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10001_3": {
+    "name": "感别之冠",
+    "suit_id": 10001,
+    "suit_name": "行者之心",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10002_4": {
+    "name": "勇士的勋章",
+    "suit_id": 10002,
+    "suit_name": "勇士之心",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10002_2": {
+    "name": "勇士的期许",
+    "suit_id": 10002,
+    "suit_name": "勇士之心",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10002_5": {
+    "name": "勇士的坚毅",
+    "suit_id": 10002,
+    "suit_name": "勇士之心",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10002_1": {
+    "name": "勇士的壮行",
+    "suit_id": 10002,
+    "suit_name": "勇士之心",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10002_3": {
+    "name": "勇士的冠冕",
+    "suit_id": 10002,
+    "suit_name": "勇士之心",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10003_4": {
+    "name": "守护之花",
+    "suit_id": 10003,
+    "suit_name": "守护之心",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10003_2": {
+    "name": "守护徽印",
+    "suit_id": 10003,
+    "suit_name": "守护之心",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10003_5": {
+    "name": "守护座钟",
+    "suit_id": 10003,
+    "suit_name": "守护之心",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10003_1": {
+    "name": "守护之皿",
+    "suit_id": 10003,
+    "suit_name": "守护之心",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10003_3": {
+    "name": "守护束带",
+    "suit_id": 10003,
+    "suit_name": "守护之心",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10004_4": {
+    "name": "奇迹之花",
+    "suit_id": 10004,
+    "suit_name": "奇迹",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10004_2": {
+    "name": "奇迹之羽",
+    "suit_id": 10004,
+    "suit_name": "奇迹",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10004_5": {
+    "name": "奇迹之沙",
+    "suit_id": 10004,
+    "suit_name": "奇迹",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10004_1": {
+    "name": "奇迹之杯",
+    "suit_id": 10004,
+    "suit_name": "奇迹",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10004_3": {
+    "name": "奇迹耳坠",
+    "suit_id": 10004,
+    "suit_name": "奇迹",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10005_4": {
+    "name": "战狂的蔷薇",
+    "suit_id": 10005,
+    "suit_name": "战狂",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10005_2": {
+    "name": "战狂的翎羽",
+    "suit_id": 10005,
+    "suit_name": "战狂",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10005_5": {
+    "name": "战狂的时计",
+    "suit_id": 10005,
+    "suit_name": "战狂",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10005_1": {
+    "name": "战狂的骨杯",
+    "suit_id": 10005,
+    "suit_name": "战狂",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10005_3": {
+    "name": "战狂的鬼面",
+    "suit_id": 10005,
+    "suit_name": "战狂",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10006_4": {
+    "name": "武人的红花",
+    "suit_id": 10006,
+    "suit_name": "武人",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10006_2": {
+    "name": "武人的羽饰",
+    "suit_id": 10006,
+    "suit_name": "武人",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10006_5": {
+    "name": "武人的水漏",
+    "suit_id": 10006,
+    "suit_name": "武人",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10006_1": {
+    "name": "武人的酒杯",
+    "suit_id": 10006,
+    "suit_name": "武人",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10006_3": {
+    "name": "武人的头巾",
+    "suit_id": 10006,
+    "suit_name": "武人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10007_4": {
+    "name": "教官的胸花",
+    "suit_id": 10007,
+    "suit_name": "教官",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10007_2": {
+    "name": "教官的羽饰",
+    "suit_id": 10007,
+    "suit_name": "教官",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10007_5": {
+    "name": "教官的怀表",
+    "suit_id": 10007,
+    "suit_name": "教官",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10007_1": {
+    "name": "教官的茶杯",
+    "suit_id": 10007,
+    "suit_name": "教官",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10007_3": {
+    "name": "教官的帽子",
+    "suit_id": 10007,
+    "suit_name": "教官",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10008_4": {
+    "name": "赌徒的胸花",
+    "suit_id": 10008,
+    "suit_name": "赌徒",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10008_2": {
+    "name": "赌徒的羽饰",
+    "suit_id": 10008,
+    "suit_name": "赌徒",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10008_5": {
+    "name": "赌徒的怀表",
+    "suit_id": 10008,
+    "suit_name": "赌徒",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10008_1": {
+    "name": "赌徒的骰盅",
+    "suit_id": 10008,
+    "suit_name": "赌徒",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10008_3": {
+    "name": "赌徒的耳环",
+    "suit_id": 10008,
+    "suit_name": "赌徒",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10009_4": {
+    "name": "流放者之花",
+    "suit_id": 10009,
+    "suit_name": "流放者",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10009_2": {
+    "name": "流放者之羽",
+    "suit_id": 10009,
+    "suit_name": "流放者",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10009_5": {
+    "name": "流放者怀表",
+    "suit_id": 10009,
+    "suit_name": "流放者",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10009_1": {
+    "name": "流放者之杯",
+    "suit_id": 10009,
+    "suit_name": "流放者",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10009_3": {
+    "name": "流放者头冠",
+    "suit_id": 10009,
+    "suit_name": "流放者",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10010_4": {
+    "name": "冒险家之花",
+    "suit_id": 10010,
+    "suit_name": "冒险家",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10010_2": {
+    "name": "冒险家尾羽",
+    "suit_id": 10010,
+    "suit_name": "冒险家",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10010_5": {
+    "name": "冒险家怀表",
+    "suit_id": 10010,
+    "suit_name": "冒险家",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10010_1": {
+    "name": "冒险家金杯",
+    "suit_id": 10010,
+    "suit_name": "冒险家",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10010_3": {
+    "name": "冒险家头带",
+    "suit_id": 10010,
+    "suit_name": "冒险家",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10011_4": {
+    "name": "幸运儿绿花",
+    "suit_id": 10011,
+    "suit_name": "幸运儿",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10011_2": {
+    "name": "幸运儿鹰羽",
+    "suit_id": 10011,
+    "suit_name": "幸运儿",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10011_5": {
+    "name": "幸运儿沙漏",
+    "suit_id": 10011,
+    "suit_name": "幸运儿",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10011_1": {
+    "name": "幸运儿之杯",
+    "suit_id": 10011,
+    "suit_name": "幸运儿",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10011_3": {
+    "name": "幸运儿银冠",
+    "suit_id": 10011,
+    "suit_name": "幸运儿",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10012_4": {
+    "name": "学士的书签",
+    "suit_id": 10012,
+    "suit_name": "学士",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10012_2": {
+    "name": "学士的羽笔",
+    "suit_id": 10012,
+    "suit_name": "学士",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10012_5": {
+    "name": "学士的时钟",
+    "suit_id": 10012,
+    "suit_name": "学士",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10012_1": {
+    "name": "学士的墨杯",
+    "suit_id": 10012,
+    "suit_name": "学士",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10012_3": {
+    "name": "学士的镜片",
+    "suit_id": 10012,
+    "suit_name": "学士",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_10013_4": {
+    "name": "游医的银莲",
+    "suit_id": 10013,
+    "suit_name": "游医",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_10013_2": {
+    "name": "游医的枭羽",
+    "suit_id": 10013,
+    "suit_name": "游医",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_10013_5": {
+    "name": "游医的怀钟",
+    "suit_id": 10013,
+    "suit_name": "游医",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_10013_1": {
+    "name": "游医的药壶",
+    "suit_id": 10013,
+    "suit_name": "游医",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_10013_3": {
+    "name": "游医的方巾",
+    "suit_id": 10013,
+    "suit_name": "游医",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_14001_4": {
+    "name": "历经风雪的思念",
+    "suit_id": 14001,
+    "suit_name": "冰风迷途的勇士",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_14001_2": {
+    "name": "摧冰而行的执望",
+    "suit_id": 14001,
+    "suit_name": "冰风迷途的勇士",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_14001_5": {
+    "name": "冰雪故园的终期",
+    "suit_id": 14001,
+    "suit_name": "冰风迷途的勇士",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_14001_1": {
+    "name": "遍结寒霜的傲骨",
+    "suit_id": 14001,
+    "suit_name": "冰风迷途的勇士",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_14001_3": {
+    "name": "破冰踏雪的回音",
+    "suit_id": 14001,
+    "suit_name": "冰风迷途的勇士",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_14002_4": {
+    "name": "平雷之心",
+    "suit_id": 14002,
+    "suit_name": "平息鸣雷的尊者",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_14002_2": {
+    "name": "平雷之羽",
+    "suit_id": 14002,
+    "suit_name": "平息鸣雷的尊者",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_14002_5": {
+    "name": "平雷之刻",
+    "suit_id": 14002,
+    "suit_name": "平息鸣雷的尊者",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_14002_1": {
+    "name": "平雷之器",
+    "suit_id": 14002,
+    "suit_name": "平息鸣雷的尊者",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_14002_3": {
+    "name": "平雷之冠",
+    "suit_id": 14002,
+    "suit_name": "平息鸣雷的尊者",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_14003_4": {
+    "name": "渡火者的决绝",
+    "suit_id": 14003,
+    "suit_name": "渡过烈火的贤人",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_14003_2": {
+    "name": "渡火者的解脱",
+    "suit_id": 14003,
+    "suit_name": "渡过烈火的贤人",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_14003_5": {
+    "name": "渡火者的煎熬",
+    "suit_id": 14003,
+    "suit_name": "渡过烈火的贤人",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_14003_1": {
+    "name": "渡火者的醒悟",
+    "suit_id": 14003,
+    "suit_name": "渡过烈火的贤人",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_14003_3": {
+    "name": "渡火者的智慧",
+    "suit_id": 14003,
+    "suit_name": "渡过烈火的贤人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_14004_4": {
+    "name": "远方的少女之心",
+    "suit_id": 14004,
+    "suit_name": "被怜爱的少女",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_14004_2": {
+    "name": "少女飘摇的思念",
+    "suit_id": 14004,
+    "suit_name": "被怜爱的少女",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_14004_5": {
+    "name": "少女苦短的良辰",
+    "suit_id": 14004,
+    "suit_name": "被怜爱的少女",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_14004_1": {
+    "name": "少女片刻的闲暇",
+    "suit_id": 14004,
+    "suit_name": "被怜爱的少女",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_14004_3": {
+    "name": "少女易逝的芳颜",
+    "suit_id": 14004,
+    "suit_name": "被怜爱的少女",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15001_4": {
+    "name": "角斗士的留恋",
+    "suit_id": 15001,
+    "suit_name": "角斗士的终幕礼",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15001_2": {
+    "name": "角斗士的归宿",
+    "suit_id": 15001,
+    "suit_name": "角斗士的终幕礼",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15001_5": {
+    "name": "角斗士的希冀",
+    "suit_id": 15001,
+    "suit_name": "角斗士的终幕礼",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15001_1": {
+    "name": "角斗士的酣醉",
+    "suit_id": 15001,
+    "suit_name": "角斗士的终幕礼",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15001_3": {
+    "name": "角斗士的凯旋",
+    "suit_id": 15001,
+    "suit_name": "角斗士的终幕礼",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15002_4": {
+    "name": "野花记忆的绿野",
+    "suit_id": 15002,
+    "suit_name": "翠绿之影",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15002_2": {
+    "name": "猎人青翠的箭羽",
+    "suit_id": 15002,
+    "suit_name": "翠绿之影",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15002_5": {
+    "name": "翠绿猎人的笃定",
+    "suit_id": 15002,
+    "suit_name": "翠绿之影",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15002_1": {
+    "name": "翠绿猎人的容器",
+    "suit_id": 15002,
+    "suit_name": "翠绿之影",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15002_3": {
+    "name": "翠绿的猎人之冠",
+    "suit_id": 15002,
+    "suit_name": "翠绿之影",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15003_4": {
+    "name": "乐团的晨光",
+    "suit_id": 15003,
+    "suit_name": "流浪大地的乐团",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15003_2": {
+    "name": "琴师的箭羽",
+    "suit_id": 15003,
+    "suit_name": "流浪大地的乐团",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15003_5": {
+    "name": "终幕的时计",
+    "suit_id": 15003,
+    "suit_name": "流浪大地的乐团",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15003_1": {
+    "name": "吟游者之壶",
+    "suit_id": 15003,
+    "suit_name": "流浪大地的乐团",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15003_3": {
+    "name": "指挥的礼帽",
+    "suit_id": 15003,
+    "suit_name": "流浪大地的乐团",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15005_4": {
+    "name": "雷鸟的怜悯",
+    "suit_id": 15005,
+    "suit_name": "如雷的盛怒",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15005_2": {
+    "name": "雷灾的孑遗",
+    "suit_id": 15005,
+    "suit_name": "如雷的盛怒",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15005_5": {
+    "name": "雷霆的时计",
+    "suit_id": 15005,
+    "suit_name": "如雷的盛怒",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15005_1": {
+    "name": "降雷的凶兆",
+    "suit_id": 15005,
+    "suit_name": "如雷的盛怒",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15005_3": {
+    "name": "唤雷的头冠",
+    "suit_id": 15005,
+    "suit_name": "如雷的盛怒",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15006_4": {
+    "name": "魔女的炎之花",
+    "suit_id": 15006,
+    "suit_name": "炽烈的炎之魔女",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15006_2": {
+    "name": "魔女常燃之羽",
+    "suit_id": 15006,
+    "suit_name": "炽烈的炎之魔女",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15006_5": {
+    "name": "魔女破灭之时",
+    "suit_id": 15006,
+    "suit_name": "炽烈的炎之魔女",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15006_1": {
+    "name": "魔女的心之火",
+    "suit_id": 15006,
+    "suit_name": "炽烈的炎之魔女",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15006_3": {
+    "name": "焦灼的魔女帽",
+    "suit_id": 15006,
+    "suit_name": "炽烈的炎之魔女",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15007_4": {
+    "name": "宗室之花",
+    "suit_id": 15007,
+    "suit_name": "昔日宗室之仪",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15007_2": {
+    "name": "宗室之翎",
+    "suit_id": 15007,
+    "suit_name": "昔日宗室之仪",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15007_5": {
+    "name": "宗室时计",
+    "suit_id": 15007,
+    "suit_name": "昔日宗室之仪",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15007_1": {
+    "name": "宗室银瓮",
+    "suit_id": 15007,
+    "suit_name": "昔日宗室之仪",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15007_3": {
+    "name": "宗室面具",
+    "suit_id": 15007,
+    "suit_name": "昔日宗室之仪",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15008_4": {
+    "name": "染血的铁之心",
+    "suit_id": 15008,
+    "suit_name": "染血的骑士道",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15008_2": {
+    "name": "染血的黑之羽",
+    "suit_id": 15008,
+    "suit_name": "染血的骑士道",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15008_5": {
+    "name": "骑士染血之时",
+    "suit_id": 15008,
+    "suit_name": "染血的骑士道",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15008_1": {
+    "name": "染血骑士之杯",
+    "suit_id": 15008,
+    "suit_name": "染血的骑士道",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15008_3": {
+    "name": "染血的铁假面",
+    "suit_id": 15008,
+    "suit_name": "染血的骑士道",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15009_3": {
+    "name": "祭火礼冠",
+    "suit_id": 15009,
+    "suit_name": "祭火之人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15010_3": {
+    "name": "祭水礼冠",
+    "suit_id": 15010,
+    "suit_name": "祭水之人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15011_3": {
+    "name": "祭雷礼冠",
+    "suit_id": 15011,
+    "suit_name": "祭雷之人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15013_3": {
+    "name": "祭冰礼冠",
+    "suit_id": 15013,
+    "suit_name": "祭冰之人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15014_4": {
+    "name": "磐陀裂生之花",
+    "suit_id": 15014,
+    "suit_name": "悠古的磐岩",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15014_2": {
+    "name": "嵯峨群峰之翼",
+    "suit_id": 15014,
+    "suit_name": "悠古的磐岩",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15014_5": {
+    "name": "星罗圭璧之晷",
+    "suit_id": 15014,
+    "suit_name": "悠古的磐岩",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15014_1": {
+    "name": "巉岩琢塑之樽",
+    "suit_id": 15014,
+    "suit_name": "悠古的磐岩",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15014_3": {
+    "name": "不动玄石之相",
+    "suit_id": 15014,
+    "suit_name": "悠古的磐岩",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15015_4": {
+    "name": "夏祭之花",
+    "suit_id": 15015,
+    "suit_name": "逆飞的流星",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15015_2": {
+    "name": "夏祭终末",
+    "suit_id": 15015,
+    "suit_name": "逆飞的流星",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15015_5": {
+    "name": "夏祭之刻",
+    "suit_id": 15015,
+    "suit_name": "逆飞的流星",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15015_1": {
+    "name": "夏祭水玉",
+    "suit_id": 15015,
+    "suit_name": "逆飞的流星",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15015_3": {
+    "name": "夏祭之面",
+    "suit_id": 15015,
+    "suit_name": "逆飞的流星",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15016_4": {
+    "name": "饰金胸花",
+    "suit_id": 15016,
+    "suit_name": "沉沦之心",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15016_2": {
+    "name": "追忆之风",
+    "suit_id": 15016,
+    "suit_name": "沉沦之心",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15016_5": {
+    "name": "坚铜罗盘",
+    "suit_id": 15016,
+    "suit_name": "沉沦之心",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15016_1": {
+    "name": "沉波之盏",
+    "suit_id": 15016,
+    "suit_name": "沉沦之心",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15016_3": {
+    "name": "酒渍船帽",
+    "suit_id": 15016,
+    "suit_name": "沉沦之心",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15017_4": {
+    "name": "勋绩之花",
+    "suit_id": 15017,
+    "suit_name": "千岩牢固",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15017_2": {
+    "name": "昭武翎羽",
+    "suit_id": 15017,
+    "suit_name": "千岩牢固",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15017_5": {
+    "name": "金铜时晷",
+    "suit_id": 15017,
+    "suit_name": "千岩牢固",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15017_1": {
+    "name": "盟誓金爵",
+    "suit_id": 15017,
+    "suit_name": "千岩牢固",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15017_3": {
+    "name": "将帅兜鍪",
+    "suit_id": 15017,
+    "suit_name": "千岩牢固",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15018_4": {
+    "name": "无垢之花",
+    "suit_id": 15018,
+    "suit_name": "苍白之火",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15018_2": {
+    "name": "贤医之羽",
+    "suit_id": 15018,
+    "suit_name": "苍白之火",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15018_5": {
+    "name": "停摆之刻",
+    "suit_id": 15018,
+    "suit_name": "苍白之火",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15018_1": {
+    "name": "超越之盏",
+    "suit_id": 15018,
+    "suit_name": "苍白之火",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15018_3": {
+    "name": "嗤笑之面",
+    "suit_id": 15018,
+    "suit_name": "苍白之火",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15019_4": {
+    "name": "羁缠之花",
+    "suit_id": 15019,
+    "suit_name": "追忆之注连",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15019_2": {
+    "name": "思忆之矢",
+    "suit_id": 15019,
+    "suit_name": "追忆之注连",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15019_5": {
+    "name": "朝露之时",
+    "suit_id": 15019,
+    "suit_name": "追忆之注连",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15019_1": {
+    "name": "祈望之心",
+    "suit_id": 15019,
+    "suit_name": "追忆之注连",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15019_3": {
+    "name": "无常之面",
+    "suit_id": 15019,
+    "suit_name": "追忆之注连",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15020_4": {
+    "name": "明威之镡",
+    "suit_id": 15020,
+    "suit_name": "绝缘之旗印",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15020_2": {
+    "name": "切落之羽",
+    "suit_id": 15020,
+    "suit_name": "绝缘之旗印",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15020_5": {
+    "name": "雷云之笼",
+    "suit_id": 15020,
+    "suit_name": "绝缘之旗印",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15020_1": {
+    "name": "绯花之壶",
+    "suit_id": 15020,
+    "suit_name": "绝缘之旗印",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15020_3": {
+    "name": "华饰之兜",
+    "suit_id": 15020,
+    "suit_name": "绝缘之旗印",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15021_4": {
+    "name": "荣花之期",
+    "suit_id": 15021,
+    "suit_name": "华馆梦醒形骸记",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15021_2": {
+    "name": "华馆之羽",
+    "suit_id": 15021,
+    "suit_name": "华馆梦醒形骸记",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15021_5": {
+    "name": "众生之谣",
+    "suit_id": 15021,
+    "suit_name": "华馆梦醒形骸记",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15021_1": {
+    "name": "梦醒之瓢",
+    "suit_id": 15021,
+    "suit_name": "华馆梦醒形骸记",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15021_3": {
+    "name": "形骸之笠",
+    "suit_id": 15021,
+    "suit_name": "华馆梦醒形骸记",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15022_4": {
+    "name": "海染之花",
+    "suit_id": 15022,
+    "suit_name": "海染砗磲",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15022_2": {
+    "name": "渊宫之羽",
+    "suit_id": 15022,
+    "suit_name": "海染砗磲",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15022_5": {
+    "name": "离别之贝",
+    "suit_id": 15022,
+    "suit_name": "海染砗磲",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15022_1": {
+    "name": "真珠之笼",
+    "suit_id": 15022,
+    "suit_name": "海染砗磲",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15022_3": {
+    "name": "海祇之冠",
+    "suit_id": 15022,
+    "suit_name": "海染砗磲",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15023_4": {
+    "name": "生灵之华",
+    "suit_id": 15023,
+    "suit_name": "辰砂往生录",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15023_2": {
+    "name": "潜光片羽",
+    "suit_id": 15023,
+    "suit_name": "辰砂往生录",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15023_5": {
+    "name": "阳辔之遗",
+    "suit_id": 15023,
+    "suit_name": "辰砂往生录",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15023_1": {
+    "name": "结契之刻",
+    "suit_id": 15023,
+    "suit_name": "辰砂往生录",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15023_3": {
+    "name": "虺雷之姿",
+    "suit_id": 15023,
+    "suit_name": "辰砂往生录",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15024_4": {
+    "name": "魂香之花",
+    "suit_id": 15024,
+    "suit_name": "来歆余响",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15024_2": {
+    "name": "垂玉之叶",
+    "suit_id": 15024,
+    "suit_name": "来歆余响",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15024_5": {
+    "name": "祝祀之凭",
+    "suit_id": 15024,
+    "suit_name": "来歆余响",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15024_1": {
+    "name": "涌泉之盏",
+    "suit_id": 15024,
+    "suit_name": "来歆余响",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15024_3": {
+    "name": "浮溯之珏",
+    "suit_id": 15024,
+    "suit_name": "来歆余响",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15025_4": {
+    "name": "迷宫的游人",
+    "suit_id": 15025,
+    "suit_name": "深林的记忆",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15025_2": {
+    "name": "翠蔓的智者",
+    "suit_id": 15025,
+    "suit_name": "深林的记忆",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15025_5": {
+    "name": "贤智的定期",
+    "suit_id": 15025,
+    "suit_name": "深林的记忆",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15025_1": {
+    "name": "迷误者之灯",
+    "suit_id": 15025,
+    "suit_name": "深林的记忆",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15025_3": {
+    "name": "月桂的宝冠",
+    "suit_id": 15025,
+    "suit_name": "深林的记忆",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15026_4": {
+    "name": "梦中的铁花",
+    "suit_id": 15026,
+    "suit_name": "饰金之梦",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15026_2": {
+    "name": "裁断的翎羽",
+    "suit_id": 15026,
+    "suit_name": "饰金之梦",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15026_5": {
+    "name": "沉金的岁月",
+    "suit_id": 15026,
+    "suit_name": "饰金之梦",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15026_1": {
+    "name": "如蜜的终宴",
+    "suit_id": 15026,
+    "suit_name": "饰金之梦",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15026_3": {
+    "name": "沙王的投影",
+    "suit_id": 15026,
+    "suit_name": "饰金之梦",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15027_4": {
+    "name": "众王之都的开端",
+    "suit_id": 15027,
+    "suit_name": "沙上楼阁史话",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15027_2": {
+    "name": "黄金邦国的结末",
+    "suit_id": 15027,
+    "suit_name": "沙上楼阁史话",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15027_5": {
+    "name": "失落迷途的机芯",
+    "suit_id": 15027,
+    "suit_name": "沙上楼阁史话",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15027_1": {
+    "name": "迷醉长梦的守护",
+    "suit_id": 15027,
+    "suit_name": "沙上楼阁史话",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15027_3": {
+    "name": "流沙贵嗣的遗宝",
+    "suit_id": 15027,
+    "suit_name": "沙上楼阁史话",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15028_4": {
+    "name": "月女的华彩",
+    "suit_id": 15028,
+    "suit_name": "乐园遗落之花",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15028_2": {
+    "name": "谢落的筵席",
+    "suit_id": 15028,
+    "suit_name": "乐园遗落之花",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15028_5": {
+    "name": "凝结的时刻",
+    "suit_id": 15028,
+    "suit_name": "乐园遗落之花",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15028_1": {
+    "name": "守秘的魔瓶",
+    "suit_id": 15028,
+    "suit_name": "乐园遗落之花",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15028_3": {
+    "name": "紫晶的花冠",
+    "suit_id": 15028,
+    "suit_name": "乐园遗落之花",
+    "part": "理之冠"
+  }
+}

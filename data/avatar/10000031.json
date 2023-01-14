@@ -1,0 +1,131 @@
+{
+  "id": 10000031,
+  "name": "菲谢尔",
+  "element": "雷",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Fischl",
+    "side": "UI_AvatarIcon_Side_Fischl",
+    "card": "UI_AvatarIcon_Fischl_Card",
+    "splash": "UI_Gacha_AvatarImg_Fischl",
+    "slice": "UI_Gacha_AvatarIcon_Fischl"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 770.46338,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        575.57562,
+        984.53723,
+        1529.81934,
+        1938.78101,
+        2347.74268,
+        2756.7041
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.4792,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.29937,
+        26.16998,
+        40.66412,
+        51.53472,
+        62.40533,
+        73.27593
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 49.78575,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        37.1925,
+        63.61875,
+        98.85375,
+        125.28,
+        151.70625,
+        178.13251
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10311": {
+      "name": "普通攻击·罪灭之矢",
+      "icon": "Skill_A_02"
+    },
+    "10312": {
+      "name": "夜巡影翼",
+      "icon": "Skill_S_Fischl_01"
+    },
+    "10313": {
+      "name": "至夜幻现",
+      "icon": "Skill_E_Fischl_01"
+    },
+    "312101": {
+      "name": "噬星魔鸦",
+      "icon": "UI_Talent_S_Fischl_05"
+    },
+    "312201": {
+      "name": "断罪雷影",
+      "icon": "UI_Talent_S_Fischl_06"
+    },
+    "312301": {
+      "name": "吾之后花园",
+      "icon": "UI_Talent_Expedition_Mengde"
+    }
+  },
+  "constellation": {
+    "311": {
+      "name": "幽邃鸦眼",
+      "icon": "UI_Talent_S_Fischl_01"
+    },
+    "312": {
+      "name": "圣裁影羽",
+      "icon": "UI_Talent_S_Fischl_02"
+    },
+    "313": {
+      "name": "渊色黑翼",
+      "icon": "UI_Talent_U_Fischl_01"
+    },
+    "314": {
+      "name": "皇女幻绮谭",
+      "icon": "UI_Talent_S_Fischl_03"
+    },
+    "315": {
+      "name": "至夜默示录",
+      "icon": "UI_Talent_U_Fischl_02"
+    },
+    "316": {
+      "name": "永夜之禽",
+      "icon": "UI_Talent_S_Fischl_04"
+    }
+  },
+  "talent_fix": {
+    "10312": "夜巡影翼",
+    "10313": "至夜幻现"
+  },
+  "damage": [],
+  "buff": []
+}

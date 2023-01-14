@@ -1,0 +1,131 @@
+{
+  "id": 10000003,
+  "name": "琴",
+  "element": "风",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Qin",
+    "side": "UI_AvatarIcon_Side_Qin",
+    "card": "UI_AvatarIcon_Qin_Card",
+    "splash": "UI_Gacha_AvatarImg_Qin",
+    "slice": "UI_Gacha_AvatarIcon_Qin"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1143.98401,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        980.86285,
+        1677.79175,
+        2607.03027,
+        3303.95898,
+        4000.88794,
+        4697.81689
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.62,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        15.9638,
+        27.3065,
+        42.4301,
+        53.7728,
+        65.1155,
+        76.4582
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.83,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        51.3,
+        87.75,
+        136.35001,
+        172.8,
+        209.25,
+        245.7
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HEAL_ADD",
+      "promote": [
+        0,
+        0.0554,
+        0.1108,
+        0.1108,
+        0.1662,
+        0.2215
+      ]
+    }
+  ],
+  "talent": {
+    "10031": {
+      "name": "普通攻击·西风剑术",
+      "icon": "Skill_A_01"
+    },
+    "10033": {
+      "name": "风压剑",
+      "icon": "Skill_S_Qin_02"
+    },
+    "10034": {
+      "name": "蒲公英之风",
+      "icon": "Skill_E_Qin_01"
+    },
+    "32101": {
+      "name": "顺风而行",
+      "icon": "UI_Talent_S_Qin_05"
+    },
+    "32201": {
+      "name": "听凭风引",
+      "icon": "UI_Talent_S_Qin_06"
+    },
+    "32301": {
+      "name": "引领之风",
+      "icon": "UI_Talent_Cook_Heal"
+    }
+  },
+  "constellation": {
+    "31": {
+      "name": "流转剑脊的暴风",
+      "icon": "UI_Talent_S_Qin_01"
+    },
+    "32": {
+      "name": "守护众人的坚盾",
+      "icon": "UI_Talent_S_Qin_02"
+    },
+    "33": {
+      "name": "西风吹拂之时",
+      "icon": "UI_Talent_U_Qin_02"
+    },
+    "34": {
+      "name": "蒲公英的国土",
+      "icon": "UI_Talent_S_Qin_03"
+    },
+    "35": {
+      "name": "须臾一瞬的烈风",
+      "icon": "UI_Talent_U_Qin_01"
+    },
+    "36": {
+      "name": "恩眷万民的狮牙",
+      "icon": "UI_Talent_S_Qin_04"
+    }
+  },
+  "talent_fix": {
+    "10034": "蒲公英之风",
+    "10033": "风压剑"
+  },
+  "damage": [],
+  "buff": []
+}

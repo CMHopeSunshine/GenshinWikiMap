@@ -1,0 +1,33 @@
+{
+  "id": "15020",
+  "name": "绝缘之旗印",
+  "short_name": "绝缘",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15020_4",
+  "part_list": {
+    "UI_RelicIcon_15020_4": {
+      "name": "明威之镡",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15020_2": {
+      "name": "切落之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15020_5": {
+      "name": "雷云之笼",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15020_1": {
+      "name": "绯花之壶",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15020_3": {
+      "name": "华饰之兜",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

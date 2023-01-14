@@ -156,8 +156,7 @@ def update_character():
                 },
                 'property':      {},
                 'talent':        {},
-                'constellation': {},
-                'buff':          []
+                'constellation': {}
             }
         avatar_info['property'] = [
             {
@@ -215,6 +214,8 @@ def update_character():
             for tid, t in avatar_info['talent'].items():
                 if t['name'] == c5_name:
                     avatar_info['talent_fix'][tid] = t['name']
+        if 'damage' not in avatar_info:
+            avatar_info['damage'] = []
         if 'buff' not in avatar_info:
             avatar_info['buff'] = []
         save_json(avatar_info, save_file)
@@ -262,7 +263,6 @@ def update_weapon():
     for weapon_id, weapon_data in weapon_list.items():
         if not weapon_data['name']:
             continue
-        print(f'>>>>>>更新[{weapon_data["name"]}]武器信息')
         data_save_path = DATA / 'weapon' / f'{weapon_id}.json'
         # 如果本地没有已下载的武器raw数据，则下载，否则读取本地
         if not (save_path := WEAPON_RAW / f'{weapon_id}.json').exists() or weapon_data.get('beta'):
@@ -311,62 +311,53 @@ def update_artifact():
     suit_list = load_json(RAW / 'artifact_suit_list.json')
     artifact_info_file = load_json(DATA / '圣遗物信息.json')
     artifact_list_file = load_json(DATA / '圣遗物列表.json')
-    artifact_suit_file = load_json(DATA / '圣遗物套装信息.json')
     # 遍历圣遗物列表
-    for suit_id in suit_list.keys():
+    for suit_id, suit_data in suit_list.items():
+        print(f'>>>>>>更新[{suit_data["name"]}]信息')
+        suit_save_path = DATA / 'artifact' / f'{suit_id}.json'
+        # 如果圣遗物别名列表中没有这个圣遗物套装，则添加进去
+        if suit_data['name'] not in artifact_list_file:
+            artifact_list_file[suit_data['name']] = [suit_data['name']]
+
         # 如果本地没有已下载的圣遗物套装raw数据，则下载，否则读取本地
         if not (save_path := ARTIFACT_RAW / f'{suit_id}.json').exists():
             suit_info = ambr_requests(ARTIFACT_INFO_API.format(suit_id))
             save_json(suit_info, save_path)
             time.sleep(1.5)
-            update_flag = True
         else:
             suit_info = load_json(save_path)
-            update_flag = False
 
-        # 如果圣遗物别名列表中没有这个圣遗物套装，则添加进去
-        if suit_info['name'] not in artifact_list_file:
-            artifact_list_file[suit_info['name']] = [suit_info['name']]
-
-        # 如果没有这个圣遗物套装的详细信息，或者需要更新，则更新
-        if update_flag or suit_id not in artifact_suit_file:
-            if len(suit_info['affixList']) == 1:
-                effect = {
-                    '单件': list(suit_info['affixList'].values())[0]
-                }
-            else:
-                effect = {
-                    '两件套': list(suit_info['affixList'].values())[0],
-                    '四件套': list(suit_info['affixList'].values())[1]
-                }
-            artifact_suit_file[suit_id] = {
-                'id':       suit_id,
-                '名称':     suit_info['name'],
-                '等级列表': suit_info['levelList'],
-                '效果':     effect,
-                '图标':     suit_info['icon'],
-                '散件列表': []
+        if suit_save_path.exists():
+            suit_data = load_json(suit_save_path)
+        else:
+            suit_data = {
+                'id': suit_id,
+                'name': suit_info['name'],
+                'short_name': suit_info['name'][:2],
+                'level_list': suit_info['levelList'],
+                'icon': suit_info['icon'],
+                'part_list': {},
+                'buff': []
             }
 
         # 遍历套装的圣遗物散件，如果没有散件数据，则添加进去
         for part_type, artifact in suit_info['suit'].items():
-            artifact_id = artifact['icon'].replace('UI_RelicIcon_')
-            if artifact_id not in artifact_info_file:
-                artifact_info_file[artifact_id] = {
-                    '名称': artifact['name'],
-                    '描述': artifact['description'],
-                    '套装': {
-                        'id':   suit_info['id'],
-                        '名称': suit_info['name']
-                    },
-                    '部位': ARTIFACT_PART_MAP[part_type],
-                    '图标': artifact['icon']
+            artifact_icon = artifact['icon']
+            if artifact_icon not in artifact_info_file:
+                artifact_info_file[artifact_icon] = {
+                    'name': artifact['name'],
+                    'suit_id': suit_info['id'],
+                    'suit_name': suit_info['name'],
+                    'part': ARTIFACT_PART_MAP[part_type]
                 }
-            if artifact_id not in artifact_suit_file[suit_id]['散件列表']:
-                artifact_suit_file[suit_id]['散件列表'].append(artifact_id)
+            if artifact_icon not in suit_data['part_list']:
+                suit_data['part_list'][artifact_icon] = {
+                    'name': artifact['name'],
+                    'part': ARTIFACT_PART_MAP[part_type]
+                }
+        save_json(suit_data, suit_save_path)
     save_json(artifact_list_file, DATA / '圣遗物列表.json')
     save_json(artifact_info_file, DATA / '圣遗物信息.json')
-    save_json(artifact_suit_file, DATA / '圣遗物套装信息.json')
     print('>>>圣遗物信息更新完成')
 
 

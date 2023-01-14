@@ -1,0 +1,131 @@
+{
+  "id": 10000034,
+  "name": "诺艾尔",
+  "element": "岩",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Noel",
+    "side": "UI_AvatarIcon_Side_Noel",
+    "card": "UI_AvatarIcon_Noel_Card",
+    "splash": "UI_Gacha_AvatarImg_Noel",
+    "slice": "UI_Gacha_AvatarIcon_Noel"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1012.08801,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        756.08154,
+        1293.29736,
+        2009.58521,
+        2546.80103,
+        3084.01685,
+        3621.23267
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.0272,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        11.97342,
+        20.48085,
+        31.82409,
+        40.33152,
+        48.83895,
+        57.34638
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 66.95325,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        50.0175,
+        85.55625,
+        132.94125,
+        168.48,
+        204.01875,
+        239.5575
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_DEFENSE_PERCENT",
+      "promote": [
+        0,
+        0.075,
+        0.15,
+        0.15,
+        0.225,
+        0.3
+      ]
+    }
+  ],
+  "talent": {
+    "10341": {
+      "name": "普通攻击·西风剑术·女仆",
+      "icon": "Skill_A_04"
+    },
+    "10342": {
+      "name": "护心铠",
+      "icon": "Skill_S_Noel_01"
+    },
+    "10343": {
+      "name": "大扫除",
+      "icon": "Skill_E_Noel_01"
+    },
+    "342101": {
+      "name": "全心全意",
+      "icon": "UI_Talent_S_Noel_05"
+    },
+    "342201": {
+      "name": "干净利落",
+      "icon": "UI_Talent_S_Noel_06"
+    },
+    "342301": {
+      "name": "女仆的态度",
+      "icon": "UI_Talent_Cook_Defense"
+    }
+  },
+  "constellation": {
+    "341": {
+      "name": "支援就交给我吧",
+      "icon": "UI_Talent_S_Noel_01"
+    },
+    "342": {
+      "name": "旋风女仆",
+      "icon": "UI_Talent_S_Noel_02"
+    },
+    "343": {
+      "name": "女仆不会受伤",
+      "icon": "UI_Talent_U_Noel_01"
+    },
+    "344": {
+      "name": "之后会扫干净的",
+      "icon": "UI_Talent_S_Noel_03"
+    },
+    "345": {
+      "name": "骑士团扫除专家",
+      "icon": "UI_Talent_U_Noel_02"
+    },
+    "346": {
+      "name": "要一尘不染才行",
+      "icon": "UI_Talent_S_Noel_04"
+    }
+  },
+  "talent_fix": {
+    "10342": "护心铠",
+    "10343": "大扫除"
+  },
+  "damage": [],
+  "buff": []
+}

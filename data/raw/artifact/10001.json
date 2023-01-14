@@ -1,0 +1,46 @@
+{
+  "id": 10001,
+  "name": "行者之心",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2100010": "攻击力提高18%。",
+    "2100011": "重击的暴击率提升30%。"
+  },
+  "icon": "UI_RelicIcon_10001_4",
+  "route": "Resolution of Sojourner",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "故人之心",
+      "description": "玉蓝色的小花，花茎上扎着谁人的丝带。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10001_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "归乡之羽",
+      "description": "蓝色的箭羽，其上凝结着旅人消逝远去的眷恋。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10001_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "逐光之石",
+      "description": "饱经沧桑的时晷，永远在静默地记录着日月循环。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10001_5"
+    },
+    "EQUIP_RING": {
+      "name": "异国之盏",
+      "description": "朴素的白瓷酒杯，曾经盈满了欢愉的酒水。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10001_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "感别之冠",
+      "description": "散发着春风气息的柳冠。",
+      "maxLevel": 5,
+      "icon": "UI_RelicIcon_10001_3"
+    }
+  }
+}

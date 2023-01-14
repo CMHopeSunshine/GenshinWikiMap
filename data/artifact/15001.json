@@ -1,0 +1,33 @@
+{
+  "id": "15001",
+  "name": "角斗士的终幕礼",
+  "short_name": "角斗",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15001_4",
+  "part_list": {
+    "UI_RelicIcon_15001_4": {
+      "name": "角斗士的留恋",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15001_2": {
+      "name": "角斗士的归宿",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15001_5": {
+      "name": "角斗士的希冀",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15001_1": {
+      "name": "角斗士的酣醉",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15001_3": {
+      "name": "角斗士的凯旋",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

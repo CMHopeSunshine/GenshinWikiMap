@@ -1,0 +1,33 @@
+{
+  "id": "10004",
+  "name": "奇迹",
+  "short_name": "奇迹",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10004_4",
+  "part_list": {
+    "UI_RelicIcon_10004_4": {
+      "name": "奇迹之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10004_2": {
+      "name": "奇迹之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10004_5": {
+      "name": "奇迹之沙",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10004_1": {
+      "name": "奇迹之杯",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10004_3": {
+      "name": "奇迹耳坠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

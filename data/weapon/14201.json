@@ -1,0 +1,27 @@
+{
+  "id": "14201",
+  "name": "口袋魔导书",
+  "rank": 2,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Pocket",
+    "awaken": "UI_EquipIcon_Catalyst_Pocket_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Pocket"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 32.93,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        11.7,
+        23.3,
+        35.0,
+        46.7
+      ]
+    }
+  ],
+  "buff": []
+}

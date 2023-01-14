@@ -1,0 +1,46 @@
+{
+  "id": 15024,
+  "name": "来歆余响",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150240": "攻击力提高18%。",
+    "2150241": "普通攻击命中敌人时，有36%概率触发「幽谷祝祀」：普通攻击造成的伤害提高，伤害提高值为攻击力的70%，该效果将在普通攻击造成伤害后的0.05秒后清除。普通攻击未触发「幽谷祝祀」时，会使下次触发概率提升20%；0.2秒内至多判定1次触发与否。"
+  },
+  "icon": "UI_RelicIcon_15024_4",
+  "route": "Echoes of an Offering",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "魂香之花",
+      "description": "花型的玉雕。魂香幽幽的气息似有似无地萦绕其中。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15024_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "垂玉之叶",
+      "description": "宛如叶片的玉佩。过去在特定的友人之间，似乎有着特殊的含义。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15024_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "祝祀之凭",
+      "description": "圆形的玉佩。在某个传说中，它是何地之祭祀肇始的凭证。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15024_5"
+    },
+    "EQUIP_RING": {
+      "name": "涌泉之盏",
+      "description": "能够源源不断涌出清泉的茶盏。或许是仙家的赠礼、遗物或是失物吧。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15024_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "浮溯之珏",
+      "description": "由一块美玉制成的对耳环。有着无比温润的感觉。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15024_3"
+    }
+  }
+}

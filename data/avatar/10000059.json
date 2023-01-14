@@ -1,0 +1,131 @@
+{
+  "id": 10000059,
+  "name": "鹿野院平藏",
+  "element": "风",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Heizo",
+    "side": "UI_AvatarIcon_Side_Heizo",
+    "card": "UI_AvatarIcon_Heizo_Card",
+    "splash": "UI_Gacha_AvatarImg_Heizo",
+    "slice": "UI_Gacha_AvatarIcon_Heizo"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 893.55518,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        667.53149,
+        1141.8302,
+        1774.22839,
+        2248.5271,
+        2722.82568,
+        3197.12451
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.87648,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.10203,
+        24.12189,
+        37.4817,
+        47.50157,
+        57.52143,
+        67.54129
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 57.33945,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        42.8355,
+        73.27125,
+        113.85225,
+        144.28799,
+        174.72375,
+        205.1595
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_WIND_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10591": {
+      "name": "普通攻击·不动流格斗术",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10592": {
+      "name": "勠心拳",
+      "icon": "Skill_S_Heizo_01"
+    },
+    "10595": {
+      "name": "聚风蹴",
+      "icon": "Skill_E_Heizo_01"
+    },
+    "592101": {
+      "name": "反论稽古",
+      "icon": "UI_Talent_S_Heizo_05"
+    },
+    "592201": {
+      "name": "因由勘破",
+      "icon": "UI_Talent_S_Heizo_06"
+    },
+    "592301": {
+      "name": "在罪之先",
+      "icon": "UI_Talent_Explosion_Sprint"
+    }
+  },
+  "constellation": {
+    "591": {
+      "name": "称名少年事件簿",
+      "icon": "UI_Talent_S_Heizo_01"
+    },
+    "592": {
+      "name": "殊解诸因探案集",
+      "icon": "UI_Talent_S_Heizo_02"
+    },
+    "593": {
+      "name": "暗文隐语谜题册",
+      "icon": "UI_Talent_U_Heizo_01"
+    },
+    "594": {
+      "name": "虚言假说百物语",
+      "icon": "UI_Talent_S_Heizo_03"
+    },
+    "595": {
+      "name": "禁室密所大图鉴",
+      "icon": "UI_Talent_U_Heizo_02"
+    },
+    "596": {
+      "name": "奇想天开捕物帐",
+      "icon": "UI_Talent_S_Heizo_04"
+    }
+  },
+  "talent_fix": {
+    "10592": "勠心拳",
+    "10595": "聚风蹴"
+  },
+  "damage": [],
+  "buff": []
+}

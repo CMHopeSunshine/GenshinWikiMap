@@ -1,0 +1,131 @@
+{
+  "id": 10000050,
+  "name": "托马",
+  "element": "火",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Tohma",
+    "side": "UI_AvatarIcon_Side_Tohma",
+    "card": "UI_AvatarIcon_Tohma_Card",
+    "splash": "UI_Gacha_AvatarImg_Tohma",
+    "slice": "UI_Gacha_AvatarIcon_Tohma"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 866.20148,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        647.0968,
+        1106.87622,
+        1719.91528,
+        2179.69458,
+        2639.47388,
+        3099.25317
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.9176,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        12.63861,
+        21.61868,
+        33.59209,
+        42.57216,
+        51.55222,
+        60.53229
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.9475,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        47.025,
+        80.4375,
+        124.9875,
+        158.39999,
+        191.8125,
+        225.22501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10501": {
+      "name": "普通攻击·迅破枪势",
+      "icon": "Skill_A_03"
+    },
+    "10502": {
+      "name": "烈烧佑命之侍护",
+      "icon": "Skill_S_Tohma_01"
+    },
+    "10505": {
+      "name": "真红炽火之大铠",
+      "icon": "Skill_E_Tohma_01"
+    },
+    "502101": {
+      "name": "甲衣交叠",
+      "icon": "UI_Talent_S_Tohma_05"
+    },
+    "502201": {
+      "name": "烈火攻燔",
+      "icon": "UI_Talent_S_Tohma_06"
+    },
+    "502301": {
+      "name": "悬鲷狩",
+      "icon": "UI_Talent_S_Tohma_07"
+    }
+  },
+  "constellation": {
+    "501": {
+      "name": "同袍的义理",
+      "icon": "UI_Talent_S_Tohma_01"
+    },
+    "502": {
+      "name": "僚佐的才巧",
+      "icon": "UI_Talent_S_Tohma_02"
+    },
+    "503": {
+      "name": "御敌的执定",
+      "icon": "UI_Talent_U_Tohma_01"
+    },
+    "504": {
+      "name": "用臣的久计",
+      "icon": "UI_Talent_S_Tohma_03"
+    },
+    "505": {
+      "name": "野火的豪烈",
+      "icon": "UI_Talent_U_Tohma_02"
+    },
+    "506": {
+      "name": "炽烧的至心",
+      "icon": "UI_Talent_S_Tohma_04"
+    }
+  },
+  "talent_fix": {
+    "10502": "烈烧佑命之侍护",
+    "10505": "真红炽火之大铠"
+  },
+  "damage": [],
+  "buff": []
+}

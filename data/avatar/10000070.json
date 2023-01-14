@@ -1,0 +1,131 @@
+{
+  "id": 10000070,
+  "name": "妮露",
+  "element": "水",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Nilou",
+    "side": "UI_AvatarIcon_Side_Nilou",
+    "card": "UI_AvatarIcon_Nilou_Card",
+    "splash": "UI_Gacha_AvatarImg_Nilou",
+    "slice": "UI_Gacha_AvatarIcon_Nilou"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1182.11682,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        1013.55829,
+        1733.71814,
+        2693.93115,
+        3414.09106,
+        4134.25098,
+        4854.41064
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.8752,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        15.32525,
+        26.21424,
+        40.73289,
+        51.62189,
+        62.51088,
+        73.39987
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 56.71884,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        48.6324,
+        83.187,
+        129.2598,
+        163.81441,
+        198.369,
+        232.9236
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10701": {
+      "name": "普通攻击·弦月舞步",
+      "icon": "Skill_A_01"
+    },
+    "10702": {
+      "name": "七域舞步",
+      "icon": "Skill_S_Nilou_01"
+    },
+    "10705": {
+      "name": "浮莲舞步·远梦聆泉",
+      "icon": "Skill_E_Nilou_01"
+    },
+    "702101": {
+      "name": "折旋落英之庭",
+      "icon": "UI_Talent_S_Nilou_05"
+    },
+    "702201": {
+      "name": "翩舞永世之梦",
+      "icon": "UI_Talent_S_Nilou_06"
+    },
+    "702301": {
+      "name": "白玉莲盏",
+      "icon": "UI_Talent_S_Yunjin_07"
+    }
+  },
+  "constellation": {
+    "701": {
+      "name": "却月的轻舞",
+      "icon": "UI_Talent_S_Nilou_01"
+    },
+    "702": {
+      "name": "星天的花雨",
+      "icon": "UI_Talent_S_Nilou_02"
+    },
+    "703": {
+      "name": "倾影的莲步",
+      "icon": "UI_Talent_U_Nilou_01"
+    },
+    "704": {
+      "name": "挽漪的节音",
+      "icon": "UI_Talent_S_Nilou_03"
+    },
+    "705": {
+      "name": "翩旋的流光",
+      "icon": "UI_Talent_U_Nilou_02"
+    },
+    "706": {
+      "name": "断霜的弦歌",
+      "icon": "UI_Talent_S_Nilou_04"
+    }
+  },
+  "talent_fix": {
+    "10705": "浮莲舞步·远梦聆泉",
+    "10702": "七域舞步"
+  },
+  "damage": [],
+  "buff": []
+}

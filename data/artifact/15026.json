@@ -1,0 +1,33 @@
+{
+  "id": "15026",
+  "name": "饰金之梦",
+  "short_name": "饰金",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15026_4",
+  "part_list": {
+    "UI_RelicIcon_15026_4": {
+      "name": "梦中的铁花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15026_2": {
+      "name": "裁断的翎羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15026_5": {
+      "name": "沉金的岁月",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15026_1": {
+      "name": "如蜜的终宴",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15026_3": {
+      "name": "沙王的投影",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

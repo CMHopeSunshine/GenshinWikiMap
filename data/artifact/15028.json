@@ -1,0 +1,33 @@
+{
+  "id": "15028",
+  "name": "乐园遗落之花",
+  "short_name": "乐园",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15028_4",
+  "part_list": {
+    "UI_RelicIcon_15028_4": {
+      "name": "月女的华彩",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15028_2": {
+      "name": "谢落的筵席",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15028_5": {
+      "name": "凝结的时刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15028_1": {
+      "name": "守秘的魔瓶",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15028_3": {
+      "name": "紫晶的花冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

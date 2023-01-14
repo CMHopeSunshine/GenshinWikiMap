@@ -1,0 +1,21 @@
+{
+  "id": 15009,
+  "name": "祭火之人",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2150090": "受到的火元素附着效果的持续时间减少40%。"
+  },
+  "icon": "UI_RelicIcon_15009_3",
+  "route": "Prayers for Illumination",
+  "suit": {
+    "EQUIP_DRESS": {
+      "name": "祭火礼冠",
+      "description": "在古老的时代，司祭祀之人佩戴的礼冠。因为常年受火舌舔舐，具有奇妙的抗性。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15009_3"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "11201",
+  "name": "银剑",
+  "rank": 2,
+  "type": "单手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Sword_Silver",
+    "awaken": "UI_EquipIcon_Sword_Silver_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Sword_Silver"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 32.93,
+        "type": "GROW_CURVE_ATTACK_101"
+      },
+      "promote": [
+        11.7,
+        23.3,
+        35.0,
+        46.7
+      ]
+    }
+  ],
+  "buff": []
+}

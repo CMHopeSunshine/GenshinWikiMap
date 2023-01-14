@@ -1,0 +1,135 @@
+{
+  "id": 10000041,
+  "name": "莫娜",
+  "element": "水",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Mona",
+    "side": "UI_AvatarIcon_Side_Mona",
+    "card": "UI_AvatarIcon_Mona_Card",
+    "splash": "UI_Gacha_AvatarImg_Mona",
+    "slice": "UI_Gacha_AvatarIcon_Mona"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 810.32202,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        694.77783,
+        1188.43579,
+        1846.64636,
+        2340.3042,
+        2833.96216,
+        3327.62012
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 22.344,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        19.15656,
+        32.7678,
+        50.91612,
+        64.52736,
+        78.1386,
+        91.74984
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.8555,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        43.605,
+        74.5875,
+        115.8975,
+        146.88,
+        177.8625,
+        208.845
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        0,
+        0.08,
+        0.16,
+        0.16,
+        0.24,
+        0.32
+      ]
+    }
+  ],
+  "talent": {
+    "10411": {
+      "name": "普通攻击·因果点破",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10412": {
+      "name": "水中幻愿",
+      "icon": "Skill_S_Mona_01"
+    },
+    "10413": {
+      "name": "虚实流动",
+      "icon": "Skill_S_Mona_02"
+    },
+    "10415": {
+      "name": "星命定轨",
+      "icon": "Skill_E_Mona_01"
+    },
+    "412101": {
+      "name": "「老太婆来抓我啊！」",
+      "icon": "UI_Talent_S_Mona_05"
+    },
+    "412201": {
+      "name": "「托付于命运吧！」",
+      "icon": "UI_Talent_S_Mona_06"
+    },
+    "412301": {
+      "name": "运行原理",
+      "icon": "UI_Talent_Combine_Weapon"
+    }
+  },
+  "constellation": {
+    "411": {
+      "name": "沉没的预言",
+      "icon": "UI_Talent_S_Mona_01"
+    },
+    "412": {
+      "name": "星月的连珠",
+      "icon": "UI_Talent_S_Mona_02"
+    },
+    "413": {
+      "name": "不休的天象",
+      "icon": "UI_Talent_U_Mona_01"
+    },
+    "414": {
+      "name": "灭绝的预言",
+      "icon": "UI_Talent_S_Mona_03"
+    },
+    "415": {
+      "name": "命运的嘲弄",
+      "icon": "UI_Talent_U_Mona_02"
+    },
+    "416": {
+      "name": "厄运的修辞",
+      "icon": "UI_Talent_S_Mona_04"
+    }
+  },
+  "talent_fix": {
+    "10415": "星命定轨",
+    "10412": "水中幻愿"
+  },
+  "damage": [],
+  "buff": []
+}

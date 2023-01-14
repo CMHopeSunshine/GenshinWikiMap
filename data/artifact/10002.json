@@ -1,0 +1,33 @@
+{
+  "id": "10002",
+  "name": "勇士之心",
+  "short_name": "勇士",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10002_4",
+  "part_list": {
+    "UI_RelicIcon_10002_4": {
+      "name": "勇士的勋章",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10002_2": {
+      "name": "勇士的期许",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10002_5": {
+      "name": "勇士的坚毅",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10002_1": {
+      "name": "勇士的壮行",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10002_3": {
+      "name": "勇士的冠冕",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

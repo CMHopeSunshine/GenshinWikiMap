@@ -1,0 +1,21 @@
+{
+  "id": 15010,
+  "name": "祭水之人",
+  "levelList": [
+    3,
+    4
+  ],
+  "affixList": {
+    "2150100": "受到的水元素附着效果的持续时间减少40%。"
+  },
+  "icon": "UI_RelicIcon_15010_3",
+  "route": "Prayers for Destiny",
+  "suit": {
+    "EQUIP_DRESS": {
+      "name": "祭水礼冠",
+      "description": "在古老的时代，司祭祀之人佩戴的礼冠。因为常年浸没在水中，具有奇妙的抗性。",
+      "maxLevel": 13,
+      "icon": "UI_RelicIcon_15010_3"
+    }
+  }
+}

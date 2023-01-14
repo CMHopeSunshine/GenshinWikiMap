@@ -1,0 +1,131 @@
+{
+  "id": 10000026,
+  "name": "魈",
+  "element": "风",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Xiao",
+    "side": "UI_AvatarIcon_Side_Xiao",
+    "card": "UI_AvatarIcon_Xiao_Card",
+    "splash": "UI_Gacha_AvatarImg_Xiao",
+    "slice": "UI_Gacha_AvatarIcon_Xiao"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 991.45282,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        850.08112,
+        1454.08618,
+        2259.42627,
+        2863.43115,
+        3467.43628,
+        4071.44116
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 27.1852,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.30715,
+        39.86749,
+        61.94794,
+        78.50829,
+        95.06863,
+        111.62897
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.2232,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        53.352,
+        91.26,
+        141.804,
+        179.71201,
+        217.62,
+        255.528
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10261": {
+      "name": "普通攻击·卷积微尘",
+      "icon": "Skill_A_03"
+    },
+    "10262": {
+      "name": "风轮两立",
+      "icon": "Skill_S_Xiao_01"
+    },
+    "10265": {
+      "name": "靖妖傩舞",
+      "icon": "Skill_E_Xiao_01"
+    },
+    "262101": {
+      "name": "降魔·平妖大圣",
+      "icon": "UI_Talent_S_Xiao_05"
+    },
+    "262201": {
+      "name": "坏劫·国土碾尘",
+      "icon": "UI_Talent_S_Xiao_06"
+    },
+    "262301": {
+      "name": "神通·空中自在法",
+      "icon": "UI_Talent_Explosion_Climb"
+    }
+  },
+  "constellation": {
+    "261": {
+      "name": "坏劫·毁坏三界",
+      "icon": "UI_Talent_S_Xiao_01"
+    },
+    "262": {
+      "name": "空劫·虚空华开敷变",
+      "icon": "UI_Talent_S_Xiao_02"
+    },
+    "263": {
+      "name": "降魔·忿怒显相",
+      "icon": "UI_Talent_U_Xiao_01"
+    },
+    "264": {
+      "name": "神通·诸苦灭尽",
+      "icon": "UI_Talent_S_Xiao_03"
+    },
+    "265": {
+      "name": "成劫·无明增长",
+      "icon": "UI_Talent_U_Xiao_02"
+    },
+    "266": {
+      "name": "降魔·护法夜叉",
+      "icon": "UI_Talent_S_Xiao_04"
+    }
+  },
+  "talent_fix": {
+    "10262": "风轮两立",
+    "10265": "靖妖傩舞"
+  },
+  "damage": [],
+  "buff": []
+}

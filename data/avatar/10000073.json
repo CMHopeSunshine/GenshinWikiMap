@@ -1,0 +1,131 @@
+{
+  "id": 10000073,
+  "name": "纳西妲",
+  "element": "草",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Nahida",
+    "side": "UI_AvatarIcon_Side_Nahida",
+    "card": "UI_AvatarIcon_Nahida_Card",
+    "splash": "UI_Gacha_AvatarImg_Nahida",
+    "slice": "UI_Gacha_AvatarIcon_Nahida"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 806.50873,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        691.5083,
+        1182.84314,
+        1837.9563,
+        2329.29102,
+        2820.62598,
+        3311.96094
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.275,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        19.95475,
+        34.13313,
+        53.03762,
+        67.216,
+        81.39438,
+        95.57275
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 49.0606,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        42.066,
+        71.955,
+        111.807,
+        141.696,
+        171.58501,
+        201.474
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        28.8,
+        57.6,
+        57.6,
+        86.4,
+        115.2
+      ]
+    }
+  ],
+  "talent": {
+    "10731": {
+      "name": "普通攻击·行相",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10732": {
+      "name": "所闻遍计",
+      "icon": "Skill_S_Nahida_01"
+    },
+    "10735": {
+      "name": "心景幻成",
+      "icon": "Skill_E_Nahida_01"
+    },
+    "732101": {
+      "name": "净善摄受明论",
+      "icon": "UI_Talent_S_Nahida_05"
+    },
+    "732201": {
+      "name": "慧明缘觉智论",
+      "icon": "UI_Talent_S_Nahida_06"
+    },
+    "732301": {
+      "name": "诸相随念净行",
+      "icon": "UI_Talent_S_Nahida_07"
+    }
+  },
+  "constellation": {
+    "731": {
+      "name": "心识蕴藏之种",
+      "icon": "UI_Talent_S_Nahida_01"
+    },
+    "732": {
+      "name": "正等善见之根",
+      "icon": "UI_Talent_S_Nahida_02"
+    },
+    "733": {
+      "name": "熏习成就之芽",
+      "icon": "UI_Talent_U_Nahida_01"
+    },
+    "734": {
+      "name": "比量现行之茎",
+      "icon": "UI_Talent_S_Nahida_03"
+    },
+    "735": {
+      "name": "妙谛破愚之叶",
+      "icon": "UI_Talent_U_Nahida_02"
+    },
+    "736": {
+      "name": "大辨圆成之实",
+      "icon": "UI_Talent_S_Nahida_04"
+    }
+  },
+  "talent_fix": {
+    "10732": "所闻遍计",
+    "10735": "心景幻成"
+  },
+  "damage": [],
+  "buff": []
+}

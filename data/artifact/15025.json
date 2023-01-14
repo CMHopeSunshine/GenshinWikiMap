@@ -1,0 +1,33 @@
+{
+  "id": "15025",
+  "name": "深林的记忆",
+  "short_name": "深林",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15025_4",
+  "part_list": {
+    "UI_RelicIcon_15025_4": {
+      "name": "迷宫的游人",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15025_2": {
+      "name": "翠蔓的智者",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15025_5": {
+      "name": "贤智的定期",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15025_1": {
+      "name": "迷误者之灯",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15025_3": {
+      "name": "月桂的宝冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

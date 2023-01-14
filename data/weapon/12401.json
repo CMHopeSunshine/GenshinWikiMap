@@ -1,0 +1,36 @@
+{
+  "id": "12401",
+  "name": "西风大剑",
+  "rank": 4,
+  "type": "双手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Claymore_Zephyrus",
+    "awaken": "UI_EquipIcon_Claymore_Zephyrus_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Claymore_Zephyrus"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.13333,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

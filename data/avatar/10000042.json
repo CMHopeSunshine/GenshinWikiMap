@@ -1,0 +1,131 @@
+{
+  "id": 10000042,
+  "name": "刻晴",
+  "element": "雷",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Keqing",
+    "side": "UI_AvatarIcon_Side_Keqing",
+    "card": "UI_AvatarIcon_Keqing_Card",
+    "splash": "UI_Gacha_AvatarImg_Keqing",
+    "slice": "UI_Gacha_AvatarIcon_Keqing"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1020.05243,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        874.60272,
+        1496.03088,
+        2324.60181,
+        2946.03003,
+        3567.4585,
+        4188.88672
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 25.137,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        21.55113,
+        36.86377,
+        57.28064,
+        72.59328,
+        87.90592,
+        103.21857
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.2232,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        53.352,
+        91.26,
+        141.804,
+        179.71201,
+        217.62,
+        255.528
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10421": {
+      "name": "普通攻击·云来剑法",
+      "icon": "Skill_A_01"
+    },
+    "10422": {
+      "name": "星斗归位",
+      "icon": "Skill_S_Keqing_01"
+    },
+    "10425": {
+      "name": "天街巡游",
+      "icon": "Skill_E_Keqing_01"
+    },
+    "422101": {
+      "name": "抵天雷罚",
+      "icon": "UI_Talent_S_Keqing_05"
+    },
+    "422201": {
+      "name": "玉衡之贵",
+      "icon": "UI_Talent_S_Keqing_06"
+    },
+    "422301": {
+      "name": "总务土地",
+      "icon": "UI_Talent_Expedition_Liyue"
+    }
+  },
+  "constellation": {
+    "421": {
+      "name": "雷厉",
+      "icon": "UI_Talent_S_Keqing_01"
+    },
+    "422": {
+      "name": "苛捐",
+      "icon": "UI_Talent_S_Keqing_02"
+    },
+    "423": {
+      "name": "登楼",
+      "icon": "UI_Talent_U_Keqing_01"
+    },
+    "424": {
+      "name": "调律",
+      "icon": "UI_Talent_S_Keqing_03"
+    },
+    "425": {
+      "name": "移灯",
+      "icon": "UI_Talent_U_Keqing_02"
+    },
+    "426": {
+      "name": "廉贞",
+      "icon": "UI_Talent_S_Keqing_04"
+    }
+  },
+  "talent_fix": {
+    "10425": "天街巡游",
+    "10422": "星斗归位"
+  },
+  "damage": [],
+  "buff": []
+}

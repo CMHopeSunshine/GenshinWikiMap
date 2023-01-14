@@ -1,0 +1,131 @@
+{
+  "id": 10000025,
+  "name": "行秋",
+  "element": "水",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Xingqiu",
+    "side": "UI_AvatarIcon_Side_Xingqiu",
+    "card": "UI_AvatarIcon_Xingqiu_Card",
+    "splash": "UI_Gacha_AvatarImg_Xingqiu",
+    "slice": "UI_Gacha_AvatarIcon_Xingqiu"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 857.08356,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        640.28528,
+        1095.22485,
+        1701.81091,
+        2156.75049,
+        2611.68994,
+        3066.62964
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.9176,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        12.63861,
+        21.61868,
+        33.59209,
+        42.57216,
+        51.55222,
+        60.53229
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 63.51975,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        47.4525,
+        81.16875,
+        126.12375,
+        159.84,
+        193.55624,
+        227.27251
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10381": {
+      "name": "普通攻击·古华剑法",
+      "icon": "Skill_A_01"
+    },
+    "10382": {
+      "name": "古华剑·画雨笼山",
+      "icon": "Skill_S_Xingqiu_01"
+    },
+    "10385": {
+      "name": "古华剑·裁雨留虹",
+      "icon": "Skill_E_Xingqiu_01"
+    },
+    "252101": {
+      "name": "生水要诀",
+      "icon": "UI_Talent_S_Xingqiu_05"
+    },
+    "252201": {
+      "name": "虚实工笔",
+      "icon": "UI_Talent_S_Xingqiu_06"
+    },
+    "252301": {
+      "name": "灵光乍现",
+      "icon": "UI_Talent_Combine_Talent"
+    }
+  },
+  "constellation": {
+    "251": {
+      "name": "重帘留香",
+      "icon": "UI_Talent_S_Xingqiu_01"
+    },
+    "252": {
+      "name": "天青现虹",
+      "icon": "UI_Talent_S_Xingqiu_02"
+    },
+    "253": {
+      "name": "织诗成锦",
+      "icon": "UI_Talent_U_Xingqiu_01"
+    },
+    "254": {
+      "name": "孤舟斩蛟",
+      "icon": "UI_Talent_S_Xingqiu_03"
+    },
+    "255": {
+      "name": "雨深闭门",
+      "icon": "UI_Talent_U_Xingqiu_02"
+    },
+    "256": {
+      "name": "万文集此",
+      "icon": "UI_Talent_S_Xingqiu_04"
+    }
+  },
+  "talent_fix": {
+    "10385": "古华剑·裁雨留虹",
+    "10382": "古华剑·画雨笼山"
+  },
+  "damage": [],
+  "buff": []
+}

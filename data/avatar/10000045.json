@@ -1,0 +1,131 @@
+{
+  "id": 10000045,
+  "name": "罗莎莉亚",
+  "element": "冰",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Rosaria",
+    "side": "UI_AvatarIcon_Side_Rosaria",
+    "card": "UI_AvatarIcon_Rosaria_Card",
+    "splash": "UI_Gacha_AvatarImg_Rosaria",
+    "slice": "UI_Gacha_AvatarIcon_Rosaria"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1030.32385,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        769.70465,
+        1316.6001,
+        2045.79395,
+        2592.68945,
+        3139.58472,
+        3686.48022
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.12304,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        15.03329,
+        25.71485,
+        39.95691,
+        50.63847,
+        61.32001,
+        72.00156
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.514,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.46,
+        76.05,
+        118.17,
+        149.75999,
+        181.35001,
+        212.94
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10451": {
+      "name": "普通攻击·教会枪术",
+      "icon": "Skill_A_03"
+    },
+    "10452": {
+      "name": "噬罪的告解",
+      "icon": "Skill_S_Rosaria_01"
+    },
+    "10453": {
+      "name": "终命的圣礼",
+      "icon": "Skill_E_Rosaria_01"
+    },
+    "452101": {
+      "name": "聆听忏悔的幽影",
+      "icon": "UI_Talent_S_Rosaria_05"
+    },
+    "452201": {
+      "name": "暗中支援的黯色",
+      "icon": "UI_Talent_S_Rosaria_06"
+    },
+    "452301": {
+      "name": "夜行",
+      "icon": "UI_Talent_Rosaria_NightRunner"
+    }
+  },
+  "constellation": {
+    "451": {
+      "name": "罪之导引",
+      "icon": "UI_Talent_S_Rosaria_01"
+    },
+    "452": {
+      "name": "无福之地",
+      "icon": "UI_Talent_S_Rosaria_02"
+    },
+    "453": {
+      "name": "告解之仪",
+      "icon": "UI_Talent_U_Rosaria_01"
+    },
+    "454": {
+      "name": "苦痛恩典",
+      "icon": "UI_Talent_S_Rosaria_03"
+    },
+    "455": {
+      "name": "临终祈礼",
+      "icon": "UI_Talent_U_Rosaria_02"
+    },
+    "456": {
+      "name": "代行裁判",
+      "icon": "UI_Talent_S_Rosaria_04"
+    }
+  },
+  "talent_fix": {
+    "10452": "噬罪的告解",
+    "10453": "终命的圣礼"
+  },
+  "damage": [],
+  "buff": []
+}

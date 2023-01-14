@@ -1,0 +1,33 @@
+{
+  "id": "10012",
+  "name": "学士",
+  "short_name": "学士",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10012_4",
+  "part_list": {
+    "UI_RelicIcon_10012_4": {
+      "name": "学士的书签",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10012_2": {
+      "name": "学士的羽笔",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10012_5": {
+      "name": "学士的时钟",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10012_1": {
+      "name": "学士的墨杯",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10012_3": {
+      "name": "学士的镜片",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

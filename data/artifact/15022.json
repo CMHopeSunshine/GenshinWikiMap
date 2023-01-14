@@ -1,0 +1,33 @@
+{
+  "id": "15022",
+  "name": "海染砗磲",
+  "short_name": "海染",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15022_4",
+  "part_list": {
+    "UI_RelicIcon_15022_4": {
+      "name": "海染之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15022_2": {
+      "name": "渊宫之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15022_5": {
+      "name": "离别之贝",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15022_1": {
+      "name": "真珠之笼",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15022_3": {
+      "name": "海祇之冠",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

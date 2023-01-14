@@ -1,0 +1,131 @@
+{
+  "id": 10000066,
+  "name": "神里绫人",
+  "element": "水",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ayato",
+    "side": "UI_AvatarIcon_Side_Ayato",
+    "card": "UI_AvatarIcon_Ayato_Card",
+    "splash": "UI_Gacha_AvatarImg_Ayato",
+    "slice": "UI_Gacha_AvatarIcon_Ayato"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1067.71838,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        915.47198,
+        1565.93896,
+        2433.22827,
+        3083.69507,
+        3734.16211,
+        4384.62891
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 23.275,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        19.95475,
+        34.13313,
+        53.03762,
+        67.216,
+        81.39438,
+        95.57275
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.83,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        51.3,
+        87.75,
+        136.35001,
+        172.8,
+        209.25,
+        245.7
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10661": {
+      "name": "普通攻击·神里流·转",
+      "icon": "Skill_A_01"
+    },
+    "10662": {
+      "name": "神里流·镜花",
+      "icon": "Skill_S_Ayato_01"
+    },
+    "10665": {
+      "name": "神里流·水囿",
+      "icon": "Skill_E_Ayato_01"
+    },
+    "662101": {
+      "name": "神里流·清泷绕峰",
+      "icon": "UI_Talent_S_Ayato_05"
+    },
+    "662201": {
+      "name": "神里流·破月渐盈",
+      "icon": "UI_Talent_S_Ayato_06"
+    },
+    "662301": {
+      "name": "神里流·日常茶饭",
+      "icon": "UI_Talent_S_Ayato_07"
+    }
+  },
+  "constellation": {
+    "661": {
+      "name": "镜华风姿",
+      "icon": "UI_Talent_S_Ayato_01"
+    },
+    "662": {
+      "name": "世有源泉",
+      "icon": "UI_Talent_S_Ayato_02"
+    },
+    "663": {
+      "name": "无意弄花",
+      "icon": "UI_Talent_U_Ayato_02"
+    },
+    "664": {
+      "name": "不厌细流",
+      "icon": "UI_Talent_S_Ayato_03"
+    },
+    "665": {
+      "name": "万水一露",
+      "icon": "UI_Talent_U_Ayato_01"
+    },
+    "666": {
+      "name": "滥觞无底",
+      "icon": "UI_Talent_S_Ayato_04"
+    }
+  },
+  "talent_fix": {
+    "10662": "神里流·镜花",
+    "10665": "神里流·水囿"
+  },
+  "damage": [],
+  "buff": []
+}

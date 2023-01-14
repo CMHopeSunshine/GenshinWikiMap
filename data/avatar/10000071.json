@@ -1,0 +1,131 @@
+{
+  "id": 10000071,
+  "name": "赛诺",
+  "element": "雷",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Cyno",
+    "side": "UI_AvatarIcon_Side_Cyno",
+    "card": "UI_AvatarIcon_Cyno_Card",
+    "splash": "UI_Gacha_AvatarImg_Cyno",
+    "slice": "UI_Gacha_AvatarIcon_Cyno"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 972.38641,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        833.7334,
+        1426.12292,
+        2215.97559,
+        2808.36523,
+        3400.75464,
+        3993.14429
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 24.7646,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        21.23185,
+        36.31765,
+        56.43203,
+        71.51782,
+        86.60361,
+        101.68941
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 66.88994,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        57.3534,
+        98.1045,
+        152.4393,
+        193.1904,
+        233.9415,
+        274.6926
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10711": {
+      "name": "普通攻击·七圣枪术",
+      "icon": "Skill_A_03"
+    },
+    "10712": {
+      "name": "秘仪·律渊渡魂",
+      "icon": "Skill_S_Cyno_01"
+    },
+    "10715": {
+      "name": "圣仪·煟煌随狼行",
+      "icon": "Skill_E_Cyno_01"
+    },
+    "712101": {
+      "name": "落羽的裁择",
+      "icon": "UI_Talent_S_Cyno_05"
+    },
+    "712201": {
+      "name": "九弓的执命",
+      "icon": "UI_Talent_S_Cyno_06"
+    },
+    "712301": {
+      "name": "缄默的惠赐",
+      "icon": "UI_Talent_S_Cyno_07"
+    }
+  },
+  "constellation": {
+    "711": {
+      "name": "立仪·俯览昼冥",
+      "icon": "UI_Talent_S_Cyno_01"
+    },
+    "712": {
+      "name": "令仪·引谒归灵",
+      "icon": "UI_Talent_S_Cyno_02"
+    },
+    "713": {
+      "name": "律仪·行度誓惩",
+      "icon": "UI_Talent_U_Cyno_01"
+    },
+    "714": {
+      "name": "巡仪·蒇护禁罔",
+      "icon": "UI_Talent_S_Cyno_03"
+    },
+    "715": {
+      "name": "幽仪·逝往星芒",
+      "icon": "UI_Talent_U_Cyno_02"
+    },
+    "716": {
+      "name": "羽仪·裁落钧衡",
+      "icon": "UI_Talent_S_Cyno_04"
+    }
+  },
+  "talent_fix": {
+    "10715": "圣仪·煟煌随狼行",
+    "10712": "秘仪·律渊渡魂"
+  },
+  "damage": [],
+  "buff": []
+}

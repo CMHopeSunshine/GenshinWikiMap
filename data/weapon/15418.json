@@ -1,0 +1,36 @@
+{
+  "id": "15418",
+  "name": "竭泽",
+  "rank": 4,
+  "type": "弓",
+  "icon": {
+    "icon": "UI_EquipIcon_Bow_Fin",
+    "awaken": "UI_EquipIcon_Bow_Fin_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Bow_Fin"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.1,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

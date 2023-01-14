@@ -1,0 +1,33 @@
+{
+  "id": "15016",
+  "name": "沉沦之心",
+  "short_name": "沉沦",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15016_4",
+  "part_list": {
+    "UI_RelicIcon_15016_4": {
+      "name": "饰金胸花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15016_2": {
+      "name": "追忆之风",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15016_5": {
+      "name": "坚铜罗盘",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15016_1": {
+      "name": "沉波之盏",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15016_3": {
+      "name": "酒渍船帽",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

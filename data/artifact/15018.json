@@ -1,0 +1,33 @@
+{
+  "id": "15018",
+  "name": "苍白之火",
+  "short_name": "苍白",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15018_4",
+  "part_list": {
+    "UI_RelicIcon_15018_4": {
+      "name": "无垢之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15018_2": {
+      "name": "贤医之羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15018_5": {
+      "name": "停摆之刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15018_1": {
+      "name": "超越之盏",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15018_3": {
+      "name": "嗤笑之面",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

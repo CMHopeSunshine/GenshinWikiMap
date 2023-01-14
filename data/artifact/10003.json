@@ -1,0 +1,33 @@
+{
+  "id": "10003",
+  "name": "守护之心",
+  "short_name": "守护",
+  "level_list": [
+    3,
+    4
+  ],
+  "icon": "UI_RelicIcon_10003_4",
+  "part_list": {
+    "UI_RelicIcon_10003_4": {
+      "name": "守护之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_10003_2": {
+      "name": "守护徽印",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_10003_5": {
+      "name": "守护座钟",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_10003_1": {
+      "name": "守护之皿",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_10003_3": {
+      "name": "守护束带",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

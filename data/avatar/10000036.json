@@ -1,0 +1,131 @@
+{
+  "id": 10000036,
+  "name": "重云",
+  "element": "冰",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Chongyun",
+    "side": "UI_AvatarIcon_Side_Chongyun",
+    "card": "UI_AvatarIcon_Chongyun_Card",
+    "splash": "UI_Gacha_AvatarImg_Chongyun",
+    "slice": "UI_Gacha_AvatarIcon_Chongyun"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 920.90894,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        687.96613,
+        1176.78418,
+        1828.5415,
+        2317.35962,
+        2806.17749,
+        3294.99561
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.89433,
+        37.12811,
+        47.05344,
+        56.97878,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 54.36375,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        40.6125,
+        69.46875,
+        107.94375,
+        136.8,
+        165.65625,
+        194.5125
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10401": {
+      "name": "普通攻击·灭邪四式",
+      "icon": "Skill_A_04"
+    },
+    "10402": {
+      "name": "灵刃·重华叠霜",
+      "icon": "Skill_S_Chongyun_01"
+    },
+    "10403": {
+      "name": "灵刃·云开星落",
+      "icon": "Skill_E_Chongyun_01"
+    },
+    "362101": {
+      "name": "吐纳真定",
+      "icon": "UI_Talent_S_Chongyun_05"
+    },
+    "362201": {
+      "name": "追冰剑诀",
+      "icon": "UI_Talent_S_Chongyun_06"
+    },
+    "362301": {
+      "name": "云游山海",
+      "icon": "UI_Talent_Expedition_Liyue"
+    }
+  },
+  "constellation": {
+    "361": {
+      "name": "释凌咏冰",
+      "icon": "UI_Talent_S_Chongyun_01"
+    },
+    "362": {
+      "name": "周天运转",
+      "icon": "UI_Talent_S_Chongyun_02"
+    },
+    "363": {
+      "name": "云尽光生",
+      "icon": "UI_Talent_U_Chongyun_01"
+    },
+    "364": {
+      "name": "浮云霜天",
+      "icon": "UI_Talent_S_Chongyun_03"
+    },
+    "365": {
+      "name": "真道正理",
+      "icon": "UI_Talent_U_Chongyun_02"
+    },
+    "366": {
+      "name": "四灵捧圣",
+      "icon": "UI_Talent_S_Chongyun_04"
+    }
+  },
+  "talent_fix": {
+    "10403": "灵刃·云开星落",
+    "10402": "灵刃·重华叠霜"
+  },
+  "damage": [],
+  "buff": []
+}

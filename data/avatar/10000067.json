@@ -1,0 +1,131 @@
+{
+  "id": 10000067,
+  "name": "柯莱",
+  "element": "草",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Collei",
+    "side": "UI_AvatarIcon_Side_Collei",
+    "card": "UI_AvatarIcon_Collei_Card",
+    "splash": "UI_Gacha_AvatarImg_Collei",
+    "slice": "UI_Gacha_AvatarIcon_Collei"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 820.61188,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        613.03912,
+        1048.61951,
+        1629.39343,
+        2064.97388,
+        2500.5542,
+        2936.13477
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.73952,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        12.50557,
+        21.39111,
+        33.23849,
+        42.12403,
+        51.00957,
+        59.89511
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.358,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        37.62,
+        64.35,
+        99.99,
+        126.72,
+        153.45,
+        180.17999
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10671": {
+      "name": "普通攻击·祈颂射艺",
+      "icon": "Skill_A_02"
+    },
+    "10672": {
+      "name": "拂花偈叶",
+      "icon": "Skill_S_Collei_01"
+    },
+    "10675": {
+      "name": "猫猫秘宝",
+      "icon": "Skill_E_Collei_01"
+    },
+    "672101": {
+      "name": "飞叶迴斜",
+      "icon": "UI_Talent_S_Collei_05"
+    },
+    "672201": {
+      "name": "徐如旷林",
+      "icon": "UI_Talent_S_Collei_06"
+    },
+    "672301": {
+      "name": "「须弥飞行冠军」",
+      "icon": "UI_Talent_Explosion_Glide"
+    }
+  },
+  "constellation": {
+    "671": {
+      "name": "巡护深林",
+      "icon": "UI_Talent_S_Collei_01"
+    },
+    "672": {
+      "name": "漫行山薮",
+      "icon": "UI_Talent_S_Collei_02"
+    },
+    "673": {
+      "name": "夏堇芳菲",
+      "icon": "UI_Talent_U_Collei_02"
+    },
+    "674": {
+      "name": "骞林馈遗",
+      "icon": "UI_Talent_S_Collei_03"
+    },
+    "675": {
+      "name": "俱象残火",
+      "icon": "UI_Talent_U_Collei_01"
+    },
+    "676": {
+      "name": "坠镞为林",
+      "icon": "UI_Talent_S_Collei_04"
+    }
+  },
+  "talent_fix": {
+    "10672": "拂花偈叶",
+    "10675": "猫猫秘宝"
+  },
+  "damage": [],
+  "buff": []
+}

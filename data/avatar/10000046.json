@@ -1,0 +1,131 @@
+{
+  "id": 10000046,
+  "name": "胡桃",
+  "element": "火",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Hutao",
+    "side": "UI_AvatarIcon_Side_Hutao",
+    "card": "UI_AvatarIcon_Hutao_Card",
+    "splash": "UI_Gacha_AvatarImg_Hutao",
+    "slice": "UI_Gacha_AvatarIcon_Hutao"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1210.71643,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        1038.07983,
+        1775.66284,
+        2759.10693,
+        3496.68994,
+        4234.27295,
+        4971.85596
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 8.2859,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        7.10389,
+        12.15139,
+        18.88139,
+        23.9289,
+        28.9764,
+        34.0239
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 68.2062,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        58.482,
+        100.035,
+        155.439,
+        196.992,
+        238.545,
+        280.09799
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10461": {
+      "name": "普通攻击·往生秘传枪法",
+      "icon": "Skill_A_03"
+    },
+    "10462": {
+      "name": "蝶引来生",
+      "icon": "Skill_S_Hutao_01"
+    },
+    "10463": {
+      "name": "安神秘法",
+      "icon": "Skill_E_Hutao_01"
+    },
+    "462101": {
+      "name": "蝶隐之时",
+      "icon": "UI_Talent_S_Hutao_05"
+    },
+    "462201": {
+      "name": "血之灶火",
+      "icon": "UI_Talent_S_Hutao_06"
+    },
+    "462301": {
+      "name": "多多益善",
+      "icon": "UI_Talent_Cook_ExtraFailedItem"
+    }
+  },
+  "constellation": {
+    "461": {
+      "name": "赤团开时斜飞去",
+      "icon": "UI_Talent_S_Hutao_03"
+    },
+    "462": {
+      "name": "最不安神晴又复雨",
+      "icon": "UI_Talent_S_Hutao_01"
+    },
+    "463": {
+      "name": "逗留采血色",
+      "icon": "UI_Talent_U_Hutao_01"
+    },
+    "464": {
+      "name": "伴君眠花房",
+      "icon": "UI_Talent_S_Hutao_02"
+    },
+    "465": {
+      "name": "无可奈何燃花作香",
+      "icon": "UI_Talent_U_Hutao_02"
+    },
+    "466": {
+      "name": "幽蝶能留一缕芳",
+      "icon": "UI_Talent_S_Hutao_04"
+    }
+  },
+  "talent_fix": {
+    "10462": "蝶引来生",
+    "10463": "安神秘法"
+  },
+  "damage": [],
+  "buff": []
+}

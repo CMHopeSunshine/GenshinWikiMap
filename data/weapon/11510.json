@@ -1,0 +1,36 @@
+{
+  "id": "11510",
+  "name": "波乱月白经津",
+  "rank": 5,
+  "type": "单手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Sword_Amenoma",
+    "awaken": "UI_EquipIcon_Sword_Amenoma_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Sword_Amenoma"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.60001,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.072,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}

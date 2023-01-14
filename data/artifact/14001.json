@@ -1,0 +1,33 @@
+{
+  "id": "14001",
+  "name": "冰风迷途的勇士",
+  "short_name": "冰风",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_14001_4",
+  "part_list": {
+    "UI_RelicIcon_14001_4": {
+      "name": "历经风雪的思念",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_14001_2": {
+      "name": "摧冰而行的执望",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_14001_5": {
+      "name": "冰雪故园的终期",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_14001_1": {
+      "name": "遍结寒霜的傲骨",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_14001_3": {
+      "name": "破冰踏雪的回音",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

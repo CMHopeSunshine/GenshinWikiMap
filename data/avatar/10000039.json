@@ -1,0 +1,131 @@
+{
+  "id": 10000039,
+  "name": "迪奥娜",
+  "element": "冰",
+  "weapon": "弓",
+  "rank": 4,
+  "region": "蒙德",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Diona",
+    "side": "UI_AvatarIcon_Side_Diona",
+    "card": "UI_AvatarIcon_Diona_Card",
+    "splash": "UI_Gacha_AvatarImg_Diona",
+    "slice": "UI_Gacha_AvatarIcon_Diona"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 802.3761,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        599.41602,
+        1025.31689,
+        1593.18469,
+        2019.08545,
+        2444.98633,
+        2870.88721
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.808,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.3038,
+        22.7565,
+        35.3601,
+        44.8128,
+        54.2655,
+        63.7182
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.358,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        37.62,
+        64.35,
+        99.99,
+        126.72,
+        153.45,
+        180.17999
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ICE_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10391": {
+      "name": "普通攻击·猎人射术",
+      "icon": "Skill_A_02"
+    },
+    "10392": {
+      "name": "猫爪冻冻",
+      "icon": "Skill_S_Diona_01"
+    },
+    "10395": {
+      "name": "最烈特调",
+      "icon": "Skill_E_Diona_01"
+    },
+    "392101": {
+      "name": "猫尾隐藏菜单",
+      "icon": "UI_Talent_S_Diona_05"
+    },
+    "392201": {
+      "name": "滑稽百出的醉相",
+      "icon": "UI_Talent_S_Diona_06"
+    },
+    "392301": {
+      "name": "附赠的下酒菜",
+      "icon": "UI_Talent_Cook_Heal"
+    }
+  },
+  "constellation": {
+    "391": {
+      "name": "特调的余韵",
+      "icon": "UI_Talent_S_Diona_01"
+    },
+    "392": {
+      "name": "猫爪冰摇",
+      "icon": "UI_Talent_S_Diona_02"
+    },
+    "393": {
+      "name": "还、还要续杯？",
+      "icon": "UI_Talent_U_Diona_01"
+    },
+    "394": {
+      "name": "「酒业杀手」",
+      "icon": "UI_Talent_S_Diona_03"
+    },
+    "395": {
+      "name": "双份加冰",
+      "icon": "UI_Talent_U_Diona_02"
+    },
+    "396": {
+      "name": "猫尾打烊之时",
+      "icon": "UI_Talent_S_Diona_04"
+    }
+  },
+  "talent_fix": {
+    "10395": "最烈特调",
+    "10392": "猫爪冻冻"
+  },
+  "damage": [],
+  "buff": []
+}

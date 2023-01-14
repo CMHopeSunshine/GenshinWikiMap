@@ -1,0 +1,128 @@
+{
+  "id": 10000062,
+  "name": "埃洛伊",
+  "element": "冰",
+  "weapon": "弓",
+  "rank": 105,
+  "region": "其它",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Aloy",
+    "side": "UI_AvatarIcon_Side_Aloy",
+    "card": "UI_AvatarIcon_Aloy_Card",
+    "splash": "UI_Gacha_AvatarImg_Aloy",
+    "slice": "UI_Gacha_AvatarIcon_Aloy"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 848.45477,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        727.47327,
+        1244.36218,
+        1933.54736,
+        2450.43628,
+        2967.3252,
+        3484.21411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.21036,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        15.6126,
+        26.70576,
+        41.49664,
+        52.5898,
+        63.68296,
+        74.77612
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 52.6504,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        45.144,
+        77.22,
+        119.988,
+        152.064,
+        184.14,
+        216.216
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ICE_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10621": {
+      "name": "普通攻击·快速射击",
+      "icon": "Skill_A_02"
+    },
+    "10622": {
+      "name": "冰尘雪野",
+      "icon": "Skill_S_Aloy_01"
+    },
+    "10625": {
+      "name": "曙光预言",
+      "icon": "Skill_E_Aloy_01"
+    },
+    "622101": {
+      "name": "战斗覆盖",
+      "icon": "UI_Talent_S_Aloy_05"
+    },
+    "622201": {
+      "name": "强力攻击",
+      "icon": "UI_Talent_S_Aloy_06"
+    },
+    "622301": {
+      "name": "荒野猎手",
+      "icon": "UI_Talent_S_Aloy_07"
+    }
+  },
+  "constellation": {
+    "621": {
+      "name": "异界之星",
+      "icon": "UI_Talent_S_Aloy_Lock"
+    },
+    "622": {
+      "name": "异界之星",
+      "icon": "UI_Talent_S_Aloy_Lock"
+    },
+    "623": {
+      "name": "异界之星",
+      "icon": "UI_Talent_S_Aloy_Lock"
+    },
+    "624": {
+      "name": "异界之星",
+      "icon": "UI_Talent_S_Aloy_Lock"
+    },
+    "625": {
+      "name": "异界之星",
+      "icon": "UI_Talent_S_Aloy_Lock"
+    },
+    "626": {
+      "name": "异界之星",
+      "icon": "UI_Talent_S_Aloy_Lock"
+    }
+  },
+  "talent_fix": {},
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,135 @@
+{
+  "id": 10000052,
+  "name": "雷电将军",
+  "element": "雷",
+  "weapon": "长柄武器",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Shougun",
+    "side": "UI_AvatarIcon_Side_Shougun",
+    "card": "UI_AvatarIcon_Shougun_Card",
+    "splash": "UI_Gacha_AvatarImg_Shougun",
+    "slice": "UI_Gacha_AvatarIcon_Shougun"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1004.79926,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        861.52454,
+        1473.6604,
+        2289.84155,
+        2901.97729,
+        3514.11328,
+        4126.24902
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.2542,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.50896,
+        38.50217,
+        59.82644,
+        75.81965,
+        91.81286,
+        107.80606
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.44541,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.6851,
+        90.11925,
+        140.03145,
+        177.46561,
+        214.89975,
+        252.33389
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "promote": [
+        0,
+        0.08,
+        0.16,
+        0.16,
+        0.24,
+        0.32
+      ]
+    }
+  ],
+  "talent": {
+    "10521": {
+      "name": "普通攻击·源流",
+      "icon": "Skill_A_03"
+    },
+    "10522": {
+      "name": "神变·恶曜开眼",
+      "icon": "Skill_S_Shougun_01"
+    },
+    "10525": {
+      "name": "奥义·梦想真说",
+      "icon": "Skill_E_Shougun_01"
+    },
+    "522101": {
+      "name": "万千的愿望",
+      "icon": "UI_Talent_S_Shougun_05"
+    },
+    "522201": {
+      "name": "殊胜之御体",
+      "icon": "UI_Talent_S_Shougun_06"
+    },
+    "522301": {
+      "name": "暂缺",
+      "icon": ""
+    },
+    "522501": {
+      "name": "天下名物狩",
+      "icon": "UI_Talent_S_Shougun_07"
+    }
+  },
+  "constellation": {
+    "521": {
+      "name": "恶曜卜词",
+      "icon": "UI_Talent_S_Shougun_01"
+    },
+    "522": {
+      "name": "斩铁断金",
+      "icon": "UI_Talent_S_Shougun_03"
+    },
+    "523": {
+      "name": "真影旧事",
+      "icon": "UI_Talent_U_Shougun_02"
+    },
+    "524": {
+      "name": "誓奉常道",
+      "icon": "UI_Talent_S_Shougun_02"
+    },
+    "525": {
+      "name": "凶将显形",
+      "icon": "UI_Talent_U_Shougun_01"
+    },
+    "526": {
+      "name": "负愿前行",
+      "icon": "UI_Talent_S_Shougun_04"
+    }
+  },
+  "talent_fix": {
+    "10525": "奥义·梦想真说",
+    "10522": "神变·恶曜开眼"
+  },
+  "damage": [],
+  "buff": []
+}

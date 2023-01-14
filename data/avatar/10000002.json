@@ -1,0 +1,135 @@
+{
+  "id": 10000002,
+  "name": "神里绫华",
+  "element": "冰",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "稻妻",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Ayaka",
+    "side": "UI_AvatarIcon_Side_Ayaka",
+    "card": "UI_AvatarIcon_Ayaka_Card",
+    "splash": "UI_Gacha_AvatarImg_Ayaka",
+    "slice": "UI_Gacha_AvatarIcon_Ayaka"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1000.98602,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        858.255,
+        1468.06775,
+        2281.15137,
+        2890.96411,
+        3500.77686,
+        4110.58984
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 26.6266,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        22.82823,
+        39.04829,
+        60.67504,
+        76.8951,
+        93.11517,
+        109.33523
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.0266,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.326,
+        89.505,
+        139.077,
+        176.256,
+        213.435,
+        250.614
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10024": {
+      "name": "普通攻击·神里流·倾",
+      "icon": "Skill_A_01"
+    },
+    "10018": {
+      "name": "神里流·冰华",
+      "icon": "Skill_S_Ayaka_01"
+    },
+    "10013": {
+      "name": "神里流·霰步",
+      "icon": "Skill_S_Ayaka_02"
+    },
+    "10019": {
+      "name": "神里流·霜灭",
+      "icon": "Skill_E_Ayaka"
+    },
+    "22101": {
+      "name": "天罪国罪镇词",
+      "icon": "UI_Talent_S_Ayaka_05"
+    },
+    "22201": {
+      "name": "寒天宣命祝词",
+      "icon": "UI_Talent_S_Ayaka_06"
+    },
+    "22301": {
+      "name": "鉴查心得",
+      "icon": "UI_Talent_Combine_Weapon_Double"
+    }
+  },
+  "constellation": {
+    "21": {
+      "name": "霜杀墨染樱",
+      "icon": "UI_Talent_S_Ayaka_01"
+    },
+    "22": {
+      "name": "三重雪关扉",
+      "icon": "UI_Talent_S_Ayaka_02"
+    },
+    "23": {
+      "name": "花白锦画纸吹雪",
+      "icon": "UI_Talent_U_Ayaka_02"
+    },
+    "24": {
+      "name": "盈缺流返",
+      "icon": "UI_Talent_S_Ayaka_03"
+    },
+    "25": {
+      "name": "花云钟入月",
+      "icon": "UI_Talent_U_Ayaka_01"
+    },
+    "26": {
+      "name": "间水月",
+      "icon": "UI_Talent_S_Ayaka_04"
+    }
+  },
+  "talent_fix": {
+    "10019": "神里流·霜灭",
+    "10018": "神里流·冰华"
+  },
+  "damage": [],
+  "buff": []
+}

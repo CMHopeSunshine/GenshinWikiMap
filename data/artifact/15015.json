@@ -1,0 +1,33 @@
+{
+  "id": "15015",
+  "name": "逆飞的流星",
+  "short_name": "逆飞",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15015_4",
+  "part_list": {
+    "UI_RelicIcon_15015_4": {
+      "name": "夏祭之花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15015_2": {
+      "name": "夏祭终末",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15015_5": {
+      "name": "夏祭之刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15015_1": {
+      "name": "夏祭水玉",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15015_3": {
+      "name": "夏祭之面",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

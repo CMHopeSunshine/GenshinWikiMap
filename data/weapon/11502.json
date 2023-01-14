@@ -1,0 +1,36 @@
+{
+  "id": "11502",
+  "name": "天空之刃",
+  "rank": 5,
+  "type": "单手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Sword_Dvalin",
+    "awaken": "UI_EquipIcon_Sword_Dvalin_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Sword_Dvalin"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.60001,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}
