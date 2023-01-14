@@ -4,7 +4,7 @@ import hashlib
 from path import DATA
 from utils import save_json
 
-single_file = ['元素精通系数', '原魔列表', '圣遗物信息', '圣遗物列表', '有效词条', '武器列表', '武器类型', '类型', '角色列表']
+single_file = ['元素精通系数', '原魔列表', '圣遗物信息', '圣遗物列表', '有效词条', '武器列表', '武器类型', '类型', '角色列表', '属性Map']
 
 json_data = {
     'avatar':   [],
@@ -19,7 +19,7 @@ zip_file: dict[str, zipfile.ZipFile] = {
 
 for type in json_data:
     for file in (DATA / type).iterdir():
-        if file.suffix == '.zip':
+        if file.suffix != '.json':
             continue
         zip_file[type].write(file, file.name)
         json_data[type].append(

@@ -71,10 +71,10 @@ def update_constant():
     #     print('>>>武器曲线raw更新失败')
     # time.sleep(2)
     # # 更新属性map
-    # if data := ambr_requests(PROP_MAP_API):
+    # if data := ambr_requests(属性Map_API):
     #     # 手动修正单手剑
     #     data.update({'WEAPON_SWORD_ONE_HAND': '单手剑'})
-    #     save_json(data, RAW / 'prop_map.json')
+    #     save_json(data, DATA / '属性Map.json')
     #     print('>>>属性map更新完成')
     # else:
     #     print('>>>属性map更新失败')
@@ -85,7 +85,7 @@ def update_character():
     avatar_alias_file = load_json(DATA / '角色列表.json')
     type_file = load_json(DATA / '类型.json')
     weapon_type_data = load_json(DATA / '武器类型.json')
-    prop_map = load_json(RAW / 'prop_map.json')
+    prop_map = load_json(DATA / '属性Map.json')
 
     for avatar_id, avatar_data in avatar_list.items():
         if avatar_id.startswith(('10000005', '10000007')):
@@ -255,7 +255,7 @@ def update_weapon():
     更新武器信息
     """
     weapon_list = load_json(RAW / 'weapon_list.json')
-    prop_map = load_json(RAW / 'prop_map.json')
+    prop_map = load_json(DATA / '属性Map.json')
     type_file = load_json(DATA / '类型.json')
     weapon_type_file = load_json(DATA / '武器类型.json')
     # weapon_info_file = load_json(DATA / '武器信息.json')

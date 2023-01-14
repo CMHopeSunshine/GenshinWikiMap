@@ -169,7 +169,7 @@ class Character(BaseModel):
 
     @validator('weaponType', pre=True)
     def format_weaponType(cls, value: str):
-        return load_json(RAW / 'prop_map.json')[value]
+        return load_json(DATA / '属性Map.json')[value]
 
     @validator('birthday', pre=True)
     def format_birthday(cls, value: list[int]):
@@ -202,7 +202,7 @@ class Character(BaseModel):
     @property
     def extra_prop_name(self) -> str:
         """突破属性名称"""
-        return load_json(RAW / 'prop_map.json')[list(self.upgrade.promote[-1].addProps.keys())[-1]]
+        return load_json(DATA / '属性Map.json')[list(self.upgrade.promote[-1].addProps.keys())[-1]]
 
     @property
     def extra_prop_value(self) -> Union[float, int]:
@@ -355,7 +355,7 @@ class Weapon(BaseModel):
     def extra_prop_name(self) -> str:
         """突破属性名称"""
         if self.upgrade.prop[1].propType:
-            return load_json(RAW / 'prop_map.json')[self.upgrade.prop[1].propType]
+            return load_json(DATA / '属性Map.json')[self.upgrade.prop[1].propType]
         else:
             return '无'
 

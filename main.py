@@ -8,12 +8,12 @@ from update import (
 
 
 def main():
-    update_constant()
+    # update_constant()
     update_character()
-    update_weapon()
-    update_monster()
-    update_artifact()
-    update_material()
+    # update_weapon()
+    # update_monster()
+    # update_artifact()
+    # update_material()
 
 
 if __name__ == '__main__':
