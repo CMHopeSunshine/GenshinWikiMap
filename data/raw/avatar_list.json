@@ -850,9 +850,8 @@
       3,
       6
     ],
-    "release": 1672524000,
-    "route": "Yaoyao",
-    "beta": true
+    "release": 1673906400,
+    "route": "Yaoyao"
   },
   "10000078": {
     "id": 10000078,
@@ -865,8 +864,37 @@
       2,
       11
     ],
-    "release": 1672524000,
-    "route": "Alhaitham",
+    "release": 1673906400,
+    "route": "Alhaitham"
+  },
+  "10000079": {
+    "id": 10000079,
+    "rank": 5,
+    "name": "迪希雅",
+    "element": "Fire",
+    "weaponType": "WEAPON_CLAYMORE",
+    "icon": "UI_AvatarIcon_Dehya",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1673992800,
+    "route": "Dehya",
+    "beta": true
+  },
+  "10000080": {
+    "id": 10000080,
+    "rank": 4,
+    "name": "米卡",
+    "element": "Ice",
+    "weaponType": "WEAPON_POLE",
+    "icon": "UI_AvatarIcon_Mika",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1673992800,
+    "route": "Mika",
     "beta": true
   },
   "10000005-anemo": {

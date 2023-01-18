@@ -1,0 +1,131 @@
+{
+  "id": 10000078,
+  "name": "艾尔海森",
+  "element": "草",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Alhatham",
+    "side": "UI_AvatarIcon_Side_Alhatham",
+    "card": "UI_AvatarIcon_Alhatham_Card",
+    "splash": "UI_Gacha_AvatarImg_Alhatham",
+    "slice": "UI_Gacha_AvatarIcon_Alhatham"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.11877,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        890.95044,
+        1523.99414,
+        2368.05249,
+        3001.09619,
+        3634.13989,
+        4267.18359
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 24.3922,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        20.91258,
+        35.77151,
+        55.58343,
+        70.44237,
+        85.30131,
+        100.16024
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 60.84711,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.1721,
+        89.24175,
+        138.66795,
+        175.73759,
+        212.80725,
+        249.87691
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_GRASS_ADD_HURT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10781": {
+      "name": "普通攻击·溯因反绎法",
+      "icon": "Skill_A_01"
+    },
+    "10782": {
+      "name": "共相·理式摹写",
+      "icon": "Skill_S_Alhatham_01"
+    },
+    "10785": {
+      "name": "殊境·显象缚结",
+      "icon": "Skill_E_Alhatham_01"
+    },
+    "782101": {
+      "name": "四因订顽",
+      "icon": "UI_Talent_S_Alhatham_05"
+    },
+    "782201": {
+      "name": "谜林道破",
+      "icon": "UI_Talent_S_Alhatham_06"
+    },
+    "782301": {
+      "name": "超定归约律",
+      "icon": "UI_Talent_S_Alhatham_07"
+    }
+  },
+  "constellation": {
+    "781": {
+      "name": "直观",
+      "icon": "UI_Talent_S_Alhatham_02"
+    },
+    "782": {
+      "name": "辩章",
+      "icon": "UI_Talent_S_Alhatham_01"
+    },
+    "783": {
+      "name": "遮诠",
+      "icon": "UI_Talent_U_Alhatham_01"
+    },
+    "784": {
+      "name": "义贯",
+      "icon": "UI_Talent_S_Alhatham_03"
+    },
+    "785": {
+      "name": "智度",
+      "icon": "UI_Talent_U_Alhatham_02"
+    },
+    "786": {
+      "name": "正理",
+      "icon": "UI_Talent_S_Alhatham_04"
+    }
+  },
+  "talent_fix": {
+    "10782": "共相·理式摹写",
+    "10785": "殊境·显象缚结"
+  },
+  "damage": [],
+  "buff": []
+}

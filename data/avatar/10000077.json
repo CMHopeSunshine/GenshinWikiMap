@@ -1,0 +1,131 @@
+{
+  "id": 10000077,
+  "name": "瑶瑶",
+  "element": "草",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "璃月",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Yaoyao",
+    "side": "UI_AvatarIcon_Side_Yaoyao",
+    "card": "UI_AvatarIcon_Yaoyao_Card",
+    "splash": "UI_Gacha_AvatarImg_Yaoyao",
+    "slice": "UI_Gacha_AvatarIcon_Yaoyao"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1030.32385,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        769.70465,
+        1316.6001,
+        2045.79395,
+        2592.68945,
+        3139.58472,
+        3686.48022
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 17.808,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.3038,
+        22.7565,
+        35.3601,
+        44.8128,
+        54.2655,
+        63.7182
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.9475,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        47.025,
+        80.4375,
+        124.9875,
+        158.39999,
+        191.8125,
+        225.22501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10771": {
+      "name": "普通攻击·颠扑连环枪",
+      "icon": "Skill_A_03"
+    },
+    "10772": {
+      "name": "云台团团降芦菔",
+      "icon": "Skill_S_Yaoyao_01"
+    },
+    "10775": {
+      "name": "玉颗珊珊月中落",
+      "icon": "Skill_E_Yaoyao_01"
+    },
+    "772101": {
+      "name": "天星漫散",
+      "icon": "UI_Talent_S_Yaoyao_05"
+    },
+    "772201": {
+      "name": "推己及人",
+      "icon": "UI_Talent_S_Yaoyao_06"
+    },
+    "772301": {
+      "name": "踮脚·蹑影轻踪",
+      "icon": "UI_Talent_S_Yaoyao_07"
+    }
+  },
+  "constellation": {
+    "771": {
+      "name": "妙受琼阁",
+      "icon": "UI_Talent_S_Yaoyao_01"
+    },
+    "772": {
+      "name": "正思无邪",
+      "icon": "UI_Talent_S_Yaoyao_02"
+    },
+    "773": {
+      "name": "墩墩善道",
+      "icon": "UI_Talent_U_Yaoyao_01"
+    },
+    "774": {
+      "name": "爰爰可亲",
+      "icon": "UI_Talent_S_Yaoyao_03"
+    },
+    "775": {
+      "name": "恻隐本义",
+      "icon": "UI_Talent_U_Yaoyao_02"
+    },
+    "776": {
+      "name": "慈惠仁心",
+      "icon": "UI_Talent_S_Yaoyao_04"
+    }
+  },
+  "talent_fix": {
+    "10772": "云台团团降芦菔",
+    "10775": "玉颗珊珊月中落"
+  },
+  "damage": [],
+  "buff": []
+}

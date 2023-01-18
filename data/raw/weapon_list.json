@@ -277,8 +277,7 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "裁叶萃光",
     "icon": "UI_EquipIcon_Sword_Ayus",
-    "route": "Light of Foliar Incision",
-    "beta": true
+    "route": "Light of Foliar Incision"
   },
   "12101": {
     "id": 12101,
@@ -464,6 +463,15 @@
     "icon": "UI_EquipIcon_Claymore_Arakalari",
     "route": "Forest Regalia"
   },
+  "12418": {
+    "id": 12418,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "饰铁之花",
+    "icon": "UI_EquipIcon_Claymore_Fleurfair",
+    "route": "Mailed Flower",
+    "beta": true
+  },
   "12501": {
     "id": 12501,
     "rank": 5,
@@ -511,6 +519,15 @@
     "name": "赤角石溃杵",
     "icon": "UI_EquipIcon_Claymore_Itadorimaru",
     "route": "Redhorn Stonethresher"
+  },
+  "12511": {
+    "id": 12511,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "苇海信标",
+    "icon": "UI_EquipIcon_Claymore_Deshret",
+    "route": "Beacon of the Reed Sea",
+    "beta": true
   },
   "13101": {
     "id": 13101,

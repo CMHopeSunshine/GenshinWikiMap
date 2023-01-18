@@ -798,8 +798,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_100097",
       "rank": 1,
-      "route": "Mysterious Meat",
-      "beta": true
+      "route": "Mysterious Meat"
     },
     "100584": {
       "id": 100584,
@@ -1219,8 +1218,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_101222",
       "rank": 1,
-      "route": "Sand Grease Pupa",
-      "beta": true
+      "route": "Sand Grease Pupa"
     },
     "101225": {
       "id": 101225,
@@ -3250,8 +3248,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_112074",
       "rank": 2,
-      "route": "Desiccated Shell",
-      "beta": true
+      "route": "Desiccated Shell"
     },
     "112075": {
       "id": 112075,
@@ -3261,8 +3258,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_112075",
       "rank": 3,
-      "route": "Sturdy Shell",
-      "beta": true
+      "route": "Sturdy Shell"
     },
     "112076": {
       "id": 112076,
@@ -3272,8 +3268,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_112076",
       "rank": 4,
-      "route": "Marked Shell",
-      "beta": true
+      "route": "Marked Shell"
     },
     "113001": {
       "id": 113001,
@@ -3703,8 +3698,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_113044",
       "rank": 4,
-      "route": "Pseudo-Stamens",
-      "beta": true
+      "route": "Pseudo-Stamens"
     },
     "114001": {
       "id": 114001,
@@ -4674,8 +4668,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_220072_01",
       "rank": 4,
-      "route": "Jinni in the Magic Bottle — Liloupar",
-      "beta": true
+      "route": "Jinni in the Magic Bottle — Liloupar"
     },
     "220074": {
       "id": 220074,
@@ -4686,6 +4679,17 @@
       "icon": "UI_ItemIcon_220074",
       "rank": 4,
       "route": "Cloud Retainer's Damasked Device"
+    },
+    "220078": {
+      "id": 220078,
+      "name": "绮筵之鼓",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220051",
+      "rank": 4,
+      "route": "Festive Drum",
+      "beta": true
     }
   }
 }
