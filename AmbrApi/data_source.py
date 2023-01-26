@@ -18,7 +18,12 @@ def download_from_ambr(path: Path, is_monster: bool = False):
     """
     if path.exists():
         return Image.open(path)
-    name = f'monster/{path.name}' if is_monster else path.name
+    if 'RelicIcon' in path.name:
+        name = f'reliquary/{path.name}'
+    elif 'MonsterIcon' in path.name:
+        name = f'monster/{path.name}'
+    else:
+        name = path.name
     print(f'下载{ASSETS_API.format(name)}')
     resp = httpx.get(ASSETS_API.format(name), headers={
         'accept':                    'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',

@@ -35,7 +35,7 @@ def draw_monster_map(monster: Monster):
     img.text_box(monster.description.replace('\\n', '^').replace('^^', '^').strip('^'), (644, 1418),
                  (295, 568), description_font, '#252525')
     # 立绘
-    icon = download_from_ambr(RESOURCES / 'monster' / f'{monster.icon}.png', True)
+    icon = download_from_ambr(RESOURCES / 'monster' / f'{monster.icon}.png')
     icon = icon.resize((492, 492))
     img.paste(icon, (74, 71))
 

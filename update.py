@@ -351,6 +351,8 @@ def update_artifact():
         # 遍历套装的圣遗物散件，如果没有散件数据，则添加进去
         for part_type, artifact in suit_info['suit'].items():
             artifact_icon = artifact['icon']
+            if not (icon_file := RESOURCES / 'artifact' / f'{artifact_icon}.png').exists():
+                download_from_ambr(icon_file)
             if artifact_icon not in artifact_info_file:
                 artifact_info_file[artifact_icon] = {
                     'name': artifact['name'],

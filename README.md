@@ -1,10 +1,14 @@
-# GenshinWikiMap
-## 介绍
+<p align="center" >
+  <a href="https://github.com/CMHopeSunshine/LittlePaimon/tree/nonebot2"><img src="http://static.cherishmoon.fun/LittlePaimon/readme/logo.png" width="256" height="256" alt="LittlePaimon"></a>
+</p>
+<h1 align="center">GenshinWikiMap</h1>
+
+## | 介绍
 原神(Genshin Impact)游戏数据、图鉴制作以及资源库，数据和素材源自[miHoYo](https://www.mihoyo.com/)和[安柏计划](https://ambr.top/chs)。
 
 目前主要用于原神Bot[小派蒙](https://github.com/CMHopeSunshine/LittlePaimon)。
 
-## 图鉴
+## | 图鉴
 由[西北一枝花](https://github.com/Nwflower)设计模版，[惜月](https://github.com/CMHopeSunshine)编码制作。
 - 角色图鉴
   - 路径：`results/character_map/`
@@ -16,7 +20,7 @@
   - 部分原魔缺失材料信息
   - 暂时只有常规形态抗性表
 
-## 数据
+## | 数据
 本人整理过的原神相关数据文件，位于`data`文件夹
 ```
 ├── data
@@ -33,7 +37,7 @@
 │   ├── **.json #其它中文名文件顾名思义
 ```
 
-## 资源
+## | 资源
 原神相关图片、图标资源，位于`resources`文件夹
 ```
 ├── resources
@@ -45,8 +49,10 @@
 │   │   ├── UI_Gacha_AvatarImg_Albedo.png
 │   ├── talent #角色天赋和命座图标
 │   │   ├── Skill_A_02.png
-│   ├── weapon #武器头像
+│   ├── weapon #武器图标
 │   │   ├── UI_EquipIcon_Bow_Amos.png
+│   ├── artifact #圣遗物图标
+│   │   ├── UI_RelicIcon_10001_1.png
 │   ├── monster #原魔头像
 │   │   ├── UI_MonsterIcon_Abyss_Ice.png
 │   ├── material #材料图标
@@ -54,19 +60,19 @@
 │   ├── ..... #其余为图鉴制作的相关资源
 ```
 
-## 声明
-- 本仓库所有数据和图鉴版权属于米哈游，侵删
+## | 声明
+- 本仓库所有数据和图鉴版权属于米哈游，仅供学习交流使用。
 - 如果你传播或要在其它项目使用本仓库制作的**游戏图鉴**，请先**联系我**取得授权，私人使用则无需
 - 欢迎[爱发电](https://afdian.net/a/cherishmoon)赞助支持，感谢！
 
-## 鸣谢
+## | 鸣谢
 - [miHoYo](https://www.mihoyo.com/)
 - [安柏计划](https://ambr.top/chs)
 - [西北一枝花](https://github.com/Nwflower)
 - PR贡献者们
 
 ## 其它相关项目
-- [小派蒙](https://github.com/CMHopeSunshine/LittlePaimon)
-- [小派蒙文档](https://docs.paimon.cherishmoon.fun)
-- [小派蒙资源库](https://github.com/CMHopeSunshine/LittlePaimonRes)
-- [Altas原神图鉴](https://github.com/Nwflower/genshin-atlas)
+- 原神Bot小派蒙：[LittlePaimon](https://github.com/CMHopeSunshine/LittlePaimon/tree/nonebot2)
+- 小派蒙文档：[LittlePaimon-Docs](https://docs.paimon.cherishmoon.fun/)
+- 小派蒙资源库：[LittlePaimonRes](https://github.com/CMHopeSunshine/LittlePaimonRes)
+- 原神游戏图鉴：[Genshin-Atlas](https://github.com/Nwflower/genshin-atlas)
