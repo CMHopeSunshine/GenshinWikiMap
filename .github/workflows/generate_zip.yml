@@ -3,7 +3,7 @@ name: Generate Zip File
 on:
   push:
     paths:
-      - 'data/**'
+      - 'data/**.json'
       - 'resources/**'
   workflow_dispatch:
 
@@ -20,11 +20,14 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Install ujson
-      run: pip install ujson
+    - name: Set up Poetry
+      uses: Gr1N/setup-poetry@v8
+
+    - name: Install Package
+      run: poetry install
 
     - name: Run Generate Script
-      run: python generate.py
+      run: poetry run python generate.py
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
