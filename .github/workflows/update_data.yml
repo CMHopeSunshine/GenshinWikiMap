@@ -26,9 +26,6 @@ jobs:
     - name: Run Update Script
       run: poetry run python main.py
 
-    - name: Run Generate Script
-      run: poetry run python generate.py
-
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
@@ -37,5 +34,5 @@ jobs:
         message: ':wrench: 更新数据'
         add: |
           '**.json'
-          '**.zip'
           '**.jpg'
+          '**.png'

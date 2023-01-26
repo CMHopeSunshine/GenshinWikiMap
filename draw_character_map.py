@@ -119,7 +119,7 @@ def draw_constellation(constellation: Constellation):
     img = PMImage(size=(562, 1200), mode='RGBA', color=(255, 255, 255, 0))
     # ----------图标----------
     img.paste(CHARACTER_MAP_RESOURCES / '圆框橙.png', (35, 5))
-    constellation_icon = download_from_ambr(CONSTELLATION / f'{constellation.icon}.png')
+    constellation_icon = download_from_ambr(TALENT / f'{constellation.icon}.png')
     constellation_icon.resize((78, 78))
     img.paste(constellation_icon, (48, 15))
     # ----------图标----------
@@ -263,7 +263,7 @@ def draw_character_map(chara: Character):
     bg_img.paste(border_img, (0, 0))
     bg_img.covered(ICON / '方块纹理.png')
     bg_img.paste(img, (0, 0))
-    bg_img.save(CHARACTER_MAP_RESULT_RAW / f'{chara.id}.png')
+    # bg_img.save(CHARACTER_MAP_RESULT_RAW / f'{chara.id}.png')
     bg_img.convert('RGB')
     if chara.name == '旅行者':
         save_name = f'旅行者{chara.element}' if chara.icon.endswith('PlayerGirl') else f'旅行者男{chara.element}'

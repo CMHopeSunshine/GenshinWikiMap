@@ -1,8 +1,12 @@
+import time
+from io import BytesIO
 from pathlib import Path
 from typing import Any, Optional
 
+import httpx
 import ujson
 import re
+from PIL import Image
 
 
 def load_json(path: Path, encoding: str = 'utf-8'):
@@ -35,3 +39,22 @@ def get_describe_name(text: str) -> Optional[str]:
     if text := re.search(r'<color=#FFD780FF>(.+?)</color>', text):
         return text[1]
     return None
+
+
+def download_img(url: str, path: Path):
+    """
+    从安柏计划下载UI资源。
+        :param url: 下载链接
+        :param path: 保存的路径
+        :return: Image对象
+    """
+    if path.exists():
+        return Image.open(path)
+    print(f'下载{url}')
+    resp = httpx.get(url,timeout=10)
+    content = resp.content
+    img = Image.open(BytesIO(content))
+    with path.open('wb') as f:
+        f.write(content)
+    time.sleep(1)  # 安柏网有访问频率限制
+    return img

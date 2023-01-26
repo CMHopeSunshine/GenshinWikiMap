@@ -1,9 +1,9 @@
 import time
 import random
 from path import *
-from utils import load_json, save_json, get_describe_name
+from utils import load_json, save_json, get_describe_name, download_img
 from AmbrApi.models import Character, Weapon, ELEMENT_MAP, Monster
-from AmbrApi.data_source import ambr_requests, github_requests
+from AmbrApi.data_source import ambr_requests, github_requests, download_from_ambr
 from AmbrApi.api import *
 
 from draw_character_map import draw_character_map
@@ -158,6 +158,12 @@ def update_character():
                 'talent':        {},
                 'constellation': {}
             }
+        if not (avatar_icon := RESOURCES / 'avatar' / f"{avatar_info['icon']['avatar']}.png").exists():
+            download_from_ambr(avatar_icon)
+        if not (avatar_side_icon := RESOURCES / 'avatar_side' / f"{avatar_info['icon']['side']}.png").exists():
+            download_img(f"https://upload-bbs.mihoyo.com/game_record/genshin/character_side_icon/{avatar_info['icon']['side']}.png", avatar_side_icon)
+        if not (avatar_splash_icon := RESOURCES / 'splash' / f"{avatar_info['icon']['splash']}.png").exists():
+            download_from_ambr(avatar_splash_icon)
         avatar_info['property'] = [
             {
                 'base':    ambr_data['upgrade']['prop'][0],
@@ -263,6 +269,8 @@ def update_weapon():
     for weapon_id, weapon_data in weapon_list.items():
         if not weapon_data['name']:
             continue
+        if not (weapon_icon := RESOURCES / 'weapon' / f"{weapon_data['icon']}.png").exists():
+            download_from_ambr(weapon_icon)
         data_save_path = DATA / 'weapon' / f'{weapon_id}.json'
         # 如果本地没有已下载的武器raw数据，则下载，否则读取本地
         if not (save_path := WEAPON_RAW / f'{weapon_id}.json').exists() or weapon_data.get('beta'):

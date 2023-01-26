@@ -8,10 +8,9 @@ MONSTER_MAP_RESOURCES = RESOURCES / 'monster_map'
 # SourceHanSansCN-Bold.otf 思源黑体
 # SourceHanSerifCN-Bold.otf 思源宋体
 
-MATERIALS = RESOURCES / 'materials'
+MATERIALS = RESOURCES / 'material'
 TALENT = RESOURCES / 'talent'
-CONSTELLATION = RESOURCES / 'constellation'
-GACHA_IMG = RESOURCES / 'gacha_img'
+GACHA_IMG = RESOURCES / 'splash'
 
 DATA = Path(__file__).parent / 'data'
 RAW = DATA / 'raw'

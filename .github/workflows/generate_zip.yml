@@ -1,0 +1,37 @@
+name: Generate Zip File
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'resources/**'
+  workflow_dispatch:
+
+jobs:
+  GenerateZipFile:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@master
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install ujson
+      run: pip install ujson
+
+    - name: Run Generate Script
+      run: poetry run python generate.py
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: github-actions[bot]
+        author_email: github-actions[bot]@users.noreply.github.com
+        message: ':wrench: 更新文件'
+        add: |
+          '**.json'
+          '**.zip'

@@ -1,5 +1,6 @@
 import zipfile
 import hashlib
+from pathlib import Path
 
 from path import DATA
 from utils import save_json
@@ -47,6 +48,15 @@ data_zip.close()
 
 save_json(json_data, DATA / 'data_list.json')
 
+
+resources_zip = zipfile.ZipFile(Path() / 'resources' / 'genshin_resources.zip', 'w', zipfile.ZIP_DEFLATED)
+
+for dir_type in ['talent', 'splash', 'material', 'avatar', 'avatar_side', 'weapon']:
+    for file in (Path() / 'resources' / dir_type).iterdir():
+        resources_zip.write(file, str(file).lstrip('resources\\').lstrip('resources/'))
+
+
+resources_zip.close()
 
 
 
