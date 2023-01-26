@@ -313,7 +313,7 @@ def update_artifact():
     artifact_list_file = load_json(DATA / '圣遗物列表.json')
     # 遍历圣遗物列表
     for suit_id, suit_data in suit_list.items():
-        print(f'>>>>>>更新[{suit_data["name"]}]信息')
+        # print(f'>>>>>>更新[{suit_data["name"]}]信息')
         suit_save_path = DATA / 'artifact' / f'{suit_id}.json'
         # 如果圣遗物别名列表中没有这个圣遗物套装，则添加进去
         if suit_data['name'] not in artifact_list_file:

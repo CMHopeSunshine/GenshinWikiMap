@@ -1,0 +1,36 @@
+{
+  "id": "12418",
+  "name": "饰铁之花",
+  "rank": 4,
+  "type": "双手剑",
+  "icon": {
+    "icon": "UI_EquipIcon_Claymore_Fleurfair",
+    "awaken": "UI_EquipIcon_Claymore_Fleurfair_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Claymore_Fleurfair"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_ELEMENT_MASTERY",
+        "initValue": 24.0,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

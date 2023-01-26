@@ -1,0 +1,12 @@
+{
+  "name": "绮筵之鼓",
+  "description": "使用后，可以进行演奏的乐器。\\n构造独特，音色清脆的小鼓。外形雅致，做工精细，采用了上佳的材料，兼顾了演奏时的音质、音准与长期使用的耐损度。\\n相传，这种小鼓结合了稻妻传统乐器与异国之鼓的特点，演奏某些乐曲之时，还能为人们带来好运的护佑…",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220051",
+  "rank": 4,
+  "route": "Festive Drum",
+  "beta": true
+}
