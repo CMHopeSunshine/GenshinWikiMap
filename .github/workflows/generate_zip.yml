@@ -24,7 +24,7 @@ jobs:
       run: pip install ujson
 
     - name: Run Generate Script
-      run: poetry run python generate.py
+      run: python generate.py
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
