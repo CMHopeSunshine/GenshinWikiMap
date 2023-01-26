@@ -5,6 +5,7 @@ on:
     paths:
       - 'data/**.json'
       - 'resources/**'
+      - '!resources/genshin_resources.zip'
   workflow_dispatch:
 
 jobs:
