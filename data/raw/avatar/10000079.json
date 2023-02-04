@@ -2370,7 +2370,7 @@
     },
     "2": {
       "name": "怒势疾迅如焚掠地",
-      "description": "<color=#FFD780FF>炎啸狮子咬<\/color>的技能等级提高3级。至多提升至15级。",
+      "description": "<color=#FFD780FF>炎啸狮子咬<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "icon": "UI_Talent_U_Dehya_01"
     },
     "3": {
@@ -2380,7 +2380,7 @@
     },
     "4": {
       "name": "猎兽魁首卓荦不羁",
-      "description": "<color=#FFD780FF>熔铁流狱<\/color>的技能等级提高3级。至多提升至15级。",
+      "description": "<color=#FFD780FF>熔铁流狱<\/color>的技能等级提高3级。\\n至多提升至15级。",
       "icon": "UI_Talent_U_Dehya_02"
     },
     "5": {
