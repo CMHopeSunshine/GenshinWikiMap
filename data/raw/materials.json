@@ -800,6 +800,17 @@
       "rank": 1,
       "route": "Mysterious Meat"
     },
+    "100098": {
+      "id": 100098,
+      "name": "咖啡豆",
+      "type": "cookingIngredient",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_100098",
+      "rank": 1,
+      "route": "Coffee Beans",
+      "beta": true
+    },
     "100584": {
       "id": 100584,
       "name": "深邃之血",

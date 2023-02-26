@@ -875,8 +875,8 @@
     "weaponType": "WEAPON_CLAYMORE",
     "icon": "UI_AvatarIcon_Dehya",
     "birthday": [
-      1,
-      1
+      4,
+      7
     ],
     "release": 1673992800,
     "route": "Dehya",
@@ -890,8 +890,8 @@
     "weaponType": "WEAPON_POLE",
     "icon": "UI_AvatarIcon_Mika",
     "birthday": [
-      1,
-      1
+      8,
+      11
     ],
     "release": 1673992800,
     "route": "Mika",

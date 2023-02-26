@@ -6,16 +6,16 @@
   "weaponType": "WEAPON_POLE",
   "icon": "UI_AvatarIcon_Mika",
   "birthday": [
-    1,
-    1
+    8,
+    11
   ],
   "release": 1673992800,
   "route": "Mika",
   "fetter": {
     "title": "晴霜的标绘",
-    "detail": "？？？",
+    "detail": "平凡家庭出身的年轻骑士，在小队中担任「前进测绘员」一职。为人低调，谨小慎微。",
     "constellation": "林鸽座",
-    "native": "？？？",
+    "native": "西风骑士团",
     "cv": {
       "EN": "",
       "CHS": "",
@@ -32,12 +32,12 @@
       },
       {
         "propType": "FIGHT_PROP_BASE_ATTACK",
-        "initValue": 14.2464,
+        "initValue": 18.6984,
         "type": "GROW_CURVE_ATTACK_S4"
       },
       {
         "propType": "FIGHT_PROP_BASE_DEFENSE",
-        "initValue": 49.78575,
+        "initValue": 59.80013,
         "type": "GROW_CURVE_HP_S4"
       }
     ],
@@ -56,8 +56,8 @@
         "unlockMaxLevel": 40,
         "addProps": {
           "FIGHT_PROP_BASE_HP": 783.32776,
-          "FIGHT_PROP_BASE_DEFENSE": 37.1925,
-          "FIGHT_PROP_BASE_ATTACK": 10.64304,
+          "FIGHT_PROP_BASE_DEFENSE": 44.67375,
+          "FIGHT_PROP_BASE_ATTACK": 13.96899,
           "FIGHT_PROP_HP_PERCENT": 0
         },
         "requiredPlayerLevel": 15,
@@ -74,8 +74,8 @@
         "unlockMaxLevel": 50,
         "addProps": {
           "FIGHT_PROP_BASE_HP": 1339.90271,
-          "FIGHT_PROP_BASE_DEFENSE": 63.61875,
-          "FIGHT_PROP_BASE_ATTACK": 18.2052,
+          "FIGHT_PROP_BASE_DEFENSE": 76.41563,
+          "FIGHT_PROP_BASE_ATTACK": 23.89433,
           "FIGHT_PROP_HP_PERCENT": 0.06
         },
         "requiredPlayerLevel": 25,
@@ -92,8 +92,8 @@
         "unlockMaxLevel": 60,
         "addProps": {
           "FIGHT_PROP_BASE_HP": 2082.00269,
-          "FIGHT_PROP_BASE_DEFENSE": 98.85375,
-          "FIGHT_PROP_BASE_ATTACK": 28.28808,
+          "FIGHT_PROP_BASE_DEFENSE": 118.73813,
+          "FIGHT_PROP_BASE_ATTACK": 37.12811,
           "FIGHT_PROP_HP_PERCENT": 0.12
         },
         "requiredPlayerLevel": 30,
@@ -110,8 +110,8 @@
         "unlockMaxLevel": 70,
         "addProps": {
           "FIGHT_PROP_BASE_HP": 2638.57764,
-          "FIGHT_PROP_BASE_DEFENSE": 125.28,
-          "FIGHT_PROP_BASE_ATTACK": 35.85024,
+          "FIGHT_PROP_BASE_DEFENSE": 150.48,
+          "FIGHT_PROP_BASE_ATTACK": 47.05344,
           "FIGHT_PROP_HP_PERCENT": 0.12
         },
         "requiredPlayerLevel": 35,
@@ -128,8 +128,8 @@
         "unlockMaxLevel": 80,
         "addProps": {
           "FIGHT_PROP_BASE_HP": 3195.15259,
-          "FIGHT_PROP_BASE_DEFENSE": 151.70625,
-          "FIGHT_PROP_BASE_ATTACK": 43.4124,
+          "FIGHT_PROP_BASE_DEFENSE": 182.22188,
+          "FIGHT_PROP_BASE_ATTACK": 56.97878,
           "FIGHT_PROP_HP_PERCENT": 0.18
         },
         "requiredPlayerLevel": 40,
@@ -146,8 +146,8 @@
         "unlockMaxLevel": 90,
         "addProps": {
           "FIGHT_PROP_BASE_HP": 3751.72754,
-          "FIGHT_PROP_BASE_DEFENSE": 178.13251,
-          "FIGHT_PROP_BASE_ATTACK": 50.97456,
+          "FIGHT_PROP_BASE_DEFENSE": 213.96375,
+          "FIGHT_PROP_BASE_ATTACK": 66.90411,
           "FIGHT_PROP_HP_PERCENT": 0.24
         },
         "requiredPlayerLevel": 50,
@@ -933,9 +933,9 @@
             ""
           ],
           "params": [
-            0.5184,
-            0.648,
-            0.1944,
+            0.672,
+            0.84,
+            0.252,
             0.13,
             12,
             15,
@@ -981,9 +981,9 @@
             ""
           ],
           "params": [
-            0.55728,
-            0.6966,
-            0.20898,
+            0.7224,
+            0.903,
+            0.2709,
             0.14,
             12,
             15,
@@ -1029,9 +1029,9 @@
             ""
           ],
           "params": [
-            0.59616,
-            0.7452,
-            0.22356,
+            0.7728,
+            0.966,
+            0.2898,
             0.15,
             12,
             15,
@@ -1077,9 +1077,9 @@
             ""
           ],
           "params": [
-            0.648,
-            0.81,
-            0.243,
+            0.84,
+            1.05,
+            0.315,
             0.16,
             12,
             15,
@@ -1125,9 +1125,9 @@
             ""
           ],
           "params": [
-            0.68688,
-            0.8586,
-            0.25758,
+            0.8904,
+            1.113,
+            0.3339,
             0.17,
             12,
             15,
@@ -1173,9 +1173,9 @@
             ""
           ],
           "params": [
-            0.72576,
-            0.9072,
-            0.27216,
+            0.9408,
+            1.176,
+            0.3528,
             0.18,
             12,
             15,
@@ -1222,9 +1222,9 @@
             ""
           ],
           "params": [
-            0.7776,
-            0.972,
-            0.2916,
+            1.008,
+            1.26,
+            0.378,
             0.19,
             12,
             15,
@@ -1271,9 +1271,9 @@
             ""
           ],
           "params": [
-            0.82944,
-            1.0368,
-            0.31104,
+            1.0752,
+            1.344,
+            0.4032,
             0.2,
             12,
             15,
@@ -1320,9 +1320,9 @@
             ""
           ],
           "params": [
-            0.88128,
-            1.1016,
-            0.33048,
+            1.1424,
+            1.428,
+            0.4284,
             0.21,
             12,
             15,
@@ -1370,9 +1370,9 @@
             ""
           ],
           "params": [
-            0.93312,
-            1.1664,
-            0.34992,
+            1.2096,
+            1.512,
+            0.4536,
             0.22,
             12,
             15,
@@ -1415,9 +1415,9 @@
             ""
           ],
           "params": [
-            0.98496,
-            1.2312,
-            0.36936,
+            1.2768,
+            1.596,
+            0.4788,
             0.23,
             12,
             15,
@@ -1460,9 +1460,9 @@
             ""
           ],
           "params": [
-            1.0368,
-            1.296,
-            0.3888,
+            1.344,
+            1.68,
+            0.504,
             0.24,
             12,
             15,
@@ -1505,9 +1505,9 @@
             ""
           ],
           "params": [
-            1.1016,
-            1.377,
-            0.4131,
+            1.428,
+            1.785,
+            0.5355,
             0.25,
             12,
             15,
@@ -1550,9 +1550,9 @@
             ""
           ],
           "params": [
-            1.1664,
-            1.458,
-            0.4374,
+            1.512,
+            1.89,
+            0.567,
             0.25,
             12,
             15,
@@ -1595,9 +1595,9 @@
             ""
           ],
           "params": [
-            1.2312,
-            1.539,
-            0.4617,
+            1.596,
+            1.995,
+            0.5985,
             0.25,
             12,
             15,
@@ -1632,9 +1632,9 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1680,9 +1680,9 @@
           },
           "coinCost": 12500,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1728,9 +1728,9 @@
           },
           "coinCost": 17500,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1776,9 +1776,9 @@
           },
           "coinCost": 25000,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1824,9 +1824,9 @@
           },
           "coinCost": 30000,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1872,9 +1872,9 @@
           },
           "coinCost": 37500,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1921,9 +1921,9 @@
           },
           "coinCost": 120000,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -1970,9 +1970,9 @@
           },
           "coinCost": 260000,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2019,9 +2019,9 @@
           },
           "coinCost": 450000,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2069,9 +2069,9 @@
           },
           "coinCost": 700000,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2114,9 +2114,9 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2159,9 +2159,9 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2204,9 +2204,9 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2249,9 +2249,9 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
@@ -2294,9 +2294,9 @@
           "costItems": null,
           "coinCost": null,
           "description": [
-            "施放回复量|{param2:F1P}生命值上限+{param1:I}",
-            "鹰翎回复量|{param4:F1P}生命值上限+{param3:I}",
-            "鹰翎回复间隔|{param5:F1}秒",
+            "施放治疗量|{param2:F1P}生命值上限+{param1:I}",
+            "鹰翎治疗量|{param4:F1P}生命值上限+{param3:I}",
+            "鹰翎治疗间隔|{param5:F1}秒",
             "鹰翎持续时间|{param6:F1}秒",
             "冷却时间|{param7:F1}秒",
             "元素能量|{param8:I}",
