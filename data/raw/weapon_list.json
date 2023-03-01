@@ -469,8 +469,7 @@
     "type": "WEAPON_CLAYMORE",
     "name": "饰铁之花",
     "icon": "UI_EquipIcon_Claymore_Fleurfair",
-    "route": "Mailed Flower",
-    "beta": true
+    "route": "Mailed Flower"
   },
   "12501": {
     "id": 12501,
@@ -526,8 +525,7 @@
     "type": "WEAPON_CLAYMORE",
     "name": "苇海信标",
     "icon": "UI_EquipIcon_Claymore_Deshret",
-    "route": "Beacon of the Reed Sea",
-    "beta": true
+    "route": "Beacon of the Reed Sea"
   },
   "13101": {
     "id": 13101,

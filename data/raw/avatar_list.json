@@ -878,9 +878,8 @@
       4,
       7
     ],
-    "release": 1673992800,
-    "route": "Dehya",
-    "beta": true
+    "release": 1677535200,
+    "route": "Dehya"
   },
   "10000080": {
     "id": 10000080,
@@ -893,9 +892,8 @@
       8,
       11
     ],
-    "release": 1673992800,
-    "route": "Mika",
-    "beta": true
+    "release": 1679414400,
+    "route": "Mika"
   },
   "10000005-anemo": {
     "id": "10000005-anemo",
