@@ -1,0 +1,48 @@
+{
+  "id": 15030,
+  "name": "花海甘露之光",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150300": "生命值提升20%。",
+    "2150301": "元素战技与元素爆发造成的伤害提升10%；装备者受到伤害后的8秒内，上述伤害提升效果提高80%，该提高效果至多叠加5层，每层持续时间独立计算，处于队伍后台时依然能触发该效果。"
+  },
+  "icon": "UI_RelicIcon_15030_4",
+  "route": "Dewflower's Glow",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15030_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15030_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15030_5"
+    },
+    "EQUIP_RING": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15030_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15030_3"
+    }
+  },
+  "source": null,
+  "beta": true
+}

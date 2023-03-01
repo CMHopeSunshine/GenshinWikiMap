@@ -1192,5 +1192,65 @@
     "suit_id": 15028,
     "suit_name": "乐园遗落之花",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15029_4": {
+    "name": "",
+    "suit_id": 15029,
+    "suit_name": "水仙之梦",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15029_2": {
+    "name": "",
+    "suit_id": 15029,
+    "suit_name": "水仙之梦",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15029_5": {
+    "name": "",
+    "suit_id": 15029,
+    "suit_name": "水仙之梦",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15029_1": {
+    "name": "",
+    "suit_id": 15029,
+    "suit_name": "水仙之梦",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15029_3": {
+    "name": "",
+    "suit_id": 15029,
+    "suit_name": "水仙之梦",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15030_4": {
+    "name": "",
+    "suit_id": 15030,
+    "suit_name": "花海甘露之光",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15030_2": {
+    "name": "",
+    "suit_id": 15030,
+    "suit_name": "花海甘露之光",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15030_5": {
+    "name": "",
+    "suit_id": 15030,
+    "suit_name": "花海甘露之光",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15030_1": {
+    "name": "",
+    "suit_id": 15030,
+    "suit_name": "花海甘露之光",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15030_3": {
+    "name": "",
+    "suit_id": 15030,
+    "suit_name": "花海甘露之光",
+    "part": "理之冠"
   }
 }

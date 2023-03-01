@@ -1,0 +1,29 @@
+{
+  "name": "何人所珍藏之花",
+  "description": "丘丘游侠曾珍视的野花，并不具有什么特别之处。\\n花朵在许多文明当中都是表达心意的赠礼或谢礼。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11053": {
+      "112077": 3
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上丘丘游侠掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112078",
+  "rank": 3,
+  "route": "Treasured Flower",
+  "beta": true
+}

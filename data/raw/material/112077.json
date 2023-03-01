@@ -1,0 +1,21 @@
+{
+  "name": "来自何处的待放之花",
+  "description": "丘丘游侠曾珍视的野花。在开放前就被摘下了。\\n它在荒野的巡礼中即使并不携带任何多余的物品，除了这朵未开之花。",
+  "type": "角色与武器培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "丘丘游侠掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112077",
+  "rank": 2,
+  "route": "Unbloomed Flower from Somewhere",
+  "beta": true
+}

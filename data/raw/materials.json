@@ -1231,6 +1231,28 @@
       "rank": 1,
       "route": "Sand Grease Pupa"
     },
+    "101223": {
+      "id": 101223,
+      "name": "悼灵花",
+      "type": "localSpecialtySumeru",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101223",
+      "rank": 1,
+      "route": "Mourning Flower",
+      "beta": true
+    },
+    "101224": {
+      "id": 101224,
+      "name": "万相石",
+      "type": "localSpecialtySumeru",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101224",
+      "rank": 1,
+      "route": "Sanguite",
+      "beta": true
+    },
     "101225": {
       "id": 101225,
       "name": "圣金虫",
@@ -3281,6 +3303,39 @@
       "rank": 4,
       "route": "Marked Shell"
     },
+    "112077": {
+      "id": 112077,
+      "name": "来自何处的待放之花",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112077",
+      "rank": 2,
+      "route": "Unbloomed Flower from Somewhere",
+      "beta": true
+    },
+    "112078": {
+      "id": 112078,
+      "name": "何人所珍藏之花",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112078",
+      "rank": 3,
+      "route": "Treasured Flower",
+      "beta": true
+    },
+    "112079": {
+      "id": 112079,
+      "name": "漫游者的盛放之花",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112079",
+      "rank": 4,
+      "route": "Wanderer's Blooming Flower",
+      "beta": true
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -3710,6 +3765,50 @@
       "icon": "UI_ItemIcon_113044",
       "rank": 4,
       "route": "Pseudo-Stamens"
+    },
+    "113045": {
+      "id": 113045,
+      "name": "常暗圆环",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113045",
+      "rank": 4,
+      "route": "Evergloom Ring",
+      "beta": true
+    },
+    "113046": {
+      "id": 113046,
+      "name": "？？？",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113046",
+      "rank": 5,
+      "route": "???",
+      "beta": true
+    },
+    "113047": {
+      "id": 113047,
+      "name": "？？？",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113047",
+      "rank": 5,
+      "route": "???",
+      "beta": true
+    },
+    "113048": {
+      "id": 113048,
+      "name": "？？？",
+      "type": "characterLevelUpMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113048",
+      "rank": 5,
+      "route": "???",
+      "beta": true
     },
     "114001": {
       "id": 114001,

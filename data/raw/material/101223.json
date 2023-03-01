@@ -1,0 +1,21 @@
+{
+  "name": "悼灵花",
+  "description": "绽放在古老战场上的鲜红之花，即便在荒漠中也能顽强生长。低垂的花朵似乎是在哀悼曾在此牺牲的英灵。",
+  "type": "须弥区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "须弥沙漠采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：锋刃林泽采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101223",
+  "rank": 1,
+  "route": "Mourning Flower",
+  "beta": true
+}

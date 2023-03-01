@@ -895,6 +895,36 @@
     "release": 1679414400,
     "route": "Mika"
   },
+  "10000081": {
+    "id": 10000081,
+    "rank": 4,
+    "name": "卡维",
+    "element": "Grass",
+    "weaponType": "WEAPON_CLAYMORE",
+    "icon": "UI_AvatarIcon_Kaveh",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1680296400,
+    "route": "Kaveh",
+    "beta": true
+  },
+  "10000082": {
+    "id": 10000082,
+    "rank": 5,
+    "name": "白术",
+    "element": "Grass",
+    "weaponType": "WEAPON_CATALYST",
+    "icon": "UI_AvatarIcon_Baizhuer",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1680361200,
+    "route": "Baizhu",
+    "beta": true
+  },
   "10000005-anemo": {
     "id": "10000005-anemo",
     "rank": 5,

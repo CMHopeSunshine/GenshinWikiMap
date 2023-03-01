@@ -948,8 +948,9 @@
     "rank": 5,
     "type": "WEAPON_CATALYST",
     "name": "",
-    "icon": "UI_EquipIcon_Catalyst_Apprentice",
-    "route": "Primordial Jade Regalia"
+    "icon": "UI_EquipIcon_Catalyst_Morax",
+    "route": "Jadefall's Splendor",
+    "beta": true
   },
   "14506": {
     "id": 14506,

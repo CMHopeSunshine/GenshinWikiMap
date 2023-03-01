@@ -1,0 +1,48 @@
+{
+  "id": 15029,
+  "name": "水仙之梦",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150290": "获得15%水元素伤害加成。",
+    "2150291": "普通攻击、重击、下落攻击、元素战技或元素爆发命中敌人后，将产生1层持续8秒的「镜中水仙」效果。处于1\/2\/3层及以上「镜中水仙」效果下时，攻击力将提高7%\/16%\/25%，水元素伤害加成提升4%\/9%\/15%。由普通攻击、重击、下落攻击、元素战技或元素爆发产生的「镜中水仙」将分别独立存在。"
+  },
+  "icon": "UI_RelicIcon_15029_4",
+  "route": "Nymph's Dream",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15029_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15029_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15029_5"
+    },
+    "EQUIP_RING": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15029_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "",
+      "description": "未定",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15029_3"
+    }
+  },
+  "source": null,
+  "beta": true
+}

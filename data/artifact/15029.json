@@ -1,0 +1,33 @@
+{
+  "id": "15029",
+  "name": "水仙之梦",
+  "short_name": "水仙",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15029_4",
+  "part_list": {
+    "UI_RelicIcon_15029_4": {
+      "name": "",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15029_2": {
+      "name": "",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15029_5": {
+      "name": "",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15029_1": {
+      "name": "",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15029_3": {
+      "name": "",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

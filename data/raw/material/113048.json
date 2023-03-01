@@ -1,0 +1,26 @@
+{
+  "name": "？？？",
+  "description": "？？？",
+  "type": "角色培养素材",
+  "recipe": {
+    "60705": {
+      "113021": 1,
+      "113046": 1
+    },
+    "60706": {
+      "113021": 1,
+      "113047": 1
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "？？？",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_113048",
+  "rank": 5,
+  "route": "???",
+  "beta": true
+}
