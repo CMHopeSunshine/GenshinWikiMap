@@ -1,0 +1,131 @@
+{
+  "id": 10000080,
+  "name": "米卡",
+  "element": "冰",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Mika",
+    "side": "UI_AvatarIcon_Side_Mika",
+    "card": "UI_AvatarIcon_Mika_Card",
+    "splash": "UI_Gacha_AvatarImg_Mika",
+    "slice": "UI_Gacha_AvatarIcon_Mika"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1048.55969,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        783.32776,
+        1339.90271,
+        2082.00269,
+        2638.57764,
+        3195.15259,
+        3751.72754
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.89433,
+        37.12811,
+        47.05344,
+        56.97878,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.80013,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.67375,
+        76.41563,
+        118.73813,
+        150.48,
+        182.22188,
+        213.96375
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10801": {
+      "name": "普通攻击·西风枪术·镝传",
+      "icon": "Skill_A_03"
+    },
+    "10802": {
+      "name": "星霜的流旋",
+      "icon": "Skill_S_Mika_01"
+    },
+    "10805": {
+      "name": "苍翎的颂愿",
+      "icon": "Skill_E_Mika_01"
+    },
+    "802101": {
+      "name": "速射牵制",
+      "icon": "UI_Talent_S_Mika_05"
+    },
+    "802201": {
+      "name": "地貌测绘",
+      "icon": "UI_Talent_S_Mika_06"
+    },
+    "802301": {
+      "name": "勘界定标",
+      "icon": "UI_Talent_Collect_Local_Mengde"
+    }
+  },
+  "constellation": {
+    "801": {
+      "name": "遇合的因缘",
+      "icon": "UI_Talent_S_Mika_01"
+    },
+    "802": {
+      "name": "伴行的旅路",
+      "icon": "UI_Talent_S_Mika_02"
+    },
+    "803": {
+      "name": "游击的心得",
+      "icon": "UI_Talent_U_Mika_01"
+    },
+    "804": {
+      "name": "晴霜的祝念",
+      "icon": "UI_Talent_S_Mika_03"
+    },
+    "805": {
+      "name": "引示的铃箭",
+      "icon": "UI_Talent_U_Mika_02"
+    },
+    "806": {
+      "name": "依随的策援",
+      "icon": "UI_Talent_S_Mika_04"
+    }
+  },
+  "talent_fix": {
+    "10805": "苍翎的颂愿",
+    "10802": "星霜的流旋"
+  },
+  "damage": [],
+  "buff": []
+}

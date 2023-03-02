@@ -1,0 +1,131 @@
+{
+  "id": 10000079,
+  "name": "迪希雅",
+  "element": "火",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Dehya",
+    "side": "UI_AvatarIcon_Side_Dehya",
+    "card": "UI_AvatarIcon_Dehya_Card",
+    "splash": "UI_Gacha_AvatarImg_Dehya",
+    "slice": "UI_Gacha_AvatarIcon_Dehya"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1220.24963,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        1046.25366,
+        1789.64453,
+        2780.83228,
+        3524.2229,
+        4267.61377,
+        5011.00439
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 20.6682,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        17.71982,
+        30.31021,
+        47.09741,
+        59.68781,
+        72.27821,
+        84.8686
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 48.88111,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        41.9121,
+        71.69175,
+        111.39795,
+        141.1776,
+        170.95724,
+        200.73689
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10791": {
+      "name": "普通攻击·拂金剑斗术",
+      "icon": "Skill_A_04"
+    },
+    "10792": {
+      "name": "熔铁流狱",
+      "icon": "Skill_S_Dehya_01"
+    },
+    "10795": {
+      "name": "炎啸狮子咬",
+      "icon": "Skill_E_Dehya_01"
+    },
+    "792101": {
+      "name": "不吝佑助",
+      "icon": "UI_Talent_S_Dehya_05"
+    },
+    "792201": {
+      "name": "崇诚之真",
+      "icon": "UI_Talent_S_Dehya_06"
+    },
+    "792301": {
+      "name": "日照的正途",
+      "icon": "UI_Talent_S_Dehya_07"
+    }
+  },
+  "constellation": {
+    "791": {
+      "name": "皎洁之火铓辉灿漫",
+      "icon": "UI_Talent_S_Dehya_01"
+    },
+    "792": {
+      "name": "净沙利刃明映万乘",
+      "icon": "UI_Talent_S_Dehya_02"
+    },
+    "793": {
+      "name": "怒势疾迅如焚掠地",
+      "icon": "UI_Talent_U_Dehya_01"
+    },
+    "794": {
+      "name": "服膺誓禁恪守无失",
+      "icon": "UI_Talent_S_Dehya_03"
+    },
+    "795": {
+      "name": "猎兽魁首卓荦不羁",
+      "icon": "UI_Talent_U_Dehya_02"
+    },
+    "796": {
+      "name": "燎燃利爪裂帛斫金",
+      "icon": "UI_Talent_S_Dehya_04"
+    }
+  },
+  "talent_fix": {
+    "10795": "炎啸狮子咬",
+    "10792": "熔铁流狱"
+  },
+  "damage": [],
+  "buff": []
+}

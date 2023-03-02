@@ -73,5 +73,8 @@ def github_requests(url: str):
         :param url: github url
         :return: 数据
     """
-    resp = httpx.get(url)
+    try:
+        resp = httpx.get(url, timeout=10)
+    except Exception:
+        resp = httpx.get(f'https://ghproxy.com/{url}', timeout=10)
     return resp.json() if resp.status_code == 200 else None
