@@ -39,14 +39,6 @@
     "icon": "UI_EquipIcon_Sword_Traveler",
     "route": "Traveler's Handy Sword"
   },
-  "11304": {
-    "id": 11304,
-    "rank": 3,
-    "type": "WEAPON_SWORD_ONE_HAND",
-    "name": "暗铁剑",
-    "icon": "UI_EquipIcon_Sword_Darker",
-    "route": "Dark Iron Sword"
-  },
   "11305": {
     "id": 11305,
     "rank": 3,
@@ -503,14 +495,6 @@
     "icon": "UI_EquipIcon_Claymore_Kunwu",
     "route": "The Unforged"
   },
-  "12505": {
-    "id": 12505,
-    "rank": 5,
-    "type": "WEAPON_CLAYMORE",
-    "name": "",
-    "icon": "UI_EquipIcon_Claymore_Aniki",
-    "route": "Primordial Jade Greatsword"
-  },
   "12510": {
     "id": 12510,
     "rank": 5,
@@ -947,7 +931,7 @@
     "id": 14505,
     "rank": 5,
     "type": "WEAPON_CATALYST",
-    "name": "",
+    "name": "碧落之珑",
     "icon": "UI_EquipIcon_Catalyst_Morax",
     "route": "Jadefall's Splendor",
     "beta": true
@@ -1207,22 +1191,6 @@
     "name": "终末嗟叹之诗",
     "icon": "UI_EquipIcon_Bow_Widsith",
     "route": "Elegy for the End"
-  },
-  "15504": {
-    "id": 15504,
-    "rank": 5,
-    "type": "WEAPON_BOW",
-    "name": "",
-    "icon": "UI_EquipIcon_Bow_Hunters",
-    "route": "Kunwu's Wyrmbane"
-  },
-  "15505": {
-    "id": 15505,
-    "rank": 5,
-    "type": "WEAPON_BOW",
-    "name": "",
-    "icon": "UI_EquipIcon_Bow_Hunters",
-    "route": "Primordial Jade Vista"
   },
   "15507": {
     "id": 15507,

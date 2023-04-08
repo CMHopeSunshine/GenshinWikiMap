@@ -903,8 +903,8 @@
     "weaponType": "WEAPON_CLAYMORE",
     "icon": "UI_AvatarIcon_Kaveh",
     "birthday": [
-      1,
-      1
+      7,
+      9
     ],
     "release": 1680296400,
     "route": "Kaveh",
@@ -918,8 +918,8 @@
     "weaponType": "WEAPON_CATALYST",
     "icon": "UI_AvatarIcon_Baizhuer",
     "birthday": [
-      1,
-      1
+      4,
+      25
     ],
     "release": 1680361200,
     "route": "Baizhu",

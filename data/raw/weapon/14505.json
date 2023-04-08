@@ -1,0 +1,169 @@
+{
+  "id": 14505,
+  "rank": 5,
+  "type": "法器",
+  "name": "碧落之珑",
+  "description": "",
+  "icon": "UI_EquipIcon_Catalyst_Morax",
+  "storyId": 194505,
+  "affix": {
+    "114505": {
+      "name": "定土玉圭",
+      "upgrade": {
+        "0": "施放元素爆发或创造护盾后的3秒内，将产生「定土玉圭」效果：每2.5秒恢复<color=#99FFFFFF>4.5<\/color>点元素能量，并基于装备者的生命值上限，每1000点使其对应元素类型的元素伤害加成提高<color=#99FFFFFF>0.3%<\/color>，至多提高<color=#99FFFFFF>12%<\/color>。装备该武器的角色处于队伍后台时，依然能产生「定土玉圭」效果。",
+        "1": "施放元素爆发或创造护盾后的3秒内，将产生「定土玉圭」效果：每2.5秒恢复<color=#99FFFFFF>5<\/color>点元素能量，并基于装备者的生命值上限，每1000点使其对应元素类型的元素伤害加成提高<color=#99FFFFFF>0.5%<\/color>，至多提高<color=#99FFFFFF>20%<\/color>。装备该武器的角色处于队伍后台时，依然能产生「定土玉圭」效果。",
+        "2": "施放元素爆发或创造护盾后的3秒内，将产生「定土玉圭」效果：每2.5秒恢复<color=#99FFFFFF>5.5<\/color>点元素能量，并基于装备者的生命值上限，每1000点使其对应元素类型的元素伤害加成提高<color=#99FFFFFF>0.7%<\/color>，至多提高<color=#99FFFFFF>28%<\/color>。装备该武器的角色处于队伍后台时，依然能产生「定土玉圭」效果。",
+        "3": "施放元素爆发或创造护盾后的3秒内，将产生「定土玉圭」效果：每2.5秒恢复<color=#99FFFFFF>6<\/color>点元素能量，并基于装备者的生命值上限，每1000点使其对应元素类型的元素伤害加成提高<color=#99FFFFFF>0.9%<\/color>，至多提高<color=#99FFFFFF>36%<\/color>。装备该武器的角色处于队伍后台时，依然能产生「定土玉圭」效果。",
+        "4": "施放元素爆发或创造护盾后的3秒内，将产生「定土玉圭」效果：每2.5秒恢复<color=#99FFFFFF>6.5<\/color>点元素能量，并基于装备者的生命值上限，每1000点使其对应元素类型的元素伤害加成提高<color=#99FFFFFF>1.1%<\/color>，至多提高<color=#99FFFFFF>44%<\/color>。装备该武器的角色处于队伍后台时，依然能产生「定土玉圭」效果。"
+      }
+    }
+  },
+  "route": "Jadefall's Splendor",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.108,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112059": 3,
+          "112077": 5,
+          "114013": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112059": 12,
+          "112077": 18,
+          "114014": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112060": 9,
+          "112078": 9,
+          "114014": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112060": 14,
+          "112078": 18,
+          "114015": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112061": 9,
+          "112079": 14,
+          "114015": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112061": 18,
+          "112079": 27,
+          "114016": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112059": 1,
+    "112060": 2,
+    "112061": 3,
+    "112077": 2,
+    "112078": 3,
+    "112079": 4,
+    "114013": 2,
+    "114014": 3,
+    "114015": 4,
+    "114016": 5
+  },
+  "beta": true
+}
