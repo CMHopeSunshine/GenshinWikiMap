@@ -1,0 +1,131 @@
+{
+  "id": 10000081,
+  "name": "卡维",
+  "element": "草",
+  "weapon": "双手剑",
+  "rank": 4,
+  "region": "须弥",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Kaveh",
+    "side": "UI_AvatarIcon_Side_Kaveh",
+    "card": "UI_AvatarIcon_Kaveh_Card",
+    "splash": "UI_Gacha_AvatarImg_Kaveh",
+    "slice": "UI_Gacha_AvatarIcon_Kaveh"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1002.97009,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        749.27002,
+        1281.64612,
+        1991.48083,
+        2523.85693,
+        3056.23291,
+        3588.60913
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.5888,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.63418,
+        25.03215,
+        38.89611,
+        49.29408,
+        59.69205,
+        70.09002
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 62.9475,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        47.025,
+        80.4375,
+        124.9875,
+        158.39999,
+        191.8125,
+        225.22501
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ELEMENT_MASTERY",
+      "promote": [
+        0,
+        24,
+        48,
+        48,
+        72,
+        96
+      ]
+    }
+  ],
+  "talent": {
+    "10811": {
+      "name": "普通攻击·旋规设矩",
+      "icon": "Skill_A_04"
+    },
+    "10812": {
+      "name": "画则巧施",
+      "icon": "Skill_S_Kaveh_01"
+    },
+    "10815": {
+      "name": "繁绘隅穹",
+      "icon": "Skill_E_Kaveh_01"
+    },
+    "812101": {
+      "name": "营造者的担当",
+      "icon": "UI_Talent_S_Kaveh_05"
+    },
+    "812201": {
+      "name": "工艺家的奇想",
+      "icon": "UI_Talent_S_Kaveh_06"
+    },
+    "812301": {
+      "name": "预算师的技艺",
+      "icon": "UI_Talent_S_Yoimiya_07"
+    }
+  },
+  "constellation": {
+    "811": {
+      "name": "高门的谒礼",
+      "icon": "UI_Talent_S_Kaveh_01"
+    },
+    "812": {
+      "name": "御驿的径迹",
+      "icon": "UI_Talent_S_Kaveh_02"
+    },
+    "813": {
+      "name": "金塔的香献",
+      "icon": "UI_Talent_U_Kaveh_02"
+    },
+    "814": {
+      "name": "百柱的酣宴",
+      "icon": "UI_Talent_S_Kaveh_03"
+    },
+    "815": {
+      "name": "圣古的库藏",
+      "icon": "UI_Talent_U_Kaveh_01"
+    },
+    "816": {
+      "name": "天园的理想",
+      "icon": "UI_Talent_S_Kaveh_04"
+    }
+  },
+  "talent_fix": {
+    "10815": "繁绘隅穹",
+    "10812": "画则巧施"
+  },
+  "damage": [],
+  "buff": []
+}

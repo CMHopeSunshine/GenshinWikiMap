@@ -933,8 +933,7 @@
     "type": "WEAPON_CATALYST",
     "name": "碧落之珑",
     "icon": "UI_EquipIcon_Catalyst_Morax",
-    "route": "Jadefall's Splendor",
-    "beta": true
+    "route": "Jadefall's Splendor"
   },
   "14506": {
     "id": 14506,
@@ -1167,6 +1166,15 @@
     "name": "竭泽",
     "icon": "UI_EquipIcon_Bow_Fin",
     "route": "End of the Line"
+  },
+  "15419": {
+    "id": 15419,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "鹮穿之喙",
+    "icon": "UI_EquipIcon_Bow_Ibis",
+    "route": "Ibis Piercer",
+    "beta": true
   },
   "15501": {
     "id": 15501,
