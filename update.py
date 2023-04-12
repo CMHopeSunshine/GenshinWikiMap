@@ -164,7 +164,10 @@ def update_character():
             try:
                 download_img(f"https://upload-bbs.mihoyo.com/game_record/genshin/character_side_icon/{avatar_info['icon']['side']}.png", avatar_side_icon)
             except Exception:
-                download_img(f"https://enka.network/ui/{avatar_info['icon']['side']}.png", avatar_side_icon)
+                try:
+                    download_img(f"https://enka.network/ui/{avatar_info['icon']['side']}.png", avatar_side_icon)
+                except Exception:
+                    pass
         if not (avatar_splash_icon := RESOURCES / 'splash' / f"{avatar_info['icon']['splash']}.png").exists():
             download_from_ambr(avatar_splash_icon)
         avatar_info['property'] = [
