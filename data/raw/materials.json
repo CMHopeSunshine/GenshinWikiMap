@@ -3531,6 +3531,16 @@
       "rank": 4,
       "route": "Crystalline Bloom"
     },
+    "113021": {
+      "id": 113021,
+      "name": "异梦溶媒",
+      "type": "consumable",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113021",
+      "rank": 4,
+      "route": "Dream Solvent"
+    },
     "113022": {
       "id": 113022,
       "name": "魔偶机心",

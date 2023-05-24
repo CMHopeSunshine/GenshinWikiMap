@@ -1173,8 +1173,7 @@
     "type": "WEAPON_BOW",
     "name": "鹮穿之喙",
     "icon": "UI_EquipIcon_Bow_Ibis",
-    "route": "Ibis Piercer",
-    "beta": true
+    "route": "Ibis Piercer"
   },
   "15501": {
     "id": 15501,
