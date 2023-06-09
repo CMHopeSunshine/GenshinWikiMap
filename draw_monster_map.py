@@ -80,30 +80,31 @@ def draw_monster_map(monster: Monster):
 
     # 抗性
     img.text('正常状态', 534, 790, description_font, '#252525')
-    res = monster_detail.resistance
+    if res := monster_detail.resistance:
     # 火
-    res_str = f'{int(res.fireSubHurt * 100)}%' if monster.name not in ['火史莱姆', '大型火史莱姆', '火飘浮灵', '无相之火'] else '免疫'
-    img.text(res_str, (677, 741), 790, description_font, '#252525')
-    # 水
-    res_str = f'{int(res.waterSubHurt * 100)}%' if monster.name not in ['水史莱姆', '大型水史莱姆', '水飘浮灵', '无相之水', '纯水精灵'] else '免疫'
-    img.text(res_str, (773, 837), 790, description_font, '#252525')
-    # 风
-    res_str = f'{int(res.windSubHurt * 100)}%' if monster.name not in ['风史莱姆', '大型风史莱姆', '风飘浮灵', '无相之风', '北风的王狼，奔狼的领主'] else '免疫'
-    img.text(res_str, (869, 933), 790, description_font, '#252525')
-    # 雷
-    res_str = f'{int(res.elecSubHurt * 100)}%' if monster.name not in ['雷史莱姆', '大型雷史莱姆', '变异雷史莱姆', '雷飘浮灵', '无相之雷', '雷音权现'] else '免疫'
-    img.text(res_str, (965, 1029), 790, description_font, '#252525')
-    # 草
-    res_str = f'{int(res.grassSubHurt * 100)}%' if monster.name not in ['草史莱姆', '大型草史莱姆', '草飘浮灵', '无相之草'] else '免疫'
-    img.text(res_str, (1062, 1126), 790, description_font, '#252525')
-    # 冰
-    res_str = f'{int(res.iceSubHurt * 100)}%' if monster.name not in ['冰史莱姆', '大型冰史莱姆', '冰飘浮灵', '无相之冰', '北风的王狼，奔狼的领主'] else '免疫'
-    img.text(res_str, (1157, 1221), 790, description_font, '#252525')
-    # 岩
-    res_str = f'{int(res.rockSubHurt * 100)}%' if monster.name not in ['岩史莱姆', '大型岩史莱姆', '岩飘浮灵', '无相之岩'] else '免疫'
-    img.text(res_str, (1253, 1317), 790, description_font, '#252525')
-    # 物理
-    img.text(f'{int(res.physicalSubHurt * 100)}%', (1349, 1413), 790, description_font, '#252525')
+        res_str = f'{int(res.fireSubHurt * 100)}%' if monster.name not in ['火史莱姆', '大型火史莱姆', '火飘浮灵', '无相之火'] else '免疫'
+        img.text(res_str, (677, 741), 790, description_font, '#252525')
+        # 水
+        res_str = f'{int(res.waterSubHurt * 100)}%' if monster.name not in ['水史莱姆', '大型水史莱姆', '水飘浮灵', '无相之水', '纯水精灵'] else '免疫'
+        img.text(res_str, (773, 837), 790, description_font, '#252525')
+        # 风
+        res_str = f'{int(res.windSubHurt * 100)}%' if monster.name not in ['风史莱姆', '大型风史莱姆', '风飘浮灵', '无相之风', '北风的王狼，奔狼的领主'] else '免疫'
+        img.text(res_str, (869, 933), 790, description_font, '#252525')
+        # 雷
+        res_str = f'{int(res.elecSubHurt * 100)}%' if monster.name not in ['雷史莱姆', '大型雷史莱姆', '变异雷史莱姆', '雷飘浮灵', '无相之雷', '雷音权现'] else '免疫'
+        img.text(res_str, (965, 1029), 790, description_font, '#252525')
+        # 草
+        res_str = f'{int(res.grassSubHurt * 100)}%' if monster.name not in ['草史莱姆', '大型草史莱姆', '草飘浮灵', '无相之草'] else '免疫'
+        img.text(res_str, (1062, 1126), 790, description_font, '#252525')
+        # 冰
+        res_str = f'{int(res.iceSubHurt * 100)}%' if monster.name not in ['冰史莱姆', '大型冰史莱姆', '冰飘浮灵', '无相之冰', '北风的王狼，奔狼的领主'] else '免疫'
+        img.text(res_str, (1157, 1221), 790, description_font, '#252525')
+        # 岩
+        res_str = f'{int(res.rockSubHurt * 100)}%' if monster.name not in ['岩史莱姆', '大型岩史莱姆', '岩飘浮灵', '无相之岩'] else '免疫'
+        img.text(res_str, (1253, 1317), 790, description_font, '#252525')
+        # 物理
+        img.text(f'{int(res.physicalSubHurt * 100)}%', (1349, 1413), 790, description_font, '#252525')
+    
 
     if monster_detail.reward:
         materials = monster_detail.get_material_group()

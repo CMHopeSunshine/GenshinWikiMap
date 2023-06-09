@@ -66,7 +66,7 @@ class Promote(BaseModel):
     promoteLevel: int
     unlockMaxLevel: int
     costItems: Optional[dict[str, int]]
-    addProps: Optional[dict[str, float]]
+    addProps: dict[str, float]
     requiredPlayerLevel: Optional[int]
     coinCost: Optional[int]
 
@@ -126,7 +126,7 @@ class Talent(BaseModel):
                 desc_name, param_str = desc.split('|')
                 for param in re.findall(r'{param\d+:(?:F1P|F1|P|I|F2P|F2)}', param_str):
                     split = param.strip('{').strip('}').split(':')
-                    num, fm = int(re.search(r'\d+', split[0]).group()), split[1]
+                    num, fm = int(re.search(r'\d+', split[0]).group()), split[1]  # type: ignore
                     if self.name == '蒲公英之风' and num >= 8:  # 琴的大招技能参数有问题
                         num -= 1
                     p = promote.params[num - 1]
@@ -322,7 +322,7 @@ class Weapon(BaseModel):
 
     @property
     def story(self) -> Optional[str]:
-        if text := ambr_requests(WEAPON_STORY_API.format(self.id)):
+        if (text := ambr_requests(WEAPON_STORY_API.format(self.id))) and isinstance(text, str):
             return text.replace('\r\n', '')
         else:
             return None
@@ -506,9 +506,9 @@ class MonsterEntry(BaseModel):
     type: str
     affix: Optional[list[MonsterAffix]]
     hpDrops: Optional[list[dict]]
-    prop: Optional[list[Prop]]
+    prop: list[Prop]
     resistance: Optional[MonsterResistance]
-    reward: Optional[dict[str, MonsterReward]]
+    reward: dict[str, MonsterReward]
 
     def get_health_num(self, level: str) -> int:
         return int(self.prop[0].initValue * load_json(RAW / 'monster_curve.json')[level]['curveInfos'][
@@ -522,9 +522,7 @@ class MonsterEntry(BaseModel):
         return int(self.prop[2].initValue * load_json(RAW / 'monster_curve.json')[level]['curveInfos'][
             self.prop[2].type])
 
-    def get_material_group(self) -> Optional[list[dict]]:
-        if not self.reward:
-            return None
+    def get_material_group(self) -> list[dict]:
         material_data = load_json(RAW / 'materials.json')['items']
         material_group_data = load_json(DATA / '材料组.json')
         return [

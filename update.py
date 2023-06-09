@@ -250,7 +250,7 @@ def update_material():
             material_info = load_json(MATERIAL_RAW / f'{material["id"]}.json')
         else:
             print(f'>>>>>>获取 {material["id"]} 材料信息')
-            material_info = ambr_requests(MATERIAL_INFO_API.format(material['id']))
+            material_info = ambr_requests(MATERIAL_INFO_API.format(material['id'])) or {}
             save_json(material_info, MATERIAL_RAW / f'{material["id"]}.json')
             time.sleep(random.randint(1, 2))
         material['描述'] = material_info['description']
@@ -280,7 +280,7 @@ def update_weapon():
         data_save_path = DATA / 'weapon' / f'{weapon_id}.json'
         # 如果本地没有已下载的武器raw数据，则下载，否则读取本地
         if not (save_path := WEAPON_RAW / f'{weapon_id}.json').exists() or weapon_data.get('beta'):
-            weapon_data = ambr_requests(WEAPON_INFO_API.format(weapon_id))
+            weapon_data = ambr_requests(WEAPON_INFO_API.format(weapon_id)) or {}
             save_json(weapon_data, save_path)
             time.sleep(1.5)
             need_update = True
@@ -335,7 +335,7 @@ def update_artifact():
 
         # 如果本地没有已下载的圣遗物套装raw数据，则下载，否则读取本地
         if not (save_path := ARTIFACT_RAW / f'{suit_id}.json').exists():
-            suit_info = ambr_requests(ARTIFACT_INFO_API.format(suit_id))
+            suit_info = ambr_requests(ARTIFACT_INFO_API.format(suit_id)) or {}
             save_json(suit_info, save_path)
             time.sleep(1.5)
         else:

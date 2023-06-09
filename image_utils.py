@@ -1,14 +1,15 @@
 import math
 from pathlib import Path
-from typing import Union, Tuple, Literal, List
+from typing import Union, Tuple, Literal, List, Optional
 from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL.ImageFont import FreeTypeFont
 
 
 def load_image(path: Path):
     return Image.open(path)
 
 
-def load_font(path: Union[str, Path], size: int, variation: str = None):
+def load_font(path: Union[str, Path], size: int, variation: Optional[str] = None):
     if isinstance(path, Path):
         path = str(path)
     font = ImageFont.truetype(path, size)
@@ -19,10 +20,10 @@ def load_font(path: Union[str, Path], size: int, variation: str = None):
 
 class PMImage:
     def __init__(self,
-                 image: Union[Image.Image, Path] = None,
+                 image: Union[Image.Image, Path, None] = None,
                  *,
                  size: Tuple[int, int] = (200, 200),
-                 color: Union[str, Tuple[int, int, int, int]] = (255, 255, 255, 255),
+                 color: Union[str, Tuple[int, int, int, int], Tuple[int, int, int]] = (255, 255, 255, 255),
                  mode: Literal["1", "CMYK", "F", "HSV", "I", "L", "LAB", "P", "RGB", "RGBA", "RGBX", "YCbCr"] = 'RGBA'
                  ):
         """
@@ -35,7 +36,7 @@ class PMImage:
         if image:
             self.image = load_image(image) if isinstance(image, Path) else image.copy()
         else:
-            if mode == 'RGB':
+            if mode == 'RGB' and isinstance(color, tuple):
                 color = (color[0], color[1], color[2])
             self.image = Image.new(mode, size, color)
         self.draw = ImageDraw.Draw(self.image)
@@ -70,17 +71,17 @@ class PMImage:
         """
         self.image.save(path, **kwargs)
 
-    def text_length(self, text: str, font: ImageFont.ImageFont) -> int:
+    def text_length(self, text: str, font: FreeTypeFont) -> int:
         return int(self.draw.textlength(text, font))
 
-    def text_size(self, text: str, font: ImageFont.ImageFont) -> Tuple[int, int]:
+    def text_size(self, text: str, font: FreeTypeFont) -> Tuple[int, int]:
         return self.draw.textsize(text, font)
 
     @staticmethod
     def text_box_height(text: str,
                         width: Tuple[int, int],
                         height: Tuple[int, int],
-                        font: ImageFont.ImageFont = None) -> int:
+                        font: FreeTypeFont) -> int:
         text_height = font.getsize(text)[1]
         width_now = width[0]
         height_now = height[0]
@@ -157,7 +158,7 @@ class PMImage:
              text: str,
              width: Union[float, Tuple[float, float]],
              height: Union[float, Tuple[float, float]],
-             font: ImageFont.ImageFont = None,
+             font: FreeTypeFont,
              color: Union[str, Tuple[int, int, int, int]] = 'white',
              align: Literal['left', 'center', 'right'] = 'left'
              ):
@@ -197,7 +198,7 @@ class PMImage:
                  text: str,
                  width: Tuple[int, int],
                  height: Tuple[int, int],
-                 font: ImageFont.ImageFont = None,
+                 font: FreeTypeFont,
                  color: Union[str, Tuple[int, int, int, int]] = 'white'):
         text_height = font.getsize(text)[1]
         width_now = width[0]
@@ -227,7 +228,7 @@ class PMImage:
     #                    width2: Tuple[int, int],
     #                    height1: Tuple[int, int],
     #                    height2: Tuple[int, int],
-    #                    font: ImageFont.ImageFont = None,
+    #                    font: FreeTypeFont = None,
     #                    color: Union[str, Tuple[int, int, int, int]] = 'white'):
     #     flag = False
     #     text_height = font.getsize(text)[1]
@@ -326,7 +327,7 @@ class PMImage:
         self.draw.ellipse(pos, fill=color, width=width)
 
     def draw_rounded_rectangle(self,
-                               pos: Tuple[int, int, int, int],
+                               pos: Tuple[float, float, float, float],
                                radius: int = 5,
                                color: Union[str, Tuple[int, int, int, int]] = 'white',
                                width: int = 1):
@@ -345,7 +346,7 @@ class PMImage:
                                 size: Tuple[int, int],
                                 radius: int = 5,
                                 color: Union[str, Tuple[int, int, int, int]] = 'white',
-                                angles: List[Literal['ul', 'ur', 'll', 'lr']] = None):
+                                angles: List[Literal['ul', 'ur', 'll', 'lr']] = ['ul', 'ur', 'll', 'lr']):
         """
         选择最多4个角绘制圆角矩形
         :param pos: 左上角起点坐标

@@ -50,7 +50,7 @@ def download_from_ambr(path: Path, is_monster: bool = False):
     return img
 
 
-def ambr_requests(api: str) -> Union[dict, list, str, None]:
+def ambr_requests(api: str):
     """
     从安柏计划发送请求获取数据。
         :param api: 安柏API
