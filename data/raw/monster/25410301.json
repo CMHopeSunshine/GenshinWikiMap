@@ -162,6 +162,118 @@
         "physicalSubHurt": -0.2
       },
       "reward": null
+    },
+    "25410381": {
+      "id": 25410381,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "快速死亡-TD总控",
+          "description": "快速死亡-TD总控",
+          "abilityName": [
+            "MonsterAffix_DieOptimize_LevelPlay"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.7696,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
+    },
+    "25410382": {
+      "id": 25410382,
+      "type": "MONSTER_ORDINARY",
+      "affix": [
+        {
+          "name": "快速死亡-TD总控",
+          "description": "快速死亡-TD总控",
+          "abilityName": [
+            "MonsterAffix_DieOptimize_LevelPlay"
+          ],
+          "isCommon": true
+        }
+      ],
+      "hpDrops": [
+        {
+          "id": 22010011,
+          "hpPercent": 75
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 50
+        },
+        {
+          "id": 22010011,
+          "hpPercent": 25
+        }
+      ],
+      "prop": [
+        {
+          "propType": "FIGHT_PROP_BASE_HP",
+          "initValue": 59.7696,
+          "type": "GROW_CURVE_HP_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_ATTACK",
+          "initValue": 62.8,
+          "type": "GROW_CURVE_ATTACK_2"
+        },
+        {
+          "propType": "FIGHT_PROP_BASE_DEFENSE",
+          "initValue": 500,
+          "type": "GROW_CURVE_DEFENSE"
+        }
+      ],
+      "resistance": {
+        "fireSubHurt": 0.1,
+        "grassSubHurt": 0.1,
+        "waterSubHurt": 0.1,
+        "elecSubHurt": 0.1,
+        "windSubHurt": 0.1,
+        "iceSubHurt": 0.1,
+        "rockSubHurt": 0.1,
+        "physicalSubHurt": -0.2
+      },
+      "reward": null
     }
   },
   "tips": {

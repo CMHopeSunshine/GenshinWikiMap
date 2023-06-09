@@ -1239,8 +1239,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_101223",
       "rank": 1,
-      "route": "Mourning Flower",
-      "beta": true
+      "route": "Mourning Flower"
     },
     "101224": {
       "id": 101224,
@@ -1250,8 +1249,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_101224",
       "rank": 1,
-      "route": "Trishiraite",
-      "beta": true
+      "route": "Trishiraite"
     },
     "101225": {
       "id": 101225,
@@ -3311,8 +3309,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_112077",
       "rank": 2,
-      "route": "A Flower Yet to Bloom",
-      "beta": true
+      "route": "A Flower Yet to Bloom"
     },
     "112078": {
       "id": 112078,
@@ -3322,8 +3319,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_112078",
       "rank": 3,
-      "route": "Treasured Flower",
-      "beta": true
+      "route": "Treasured Flower"
     },
     "112079": {
       "id": 112079,
@@ -3333,8 +3329,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_112079",
       "rank": 4,
-      "route": "Wanderer's Blooming Flower",
-      "beta": true
+      "route": "Wanderer's Blooming Flower"
     },
     "113001": {
       "id": 113001,
@@ -3535,6 +3530,16 @@
       "icon": "UI_ItemIcon_113020",
       "rank": 4,
       "route": "Crystalline Bloom"
+    },
+    "113021": {
+      "id": 113021,
+      "name": "异梦溶媒",
+      "type": "consumable",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113021",
+      "rank": 4,
+      "route": "Dream Solvent"
     },
     "113022": {
       "id": 113022,
@@ -3774,41 +3779,37 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_113045",
       "rank": 4,
-      "route": "Evergloom Ring",
-      "beta": true
+      "route": "Evergloom Ring"
     },
     "113046": {
       "id": 113046,
-      "name": "？？？",
+      "name": "生长天地之蕨草",
       "type": "characterLevelUpMaterial",
       "recipe": true,
       "mapMark": false,
       "icon": "UI_ItemIcon_113046",
       "rank": 5,
-      "route": "???",
-      "beta": true
+      "route": "Worldspan Fern"
     },
     "113047": {
       "id": 113047,
-      "name": "？？？",
+      "name": "原初绿洲之初绽",
       "type": "characterLevelUpMaterial",
       "recipe": true,
       "mapMark": false,
       "icon": "UI_ItemIcon_113047",
       "rank": 5,
-      "route": "???",
-      "beta": true
+      "route": "Primordial Greenbloom"
     },
     "113048": {
       "id": 113048,
-      "name": "？？？",
+      "name": "亘古树海之一瞬",
       "type": "characterLevelUpMaterial",
       "recipe": true,
       "mapMark": false,
       "icon": "UI_ItemIcon_113048",
       "rank": 5,
-      "route": "???",
-      "beta": true
+      "route": "Everamber"
     },
     "114001": {
       "id": 114001,

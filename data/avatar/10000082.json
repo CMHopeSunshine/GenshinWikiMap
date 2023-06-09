@@ -1,0 +1,131 @@
+{
+  "id": 10000082,
+  "name": "白术",
+  "element": "草",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Baizhuer",
+    "side": "UI_AvatarIcon_Side_Baizhuer",
+    "card": "UI_AvatarIcon_Baizhuer_Card",
+    "splash": "UI_Gacha_AvatarImg_Baizhuer",
+    "slice": "UI_Gacha_AvatarIcon_Baizhuer"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.11877,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        890.95044,
+        1523.99414,
+        2368.05249,
+        3001.09619,
+        3634.13989,
+        4267.18359
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.9891,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        12.85086,
+        21.98173,
+        34.15623,
+        43.28711,
+        52.41798,
+        61.54885
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 38.8895,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        33.345,
+        57.0375,
+        88.6275,
+        112.32,
+        136.0125,
+        159.705
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.072,
+        0.144,
+        0.144,
+        0.216,
+        0.288
+      ]
+    }
+  ],
+  "talent": {
+    "10821": {
+      "name": "普通攻击·金匮针解",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10822": {
+      "name": "太素诊要",
+      "icon": "Skill_S_Baizhuer_01"
+    },
+    "10825": {
+      "name": "愈气全形论",
+      "icon": "Skill_E_Baizhuer_01"
+    },
+    "822101": {
+      "name": "五运终天",
+      "icon": "UI_Talent_S_Baizhuer_05"
+    },
+    "822201": {
+      "name": "在地为化",
+      "icon": "UI_Talent_S_Baizhuer_06"
+    },
+    "822301": {
+      "name": "味草之滋",
+      "icon": "UI_Talent_S_Baizhuer_07"
+    }
+  },
+  "constellation": {
+    "821": {
+      "name": "呿吟至微",
+      "icon": "UI_Talent_S_Baizhuer_01"
+    },
+    "822": {
+      "name": "动静精明",
+      "icon": "UI_Talent_S_Baizhuer_02"
+    },
+    "823": {
+      "name": "八正定气",
+      "icon": "UI_Talent_U_Baizhuer_01"
+    },
+    "824": {
+      "name": "法古观冥",
+      "icon": "UI_Talent_S_Baizhuer_03"
+    },
+    "825": {
+      "name": "盈虚藏象",
+      "icon": "UI_Talent_U_Baizhuer_02"
+    },
+    "826": {
+      "name": "真邪合离",
+      "icon": "UI_Talent_S_Baizhuer_04"
+    }
+  },
+  "talent_fix": {
+    "10825": "愈气全形论",
+    "10822": "太素诊要"
+  },
+  "damage": [],
+  "buff": []
+}

@@ -1,0 +1,131 @@
+{
+  "id": 10000061,
+  "name": "绮良良",
+  "element": "草",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Momoka",
+    "side": "UI_AvatarIcon_Side_Momoka",
+    "card": "UI_AvatarIcon_Momoka_Card",
+    "splash": "UI_Gacha_AvatarImg_Momoka",
+    "slice": "UI_Gacha_AvatarIcon_Momoka"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1021.20593,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        762.89313,
+        1304.94873,
+        2027.68958,
+        2569.74512,
+        3111.80078,
+        3653.85645
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.6984,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        13.96899,
+        23.89433,
+        37.12811,
+        47.05344,
+        56.97878,
+        66.90411
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 45.78,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        34.2,
+        58.5,
+        90.9,
+        115.2,
+        139.5,
+        163.8
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10611": {
+      "name": "普通攻击·箱纸切削术",
+      "icon": "Skill_A_01"
+    },
+    "10612": {
+      "name": "呜喵町飞足",
+      "icon": "Skill_S_Momoka_01"
+    },
+    "10615": {
+      "name": "秘法·惊喜特派",
+      "icon": "Skill_E_Momoka_01"
+    },
+    "612101": {
+      "name": "妖说歧尾之变",
+      "icon": "UI_Talent_S_Momoka_05"
+    },
+    "612201": {
+      "name": "应时惑目之灵",
+      "icon": "UI_Talent_S_Momoka_06"
+    },
+    "612301": {
+      "name": "祟祟猫步",
+      "icon": "UI_Talent_S_Aloy_07"
+    }
+  },
+  "constellation": {
+    "611": {
+      "name": "物器流转",
+      "icon": "UI_Talent_S_Momoka_01"
+    },
+    "612": {
+      "name": "八尖裹术",
+      "icon": "UI_Talent_S_Momoka_02"
+    },
+    "613": {
+      "name": "万户门牌通识",
+      "icon": "UI_Talent_U_Momoka_01"
+    },
+    "614": {
+      "name": "韦驮骏足",
+      "icon": "UI_Talent_S_Momoka_04"
+    },
+    "615": {
+      "name": "千里一日",
+      "icon": "UI_Talent_U_Momoka_02"
+    },
+    "616": {
+      "name": "沿途百景会心",
+      "icon": "UI_Talent_S_Momoka_03"
+    }
+  },
+  "talent_fix": {
+    "10612": "呜喵町飞足",
+    "10615": "秘法·惊喜特派"
+  },
+  "damage": [],
+  "buff": []
+}
