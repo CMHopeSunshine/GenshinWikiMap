@@ -42,6 +42,10 @@ with zipfile.ZipFile(DATA / 'data.zip', 'w', zipfile.ZIP_STORED) as f:
 
 
 with zipfile.ZipFile(Path() / 'resources' / 'genshin_resources.zip', 'w', zipfile.ZIP_DEFLATED) as f:
-    for dir_type in ['talent', 'splash', 'material', 'avatar', 'avatar_side', 'weapon', 'artifact']:
+    for dir_type in ['talent', 'material', 'avatar', 'avatar_side', 'weapon', 'artifact']:
         for file in (Path() / 'resources' / dir_type).iterdir():
             f.write(file, str(file).replace('\\', '/').lstrip('resources').lstrip('/'))
+
+with zipfile.ZipFile(Path() / 'resources' / 'genshin_splash.zip', 'w', zipfile.ZIP_DEFLATED) as f:
+    for file in (Path() / 'resources' / "splash").iterdir():
+        f.write(file, file.name)
