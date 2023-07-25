@@ -1,0 +1,24 @@
+{
+  "name": "「正义」的哲学",
+  "description": "水之国土的利剑是正义。\\n枫丹的律法秉正义之剑而行。正义意味着裁决与调和，以裁决的剑锋遏止恶行，以调和的手段维护秩序。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13028": {
+      "104342": {
+        "icon": "UI_ItemIcon_104342",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104343",
+  "rank": 4,
+  "route": "Philosophies of Justice",
+  "beta": true
+}

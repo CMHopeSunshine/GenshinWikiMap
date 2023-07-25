@@ -38,3 +38,7 @@ MONSTER_CURVE_API = 'https://api.ambr.top/v2/static/monsterCurve?vh=38F2'
 """原魔曲线接口"""
 MONSTER_INFO_API = 'https://api.ambr.top/v2/chs/monster/{}?vh=38F2'
 """原魔信息接口"""
+
+
+DAILY_URL = 'https://api.ambr.top/v2/chs/dailyDungeon'
+UPGRADE_URL = 'https://api.ambr.top/v2/static/upgrade'

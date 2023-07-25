@@ -1,0 +1,21 @@
+{
+  "name": "隙间之核",
+  "description": "隙境原体留下的碎屑。\\n与地上任何生命形式都不具备相似之处。",
+  "type": "角色与武器培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "隙境原体掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112089",
+  "rank": 2,
+  "route": "Rift Core",
+  "beta": true
+}

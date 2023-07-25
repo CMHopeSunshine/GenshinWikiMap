@@ -1,0 +1,548 @@
+{
+  "天赋": {
+    "周一": {
+      "「自由」的哲学-UI_ItemIcon_104303": [
+        "4UI_AvatarIcon_Barbara-芭芭拉",
+        "4UI_AvatarIcon_Ambor-安柏",
+        "5UI_AvatarIcon_Klee-可莉",
+        "5UI_AvatarIcon_Tartaglia-达达利亚",
+        "4UI_AvatarIcon_Diona-迪奥娜",
+        "4UI_AvatarIcon_Sucrose-砂糖",
+        "5UI_AvatarIcon_Aloy-埃洛伊"
+      ],
+      "「繁荣」的哲学-UI_ItemIcon_104312": [
+        "5UI_AvatarIcon_Xiao-魈",
+        "4UI_AvatarIcon_Ningguang-凝光",
+        "5UI_AvatarIcon_Qiqi-七七",
+        "5UI_AvatarIcon_Keqing-刻晴",
+        "5UI_AvatarIcon_Yelan-夜兰",
+        "5UI_AvatarIcon_Shenhe-申鹤"
+      ],
+      "「浮世」的哲学-UI_ItemIcon_104322": [
+        "5UI_AvatarIcon_Yoimiya-宵宫",
+        "4UI_AvatarIcon_Tohma-托马",
+        "5UI_AvatarIcon_Kokomi-珊瑚宫心海",
+        "4UI_AvatarIcon_Heizo-鹿野院平藏",
+        "4UI_AvatarIcon_Momoka-绮良良"
+      ],
+      "「诤言」的哲学-UI_ItemIcon_104331": [
+        "5UI_AvatarIcon_Tighnari-提纳里",
+        "5UI_AvatarIcon_Cyno-赛诺",
+        "4UI_AvatarIcon_Candace-坎蒂丝",
+        "4UI_AvatarIcon_Faruzan-珐露珊"
+      ]
+    },
+    "周二": {
+      "「抗争」的哲学-UI_ItemIcon_104306": [
+        "5UI_AvatarIcon_Qin-琴",
+        "5UI_AvatarIcon_Diluc-迪卢克",
+        "4UI_AvatarIcon_Razor-雷泽",
+        "4UI_AvatarIcon_Bennett-班尼特",
+        "4UI_AvatarIcon_Noel-诺艾尔",
+        "5UI_AvatarIcon_Mona-莫娜",
+        "5UI_AvatarIcon_Eula-优菈"
+      ],
+      "「勤劳」的哲学-UI_ItemIcon_104315": [
+        "4UI_AvatarIcon_Xiangling-香菱",
+        "4UI_AvatarIcon_Chongyun-重云",
+        "5UI_AvatarIcon_Ganyu-甘雨",
+        "5UI_AvatarIcon_Hutao-胡桃",
+        "5UI_AvatarIcon_Kazuha-枫原万叶",
+        "4UI_AvatarIcon_Yunjin-云堇",
+        "4UI_AvatarIcon_Yaoyao-瑶瑶"
+      ],
+      "「风雅」的哲学-UI_ItemIcon_104325": [
+        "5UI_AvatarIcon_Ayaka-神里绫华",
+        "4UI_AvatarIcon_Sara-九条裟罗",
+        "5UI_AvatarIcon_Itto-荒泷一斗",
+        "4UI_AvatarIcon_Shinobu-久岐忍",
+        "5UI_AvatarIcon_Ayato-神里绫人"
+      ],
+      "「巧思」的哲学-UI_ItemIcon_104334": [
+        "4UI_AvatarIcon_Dori-多莉",
+        "5UI_AvatarIcon_Nahida-纳西妲",
+        "4UI_AvatarIcon_Layla-莱依拉",
+        "5UI_AvatarIcon_Alhatham-艾尔海森",
+        "4UI_AvatarIcon_Kaveh-卡维"
+      ]
+    },
+    "周三": {
+      "「诗文」的哲学-UI_ItemIcon_104309": [
+        "4UI_AvatarIcon_Lisa-丽莎",
+        "4UI_AvatarIcon_Kaeya-凯亚",
+        "5UI_AvatarIcon_Venti-温迪",
+        "4UI_AvatarIcon_Fischl-菲谢尔",
+        "5UI_AvatarIcon_Albedo-阿贝多",
+        "4UI_AvatarIcon_Rosaria-罗莎莉亚",
+        "4UI_AvatarIcon_Mika-米卡"
+      ],
+      "「黄金」的哲学-UI_ItemIcon_104318": [
+        "4UI_AvatarIcon_Beidou-北斗",
+        "4UI_AvatarIcon_Xingqiu-行秋",
+        "5UI_AvatarIcon_Zhongli-钟离",
+        "4UI_AvatarIcon_Xinyan-辛焱",
+        "4UI_AvatarIcon_Feiyan-烟绯",
+        "5UI_AvatarIcon_Baizhuer-白术"
+      ],
+      "「天光」的哲学-UI_ItemIcon_104328": [
+        "5UI_AvatarIcon_Shougun-雷电将军",
+        "4UI_AvatarIcon_Sayu-早柚",
+        "4UI_AvatarIcon_Gorou-五郎",
+        "5UI_AvatarIcon_Yae-八重神子"
+      ],
+      "「笃行」的哲学-UI_ItemIcon_104337": [
+        "4UI_AvatarIcon_Collei-柯莱",
+        "5UI_AvatarIcon_Nilou-妮露",
+        "5UI_AvatarIcon_Wanderer-流浪者",
+        "5UI_AvatarIcon_Dehya-迪希雅"
+      ]
+    },
+    "周四": {
+      "「自由」的哲学-UI_ItemIcon_104303": [
+        "4UI_AvatarIcon_Barbara-芭芭拉",
+        "4UI_AvatarIcon_Ambor-安柏",
+        "5UI_AvatarIcon_Klee-可莉",
+        "5UI_AvatarIcon_Tartaglia-达达利亚",
+        "4UI_AvatarIcon_Diona-迪奥娜",
+        "4UI_AvatarIcon_Sucrose-砂糖",
+        "5UI_AvatarIcon_Aloy-埃洛伊"
+      ],
+      "「繁荣」的哲学-UI_ItemIcon_104312": [
+        "5UI_AvatarIcon_Xiao-魈",
+        "4UI_AvatarIcon_Ningguang-凝光",
+        "5UI_AvatarIcon_Qiqi-七七",
+        "5UI_AvatarIcon_Keqing-刻晴",
+        "5UI_AvatarIcon_Yelan-夜兰",
+        "5UI_AvatarIcon_Shenhe-申鹤"
+      ],
+      "「浮世」的哲学-UI_ItemIcon_104322": [
+        "5UI_AvatarIcon_Yoimiya-宵宫",
+        "4UI_AvatarIcon_Tohma-托马",
+        "5UI_AvatarIcon_Kokomi-珊瑚宫心海",
+        "4UI_AvatarIcon_Heizo-鹿野院平藏",
+        "4UI_AvatarIcon_Momoka-绮良良"
+      ],
+      "「诤言」的哲学-UI_ItemIcon_104331": [
+        "5UI_AvatarIcon_Tighnari-提纳里",
+        "5UI_AvatarIcon_Cyno-赛诺",
+        "4UI_AvatarIcon_Candace-坎蒂丝",
+        "4UI_AvatarIcon_Faruzan-珐露珊"
+      ]
+    },
+    "周五": {
+      "「抗争」的哲学-UI_ItemIcon_104306": [
+        "5UI_AvatarIcon_Qin-琴",
+        "5UI_AvatarIcon_Diluc-迪卢克",
+        "4UI_AvatarIcon_Razor-雷泽",
+        "4UI_AvatarIcon_Bennett-班尼特",
+        "4UI_AvatarIcon_Noel-诺艾尔",
+        "5UI_AvatarIcon_Mona-莫娜",
+        "5UI_AvatarIcon_Eula-优菈"
+      ],
+      "「勤劳」的哲学-UI_ItemIcon_104315": [
+        "4UI_AvatarIcon_Xiangling-香菱",
+        "4UI_AvatarIcon_Chongyun-重云",
+        "5UI_AvatarIcon_Ganyu-甘雨",
+        "5UI_AvatarIcon_Hutao-胡桃",
+        "5UI_AvatarIcon_Kazuha-枫原万叶",
+        "4UI_AvatarIcon_Yunjin-云堇",
+        "4UI_AvatarIcon_Yaoyao-瑶瑶"
+      ],
+      "「风雅」的哲学-UI_ItemIcon_104325": [
+        "5UI_AvatarIcon_Ayaka-神里绫华",
+        "4UI_AvatarIcon_Sara-九条裟罗",
+        "5UI_AvatarIcon_Itto-荒泷一斗",
+        "4UI_AvatarIcon_Shinobu-久岐忍",
+        "5UI_AvatarIcon_Ayato-神里绫人"
+      ],
+      "「巧思」的哲学-UI_ItemIcon_104334": [
+        "4UI_AvatarIcon_Dori-多莉",
+        "5UI_AvatarIcon_Nahida-纳西妲",
+        "4UI_AvatarIcon_Layla-莱依拉",
+        "5UI_AvatarIcon_Alhatham-艾尔海森",
+        "4UI_AvatarIcon_Kaveh-卡维"
+      ]
+    },
+    "周六": {
+      "「诗文」的哲学-UI_ItemIcon_104309": [
+        "4UI_AvatarIcon_Lisa-丽莎",
+        "4UI_AvatarIcon_Kaeya-凯亚",
+        "5UI_AvatarIcon_Venti-温迪",
+        "4UI_AvatarIcon_Fischl-菲谢尔",
+        "5UI_AvatarIcon_Albedo-阿贝多",
+        "4UI_AvatarIcon_Rosaria-罗莎莉亚",
+        "4UI_AvatarIcon_Mika-米卡"
+      ],
+      "「黄金」的哲学-UI_ItemIcon_104318": [
+        "4UI_AvatarIcon_Beidou-北斗",
+        "4UI_AvatarIcon_Xingqiu-行秋",
+        "5UI_AvatarIcon_Zhongli-钟离",
+        "4UI_AvatarIcon_Xinyan-辛焱",
+        "4UI_AvatarIcon_Feiyan-烟绯",
+        "5UI_AvatarIcon_Baizhuer-白术"
+      ],
+      "「天光」的哲学-UI_ItemIcon_104328": [
+        "5UI_AvatarIcon_Shougun-雷电将军",
+        "4UI_AvatarIcon_Sayu-早柚",
+        "4UI_AvatarIcon_Gorou-五郎",
+        "5UI_AvatarIcon_Yae-八重神子"
+      ],
+      "「笃行」的哲学-UI_ItemIcon_104337": [
+        "4UI_AvatarIcon_Collei-柯莱",
+        "5UI_AvatarIcon_Nilou-妮露",
+        "5UI_AvatarIcon_Wanderer-流浪者",
+        "5UI_AvatarIcon_Dehya-迪希雅"
+      ]
+    }
+  },
+  "武器": {
+    "周一": {
+      "高塔孤王的碎梦-UI_ItemIcon_114004": [
+        "3UI_EquipIcon_Sword_Steel-冷刃",
+        "4UI_EquipIcon_Sword_Zephyrus-西风剑",
+        "4UI_EquipIcon_Sword_Theocrat-宗室长剑",
+        "4UI_EquipIcon_Sword_Outlaw-暗巷闪光",
+        "4UI_EquipIcon_Sword_Opus-辰砂之纺锤",
+        "5UI_EquipIcon_Sword_Falcon-风鹰剑",
+        "3UI_EquipIcon_Claymore_Glaive-铁影阔剑",
+        "4UI_EquipIcon_Claymore_Troupe-钟剑",
+        "4UI_EquipIcon_Claymore_Dragonfell-雪葬的星银",
+        "5UI_EquipIcon_Claymore_Widsith-松籁响起之时",
+        "3UI_EquipIcon_Catalyst_Intro-魔导绪论",
+        "4UI_EquipIcon_Catalyst_Zephyrus-西风秘典",
+        "4UI_EquipIcon_Catalyst_Theocrat-宗室秘法录",
+        "3UI_EquipIcon_Bow_Crowfeather-鸦羽弓",
+        "4UI_EquipIcon_Bow_Troupe-绝弦",
+        "4UI_EquipIcon_Bow_Viridescent-苍翠猎弓",
+        "4UI_EquipIcon_Bow_Nachtblind-幽夜华尔兹"
+      ],
+      "孤云寒林的神体-UI_ItemIcon_114016": [
+        "4UI_EquipIcon_Sword_Rockkiller-匣里龙吟",
+        "4UI_EquipIcon_Sword_Blackrock-黑岩长剑",
+        "5UI_EquipIcon_Sword_Kunwu-斫峰之刃",
+        "4UI_EquipIcon_Claymore_Exotic-白影剑",
+        "4UI_EquipIcon_Claymore_Lapis-千岩古剑",
+        "3UI_EquipIcon_Pole_Ruby-白缨枪",
+        "4UI_EquipIcon_Pole_Exotic-流月针",
+        "5UI_EquipIcon_Pole_Morax-和璞鸢",
+        "3UI_EquipIcon_Catalyst_Jade-翡玉法球",
+        "4UI_EquipIcon_Catalyst_Resurrection-匣里日月",
+        "4UI_EquipIcon_Catalyst_Blackrock-黑岩绯玉",
+        "5UI_EquipIcon_Catalyst_Morax-碧落之珑",
+        "3UI_EquipIcon_Bow_Sling-弹弓",
+        "4UI_EquipIcon_Bow_Recluse-弓藏",
+        "4UI_EquipIcon_Bow_Blackrock-黑岩战弓",
+        "5UI_EquipIcon_Bow_Kirin-若水"
+      ],
+      "远海夷地的金枝-UI_ItemIcon_114028": [
+        "4UI_EquipIcon_Sword_Bakufu-天目影打刀",
+        "5UI_EquipIcon_Sword_Narukami-雾切之回光",
+        "4UI_EquipIcon_Claymore_Maria-恶王丸",
+        "4UI_EquipIcon_Catalyst_Bakufu-白辰之环",
+        "4UI_EquipIcon_Catalyst_Jyanome-证誓之明瞳",
+        "5UI_EquipIcon_Catalyst_Kaleido-不灭月华"
+      ],
+      "谧林涓露的金符-UI_ItemIcon_114040": [
+        "4UI_EquipIcon_Sword_Arakalari-原木刀",
+        "4UI_EquipIcon_Sword_Pleroma-西福斯的月光",
+        "5UI_EquipIcon_Sword_Deshret-圣显之钥",
+        "5UI_EquipIcon_Sword_Ayus-裁叶萃光",
+        "4UI_EquipIcon_Claymore_Arakalari-森林王器",
+        "4UI_EquipIcon_Bow_Ibis-鹮穿之喙"
+      ]
+    },
+    "周二": {
+      "凛风奔狼的怀乡-UI_ItemIcon_114008": [
+        "3UI_EquipIcon_Sword_Dawn-黎明神剑",
+        "4UI_EquipIcon_Sword_Troupe-笛剑",
+        "4UI_EquipIcon_Sword_Bloodstained-黑剑",
+        "4UI_EquipIcon_Sword_Psalmus-降临之剑",
+        "5UI_EquipIcon_Sword_Dvalin-天空之刃",
+        "3UI_EquipIcon_Claymore_Siegfry-沐浴龙血的剑",
+        "4UI_EquipIcon_Claymore_Fossil-祭礼大剑",
+        "5UI_EquipIcon_Claymore_Dvalin-天空之傲",
+        "4UI_EquipIcon_Pole_Gladiator-决斗之枪",
+        "4UI_EquipIcon_Pole_Everfrost-龙脊长枪",
+        "4UI_EquipIcon_Pole_Windvane-风信之锋",
+        "3UI_EquipIcon_Catalyst_Pulpfic-讨龙英杰谭",
+        "4UI_EquipIcon_Catalyst_Troupe-流浪乐章",
+        "4UI_EquipIcon_Catalyst_Outlaw-暗巷的酒与诗",
+        "4UI_EquipIcon_Catalyst_Ludiharpastum-嘟嘟可故事集",
+        "5UI_EquipIcon_Catalyst_Dvalin-天空之卷",
+        "3UI_EquipIcon_Bow_Arjuna-神射手之誓",
+        "4UI_EquipIcon_Bow_Fossil-祭礼弓",
+        "5UI_EquipIcon_Bow_Dvalin-天空之翼",
+        "5UI_EquipIcon_Bow_Widsith-终末嗟叹之诗"
+      ],
+      "雾海云间的转还-UI_ItemIcon_114020": [
+        "3UI_EquipIcon_Sword_Sashimi-吃虎鱼刀",
+        "4UI_EquipIcon_Sword_Proto-试作斩岩",
+        "5UI_EquipIcon_Sword_Morax-磐岩结绿",
+        "3UI_EquipIcon_Claymore_Reasoning-以理服人",
+        "4UI_EquipIcon_Claymore_Perdue-雨裁",
+        "4UI_EquipIcon_Claymore_Blackrock-黑岩斩刀",
+        "5UI_EquipIcon_Claymore_Kunwu-无工之剑",
+        "3UI_EquipIcon_Pole_Halberd-钺矛",
+        "4UI_EquipIcon_Pole_Stardust-匣里灭辰",
+        "4UI_EquipIcon_Pole_Blackrock-黑岩刺枪",
+        "4UI_EquipIcon_Pole_Theocrat-宗室猎枪",
+        "5UI_EquipIcon_Pole_Santika-息灾",
+        "3UI_EquipIcon_Catalyst_Phoney-甲级宝珏",
+        "4UI_EquipIcon_Catalyst_Proto-试作金珀",
+        "4UI_EquipIcon_Catalyst_Truelens-昭心",
+        "3UI_EquipIcon_Bow_Msg-信使",
+        "4UI_EquipIcon_Bow_Proto-试作澹月"
+      ],
+      "鸣神御灵的勇武-UI_ItemIcon_114032": [
+        "4UI_EquipIcon_Sword_Kasabouzu-东花坊时雨",
+        "5UI_EquipIcon_Sword_Amenoma-波乱月白经津",
+        "4UI_EquipIcon_Claymore_Bakufu-桂木斩长正",
+        "5UI_EquipIcon_Claymore_Itadorimaru-赤角石溃杵",
+        "4UI_EquipIcon_Bow_Bakufu-破魔之弓",
+        "4UI_EquipIcon_Bow_Predator-掠食者",
+        "4UI_EquipIcon_Bow_Maria-曚云之月",
+        "5UI_EquipIcon_Bow_Narukami-飞雷之弦振"
+      ],
+      "绿洲花园的真谛-UI_ItemIcon_114044": [
+        "4UI_EquipIcon_Pole_Arakalari-贯月矢",
+        "5UI_EquipIcon_Pole_Deshret-赤沙之杖",
+        "4UI_EquipIcon_Catalyst_Pleroma-流浪的晚星",
+        "4UI_EquipIcon_Catalyst_Arakalari-盈满之实",
+        "5UI_EquipIcon_Catalyst_Ayus-千夜浮梦"
+      ]
+    },
+    "周三": {
+      "狮牙斗士的理想-UI_ItemIcon_114012": [
+        "3UI_EquipIcon_Sword_Traveler-旅行剑",
+        "4UI_EquipIcon_Sword_Fossil-祭礼剑",
+        "4UI_EquipIcon_Sword_Magnum-腐殖之剑",
+        "5UI_EquipIcon_Sword_Widsith-苍古自由之誓",
+        "3UI_EquipIcon_Claymore_Tin-白铁大剑",
+        "4UI_EquipIcon_Claymore_Zephyrus-西风大剑",
+        "4UI_EquipIcon_Claymore_Theocrat-宗室大剑",
+        "4UI_EquipIcon_Claymore_Fleurfair-饰铁之花",
+        "5UI_EquipIcon_Claymore_Wolfmound-狼的末路",
+        "4UI_EquipIcon_Pole_Zephyrus-西风长枪",
+        "5UI_EquipIcon_Pole_Dvalin-天空之脊",
+        "3UI_EquipIcon_Catalyst_Lightnov-异世界行记",
+        "4UI_EquipIcon_Catalyst_Fossil-祭礼残章",
+        "4UI_EquipIcon_Catalyst_Everfrost-忍冬之果",
+        "5UI_EquipIcon_Catalyst_Fourwinds-四风原典",
+        "3UI_EquipIcon_Bow_Curve-反曲弓",
+        "4UI_EquipIcon_Bow_Zephyrus-西风猎弓",
+        "4UI_EquipIcon_Bow_Theocrat-宗室长弓",
+        "4UI_EquipIcon_Bow_Outlaw-暗巷猎手",
+        "4UI_EquipIcon_Bow_Fleurfair-风花之颂",
+        "5UI_EquipIcon_Bow_Amos-阿莫斯之弓"
+      ],
+      "漆黑陨铁的一块-UI_ItemIcon_114024": [
+        "3UI_EquipIcon_Sword_Mitsurugi-飞天御剑",
+        "4UI_EquipIcon_Sword_Exotic-铁蜂刺",
+        "3UI_EquipIcon_Claymore_Mitsurugi-飞天大御剑",
+        "4UI_EquipIcon_Claymore_Proto-试作古华",
+        "4UI_EquipIcon_Claymore_Kione-螭骨剑",
+        "4UI_EquipIcon_Claymore_MillenniaTuna-衔珠海皇",
+        "3UI_EquipIcon_Pole_Noire-黑缨枪",
+        "4UI_EquipIcon_Pole_Proto-试作星镰",
+        "4UI_EquipIcon_Pole_Lapis-千岩长枪",
+        "5UI_EquipIcon_Pole_Homa-护摩之杖",
+        "5UI_EquipIcon_Pole_Kunwu-贯虹之槊",
+        "4UI_EquipIcon_Catalyst_Exotic-万国诸海图谱",
+        "5UI_EquipIcon_Catalyst_Kunwu-尘世之锁",
+        "4UI_EquipIcon_Bow_Exotic-钢轮弓",
+        "4UI_EquipIcon_Bow_Fallensun-落霞"
+      ],
+      "今昔剧画之鬼人-UI_ItemIcon_114036": [
+        "4UI_EquipIcon_Sword_Youtou-笼钓瓶一心",
+        "4UI_EquipIcon_Pole_Bakufu-喜多院十文字",
+        "4UI_EquipIcon_Pole_Mori-「渔获」",
+        "4UI_EquipIcon_Pole_Maria-断浪长鳍",
+        "5UI_EquipIcon_Pole_Narukami-薙草之稻光",
+        "5UI_EquipIcon_Catalyst_Narukami-神乐之真意",
+        "5UI_EquipIcon_Bow_Worldbane-冬极白星"
+      ],
+      "烈日威权的旧日-UI_ItemIcon_114048": [
+        "4UI_EquipIcon_Claymore_Pleroma-玛海菈的水色",
+        "5UI_EquipIcon_Claymore_Deshret-苇海信标",
+        "5UI_EquipIcon_Catalyst_Alaya-图莱杜拉的回忆",
+        "4UI_EquipIcon_Bow_Arakalari-王下近侍",
+        "4UI_EquipIcon_Bow_Fin-竭泽",
+        "5UI_EquipIcon_Bow_Ayus-猎人之径"
+      ]
+    },
+    "周四": {
+      "高塔孤王的碎梦-UI_ItemIcon_114004": [
+        "3UI_EquipIcon_Sword_Steel-冷刃",
+        "4UI_EquipIcon_Sword_Zephyrus-西风剑",
+        "4UI_EquipIcon_Sword_Theocrat-宗室长剑",
+        "4UI_EquipIcon_Sword_Outlaw-暗巷闪光",
+        "4UI_EquipIcon_Sword_Opus-辰砂之纺锤",
+        "5UI_EquipIcon_Sword_Falcon-风鹰剑",
+        "3UI_EquipIcon_Claymore_Glaive-铁影阔剑",
+        "4UI_EquipIcon_Claymore_Troupe-钟剑",
+        "4UI_EquipIcon_Claymore_Dragonfell-雪葬的星银",
+        "5UI_EquipIcon_Claymore_Widsith-松籁响起之时",
+        "3UI_EquipIcon_Catalyst_Intro-魔导绪论",
+        "4UI_EquipIcon_Catalyst_Zephyrus-西风秘典",
+        "4UI_EquipIcon_Catalyst_Theocrat-宗室秘法录",
+        "3UI_EquipIcon_Bow_Crowfeather-鸦羽弓",
+        "4UI_EquipIcon_Bow_Troupe-绝弦",
+        "4UI_EquipIcon_Bow_Viridescent-苍翠猎弓",
+        "4UI_EquipIcon_Bow_Nachtblind-幽夜华尔兹"
+      ],
+      "孤云寒林的神体-UI_ItemIcon_114016": [
+        "4UI_EquipIcon_Sword_Rockkiller-匣里龙吟",
+        "4UI_EquipIcon_Sword_Blackrock-黑岩长剑",
+        "5UI_EquipIcon_Sword_Kunwu-斫峰之刃",
+        "4UI_EquipIcon_Claymore_Exotic-白影剑",
+        "4UI_EquipIcon_Claymore_Lapis-千岩古剑",
+        "3UI_EquipIcon_Pole_Ruby-白缨枪",
+        "4UI_EquipIcon_Pole_Exotic-流月针",
+        "5UI_EquipIcon_Pole_Morax-和璞鸢",
+        "3UI_EquipIcon_Catalyst_Jade-翡玉法球",
+        "4UI_EquipIcon_Catalyst_Resurrection-匣里日月",
+        "4UI_EquipIcon_Catalyst_Blackrock-黑岩绯玉",
+        "5UI_EquipIcon_Catalyst_Morax-碧落之珑",
+        "3UI_EquipIcon_Bow_Sling-弹弓",
+        "4UI_EquipIcon_Bow_Recluse-弓藏",
+        "4UI_EquipIcon_Bow_Blackrock-黑岩战弓",
+        "5UI_EquipIcon_Bow_Kirin-若水"
+      ],
+      "远海夷地的金枝-UI_ItemIcon_114028": [
+        "4UI_EquipIcon_Sword_Bakufu-天目影打刀",
+        "5UI_EquipIcon_Sword_Narukami-雾切之回光",
+        "4UI_EquipIcon_Claymore_Maria-恶王丸",
+        "4UI_EquipIcon_Catalyst_Bakufu-白辰之环",
+        "4UI_EquipIcon_Catalyst_Jyanome-证誓之明瞳",
+        "5UI_EquipIcon_Catalyst_Kaleido-不灭月华"
+      ],
+      "谧林涓露的金符-UI_ItemIcon_114040": [
+        "4UI_EquipIcon_Sword_Arakalari-原木刀",
+        "4UI_EquipIcon_Sword_Pleroma-西福斯的月光",
+        "5UI_EquipIcon_Sword_Deshret-圣显之钥",
+        "5UI_EquipIcon_Sword_Ayus-裁叶萃光",
+        "4UI_EquipIcon_Claymore_Arakalari-森林王器",
+        "4UI_EquipIcon_Bow_Ibis-鹮穿之喙"
+      ]
+    },
+    "周五": {
+      "凛风奔狼的怀乡-UI_ItemIcon_114008": [
+        "3UI_EquipIcon_Sword_Dawn-黎明神剑",
+        "4UI_EquipIcon_Sword_Troupe-笛剑",
+        "4UI_EquipIcon_Sword_Bloodstained-黑剑",
+        "4UI_EquipIcon_Sword_Psalmus-降临之剑",
+        "5UI_EquipIcon_Sword_Dvalin-天空之刃",
+        "3UI_EquipIcon_Claymore_Siegfry-沐浴龙血的剑",
+        "4UI_EquipIcon_Claymore_Fossil-祭礼大剑",
+        "5UI_EquipIcon_Claymore_Dvalin-天空之傲",
+        "4UI_EquipIcon_Pole_Gladiator-决斗之枪",
+        "4UI_EquipIcon_Pole_Everfrost-龙脊长枪",
+        "4UI_EquipIcon_Pole_Windvane-风信之锋",
+        "3UI_EquipIcon_Catalyst_Pulpfic-讨龙英杰谭",
+        "4UI_EquipIcon_Catalyst_Troupe-流浪乐章",
+        "4UI_EquipIcon_Catalyst_Outlaw-暗巷的酒与诗",
+        "4UI_EquipIcon_Catalyst_Ludiharpastum-嘟嘟可故事集",
+        "5UI_EquipIcon_Catalyst_Dvalin-天空之卷",
+        "3UI_EquipIcon_Bow_Arjuna-神射手之誓",
+        "4UI_EquipIcon_Bow_Fossil-祭礼弓",
+        "5UI_EquipIcon_Bow_Dvalin-天空之翼",
+        "5UI_EquipIcon_Bow_Widsith-终末嗟叹之诗"
+      ],
+      "雾海云间的转还-UI_ItemIcon_114020": [
+        "3UI_EquipIcon_Sword_Sashimi-吃虎鱼刀",
+        "4UI_EquipIcon_Sword_Proto-试作斩岩",
+        "5UI_EquipIcon_Sword_Morax-磐岩结绿",
+        "3UI_EquipIcon_Claymore_Reasoning-以理服人",
+        "4UI_EquipIcon_Claymore_Perdue-雨裁",
+        "4UI_EquipIcon_Claymore_Blackrock-黑岩斩刀",
+        "5UI_EquipIcon_Claymore_Kunwu-无工之剑",
+        "3UI_EquipIcon_Pole_Halberd-钺矛",
+        "4UI_EquipIcon_Pole_Stardust-匣里灭辰",
+        "4UI_EquipIcon_Pole_Blackrock-黑岩刺枪",
+        "4UI_EquipIcon_Pole_Theocrat-宗室猎枪",
+        "5UI_EquipIcon_Pole_Santika-息灾",
+        "3UI_EquipIcon_Catalyst_Phoney-甲级宝珏",
+        "4UI_EquipIcon_Catalyst_Proto-试作金珀",
+        "4UI_EquipIcon_Catalyst_Truelens-昭心",
+        "3UI_EquipIcon_Bow_Msg-信使",
+        "4UI_EquipIcon_Bow_Proto-试作澹月"
+      ],
+      "鸣神御灵的勇武-UI_ItemIcon_114032": [
+        "4UI_EquipIcon_Sword_Kasabouzu-东花坊时雨",
+        "5UI_EquipIcon_Sword_Amenoma-波乱月白经津",
+        "4UI_EquipIcon_Claymore_Bakufu-桂木斩长正",
+        "5UI_EquipIcon_Claymore_Itadorimaru-赤角石溃杵",
+        "4UI_EquipIcon_Bow_Bakufu-破魔之弓",
+        "4UI_EquipIcon_Bow_Predator-掠食者",
+        "4UI_EquipIcon_Bow_Maria-曚云之月",
+        "5UI_EquipIcon_Bow_Narukami-飞雷之弦振"
+      ],
+      "绿洲花园的真谛-UI_ItemIcon_114044": [
+        "4UI_EquipIcon_Pole_Arakalari-贯月矢",
+        "5UI_EquipIcon_Pole_Deshret-赤沙之杖",
+        "4UI_EquipIcon_Catalyst_Pleroma-流浪的晚星",
+        "4UI_EquipIcon_Catalyst_Arakalari-盈满之实",
+        "5UI_EquipIcon_Catalyst_Ayus-千夜浮梦"
+      ]
+    },
+    "周六": {
+      "狮牙斗士的理想-UI_ItemIcon_114012": [
+        "3UI_EquipIcon_Sword_Traveler-旅行剑",
+        "4UI_EquipIcon_Sword_Fossil-祭礼剑",
+        "4UI_EquipIcon_Sword_Magnum-腐殖之剑",
+        "5UI_EquipIcon_Sword_Widsith-苍古自由之誓",
+        "3UI_EquipIcon_Claymore_Tin-白铁大剑",
+        "4UI_EquipIcon_Claymore_Zephyrus-西风大剑",
+        "4UI_EquipIcon_Claymore_Theocrat-宗室大剑",
+        "4UI_EquipIcon_Claymore_Fleurfair-饰铁之花",
+        "5UI_EquipIcon_Claymore_Wolfmound-狼的末路",
+        "4UI_EquipIcon_Pole_Zephyrus-西风长枪",
+        "5UI_EquipIcon_Pole_Dvalin-天空之脊",
+        "3UI_EquipIcon_Catalyst_Lightnov-异世界行记",
+        "4UI_EquipIcon_Catalyst_Fossil-祭礼残章",
+        "4UI_EquipIcon_Catalyst_Everfrost-忍冬之果",
+        "5UI_EquipIcon_Catalyst_Fourwinds-四风原典",
+        "3UI_EquipIcon_Bow_Curve-反曲弓",
+        "4UI_EquipIcon_Bow_Zephyrus-西风猎弓",
+        "4UI_EquipIcon_Bow_Theocrat-宗室长弓",
+        "4UI_EquipIcon_Bow_Outlaw-暗巷猎手",
+        "4UI_EquipIcon_Bow_Fleurfair-风花之颂",
+        "5UI_EquipIcon_Bow_Amos-阿莫斯之弓"
+      ],
+      "漆黑陨铁的一块-UI_ItemIcon_114024": [
+        "3UI_EquipIcon_Sword_Mitsurugi-飞天御剑",
+        "4UI_EquipIcon_Sword_Exotic-铁蜂刺",
+        "3UI_EquipIcon_Claymore_Mitsurugi-飞天大御剑",
+        "4UI_EquipIcon_Claymore_Proto-试作古华",
+        "4UI_EquipIcon_Claymore_Kione-螭骨剑",
+        "4UI_EquipIcon_Claymore_MillenniaTuna-衔珠海皇",
+        "3UI_EquipIcon_Pole_Noire-黑缨枪",
+        "4UI_EquipIcon_Pole_Proto-试作星镰",
+        "4UI_EquipIcon_Pole_Lapis-千岩长枪",
+        "5UI_EquipIcon_Pole_Homa-护摩之杖",
+        "5UI_EquipIcon_Pole_Kunwu-贯虹之槊",
+        "4UI_EquipIcon_Catalyst_Exotic-万国诸海图谱",
+        "5UI_EquipIcon_Catalyst_Kunwu-尘世之锁",
+        "4UI_EquipIcon_Bow_Exotic-钢轮弓",
+        "4UI_EquipIcon_Bow_Fallensun-落霞"
+      ],
+      "今昔剧画之鬼人-UI_ItemIcon_114036": [
+        "4UI_EquipIcon_Sword_Youtou-笼钓瓶一心",
+        "4UI_EquipIcon_Pole_Bakufu-喜多院十文字",
+        "4UI_EquipIcon_Pole_Mori-「渔获」",
+        "4UI_EquipIcon_Pole_Maria-断浪长鳍",
+        "5UI_EquipIcon_Pole_Narukami-薙草之稻光",
+        "5UI_EquipIcon_Catalyst_Narukami-神乐之真意",
+        "5UI_EquipIcon_Bow_Worldbane-冬极白星"
+      ],
+      "烈日威权的旧日-UI_ItemIcon_114048": [
+        "4UI_EquipIcon_Claymore_Pleroma-玛海菈的水色",
+        "5UI_EquipIcon_Claymore_Deshret-苇海信标",
+        "5UI_EquipIcon_Catalyst_Alaya-图莱杜拉的回忆",
+        "4UI_EquipIcon_Bow_Arakalari-王下近侍",
+        "4UI_EquipIcon_Bow_Fin-竭泽",
+        "5UI_EquipIcon_Bow_Ayus-猎人之径"
+      ]
+    }
+  }
+}

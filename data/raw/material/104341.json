@@ -1,0 +1,12 @@
+{
+  "name": "「正义」的教导",
+  "description": "水之国土的利剑是正义。\\n枫丹的律法秉正义之剑而行。若无正义的准则，一切律法将沦为无力的空文，任人篡改宰割。",
+  "type": "角色天赋素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_104341",
+  "rank": 2,
+  "route": "Teachings of Justice",
+  "beta": true
+}

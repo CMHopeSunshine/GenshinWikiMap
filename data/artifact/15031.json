@@ -1,0 +1,33 @@
+{
+  "id": "15031",
+  "name": "逐影猎人",
+  "short_name": "逐影",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15031_4",
+  "part_list": {
+    "UI_RelicIcon_15031_4": {
+      "name": "猎人的胸花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15031_2": {
+      "name": "杰作的序曲",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15031_5": {
+      "name": "裁判的时刻",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15031_1": {
+      "name": "遗忘的容器",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15031_3": {
+      "name": "老兵的容颜",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

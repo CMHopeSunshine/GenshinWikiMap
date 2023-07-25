@@ -28,7 +28,7 @@ def update_constant():
     time.sleep(2)
 
     if avatar_detail := github_requests(
-            'https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Output/CHS/Avatar.json'):
+            'https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar.json'):
         save_json(avatar_detail, RAW / 'Avatar.json')
         print('>>>角色信息raw更新完成')
     else:
@@ -88,9 +88,10 @@ def update_character():
     prop_map = load_json(DATA / '属性Map.json')
 
     for avatar_id, avatar_data in avatar_list.items():
-        if avatar_id.startswith(('10000005', '10000007')):
-            continue
+        # if avatar_id.startswith(('10000005', '10000007')):
+        #     continue
         ambr_data_file_path = AVATAR_RAW / f'{avatar_id}.json'
+        print(f'>>>>>>更新[{avatar_data["name"]}]信息')
         map_img_path = CHARACTER_MAP_RESULT / f'{avatar_data["name"]}.jpg'
 
         need_update = False
@@ -145,7 +146,7 @@ def update_character():
                 'name':          avatar_detail['Name'],
                 'element':       avatar_detail['FetterInfo']['VisionBefore'],
                 'weapon':        weapon_type_data[avatar_detail['Name']],
-                'rank':          avatar_detail['Quality'],
+                'rank':          5 if avatar_detail['Quality'] == 105 else avatar_detail['Quality'],
                 'region':        region_data.get(avatar_detail['Name'], '未知'),
                 'icon': {
                     'avatar': avatar_detail['Icon'],

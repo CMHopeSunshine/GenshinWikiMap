@@ -1,0 +1,17 @@
+{
+  "name": "久雨莲",
+  "description": "生长在水元素富集之处的植物。枫丹漫长的雨季后，随处可见其踪影，因此而得名。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "河岸湖泊采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101229",
+  "rank": 1,
+  "route": "Pluie Lotus",
+  "beta": true
+}

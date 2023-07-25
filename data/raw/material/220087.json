@@ -1,0 +1,12 @@
+{
+  "name": "水之寻宝罗盘",
+  "description": "在枫丹使用时，能寻找附近的宝箱。\\n这些宝藏散落在枫丹诸处，并无人宣告自己对其的所有权。大多数情况下，将其收入囊中不会触犯律法刑责。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220087",
+  "rank": 4,
+  "route": "Hydro Treasure Compass",
+  "beta": true
+}

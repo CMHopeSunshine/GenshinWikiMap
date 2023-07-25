@@ -1,0 +1,71 @@
+{
+  "id": 10000005,
+  "name": "空",
+  "element": "雷",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "其它",
+  "icon": {
+    "avatar": "UI_AvatarIcon_PlayerBoy",
+    "side": "UI_AvatarIcon_Side_PlayerBoy",
+    "card": "UI_AvatarIcon_PlayerBoy_Card",
+    "splash": "UI_Gacha_AvatarImg_PlayerBoy",
+    "slice": "UI_Gacha_AvatarIcon_PlayerBoy"
+  },
+  "property": [
+  ],
+  "talent": {
+    "100546": {
+      "name": "普通攻击·异邦惊雷",
+      "icon": "Skill_A_01"
+    },
+    "10602": {
+      "name": "雷影剑",
+      "icon": "Skill_S_PlayerElectric_01"
+    },
+    "10605": {
+      "name": "雷轰电转",
+      "icon": "Skill_E_PlayerElectric_01"
+    },
+    "32101": {
+      "name": "转瞬的迅雷",
+      "icon": "UI_Talent_S_PlayerElectric_05"
+    },
+    "32201": {
+      "name": "回响的轰雷",
+      "icon": "UI_Talent_S_PlayerElectric_06"
+    }
+  },
+  "constellation": {
+    "31": {
+      "name": "丰穰的春雷",
+      "icon": "UI_Talent_S_PlayerElectric_01"
+    },
+    "32": {
+      "name": "震怒的苍雷",
+      "icon": "UI_Talent_S_PlayerElectric_02"
+    },
+    "33": {
+      "name": "连延的远雷",
+      "icon": "UI_Talent_S_PlayerElectric_03"
+    },
+    "34": {
+      "name": "难测的云雷",
+      "icon": "UI_Talent_S_PlayerElectric_04"
+    },
+    "35": {
+      "name": "荒野的霆雷",
+      "icon": "UI_Talent_S_PlayerElectric_05"
+    },
+    "36": {
+      "name": "撼世的神雷",
+      "icon": "UI_Talent_S_PlayerElectric_06"
+    }
+  },
+  "talent_fix": {
+    "10605": "雷轰电转",
+    "10602": "雷影剑"
+  },
+  "damage": [],
+  "buff": []
+}

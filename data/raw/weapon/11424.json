@@ -1,0 +1,169 @@
+{
+  "id": 11424,
+  "rank": 4,
+  "type": "单手剑",
+  "name": "狼牙",
+  "description": "",
+  "icon": "UI_EquipIcon_Sword_Boreas",
+  "storyId": 191424,
+  "affix": {
+    "111424": {
+      "name": "苍狼北风",
+      "upgrade": {
+        "0": "元素战技与元素爆发造成的伤害提升<color=#99FFFFFF>16%<\/color>。元素战技命中敌人时，元素战技的暴击率提升<color=#99FFFFFF>2%<\/color>；元素爆发命中敌人时，元素爆发的暴击率提升<color=#99FFFFFF>2%<\/color>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+        "1": "元素战技与元素爆发造成的伤害提升<color=#99FFFFFF>20%<\/color>。元素战技命中敌人时，元素战技的暴击率提升<color=#99FFFFFF>2.5%<\/color>；元素爆发命中敌人时，元素爆发的暴击率提升<color=#99FFFFFF>2.5%<\/color>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+        "2": "元素战技与元素爆发造成的伤害提升<color=#99FFFFFF>24%<\/color>。元素战技命中敌人时，元素战技的暴击率提升<color=#99FFFFFF>3%<\/color>；元素爆发命中敌人时，元素爆发的暴击率提升<color=#99FFFFFF>3%<\/color>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+        "3": "元素战技与元素爆发造成的伤害提升<color=#99FFFFFF>28%<\/color>。元素战技命中敌人时，元素战技的暴击率提升<color=#99FFFFFF>3.5%<\/color>；元素爆发命中敌人时，元素爆发的暴击率提升<color=#99FFFFFF>3.5%<\/color>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+        "4": "元素战技与元素爆发造成的伤害提升<color=#99FFFFFF>32%<\/color>。元素战技命中敌人时，元素战技的暴击率提升<color=#99FFFFFF>4%<\/color>；元素爆发命中敌人时，元素爆发的暴击率提升<color=#99FFFFFF>4%<\/color>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。"
+      }
+    }
+  },
+  "route": "Wolf-Fang",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 42.401,
+        "type": "GROW_CURVE_ATTACK_201"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.06,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112005": 2,
+          "112023": 3,
+          "114001": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112005": 8,
+          "112023": 12,
+          "114002": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112006": 6,
+          "112024": 6,
+          "114002": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112006": 9,
+          "112024": 12,
+          "114003": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112007": 6,
+          "112025": 9,
+          "114003": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112007": 12,
+          "112025": 18,
+          "114004": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112005": 1,
+    "112006": 2,
+    "112007": 3,
+    "112023": 2,
+    "112024": 3,
+    "112025": 4,
+    "114001": 2,
+    "114002": 3,
+    "114003": 4,
+    "114004": 5
+  },
+  "beta": true
+}

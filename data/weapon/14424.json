@@ -1,0 +1,36 @@
+{
+  "id": "14424",
+  "name": "遗祀玉珑",
+  "rank": 4,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Yue",
+    "awaken": "UI_EquipIcon_Catalyst_Yue_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Yue"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      "promote": [
+        25.9,
+        51.9,
+        77.8,
+        103.7,
+        129.7,
+        155.60001
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.08,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    }
+  ],
+  "buff": []
+}

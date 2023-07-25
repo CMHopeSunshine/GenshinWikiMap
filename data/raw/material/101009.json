@@ -1,0 +1,21 @@
+{
+  "name": "萃凝晶",
+  "description": "澄澈明净的晶石，矿芯具备良好的韧性与塑性。",
+  "type": "锻造用矿石",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：厄里那斯地面区域采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101009",
+  "rank": 1,
+  "route": "Condessence Crystal",
+  "beta": true
+}

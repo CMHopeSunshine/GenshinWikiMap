@@ -1,0 +1,21 @@
+{
+  "name": "白梣木",
+  "description": "产自「白梣树」的木材，强度极高，除了制作高强度的承力部件，还可以组合成坚韧的板材，用于加固墙体，或拼装成货运木箱等需要时常应对冲击的物件。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：枫丹野外砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101320",
+  "rank": 1,
+  "route": "Ash Wood",
+  "beta": true
+}

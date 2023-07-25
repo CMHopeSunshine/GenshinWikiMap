@@ -53,6 +53,7 @@
         "rockSubHurt": 0.25,
         "physicalSubHurt": 0.25
       },
+      "fundamentalForce": null,
       "reward": {
         "102": {
           "rank": 3,

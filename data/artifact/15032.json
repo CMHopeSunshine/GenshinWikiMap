@@ -1,0 +1,33 @@
+{
+  "id": "15032",
+  "name": "黄金剧团",
+  "short_name": "黄金",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15032_4",
+  "part_list": {
+    "UI_RelicIcon_15032_4": {
+      "name": "黄金乐曲的变奏",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15032_2": {
+      "name": "黄金飞鸟的落羽",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15032_5": {
+      "name": "黄金时代的先声",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15032_1": {
+      "name": "黄金之夜的喧嚣",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15032_3": {
+      "name": "黄金剧团的奖赏",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

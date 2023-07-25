@@ -1,0 +1,24 @@
+{
+  "name": "悠古弦音的断章",
+  "description": "传说古老王朝的遗民曾以黑铁铸成竖琴，用于纪念与哀悼。\\n黑铁所铸成的竖琴，是奏不出声音的。为了哀悼那个以金色乐曲为傲的古老王朝，遗民们打造了这些沉重而沉默的乐器。\\n但无论如何，正如那沉默的时代一般，黑铁是奏不出音调的。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12037": {
+      "114049": {
+        "icon": "UI_ItemIcon_114049",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_114050",
+  "rank": 3,
+  "route": "Chapter of an Ancient Chord",
+  "beta": true
+}

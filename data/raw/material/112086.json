@@ -1,0 +1,21 @@
+{
+  "name": "浊水的一滴",
+  "description": "击败浊水幻灵后，取得的一小滴水。\\n其中的生命力似乎尚未完全消散。",
+  "type": "角色与武器培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "浊水幻灵掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112086",
+  "rank": 2,
+  "route": "Drop of Tainted Water",
+  "beta": true
+}

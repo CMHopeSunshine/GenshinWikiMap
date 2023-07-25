@@ -1,0 +1,32 @@
+{
+  "name": "外世突触",
+  "description": "隙境原体留下的碎屑。\\n这种异形生命体的根源是厄里那斯，活动范围也以厄里那斯为主。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11057": {
+      "112089": {
+        "icon": "UI_ItemIcon_112089",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上隙境原体掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112090",
+  "rank": 3,
+  "route": "Foreign Synapse",
+  "beta": true
+}

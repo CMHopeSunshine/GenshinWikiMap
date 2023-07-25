@@ -1,0 +1,17 @@
+{
+  "name": "茉洁草",
+  "description": "华润而温莹的桃色花朵。拥有不同层次的芬芳，是用来调香的主要原料之一。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101231",
+  "rank": 1,
+  "route": "Marcotte",
+  "beta": true
+}

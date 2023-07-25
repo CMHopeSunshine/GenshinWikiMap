@@ -1,0 +1,27 @@
+{
+  "name": "水神瞳共鸣石",
+  "description": "在枫丹使用时，能寻找附近的「散失的水神瞳」。\\n在制造时尽力拟似了水之七天神像性质的奇异护符，似乎能够感知到水元素神瞳的元素流动。\\n神瞳本就是七天神像佚失在外的力量，将其归还至神像之处，是合情合理亦合法之事。",
+  "type": "消耗品",
+  "recipe": {
+    "22086": {
+      "101003": {
+        "icon": "UI_ItemIcon_101003",
+        "count": 1
+      },
+      "101233": {
+        "icon": "UI_ItemIcon_101233",
+        "count": 5
+      },
+      "101236": {
+        "icon": "UI_ItemIcon_101236",
+        "count": 5
+      }
+    }
+  },
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220086",
+  "rank": 3,
+  "route": "Hydroculus Resonance Stone",
+  "beta": true
+}

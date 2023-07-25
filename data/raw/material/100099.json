@@ -1,0 +1,17 @@
+{
+  "name": "发酵果实汁",
+  "description": "经发酵而制成的果实汁。带有非同寻常的果实香气，常在烹饪肉类时用于调味。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "枫丹杂货店购买",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_100099",
+  "rank": 1,
+  "route": "Fermented Juice",
+  "beta": true
+}

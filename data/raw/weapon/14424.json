@@ -1,0 +1,169 @@
+{
+  "id": 14424,
+  "rank": 4,
+  "type": "法器",
+  "name": "遗祀玉珑",
+  "description": "",
+  "icon": "UI_EquipIcon_Catalyst_Yue",
+  "storyId": 194424,
+  "affix": {
+    "114424": {
+      "name": "碧玉流转",
+      "upgrade": {
+        "0": "处于队伍后台超过5秒后，生命值上限提升<color=#99FFFFFF>32%<\/color>，元素精通提升<color=#99FFFFFF>40<\/color>点。装备者登场并留在场上10秒后，该效果将失效。",
+        "1": "处于队伍后台超过5秒后，生命值上限提升<color=#99FFFFFF>40%<\/color>，元素精通提升<color=#99FFFFFF>50<\/color>点。装备者登场并留在场上10秒后，该效果将失效。",
+        "2": "处于队伍后台超过5秒后，生命值上限提升<color=#99FFFFFF>48%<\/color>，元素精通提升<color=#99FFFFFF>60<\/color>点。装备者登场并留在场上10秒后，该效果将失效。",
+        "3": "处于队伍后台超过5秒后，生命值上限提升<color=#99FFFFFF>56%<\/color>，元素精通提升<color=#99FFFFFF>70<\/color>点。装备者登场并留在场上10秒后，该效果将失效。",
+        "4": "处于队伍后台超过5秒后，生命值上限提升<color=#99FFFFFF>64%<\/color>，元素精通提升<color=#99FFFFFF>80<\/color>点。装备者登场并留在场上10秒后，该效果将失效。"
+      }
+    }
+  },
+  "route": "Sacrificial Jade",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL",
+        "initValue": 0.08,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112008": 2,
+          "112026": 3,
+          "114013": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112008": 8,
+          "112026": 12,
+          "114014": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112009": 6,
+          "112027": 6,
+          "114014": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112009": 9,
+          "112027": 12,
+          "114015": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112010": 6,
+          "112028": 9,
+          "114015": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112010": 12,
+          "112028": 18,
+          "114016": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112008": 1,
+    "112009": 2,
+    "112010": 3,
+    "112026": 2,
+    "112027": 3,
+    "112028": 4,
+    "114013": 2,
+    "114014": 3,
+    "114015": 4,
+    "114016": 5
+  },
+  "beta": true
+}

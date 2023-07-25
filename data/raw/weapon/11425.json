@@ -1,0 +1,169 @@
+{
+  "id": 11425,
+  "rank": 4,
+  "type": "单手剑",
+  "name": "海渊终曲",
+  "description": "",
+  "icon": "UI_EquipIcon_Sword_Vorpal",
+  "storyId": 191425,
+  "affix": {
+    "111425": {
+      "name": "最终的崇高",
+      "upgrade": {
+        "0": "施放元素战技时，攻击力提升<color=#99FFFFFF>12%<\/color>，持续15秒，并赋予生命值上限25%的生命之契，该效果每10秒至多触发一次。生命之契清除时，基于清除值的<color=#99FFFFFF>2.4%<\/color>提升至多<color=#99FFFFFF>150<\/color>点攻击力，持续15秒。生命之契：基于其数值，吸收角色受到的治疗，在吸收了同等回复量数值的治疗后清除。",
+        "1": "施放元素战技时，攻击力提升<color=#99FFFFFF>15%<\/color>，持续15秒，并赋予生命值上限25%的生命之契，该效果每10秒至多触发一次。生命之契清除时，基于清除值的<color=#99FFFFFF>3%<\/color>提升至多<color=#99FFFFFF>187.5<\/color>点攻击力，持续15秒。生命之契：基于其数值，吸收角色受到的治疗，在吸收了同等回复量数值的治疗后清除。",
+        "2": "施放元素战技时，攻击力提升<color=#99FFFFFF>18%<\/color>，持续15秒，并赋予生命值上限25%的生命之契，该效果每10秒至多触发一次。生命之契清除时，基于清除值的<color=#99FFFFFF>3.6%<\/color>提升至多<color=#99FFFFFF>225<\/color>点攻击力，持续15秒。生命之契：基于其数值，吸收角色受到的治疗，在吸收了同等回复量数值的治疗后清除。",
+        "3": "施放元素战技时，攻击力提升<color=#99FFFFFF>21%<\/color>，持续15秒，并赋予生命值上限25%的生命之契，该效果每10秒至多触发一次。生命之契清除时，基于清除值的<color=#99FFFFFF>4.2%<\/color>提升至多<color=#99FFFFFF>262.5<\/color>点攻击力，持续15秒。生命之契：基于其数值，吸收角色受到的治疗，在吸收了同等回复量数值的治疗后清除。",
+        "4": "施放元素战技时，攻击力提升<color=#99FFFFFF>24%<\/color>，持续15秒，并赋予生命值上限25%的生命之契，该效果每10秒至多触发一次。生命之契清除时，基于清除值的<color=#99FFFFFF>4.8%<\/color>提升至多<color=#99FFFFFF>300<\/color>点攻击力，持续15秒。生命之契：基于其数值，吸收角色受到的治疗，在吸收了同等回复量数值的治疗后清除。"
+      }
+    }
+  },
+  "route": "Finale of the Deep",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 43.7349,
+        "type": "GROW_CURVE_ATTACK_202"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.06,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112044": 2,
+          "112086": 3,
+          "114053": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112044": 8,
+          "112086": 12,
+          "114054": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112045": 6,
+          "112087": 6,
+          "114054": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112045": 9,
+          "112087": 12,
+          "114055": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112046": 6,
+          "112088": 9,
+          "114055": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112046": 12,
+          "112088": 18,
+          "114056": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112044": 1,
+    "112045": 2,
+    "112046": 3,
+    "112086": 2,
+    "112087": 3,
+    "112088": 4,
+    "114053": 2,
+    "114054": 3,
+    "114055": 4,
+    "114056": 5
+  },
+  "beta": true
+}

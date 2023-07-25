@@ -1,0 +1,24 @@
+{
+  "name": "悠古弦音的乐章",
+  "description": "在黄金宫殿与王座同沉的灾难中，乐章破碎，音符沉默…\\n但帝国的遗民从未放弃拯救与超越命运的执望。\\n为了拯救没落的文明与超越的旧梦，「金色剧团」奏响美妙的乐曲，指引孩童向沉睡的魔像献出高贵灵魂。",
+  "type": "武器突破素材",
+  "recipe": {
+    "12038": {
+      "114050": {
+        "icon": "UI_ItemIcon_114050",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_114051",
+  "rank": 4,
+  "route": "Movement of an Ancient Chord",
+  "beta": true
+}

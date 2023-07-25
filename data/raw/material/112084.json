@@ -1,0 +1,32 @@
+{
+  "name": "机关正齿轮",
+  "description": "发条机关的齿轮。\\n尽管发条机关在运动学上经历了许多突破，但动力学上迄今未能突破四百多年前阿兰·吉约丹所立下的根基与框架。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11203": {
+      "112083": {
+        "icon": "UI_ItemIcon_112083",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上发条机关掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112084",
+  "rank": 2,
+  "route": "Mechanical Spur Gear",
+  "beta": true
+}

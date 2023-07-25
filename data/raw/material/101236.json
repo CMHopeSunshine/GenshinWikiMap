@@ -1,0 +1,21 @@
+{
+  "name": "虹彩蔷薇",
+  "description": "纤婉而柔洁的粉色花卉。虽然被称作蔷薇，但本质上更接近百合。",
+  "type": "枫丹区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：苍晶区采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101236",
+  "rank": 1,
+  "route": "Rainbow Rose",
+  "beta": true
+}

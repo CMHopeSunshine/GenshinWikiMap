@@ -672,5 +672,37 @@
     "icon": "UI_RelicIcon_15030_4",
     "route": "Vourukasha's Glow",
     "sortOrder": 91
+  },
+  "15031": {
+    "id": 15031,
+    "name": "逐影猎人",
+    "levelList": [
+      4,
+      5
+    ],
+    "affixList": {
+      "2150310": "普通攻击与重击造成的伤害提高15%。",
+      "2150311": "当前生命值提升或降低时，暴击率提升12%，该效果持续5秒，至多叠加3次。"
+    },
+    "icon": "UI_RelicIcon_15031_4",
+    "route": "Marechaussee Hunter",
+    "sortOrder": 94,
+    "beta": true
+  },
+  "15032": {
+    "id": 15032,
+    "name": "黄金剧团",
+    "levelList": [
+      4,
+      5
+    ],
+    "affixList": {
+      "2150320": "元素战技造成的伤害提升20%。",
+      "2150321": "元素战技造成的伤害提升25%；此外，处于队伍后台时，元素战技造成的伤害还将进一步提升25%，该效果将在登场后2秒移除。"
+    },
+    "icon": "UI_RelicIcon_15032_4",
+    "route": "Golden Troupe",
+    "sortOrder": 95,
+    "beta": true
   }
 }

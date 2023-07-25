@@ -1,0 +1,71 @@
+{
+  "id": 10000005,
+  "name": "空",
+  "element": "岩",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "其它",
+  "icon": {
+    "avatar": "UI_AvatarIcon_PlayerGirl",
+    "side": "UI_AvatarIcon_Side_PlayerGirl",
+    "card": "UI_AvatarIcon_PlayerGirl_Card",
+    "splash": "UI_Gacha_AvatarImg_PlayerGirl",
+    "slice": "UI_Gacha_AvatarIcon_PlayerGirl"
+  },
+  "property": [
+  ],
+  "talent": {
+    "100545": {
+      "name": "普通攻击·异邦岩锋",
+      "icon": "Skill_A_01"
+    },
+    "10077": {
+      "name": "星陨剑",
+      "icon": "Skill_S_PlayerRock_01"
+    },
+    "10078": {
+      "name": "岩潮叠嶂",
+      "icon": "Skill_E_PlayerRock_01"
+    },
+    "32101": {
+      "name": "破碎的绝岩",
+      "icon": "UI_Talent_S_PlayerRock_05"
+    },
+    "32201": {
+      "name": "狂乱的崩岩",
+      "icon": "UI_Talent_S_PlayerRock_06"
+    }
+  },
+  "constellation": {
+    "31": {
+      "name": "巍然的青岩",
+      "icon": "UI_Talent_S_PlayerRock_01"
+    },
+    "32": {
+      "name": "不稳的熔岩",
+      "icon": "UI_Talent_S_PlayerRock_02"
+    },
+    "33": {
+      "name": "八方之岩",
+      "icon": "UI_Talent_S_PlayerRock_03"
+    },
+    "34": {
+      "name": "险峻的重岩",
+      "icon": "UI_Talent_S_PlayerRock_04"
+    },
+    "35": {
+      "name": "天坠之岩",
+      "icon": "UI_Talent_S_PlayerRock_05"
+    },
+    "36": {
+      "name": "永世的磐岩",
+      "icon": "UI_Talent_S_PlayerRock_06"
+    }
+  },
+  "talent_fix": {
+    "10078": "岩潮叠嶂",
+    "10077": "星陨剑"
+  },
+  "damage": [],
+  "buff": []
+}

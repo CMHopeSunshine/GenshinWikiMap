@@ -1,0 +1,48 @@
+{
+  "id": 15031,
+  "name": "逐影猎人",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150310": "普通攻击与重击造成的伤害提高15%。",
+    "2150311": "当前生命值提升或降低时，暴击率提升12%，该效果持续5秒，至多叠加3次。"
+  },
+  "icon": "UI_RelicIcon_15031_4",
+  "route": "Marechaussee Hunter",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "猎人的胸花",
+      "description": "老旧的勋章，在过去曾被用来配发给在战斗中做出了杰出贡献的人。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15031_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "杰作的序曲",
+      "description": "用于调整旧式机关发条力矩的便携工具。如今失去了实用价值。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15031_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "裁判的时刻",
+      "description": "制式的怀表，走时精准度并不算高。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15031_5"
+    },
+    "EQUIP_RING": {
+      "name": "遗忘的容器",
+      "description": "容纳烈酒的便携金属容器，适合放在大衣口袋中随时使用。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15031_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "老兵的容颜",
+      "description": "老旧的面具，能够一定程度上替代因伤害而损毁的面容。依据伤残的面积、使用者的性别，有不同的设计。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15031_3"
+    }
+  },
+  "source": null,
+  "beta": true
+}

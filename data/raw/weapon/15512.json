@@ -1,0 +1,169 @@
+{
+  "id": 15512,
+  "rank": 5,
+  "type": "弓",
+  "name": "最初的大魔术",
+  "description": "",
+  "icon": "UI_EquipIcon_Bow_Pledge",
+  "storyId": 195512,
+  "affix": {
+    "115512": {
+      "name": "伟大者帕西法尔",
+      "upgrade": {
+        "0": "重击造成的伤害提升<color=#99FFFFFF>16%<\/color>；队伍中每存在一位与装备者元素类型相同的角色（包括装备者自身），将获得1层「手法」效果；每存在一位元素类型不同的角色，将获得1层「演技」效果。处于1\/2\/3层及以上「手法」效果下时，攻击力提升<color=#99FFFFFF>16%\/32%\/48%<\/color>；处于1\/2\/3层及以上「演技」效果下时，移动速度提升<color=#99FFFFFF>4%\/7%\/10%<\/color>。",
+        "1": "重击造成的伤害提升<color=#99FFFFFF>20%<\/color>；队伍中每存在一位与装备者元素类型相同的角色（包括装备者自身），将获得1层「手法」效果；每存在一位元素类型不同的角色，将获得1层「演技」效果。处于1\/2\/3层及以上「手法」效果下时，攻击力提升<color=#99FFFFFF>20%\/40%\/60%<\/color>；处于1\/2\/3层及以上「演技」效果下时，移动速度提升<color=#99FFFFFF>6%\/9%\/12%<\/color>。",
+        "2": "重击造成的伤害提升<color=#99FFFFFF>24%<\/color>；队伍中每存在一位与装备者元素类型相同的角色（包括装备者自身），将获得1层「手法」效果；每存在一位元素类型不同的角色，将获得1层「演技」效果。处于1\/2\/3层及以上「手法」效果下时，攻击力提升<color=#99FFFFFF>24%\/48%\/72%<\/color>；处于1\/2\/3层及以上「演技」效果下时，移动速度提升<color=#99FFFFFF>8%\/11%\/14%<\/color>。",
+        "3": "重击造成的伤害提升<color=#99FFFFFF>28%<\/color>；队伍中每存在一位与装备者元素类型相同的角色（包括装备者自身），将获得1层「手法」效果；每存在一位元素类型不同的角色，将获得1层「演技」效果。处于1\/2\/3层及以上「手法」效果下时，攻击力提升<color=#99FFFFFF>28%\/56%\/84%<\/color>；处于1\/2\/3层及以上「演技」效果下时，移动速度提升<color=#99FFFFFF>10%\/13%\/16%<\/color>。",
+        "4": "重击造成的伤害提升<color=#99FFFFFF>32%<\/color>；队伍中每存在一位与装备者元素类型相同的角色（包括装备者自身），将获得1层「手法」效果；每存在一位元素类型不同的角色，将获得1层「演技」效果。处于1\/2\/3层及以上「手法」效果下时，攻击力提升<color=#99FFFFFF>32%\/64%\/96%<\/color>；处于1\/2\/3层及以上「演技」效果下时，移动速度提升<color=#99FFFFFF>12%\/15%\/18%<\/color>。"
+      }
+    }
+  },
+  "route": "The First Great Magic",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 45.9364,
+        "type": "GROW_CURVE_ATTACK_301"
+      },
+      {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.144,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112080": 3,
+          "112086": 5,
+          "114049": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112080": 12,
+          "112086": 18,
+          "114050": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112081": 9,
+          "112087": 9,
+          "114050": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112081": 14,
+          "112087": 18,
+          "114051": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112082": 9,
+          "112088": 14,
+          "114051": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112082": 18,
+          "112088": 27,
+          "114052": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112080": 1,
+    "112081": 2,
+    "112082": 3,
+    "112086": 2,
+    "112087": 3,
+    "112088": 4,
+    "114049": 2,
+    "114050": 3,
+    "114051": 4,
+    "114052": 5
+  },
+  "beta": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "「正义」的指引",
+  "description": "水之国土的利剑是正义。\\n枫丹的律法秉正义之剑而行。正义必定是盲目的，以正义为利剑者，不论利益或私情都无法蛊惑。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13027": {
+      "104341": {
+        "icon": "UI_ItemIcon_104341",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104342",
+  "rank": 3,
+  "route": "Guide to Justice",
+  "beta": true
+}

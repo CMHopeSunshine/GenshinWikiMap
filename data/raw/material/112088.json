@@ -1,0 +1,28 @@
+{
+  "name": "初生的浊水幻灵",
+  "description": "击散浊水幻灵后，即将再度升起的新生命体，被装在了禁锢的瓶中。\\n水中所蕴含着的生命是无形的，而无形的生命也寄于水中，借由水之形诞生。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11056": {
+      "112087": {
+        "icon": "UI_ItemIcon_112087",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上浊水幻灵掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112088",
+  "rank": 4,
+  "route": "Newborn Tainted Hydro Eidolon",
+  "beta": true
+}

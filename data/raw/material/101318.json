@@ -1,0 +1,21 @@
+{
+  "name": "悬铃木",
+  "description": "产自「悬铃树」的木材，芯材坚韧，适合用于搭建房屋的地基和框架。边材也易于加工，制作各类美观的家具时，所需的人力相对较少。\\n可用于制作摆设。",
+  "type": "素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    },
+    {
+      "name": "推荐：枫丹野外砍伐",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101318",
+  "rank": 1,
+  "route": "Mallow Wood",
+  "beta": true
+}

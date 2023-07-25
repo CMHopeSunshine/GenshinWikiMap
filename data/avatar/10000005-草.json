@@ -1,0 +1,71 @@
+{
+  "id": 10000005,
+  "name": "空",
+  "element": "草",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "其它",
+  "icon": {
+    "avatar": "UI_AvatarIcon_PlayerBoy",
+    "side": "UI_AvatarIcon_Side_PlayerBoy",
+    "card": "UI_AvatarIcon_PlayerBoy_Card",
+    "splash": "UI_Gacha_AvatarImg_PlayerBoy",
+    "slice": "UI_Gacha_AvatarIcon_PlayerBoy"
+  },
+  "property": [
+  ],
+  "talent": {
+    "100547": {
+      "name": "普通攻击·异邦草翦",
+      "icon": "Skill_A_01"
+    },
+    "10117": {
+      "name": "草缘剑",
+      "icon": "Skill_S_PlayerGrass_01"
+    },
+    "10118": {
+      "name": "偃草若化",
+      "icon": "Skill_E_PlayerGrass_01"
+    },
+    "32101": {
+      "name": "蔓生的埜草",
+      "icon": "UI_Talent_S_PlayerGrass_05"
+    },
+    "32201": {
+      "name": "繁庑的丛草",
+      "icon": "UI_Talent_S_PlayerGrass_06"
+    }
+  },
+  "constellation": {
+    "31": {
+      "name": "寄身的倚草",
+      "icon": "UI_Talent_S_PlayerGrass_01"
+    },
+    "32": {
+      "name": "健韧的劲草",
+      "icon": "UI_Talent_S_PlayerGrass_02"
+    },
+    "33": {
+      "name": "婆娑的瑶草",
+      "icon": "UI_Talent_S_PlayerGrass_03"
+    },
+    "34": {
+      "name": "如饴的蜜草",
+      "icon": "UI_Talent_S_PlayerGrass_04"
+    },
+    "35": {
+      "name": "迅生的丰草",
+      "icon": "UI_Talent_S_PlayerGrass_05"
+    },
+    "36": {
+      "name": "蕴思的霜草",
+      "icon": "UI_Talent_S_PlayerGrass_06"
+    }
+  },
+  "talent_fix": {
+    "10118": "偃草若化",
+    "10117": "草缘剑"
+  },
+  "damage": [],
+  "buff": []
+}

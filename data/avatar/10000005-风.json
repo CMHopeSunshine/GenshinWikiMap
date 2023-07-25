@@ -1,0 +1,71 @@
+{
+  "id": 10000005,
+  "name": "空",
+  "element": "风",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "其它",
+  "icon": {
+    "avatar": "UI_AvatarIcon_PlayerBoy",
+    "side": "UI_AvatarIcon_Side_PlayerBoy",
+    "card": "UI_AvatarIcon_PlayerBoy_Card",
+    "splash": "UI_Gacha_AvatarImg_PlayerBoy",
+    "slice": "UI_Gacha_AvatarIcon_PlayerBoy"
+  },
+  "property": [
+  ],
+  "talent": {
+    "100543": {
+      "name": "普通攻击·异邦铁风",
+      "icon": "Skill_A_01"
+    },
+    "10067": {
+      "name": "风涡剑",
+      "icon": "Skill_S_PlayerWind_01"
+    },
+    "10068": {
+      "name": "风息激荡",
+      "icon": "Skill_E_PlayerWind_01"
+    },
+    "32101": {
+      "name": "裂空之风",
+      "icon": "UI_Talent_S_PlayerWind_05"
+    },
+    "32201": {
+      "name": "复苏之风",
+      "icon": "UI_Talent_S_PlayerWind_06"
+    }
+  },
+  "constellation": {
+    "31": {
+      "name": "回转的怒风",
+      "icon": "UI_Talent_S_PlayerWind_01"
+    },
+    "32": {
+      "name": "革新的旋风",
+      "icon": "UI_Talent_S_PlayerWind_02"
+    },
+    "33": {
+      "name": "天地的刚风",
+      "icon": "UI_Talent_S_PlayerWind_03"
+    },
+    "34": {
+      "name": "眷护的和风",
+      "icon": "UI_Talent_S_PlayerWind_04"
+    },
+    "35": {
+      "name": "群星的涡风",
+      "icon": "UI_Talent_S_PlayerWind_05"
+    },
+    "36": {
+      "name": "纠缠的信风",
+      "icon": "UI_Talent_S_PlayerWind_06"
+    }
+  },
+  "talent_fix": {
+    "10068": "风息激荡",
+    "10067": "风涡剑"
+  },
+  "damage": [],
+  "buff": []
+}

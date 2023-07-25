@@ -1,0 +1,24 @@
+{
+  "name": "「公平」的指引",
+  "description": "水之国土的堤岸是公平。\\n公平是枫丹立国的基础。公平形成了律法的准绳。假若律法失去公平的本质，必沦为敛利的棋盘。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13025": {
+      "104338": {
+        "icon": "UI_ItemIcon_104338",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104339",
+  "rank": 3,
+  "route": "Guide to Fairness",
+  "beta": true
+}

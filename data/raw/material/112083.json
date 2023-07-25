@@ -1,0 +1,21 @@
+{
+  "name": "啮合齿轮",
+  "description": "发条机关的齿轮。\\n是传动所需的重要零件。一旦缺失，对应模块的功能便无法运作。",
+  "type": "角色与武器培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "发条机关掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112083",
+  "rank": 1,
+  "route": "Meshing Gear",
+  "beta": true
+}

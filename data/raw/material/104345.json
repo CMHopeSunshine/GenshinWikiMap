@@ -1,0 +1,24 @@
+{
+  "name": "「秩序」的指引",
+  "description": "水之国土的坚盾是秩序。\\n枫丹的一切律法终究服务于稳固的秩序。若无秩序的保证，正义也将沦为无止境的暴力，成为一切人反对一切人的武器。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13029": {
+      "104344": {
+        "icon": "UI_ItemIcon_104344",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104345",
+  "rank": 3,
+  "route": "Guide to Order",
+  "beta": true
+}

@@ -1252,5 +1252,65 @@
     "suit_id": 15030,
     "suit_name": "花海甘露之光",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15031_4": {
+    "name": "猎人的胸花",
+    "suit_id": 15031,
+    "suit_name": "逐影猎人",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15031_2": {
+    "name": "杰作的序曲",
+    "suit_id": 15031,
+    "suit_name": "逐影猎人",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15031_5": {
+    "name": "裁判的时刻",
+    "suit_id": 15031,
+    "suit_name": "逐影猎人",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15031_1": {
+    "name": "遗忘的容器",
+    "suit_id": 15031,
+    "suit_name": "逐影猎人",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15031_3": {
+    "name": "老兵的容颜",
+    "suit_id": 15031,
+    "suit_name": "逐影猎人",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15032_4": {
+    "name": "黄金乐曲的变奏",
+    "suit_id": 15032,
+    "suit_name": "黄金剧团",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15032_2": {
+    "name": "黄金飞鸟的落羽",
+    "suit_id": 15032,
+    "suit_name": "黄金剧团",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15032_5": {
+    "name": "黄金时代的先声",
+    "suit_id": 15032,
+    "suit_name": "黄金剧团",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15032_1": {
+    "name": "黄金之夜的喧嚣",
+    "suit_id": 15032,
+    "suit_name": "黄金剧团",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15032_3": {
+    "name": "黄金剧团的奖赏",
+    "suit_id": 15032,
+    "suit_name": "黄金剧团",
+    "part": "理之冠"
   }
 }

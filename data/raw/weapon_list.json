@@ -199,6 +199,33 @@
     "icon": "UI_EquipIcon_Sword_Kasabouzu",
     "route": "Toukabou Shigure"
   },
+  "11424": {
+    "id": 11424,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "狼牙",
+    "icon": "UI_EquipIcon_Sword_Boreas",
+    "route": "Wolf-Fang",
+    "beta": true
+  },
+  "11425": {
+    "id": 11425,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "海渊终曲",
+    "icon": "UI_EquipIcon_Sword_Vorpal",
+    "route": "Finale of the Deep",
+    "beta": true
+  },
+  "11426": {
+    "id": 11426,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "灰河渡手",
+    "icon": "UI_EquipIcon_Sword_Machination",
+    "route": "Crossing of Fleuve Cendre",
+    "beta": true
+  },
   "11501": {
     "id": 11501,
     "rank": 5,
@@ -463,6 +490,24 @@
     "icon": "UI_EquipIcon_Claymore_Fleurfair",
     "route": "Mailed Flower"
   },
+  "12424": {
+    "id": 12424,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "聊聊棒",
+    "icon": "UI_EquipIcon_Claymore_BeastTamer",
+    "route": "Talking Stick",
+    "beta": true
+  },
+  "12425": {
+    "id": 12425,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "浪影阔剑",
+    "icon": "UI_EquipIcon_Claymore_Vorpal",
+    "route": "Tidal Shadow",
+    "beta": true
+  },
   "12501": {
     "id": 12501,
     "rank": 5,
@@ -662,6 +707,24 @@
     "name": "风信之锋",
     "icon": "UI_EquipIcon_Pole_Windvane",
     "route": "Missive Windspear"
+  },
+  "13424": {
+    "id": 13424,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "峡湾长歌",
+    "icon": "UI_EquipIcon_Pole_Shanty",
+    "route": "Ballad of the Fjords",
+    "beta": true
+  },
+  "13425": {
+    "id": 13425,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "公义的酬报",
+    "icon": "UI_EquipIcon_Pole_Vorpal",
+    "route": "Rightful Reward",
+    "beta": true
   },
   "13501": {
     "id": 13501,
@@ -902,6 +965,24 @@
     "name": "盈满之实",
     "icon": "UI_EquipIcon_Catalyst_Arakalari",
     "route": "Fruit of Fulfillment"
+  },
+  "14424": {
+    "id": 14424,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "遗祀玉珑",
+    "icon": "UI_EquipIcon_Catalyst_Yue",
+    "route": "Sacrificial Jade",
+    "beta": true
+  },
+  "14425": {
+    "id": 14425,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "纯水流华",
+    "icon": "UI_EquipIcon_Catalyst_Vorpal",
+    "route": "Flowing Purity",
+    "beta": true
   },
   "14501": {
     "id": 14501,
@@ -1175,6 +1256,24 @@
     "icon": "UI_EquipIcon_Bow_Ibis",
     "route": "Ibis Piercer"
   },
+  "15424": {
+    "id": 15424,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "烈阳之嗣",
+    "icon": "UI_EquipIcon_Bow_Gurabad",
+    "route": "Scion of the Blazing Sun",
+    "beta": true
+  },
+  "15425": {
+    "id": 15425,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "静谧之曲",
+    "icon": "UI_EquipIcon_Bow_Vorpal",
+    "route": "Song of Stillness",
+    "beta": true
+  },
   "15501": {
     "id": 15501,
     "rank": 5,
@@ -1230,5 +1329,14 @@
     "name": "猎人之径",
     "icon": "UI_EquipIcon_Bow_Ayus",
     "route": "Hunter's Path"
+  },
+  "15512": {
+    "id": 15512,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "最初的大魔术",
+    "icon": "UI_EquipIcon_Bow_Pledge",
+    "route": "The First Great Magic",
+    "beta": true
   }
 }

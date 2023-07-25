@@ -1,0 +1,24 @@
+{
+  "name": "「公平」的哲学",
+  "description": "水之国土的堤岸是公平。\\n公平是枫丹立国的基础。公平总是需要稳固的道德与律法加以支撑，道德与律法亦基于不变的公平准则而流变不息。",
+  "type": "角色天赋素材",
+  "recipe": {
+    "13026": {
+      "104339": {
+        "icon": "UI_ItemIcon_104339",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_104340",
+  "rank": 4,
+  "route": "Philosophies of Fairness",
+  "beta": true
+}

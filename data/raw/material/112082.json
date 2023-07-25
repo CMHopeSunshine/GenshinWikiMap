@@ -1,0 +1,28 @@
+{
+  "name": "异色结晶石",
+  "description": "击败原海异种后，从其体内取得的大颗结晶。\\n其中蕴含着神秘的能量。\\n尽管是万水之源，但枫丹之水流向异国之后却失去了其独特的性质。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11202": {
+      "112081": {
+        "icon": "UI_ItemIcon_112081",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "60级以上原海异种掉落",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112082",
+  "rank": 3,
+  "route": "Kaleidoscopic Crystal",
+  "beta": true
+}

@@ -28,7 +28,8 @@
     "cityStatesSigil": "七国徽印",
     "characterEXPMaterial": "角色经验素材",
     "weaponEnhancementMaterial": "武器强化素材",
-    "challengeResultItem": "挑战结算道具"
+    "challengeResultItem": "挑战结算道具",
+    "localSpecialtyFontaine": "枫丹区域特产"
   },
   "items": {
     "102": {
@@ -811,6 +812,17 @@
       "rank": 1,
       "route": "Coffee Beans"
     },
+    "100099": {
+      "id": 100099,
+      "name": "发酵果实汁",
+      "type": "cookingIngredient",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_100099",
+      "rank": 1,
+      "route": "Fermented Juice",
+      "beta": true
+    },
     "100584": {
       "id": 100584,
       "name": "深邃之血",
@@ -920,6 +932,17 @@
       "icon": "UI_ItemIcon_101008",
       "rank": 1,
       "route": "Amethyst Lump"
+    },
+    "101009": {
+      "id": 101009,
+      "name": "萃凝晶",
+      "type": "forgingOre",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101009",
+      "rank": 1,
+      "route": "Condessence Crystal",
+      "beta": true
     },
     "101101": {
       "id": 101101,
@@ -1271,6 +1294,83 @@
       "rank": 1,
       "route": "Viparyas"
     },
+    "101229": {
+      "id": 101229,
+      "name": "久雨莲",
+      "type": "material",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101229",
+      "rank": 1,
+      "route": "Pluie Lotus",
+      "beta": true
+    },
+    "101231": {
+      "id": 101231,
+      "name": "茉洁草",
+      "type": "cookingIngredient",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101231",
+      "rank": 1,
+      "route": "Marcotte",
+      "beta": true
+    },
+    "101232": {
+      "id": 101232,
+      "name": "苍晶螺",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101232",
+      "rank": 1,
+      "route": "Beryl Conch",
+      "beta": true
+    },
+    "101233": {
+      "id": 101233,
+      "name": "海露花",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101233",
+      "rank": 1,
+      "route": "Romaritime Flower",
+      "beta": true
+    },
+    "101234": {
+      "id": 101234,
+      "name": "汐藻",
+      "type": "cookingIngredient",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101234",
+      "rank": 1,
+      "route": "Tidalga",
+      "beta": true
+    },
+    "101235": {
+      "id": 101235,
+      "name": "柔灯铃",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101235",
+      "rank": 1,
+      "route": "Lumidouce Bell",
+      "beta": true
+    },
+    "101236": {
+      "id": 101236,
+      "name": "虹彩蔷薇",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101236",
+      "rank": 1,
+      "route": "Rainbow Rose",
+      "beta": true
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -1430,6 +1530,50 @@
       "icon": "UI_ItemIcon_101317",
       "rank": 1,
       "route": "Athel Wood"
+    },
+    "101318": {
+      "id": 101318,
+      "name": "悬铃木",
+      "type": "material",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101318",
+      "rank": 1,
+      "route": "Mallow Wood",
+      "beta": true
+    },
+    "101319": {
+      "id": 101319,
+      "name": "椴木",
+      "type": "material",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101319",
+      "rank": 1,
+      "route": "Linden Wood",
+      "beta": true
+    },
+    "101320": {
+      "id": 101320,
+      "name": "白梣木",
+      "type": "material",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101320",
+      "rank": 1,
+      "route": "Ash Wood",
+      "beta": true
+    },
+    "101321": {
+      "id": 101321,
+      "name": "香柏木",
+      "type": "material",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101321",
+      "rank": 1,
+      "route": "Cypress Wood",
+      "beta": true
     },
     "101401": {
       "id": 101401,
@@ -2230,6 +2374,105 @@
       "icon": "UI_ItemIcon_104337",
       "rank": 4,
       "route": "Philosophies of Praxis"
+    },
+    "104338": {
+      "id": 104338,
+      "name": "「公平」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104338",
+      "rank": 2,
+      "route": "Teachings of Fairness",
+      "beta": true
+    },
+    "104339": {
+      "id": 104339,
+      "name": "「公平」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104339",
+      "rank": 3,
+      "route": "Guide to Fairness",
+      "beta": true
+    },
+    "104340": {
+      "id": 104340,
+      "name": "「公平」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104340",
+      "rank": 4,
+      "route": "Philosophies of Fairness",
+      "beta": true
+    },
+    "104341": {
+      "id": 104341,
+      "name": "「正义」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104341",
+      "rank": 2,
+      "route": "Teachings of Justice",
+      "beta": true
+    },
+    "104342": {
+      "id": 104342,
+      "name": "「正义」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104342",
+      "rank": 3,
+      "route": "Guide to Justice",
+      "beta": true
+    },
+    "104343": {
+      "id": 104343,
+      "name": "「正义」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104343",
+      "rank": 4,
+      "route": "Philosophies of Justice",
+      "beta": true
+    },
+    "104344": {
+      "id": 104344,
+      "name": "「秩序」的教导",
+      "type": "characterTalentMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104344",
+      "rank": 2,
+      "route": "Teachings of Order",
+      "beta": true
+    },
+    "104345": {
+      "id": 104345,
+      "name": "「秩序」的指引",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104345",
+      "rank": 3,
+      "route": "Guide to Order",
+      "beta": true
+    },
+    "104346": {
+      "id": 104346,
+      "name": "「秩序」的哲学",
+      "type": "characterTalentMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_104346",
+      "rank": 4,
+      "route": "Philosophies of Order",
+      "beta": true
     },
     "107001": {
       "id": 107001,
@@ -3331,6 +3574,138 @@
       "rank": 4,
       "route": "Wanderer's Blooming Flower"
     },
+    "112080": {
+      "id": 112080,
+      "name": "异海凝珠",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112080",
+      "rank": 1,
+      "route": "Transoceanic Pearl",
+      "beta": true
+    },
+    "112081": {
+      "id": 112081,
+      "name": "异海之块",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112081",
+      "rank": 2,
+      "route": "Transoceanic Chunk",
+      "beta": true
+    },
+    "112082": {
+      "id": 112082,
+      "name": "异色结晶石",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112082",
+      "rank": 3,
+      "route": "Kaleidoscopic Crystal",
+      "beta": true
+    },
+    "112083": {
+      "id": 112083,
+      "name": "啮合齿轮",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112083",
+      "rank": 1,
+      "route": "Meshing Gear",
+      "beta": true
+    },
+    "112084": {
+      "id": 112084,
+      "name": "机关正齿轮",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112084",
+      "rank": 2,
+      "route": "Mechanical Spur Gear",
+      "beta": true
+    },
+    "112085": {
+      "id": 112085,
+      "name": "奇械机芯齿轮",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112085",
+      "rank": 3,
+      "route": "Novel Dynamic Gear",
+      "beta": true
+    },
+    "112086": {
+      "id": 112086,
+      "name": "浊水的一滴",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112086",
+      "rank": 2,
+      "route": "Drop of Tainted Water",
+      "beta": true
+    },
+    "112087": {
+      "id": 112087,
+      "name": "浊水的一掬",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112087",
+      "rank": 3,
+      "route": "Scoop of Tainted Water",
+      "beta": true
+    },
+    "112088": {
+      "id": 112088,
+      "name": "初生的浊水幻灵",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112088",
+      "rank": 4,
+      "route": "Newborn Tainted Hydro Eidolon",
+      "beta": true
+    },
+    "112089": {
+      "id": 112089,
+      "name": "隙间之核",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112089",
+      "rank": 2,
+      "route": "Rift Core",
+      "beta": true
+    },
+    "112090": {
+      "id": 112090,
+      "name": "外世突触",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112090",
+      "rank": 3,
+      "route": "Foreign Synapse",
+      "beta": true
+    },
+    "112091": {
+      "id": 112091,
+      "name": "异界生命核",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112091",
+      "rank": 4,
+      "route": "Alien Life Core",
+      "beta": true
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -3811,6 +4186,39 @@
       "rank": 5,
       "route": "Everamber"
     },
+    "113049": {
+      "id": 113049,
+      "name": "奇械发条备件·歌裴莉娅",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113049",
+      "rank": 4,
+      "route": "Novel Spare Clockwork Component — Coppelia",
+      "beta": true
+    },
+    "113050": {
+      "id": 113050,
+      "name": "奇械发条备件·科培琉司",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113050",
+      "rank": 4,
+      "route": "Novel Spare Clockwork Component — Coppelius",
+      "beta": true
+    },
+    "113051": {
+      "id": 113051,
+      "name": "帝皇的决断",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113051",
+      "rank": 4,
+      "route": "Emperor's Resolution",
+      "beta": true
+    },
     "114001": {
       "id": 114001,
       "name": "高塔孤王的破瓦",
@@ -4290,6 +4698,138 @@
       "icon": "UI_ItemIcon_114048",
       "rank": 5,
       "route": "Olden Days of Scorching Might"
+    },
+    "114049": {
+      "id": 114049,
+      "name": "悠古弦音的残章",
+      "type": "weaponAscensionMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114049",
+      "rank": 2,
+      "route": "Fragment of an Ancient Chord",
+      "beta": true
+    },
+    "114050": {
+      "id": 114050,
+      "name": "悠古弦音的断章",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114050",
+      "rank": 3,
+      "route": "Chapter of an Ancient Chord",
+      "beta": true
+    },
+    "114051": {
+      "id": 114051,
+      "name": "悠古弦音的乐章",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114051",
+      "rank": 4,
+      "route": "Movement of an Ancient Chord",
+      "beta": true
+    },
+    "114052": {
+      "id": 114052,
+      "name": "悠古弦音的回响",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114052",
+      "rank": 5,
+      "route": "Echo of an Ancient Chord",
+      "beta": true
+    },
+    "114053": {
+      "id": 114053,
+      "name": "纯圣露滴的滤渣",
+      "type": "weaponAscensionMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114053",
+      "rank": 2,
+      "route": "Dross of Pure Sacred Dewdrop",
+      "beta": true
+    },
+    "114054": {
+      "id": 114054,
+      "name": "纯圣露滴的凝华",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114054",
+      "rank": 3,
+      "route": "Sublimation of Pure Sacred Dewdrop",
+      "beta": true
+    },
+    "114055": {
+      "id": 114055,
+      "name": "纯圣露滴的醴泉",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114055",
+      "rank": 4,
+      "route": "Spring of Pure Sacred Dewdrop",
+      "beta": true
+    },
+    "114056": {
+      "id": 114056,
+      "name": "纯圣露滴的真粹",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114056",
+      "rank": 5,
+      "route": "Essense of Pure Sacred Dewdrop",
+      "beta": true
+    },
+    "114057": {
+      "id": 114057,
+      "name": "无垢之海的苦盏",
+      "type": "weaponAscensionMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114057",
+      "rank": 2,
+      "route": "Broken Goblet of the Pristine Sea",
+      "beta": true
+    },
+    "114058": {
+      "id": 114058,
+      "name": "无垢之海的酒盏",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114058",
+      "rank": 3,
+      "route": "Wine Goblet of the Pristine Sea",
+      "beta": true
+    },
+    "114059": {
+      "id": 114059,
+      "name": "无垢之海的银杯",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114059",
+      "rank": 4,
+      "route": "Silver Goblet of the Pristine Sea",
+      "beta": true
+    },
+    "114060": {
+      "id": 114060,
+      "name": "无垢之海的金杯",
+      "type": "weaponAscensionMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_114060",
+      "rank": 5,
+      "route": "Golden Goblet of the Pristine Sea",
+      "beta": true
     },
     "120011": {
       "id": 120011,
@@ -4800,6 +5340,50 @@
       "icon": "UI_ItemIcon_220051",
       "rank": 4,
       "route": "Festive Drum"
+    },
+    "220086": {
+      "id": 220086,
+      "name": "水神瞳共鸣石",
+      "type": "consumable",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220086",
+      "rank": 3,
+      "route": "Hydroculus Resonance Stone",
+      "beta": true
+    },
+    "220087": {
+      "id": 220087,
+      "name": "水之寻宝罗盘",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220087",
+      "rank": 4,
+      "route": "Hydro Treasure Compass",
+      "beta": true
+    },
+    "220088": {
+      "id": 220088,
+      "name": "晶蝶诱捕仪",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220088",
+      "rank": 4,
+      "route": "Crystalfly Trap",
+      "beta": true
+    },
+    "220089": {
+      "id": 220089,
+      "name": "借动式鼓风装置",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220089",
+      "rank": 4,
+      "route": "Wind-Powered Wind Generator",
+      "beta": true
     }
   }
 }

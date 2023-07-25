@@ -57,7 +57,7 @@ class Fetter(BaseModel):
 
 
 class Prop(BaseModel):
-    propType: Optional[str]
+    propType: Optional[str] = None
     initValue: float
     type: str
 
@@ -65,10 +65,10 @@ class Prop(BaseModel):
 class Promote(BaseModel):
     promoteLevel: int
     unlockMaxLevel: int
-    costItems: Optional[dict[str, int]]
-    addProps: dict[str, float]
-    requiredPlayerLevel: Optional[int]
-    coinCost: Optional[int]
+    costItems: Optional[dict[str, int]] = None
+    addProps: Optional[dict[str, float]] = None
+    requiredPlayerLevel: Optional[int] = None
+    coinCost: Optional[int] = None
 
 
 class Upgrade(BaseModel):
@@ -93,13 +93,13 @@ class SpecialFood(BaseModel):
 
 class Other(BaseModel):
     nameCard: NameCard
-    specialFood: Optional[SpecialFood]
+    specialFood: Optional[SpecialFood] = None
 
 
 class TalentPromote(BaseModel):
     level: int
-    costItems: Optional[dict[str, int]]
-    coinCost: Optional[int]
+    costItems: Optional[dict[str, int]] = None
+    coinCost: Optional[int] = None
     description: list[str]
     params: list[float]
 
@@ -113,9 +113,9 @@ class Talent(BaseModel):
     name: str
     description: str
     icon: str
-    promote: Optional[dict[str, TalentPromote]]
-    cooldown: Optional[int]
-    cost: Optional[int]
+    promote: Optional[dict[str, TalentPromote]] = None
+    cooldown: Optional[int] = None
+    cost: Optional[int] = None
 
     def get_promote_list(self) -> Optional[dict[str, list[str]]]:
         if self.promote is None:
@@ -157,7 +157,7 @@ class Character(BaseModel):
     route: str
     fetter: Fetter
     upgrade: Upgrade
-    other: Optional[Other]
+    other: Optional[Other] = None
     ascension: dict[str, int]
     talent: dict[str, Talent]
     constellation: dict[str, Constellation]
@@ -314,7 +314,7 @@ class Weapon(BaseModel):
     description: str
     icon: str
     storyId: int
-    affix: Optional[dict[str, WeaponAffix]]
+    affix: Optional[dict[str, WeaponAffix]] = None
     route: str
     upgrade: WeaponUpgrade
     ascension: dict[str, int]
@@ -492,23 +492,23 @@ class MonsterAffix(BaseModel):
     name: str
     description: str
     abilityName: list[str]
-    isCommon: Optional[bool]
+    isCommon: Optional[bool] = None
 
 
 class MonsterReward(BaseModel):
     rank: int
     icon: str
-    count: Optional[str]
+    count: Optional[str] = None
 
 
 class MonsterEntry(BaseModel):
     id: int
     type: str
-    affix: Optional[list[MonsterAffix]]
-    hpDrops: Optional[list[dict]]
+    affix: Optional[list[MonsterAffix]] = None
+    hpDrops: Optional[list[dict]] = None
     prop: list[Prop]
-    resistance: Optional[MonsterResistance]
-    reward: dict[str, MonsterReward]
+    resistance: Optional[MonsterResistance] = None
+    reward: Optional[dict[str, MonsterReward]] = None
 
     def get_health_num(self, level: str) -> int:
         return int(self.prop[0].initValue * load_json(RAW / 'monster_curve.json')[level]['curveInfos'][
@@ -539,10 +539,10 @@ class Monster(BaseModel):
     type: str
     icon: str
     route: str
-    title: Optional[str]
-    specialName: Optional[str]
+    title: Optional[str] = None
+    specialName: Optional[str] = None
     description: str
     entries: dict[str, MonsterEntry]
-    tips: Optional[dict]
+    tips: Optional[dict] = None
 
 # -----------------原魔相关-----------------
