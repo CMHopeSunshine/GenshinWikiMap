@@ -20,6 +20,11 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+    
+    - name: Set up Git LFS
+      run: |
+        git lfs install --local
+        git config lfs.fetchexclude "resources/**/*.zip"
 
     - name: Set up Poetry
       uses: Gr1N/setup-poetry@v8
@@ -31,11 +36,10 @@ jobs:
       run: poetry run python generate.py
 
     - name: Commit changes
-      uses: EndBug/add-and-commit@v9
-      with:
-        author_name: github-actions[bot]
-        author_email: github-actions[bot]@users.noreply.github.com
-        message: ':wrench: 更新文件'
-        add: |
-          '**.json'
-          '**.zip'
+      run: |
+        git lfs track "*.zip"
+        git add '*.json' '*.zip'
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git commit -m ':wrench: 更新文件'
+        git push origin HEAD:refs/heads/master
