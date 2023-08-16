@@ -205,8 +205,7 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "狼牙",
     "icon": "UI_EquipIcon_Sword_Boreas",
-    "route": "Wolf-Fang",
-    "beta": true
+    "route": "Wolf-Fang"
   },
   "11425": {
     "id": 11425,
@@ -214,8 +213,7 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "海渊终曲",
     "icon": "UI_EquipIcon_Sword_Vorpal",
-    "route": "Finale of the Deep",
-    "beta": true
+    "route": "Finale of the Deep"
   },
   "11426": {
     "id": 11426,
@@ -223,8 +221,7 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "灰河渡手",
     "icon": "UI_EquipIcon_Sword_Machination",
-    "route": "Crossing of Fleuve Cendre",
-    "beta": true
+    "route": "Fleuve Cendre Ferryman"
   },
   "11501": {
     "id": 11501,
@@ -496,8 +493,7 @@
     "type": "WEAPON_CLAYMORE",
     "name": "聊聊棒",
     "icon": "UI_EquipIcon_Claymore_BeastTamer",
-    "route": "Talking Stick",
-    "beta": true
+    "route": "Talking Stick"
   },
   "12425": {
     "id": 12425,
@@ -505,8 +501,7 @@
     "type": "WEAPON_CLAYMORE",
     "name": "浪影阔剑",
     "icon": "UI_EquipIcon_Claymore_Vorpal",
-    "route": "Tidal Shadow",
-    "beta": true
+    "route": "Tidal Shadow"
   },
   "12501": {
     "id": 12501,
@@ -714,8 +709,7 @@
     "type": "WEAPON_POLE",
     "name": "峡湾长歌",
     "icon": "UI_EquipIcon_Pole_Shanty",
-    "route": "Ballad of the Fjords",
-    "beta": true
+    "route": "Ballad of the Fjords"
   },
   "13425": {
     "id": 13425,
@@ -723,8 +717,7 @@
     "type": "WEAPON_POLE",
     "name": "公义的酬报",
     "icon": "UI_EquipIcon_Pole_Vorpal",
-    "route": "Rightful Reward",
-    "beta": true
+    "route": "Rightful Reward"
   },
   "13501": {
     "id": 13501,
@@ -972,8 +965,7 @@
     "type": "WEAPON_CATALYST",
     "name": "遗祀玉珑",
     "icon": "UI_EquipIcon_Catalyst_Yue",
-    "route": "Sacrificial Jade",
-    "beta": true
+    "route": "Sacrificial Jade"
   },
   "14425": {
     "id": 14425,
@@ -981,8 +973,7 @@
     "type": "WEAPON_CATALYST",
     "name": "纯水流华",
     "icon": "UI_EquipIcon_Catalyst_Vorpal",
-    "route": "Flowing Purity",
-    "beta": true
+    "route": "Flowing Purity"
   },
   "14501": {
     "id": 14501,
@@ -1262,8 +1253,7 @@
     "type": "WEAPON_BOW",
     "name": "烈阳之嗣",
     "icon": "UI_EquipIcon_Bow_Gurabad",
-    "route": "Scion of the Blazing Sun",
-    "beta": true
+    "route": "Scion of the Blazing Sun"
   },
   "15425": {
     "id": 15425,
@@ -1271,8 +1261,7 @@
     "type": "WEAPON_BOW",
     "name": "静谧之曲",
     "icon": "UI_EquipIcon_Bow_Vorpal",
-    "route": "Song of Stillness",
-    "beta": true
+    "route": "Song of Stillness"
   },
   "15501": {
     "id": 15501,
@@ -1336,7 +1325,6 @@
     "type": "WEAPON_BOW",
     "name": "最初的大魔术",
     "icon": "UI_EquipIcon_Bow_Pledge",
-    "route": "The First Great Magic",
-    "beta": true
+    "route": "The First Great Magic"
   }
 }

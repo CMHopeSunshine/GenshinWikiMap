@@ -1,0 +1,131 @@
+{
+  "id": 10000083,
+  "name": "琳妮特",
+  "element": "风",
+  "weapon": "单手剑",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Linette",
+    "side": "UI_AvatarIcon_Side_Linette",
+    "card": "UI_AvatarIcon_Linette_Card",
+    "splash": "UI_Gacha_AvatarImg_Linette",
+    "slice": "UI_Gacha_AvatarIcon_Linette"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1039.44177,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        776.51617,
+        1328.25134,
+        2063.89844,
+        2615.63354,
+        3167.36865,
+        3719.104
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 19.41072,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        14.50114,
+        24.80458,
+        38.54251,
+        48.84595,
+        59.14939,
+        69.45284
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.68568,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        44.58825,
+        76.26938,
+        118.51087,
+        150.192,
+        181.87312,
+        213.55424
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_WIND_ADD_HURT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10831": {
+      "name": "普通攻击·迅捷礼刺剑",
+      "icon": "Skill_A_01"
+    },
+    "10832": {
+      "name": "谜影障身法",
+      "icon": "Skill_S_Linette_01"
+    },
+    "10835": {
+      "name": "魔术·运变惊奇",
+      "icon": "Skill_E_Linette_01"
+    },
+    "832101": {
+      "name": "巧施协同",
+      "icon": "UI_Talent_S_Linette_05"
+    },
+    "832201": {
+      "name": "道具完备",
+      "icon": "UI_Talent_S_Linette_06"
+    },
+    "832301": {
+      "name": "点位记忆法",
+      "icon": "UI_Talent_S_Linette_07"
+    }
+  },
+  "constellation": {
+    "831": {
+      "name": "如影流露的冷刃",
+      "icon": "UI_Talent_S_Linette_01"
+    },
+    "832": {
+      "name": "层见叠出的谜象",
+      "icon": "UI_Talent_S_Linette_02"
+    },
+    "833": {
+      "name": "倒错知能的视度",
+      "icon": "UI_Talent_U_Linette_01"
+    },
+    "834": {
+      "name": "灵犀默应的配合",
+      "icon": "UI_Talent_S_Linette_03"
+    },
+    "835": {
+      "name": "暗昧遮目的障法",
+      "icon": "UI_Talent_U_Linette_02"
+    },
+    "836": {
+      "name": "示辨真意的眼",
+      "icon": "UI_Talent_S_Linette_04"
+    }
+  },
+  "talent_fix": {
+    "10835": "魔术·运变惊奇",
+    "10832": "谜影障身法"
+  },
+  "damage": [],
+  "buff": []
+}

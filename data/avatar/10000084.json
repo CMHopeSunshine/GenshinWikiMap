@@ -1,0 +1,131 @@
+{
+  "id": 10000084,
+  "name": "林尼",
+  "element": "火",
+  "weapon": "弓",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Liney",
+    "side": "UI_AvatarIcon_Side_Liney",
+    "card": "UI_AvatarIcon_Liney_Card",
+    "splash": "UI_Gacha_AvatarImg_Liney",
+    "slice": "UI_Gacha_AvatarIcon_Liney"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 857.98798,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        735.64716,
+        1258.34375,
+        1955.27258,
+        2477.96924,
+        3000.66602,
+        3523.36255
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 24.7646,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        21.23185,
+        36.31765,
+        56.43203,
+        71.51782,
+        86.60361,
+        101.68941
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 41.881,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        35.91,
+        61.425,
+        95.445,
+        120.96,
+        146.47501,
+        171.99001
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10841": {
+      "name": "普通攻击·迫牌易位式",
+      "icon": "Skill_A_02"
+    },
+    "10842": {
+      "name": "眩惑光戏法",
+      "icon": "Skill_S_Liney_01"
+    },
+    "10845": {
+      "name": "大魔术·灵迹巡游",
+      "icon": "Skill_E_Liney_01"
+    },
+    "842101": {
+      "name": "惊险演出",
+      "icon": "UI_Talent_S_Liney_05"
+    },
+    "842201": {
+      "name": "完场喝彩",
+      "icon": "UI_Talent_S_Liney_06"
+    },
+    "842301": {
+      "name": "琐碎观察术",
+      "icon": "UI_Talent_S_Liney_07"
+    }
+  },
+  "constellation": {
+    "841": {
+      "name": "空取奇思的手艺",
+      "icon": "UI_Talent_S_Liney_01"
+    },
+    "842": {
+      "name": "巧言贴耳的诱引",
+      "icon": "UI_Talent_S_Liney_03"
+    },
+    "843": {
+      "name": "玄迷灵敏的指法",
+      "icon": "UI_Talent_U_Liney_01"
+    },
+    "844": {
+      "name": "熟稔习练的筹谋",
+      "icon": "UI_Talent_S_Liney_02"
+    },
+    "845": {
+      "name": "穿越隐秘的通术",
+      "icon": "UI_Talent_U_Liney_02"
+    },
+    "846": {
+      "name": "违心的笑",
+      "icon": "UI_Talent_S_Liney_04"
+    }
+  },
+  "talent_fix": {
+    "10841": "普通攻击·迫牌易位式",
+    "10845": "大魔术·灵迹巡游"
+  },
+  "damage": [],
+  "buff": []
+}

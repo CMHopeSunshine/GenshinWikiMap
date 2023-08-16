@@ -686,8 +686,7 @@
     },
     "icon": "UI_RelicIcon_15031_4",
     "route": "Marechaussee Hunter",
-    "sortOrder": 94,
-    "beta": true
+    "sortOrder": 94
   },
   "15032": {
     "id": 15032,
@@ -702,7 +701,6 @@
     },
     "icon": "UI_RelicIcon_15032_4",
     "route": "Golden Troupe",
-    "sortOrder": 95,
-    "beta": true
+    "sortOrder": 95
   }
 }
