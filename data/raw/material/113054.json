@@ -1,0 +1,37 @@
+{
+  "name": "无光丝线",
+  "description": "与吞星之鲸战斗时，不知不觉缠绕在武器上的细丝。\\n在古代的枫丹，曾有人认为主宰万物现象的「法图纳」是由无比细微的「纤维」编制而成，就如同组成竖琴的弦丝。与宏伟的乐声共振的丝线将会带来普世的幸福，正如不谐音会破坏宇宙的肌理。",
+  "type": "角色培养素材",
+  "recipe": {
+    "60801": {
+      "113021": {
+        "icon": "UI_ItemIcon_113021",
+        "count": 1
+      },
+      "113055": {
+        "icon": "UI_ItemIcon_113055",
+        "count": 1
+      }
+    },
+    "60802": {
+      "113021": {
+        "icon": "UI_ItemIcon_113021",
+        "count": 1
+      },
+      "113056": {
+        "icon": "UI_ItemIcon_113056",
+        "count": 1
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "70级以上吞星之鲸挑战奖励",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_113054",
+  "rank": 5,
+  "route": "Lightless Silk String"
+}

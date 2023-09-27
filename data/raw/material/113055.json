@@ -1,0 +1,37 @@
+{
+  "name": "无光涡眼",
+  "description": "从吞星之鲸的战斗中取得的奇异「物质」，实际质量远比从尺寸看上去的重。\\n一切都聚集在命定沉重的事物旁，正如黄金比之黑铁、大地比之轻风。正如光线无法从黑暗的涡眼当中逃脱，因缘也会汇聚在沉重的命运上，或许这也是不可逆转的规则吧。",
+  "type": "角色培养素材",
+  "recipe": {
+    "60803": {
+      "113021": {
+        "icon": "UI_ItemIcon_113021",
+        "count": 1
+      },
+      "113054": {
+        "icon": "UI_ItemIcon_113054",
+        "count": 1
+      }
+    },
+    "60804": {
+      "113021": {
+        "icon": "UI_ItemIcon_113021",
+        "count": 1
+      },
+      "113056": {
+        "icon": "UI_ItemIcon_113056",
+        "count": 1
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "70级以上吞星之鲸挑战奖励",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_113055",
+  "rank": 5,
+  "route": "Lightless Eye of the Maelstrom"
+}

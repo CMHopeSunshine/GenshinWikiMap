@@ -1,0 +1,131 @@
+{
+  "id": 10000089,
+  "name": "芙宁娜",
+  "element": "水",
+  "weapon": "单手剑",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Furina",
+    "side": "UI_AvatarIcon_Side_Furina",
+    "card": "UI_AvatarIcon_Furina_Card",
+    "splash": "UI_Gacha_AvatarImg_Furina",
+    "slice": "UI_Gacha_AvatarIcon_Furina"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1191.65002,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        1021.73212,
+        1747.69971,
+        2715.65649,
+        3441.62402,
+        4167.5918,
+        4893.55908
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 18.9924,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        16.28308,
+        27.85263,
+        43.2787,
+        54.84826,
+        66.41781,
+        77.98737
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 54.14615,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        46.4265,
+        79.41375,
+        123.39675,
+        156.384,
+        189.37125,
+        222.35851
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL",
+      "promote": [
+        0,
+        0.048,
+        0.096,
+        0.096,
+        0.144,
+        0.192
+      ]
+    }
+  ],
+  "talent": {
+    "10891": {
+      "name": "普通攻击·独舞之邀",
+      "icon": "Skill_A_01"
+    },
+    "10892": {
+      "name": "孤心沙龙",
+      "icon": "Skill_S_Furina_01"
+    },
+    "10895": {
+      "name": "万众狂欢",
+      "icon": "Skill_E_Furina_01"
+    },
+    "892101": {
+      "name": "停不了的圆舞",
+      "icon": "UI_Talent_S_Furina_05"
+    },
+    "892201": {
+      "name": "无人听的自白",
+      "icon": "UI_Talent_S_Furina_06"
+    },
+    "892301": {
+      "name": "瀚海亦舞台",
+      "icon": "UI_Talent_S_Furina_07"
+    }
+  },
+  "constellation": {
+    "891": {
+      "name": "「爱是难驯鸟，哀乞亦无用。」",
+      "icon": "UI_Talent_S_Furina_01"
+    },
+    "892": {
+      "name": "「女人皆善变，仿若水中萍。」",
+      "icon": "UI_Talent_S_Furina_04"
+    },
+    "893": {
+      "name": "「秘密藏心间，无人知我名。」",
+      "icon": "UI_Talent_U_Furina_02"
+    },
+    "894": {
+      "name": "「若非处幽冥，怎知生可贵！」",
+      "icon": "UI_Talent_S_Furina_03"
+    },
+    "895": {
+      "name": "「我已有觉察，他名即是…！」",
+      "icon": "UI_Talent_U_Furina_01"
+    },
+    "896": {
+      "name": "「诸君听我颂，共举爱之杯！」",
+      "icon": "UI_Talent_S_Furina_02"
+    }
+  },
+  "talent_fix": {
+    "10895": "万众狂欢",
+    "10892": "孤心沙龙"
+  },
+  "damage": [],
+  "buff": []
+}

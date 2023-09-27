@@ -245,8 +245,7 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "水仙十字之剑",
     "icon": "UI_EquipIcon_Sword_Purewill",
-    "route": "Sword of Narzissenkreuz",
-    "beta": true
+    "route": "Sword of Narzissenkreuz"
   },
   "11501": {
     "id": 11501,
@@ -326,8 +325,7 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "name": "静水流涌之辉",
     "icon": "UI_EquipIcon_Sword_Regalis",
-    "route": "Splendor of Still Waters",
-    "beta": true
+    "route": "Splendor of Tranquil Waters"
   },
   "12101": {
     "id": 12101,

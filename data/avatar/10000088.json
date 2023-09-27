@@ -1,0 +1,131 @@
+{
+  "id": 10000088,
+  "name": "夏洛蒂",
+  "element": "冰",
+  "weapon": "法器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Charlotte",
+    "side": "UI_AvatarIcon_Side_Charlotte",
+    "card": "UI_AvatarIcon_Charlotte_Card",
+    "splash": "UI_Gacha_AvatarImg_Charlotte",
+    "slice": "UI_Gacha_AvatarIcon_Charlotte"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 902.6731,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        674.34302,
+        1153.48145,
+        1792.33276,
+        2271.47119,
+        2750.60962,
+        3229.74805
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 14.51352,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        10.8426,
+        18.54655,
+        28.81848,
+        36.52243,
+        44.22638,
+        51.93033
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 45.78,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        34.2,
+        58.5,
+        90.9,
+        115.2,
+        139.5,
+        163.8
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_ATTACK_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10881": {
+      "name": "普通攻击·冷色摄影律",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10882": {
+      "name": "取景·冰点构图法",
+      "icon": "Skill_S_Charlotte_01"
+    },
+    "10885": {
+      "name": "定格·全方位确证",
+      "icon": "Skill_E_Charlotte_01"
+    },
+    "882101": {
+      "name": "冲击力瞬间",
+      "icon": "UI_Talent_S_Charlotte_05"
+    },
+    "882201": {
+      "name": "多样性调查",
+      "icon": "UI_Talent_S_Charlotte_06"
+    },
+    "882301": {
+      "name": "第一人称快门",
+      "icon": "UI_Talent_S_Charlotte_07"
+    }
+  },
+  "constellation": {
+    "881": {
+      "name": "以核实为约束",
+      "icon": "UI_Talent_S_Charlotte_01"
+    },
+    "882": {
+      "name": "以求真为职守",
+      "icon": "UI_Talent_S_Charlotte_02"
+    },
+    "883": {
+      "name": "以独立为先决",
+      "icon": "UI_Talent_U_Charlotte_01"
+    },
+    "884": {
+      "name": "以督促为责任",
+      "icon": "UI_Talent_S_Charlotte_03"
+    },
+    "885": {
+      "name": "以良知为原则",
+      "icon": "UI_Talent_U_Charlotte_02"
+    },
+    "886": {
+      "name": "以有趣相关为要义",
+      "icon": "UI_Talent_S_Charlotte_04"
+    }
+  },
+  "talent_fix": {
+    "10885": "定格·全方位确证",
+    "10882": "取景·冰点构图法"
+  },
+  "damage": [],
+  "buff": []
+}

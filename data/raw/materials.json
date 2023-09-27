@@ -1380,8 +1380,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_101238",
       "rank": 1,
-      "route": "Lakelight Lily",
-      "beta": true
+      "route": "Lakelight Lily"
     },
     "101239": {
       "id": 101239,
@@ -1401,8 +1400,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_101240",
       "rank": 1,
-      "route": "Spring of the First Dewdrop",
-      "beta": true
+      "route": "Spring of the First Dewdrop"
     },
     "101301": {
       "id": 101301,
@@ -2563,6 +2561,16 @@
       "icon": "UI_ItemIcon_107017",
       "rank": 1,
       "route": "Dendroculus"
+    },
+    "107023": {
+      "id": 107023,
+      "name": "散失的水神瞳",
+      "type": "adventureItem",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_107023",
+      "rank": 1,
+      "route": "Hydroculus"
     },
     "110001": {
       "id": 110001,
@@ -4276,36 +4284,33 @@
     },
     "113054": {
       "id": 113054,
-      "name": "？？？",
+      "name": "无光丝线",
       "type": "characterLevelUpMaterial",
-      "recipe": false,
+      "recipe": true,
       "mapMark": false,
-      "icon": "",
+      "icon": "UI_ItemIcon_113054",
       "rank": 5,
-      "route": "？？？",
-      "beta": true
+      "route": "Lightless Silk String"
     },
     "113055": {
       "id": 113055,
-      "name": "？？？",
+      "name": "无光涡眼",
       "type": "characterLevelUpMaterial",
-      "recipe": false,
+      "recipe": true,
       "mapMark": false,
-      "icon": "",
+      "icon": "UI_ItemIcon_113055",
       "rank": 5,
-      "route": "？？？",
-      "beta": true
+      "route": "Lightless Eye of the Maelstrom"
     },
     "113056": {
       "id": 113056,
-      "name": "？？？",
+      "name": "无光质块",
       "type": "characterLevelUpMaterial",
-      "recipe": false,
+      "recipe": true,
       "mapMark": false,
-      "icon": "",
+      "icon": "UI_ItemIcon_113056",
       "rank": 5,
-      "route": "？？？",
-      "beta": true
+      "route": "Lightless Mass"
     },
     "113057": {
       "id": 113057,
@@ -4315,8 +4320,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_113057",
       "rank": 4,
-      "route": "Water That Failed To Transcend",
-      "beta": true
+      "route": "Water That Failed To Transcend"
     },
     "114001": {
       "id": 114001,
@@ -5496,8 +5500,7 @@
       "mapMark": false,
       "icon": "UI_ItemIcon_220093",
       "rank": 4,
-      "route": "\"Special Analysis Zoom Lens\"",
-      "beta": true
+      "route": "\"Special Analysis Zoom Lens\""
     }
   }
 }
