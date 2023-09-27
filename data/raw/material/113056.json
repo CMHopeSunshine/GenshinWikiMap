@@ -1,0 +1,17 @@
+{
+  "name": "？？？",
+  "description": "？？？",
+  "type": "角色培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "？？？",
+      "type": "single"
+    }
+  ],
+  "icon": "",
+  "rank": 5,
+  "route": "？？？",
+  "beta": true
+}

@@ -979,6 +979,64 @@
     "release": 1693926000,
     "route": "Freminet"
   },
+  "10000086": {
+    "id": 10000086,
+    "rank": 5,
+    "name": "莱欧斯利",
+    "element": "Ice",
+    "weaponType": "WEAPON_CATALYST",
+    "icon": "UI_AvatarIcon_Wriothesley",
+    "birthday": [
+      11,
+      23
+    ],
+    "release": 1697554800,
+    "route": "Wriothesley"
+  },
+  "10000087": {
+    "id": 10000087,
+    "rank": 5,
+    "name": "那维莱特",
+    "element": "Water",
+    "weaponType": "WEAPON_CATALYST",
+    "icon": "UI_AvatarIcon_Neuvillette",
+    "birthday": [
+      12,
+      18
+    ],
+    "release": 1695675600,
+    "route": "Neuvillette"
+  },
+  "10000088": {
+    "id": 10000088,
+    "rank": 4,
+    "name": "夏洛蒂",
+    "element": "Ice",
+    "weaponType": "WEAPON_CATALYST",
+    "icon": "UI_AvatarIcon_Charlotte",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1698267600,
+    "route": "Charlotte",
+    "beta": true
+  },
+  "10000089": {
+    "id": 10000089,
+    "rank": 5,
+    "name": "芙宁娜",
+    "element": "Water",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "icon": "UI_AvatarIcon_Furina",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1698332400,
+    "route": "Furina",
+    "beta": true
+  },
   "10000005-hydro": {
     "id": "10000005-hydro",
     "rank": 5,

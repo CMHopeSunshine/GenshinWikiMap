@@ -1,0 +1,11 @@
+{
+  "name": "柔柔小章",
+  "description": "本应是生活在海洋深处的小小章鱼。\\n或许是出于其旺盛的好奇心，还有对旅行的向往，在尚处于幼体态时，它就已然在海中四处游弋。如果遇见了中意的生物，它也愿意跟随其四处旅行。\\n不过，它长大后究竟会变成什么样呢…",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220084",
+  "rank": 4,
+  "route": "Itty Bitty Octobaby"
+}

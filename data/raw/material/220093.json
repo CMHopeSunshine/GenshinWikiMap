@@ -1,0 +1,12 @@
+{
+  "name": "「特殊分析变焦镜头」",
+  "description": "为了增强「图形识别」能力而开发的新型留影机镜头组件。\\n配备这种镜头组件后，普通的留影机将获得更为迅速的变焦与对焦性能，以便使用者在旅途中进行快速高效的抓拍，记录珍贵的瞬间。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220093",
+  "rank": 4,
+  "route": "\"Special Analysis Zoom Lens\"",
+  "beta": true
+}

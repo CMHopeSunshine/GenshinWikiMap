@@ -1,0 +1,131 @@
+{
+  "id": 10000086,
+  "name": "莱欧斯利",
+  "element": "冰",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Wriothesley",
+    "side": "UI_AvatarIcon_Side_Wriothesley",
+    "card": "UI_AvatarIcon_Wriothesley_Card",
+    "splash": "UI_Gacha_AvatarImg_Wriothesley",
+    "slice": "UI_Gacha_AvatarIcon_Wriothesley"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1058.18518,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        907.29816,
+        1551.95728,
+        2411.50293,
+        3056.16211,
+        3700.82129,
+        4345.48047
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 24.206,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        20.75294,
+        35.49845,
+        55.15913,
+        69.90464,
+        84.65015,
+        99.39566
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 59.41119,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        50.9409,
+        87.13575,
+        135.39555,
+        171.59039,
+        207.78525,
+        243.9801
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10861": {
+      "name": "普通攻击·迅烈倾霜拳",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10862": {
+      "name": "冰牙突驰",
+      "icon": "Skill_S_Wriothesley_01"
+    },
+    "10865": {
+      "name": "黑金狼噬",
+      "icon": "Skill_E_Wriothesley_01"
+    },
+    "862101": {
+      "name": "公理终有辩诉之日",
+      "icon": "UI_Talent_S_Wriothesley_05"
+    },
+    "862201": {
+      "name": "罪业终有报偿之时",
+      "icon": "UI_Talent_S_Wriothesley_06"
+    },
+    "862301": {
+      "name": "公爵的恩馈",
+      "icon": "UI_Talent_Combine_Weapon_Double"
+    }
+  },
+  "constellation": {
+    "861": {
+      "name": "予行恶者以惩惧",
+      "icon": "UI_Talent_S_Wriothesley_01"
+    },
+    "862": {
+      "name": "予骄暴者以镣锁",
+      "icon": "UI_Talent_S_Wriothesley_02"
+    },
+    "863": {
+      "name": "予婪诈者以谴罚",
+      "icon": "UI_Talent_U_Wriothesley_01"
+    },
+    "864": {
+      "name": "予贞苦者以拯赎",
+      "icon": "UI_Talent_S_Wriothesley_03"
+    },
+    "865": {
+      "name": "予冤诉者以怜恕",
+      "icon": "UI_Talent_U_Wriothesley_02"
+    },
+    "866": {
+      "name": "予无罪者以念抚",
+      "icon": "UI_Talent_S_Wriothesley_04"
+    }
+  },
+  "talent_fix": {
+    "10861": "普通攻击·迅烈倾霜拳",
+    "10865": "黑金狼噬"
+  },
+  "damage": [],
+  "buff": []
+}

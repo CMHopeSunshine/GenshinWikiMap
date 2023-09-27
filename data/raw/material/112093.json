@@ -1,0 +1,31 @@
+{
+  "name": "役人的制式怀表",
+  "description": "配发给愚人众役人的制式怀表。\\n怀表把头的位置设计并不合理，外壳过多的棱角也容易将衣物磨破，所以总有人会将其中的机芯装配在更加朴实、缺乏特征性的壳套中使用。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11059": {
+      "112092": {
+        "icon": "UI_ItemIcon_112092",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上愚人众·役人掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112093",
+  "rank": 3,
+  "route": "Operative's Standard Pocket Watch"
+}

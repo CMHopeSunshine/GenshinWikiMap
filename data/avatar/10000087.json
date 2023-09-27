@@ -1,0 +1,131 @@
+{
+  "id": 10000087,
+  "name": "那维莱特",
+  "element": "水",
+  "weapon": "法器",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Neuvillette",
+    "side": "UI_AvatarIcon_Side_Neuvillette",
+    "card": "UI_AvatarIcon_Neuvillette_Card",
+    "splash": "UI_Gacha_AvatarImg_Neuvillette",
+    "slice": "UI_Gacha_AvatarIcon_Neuvillette"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1143.98401,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        980.86285,
+        1677.79175,
+        2607.03027,
+        3303.95898,
+        4000.88794,
+        4697.81689
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.21802,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        13.90447,
+        23.78396,
+        36.95662,
+        46.83611,
+        56.7156,
+        66.59509
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 44.8725,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        38.475,
+        65.8125,
+        102.2625,
+        129.60001,
+        156.9375,
+        184.27499
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10871": {
+      "name": "普通攻击·如水从平",
+      "icon": "Skill_A_Catalyst_MD"
+    },
+    "10872": {
+      "name": "泪水啊，我必偿还",
+      "icon": "Skill_S_Neuvillette_01"
+    },
+    "10875": {
+      "name": "潮水啊，我已归来",
+      "icon": "Skill_E_Neuvillette_01"
+    },
+    "872101": {
+      "name": "古海孑遗的权柄",
+      "icon": "UI_Talent_S_Neuvillette_05"
+    },
+    "872201": {
+      "name": "至高仲裁的纪律",
+      "icon": "UI_Talent_S_Neuvillette_06"
+    },
+    "872301": {
+      "name": "汇聚如浪潮一般",
+      "icon": "UI_Talent_S_Neuvillette_07"
+    }
+  },
+  "constellation": {
+    "871": {
+      "name": "尊荣的创定",
+      "icon": "UI_Talent_S_Neuvillette_01"
+    },
+    "872": {
+      "name": "律法的命诫",
+      "icon": "UI_Talent_S_Neuvillette_02"
+    },
+    "873": {
+      "name": "溯古的拟制",
+      "icon": "UI_Talent_U_Neuvillette_01"
+    },
+    "874": {
+      "name": "悲悯的冠冕",
+      "icon": "UI_Talent_S_Neuvillette_03"
+    },
+    "875": {
+      "name": "公理的决裁",
+      "icon": "UI_Talent_U_Neuvillette_02"
+    },
+    "876": {
+      "name": "忿怒的报偿",
+      "icon": "UI_Talent_S_Neuvillette_04"
+    }
+  },
+  "talent_fix": {
+    "10871": "普通攻击·如水从平",
+    "10875": "潮水啊，我已归来"
+  },
+  "damage": [],
+  "buff": []
+}

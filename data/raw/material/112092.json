@@ -1,0 +1,20 @@
+{
+  "name": "老旧的役人怀表",
+  "description": "配发给愚人众役人的制式怀表。\\n猎壳上徽记的磨损与氧化褪色忠实地记录着身为执行者，所度过的时日。",
+  "type": "角色与武器培养素材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "愚人众·役人掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112092",
+  "rank": 2,
+  "route": "Old Operative's Pocket Watch"
+}

@@ -39,6 +39,14 @@
     "icon": "UI_EquipIcon_Sword_Traveler",
     "route": "Traveler's Handy Sword"
   },
+  "11304": {
+    "id": 11304,
+    "rank": 3,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "暗铁剑",
+    "icon": "UI_EquipIcon_Sword_Darker",
+    "route": "Dark Iron Sword"
+  },
   "11305": {
     "id": 11305,
     "rank": 3,
@@ -223,6 +231,23 @@
     "icon": "UI_EquipIcon_Sword_Machination",
     "route": "Fleuve Cendre Ferryman"
   },
+  "11427": {
+    "id": 11427,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "船坞长剑",
+    "icon": "UI_EquipIcon_Sword_Mechanic",
+    "route": "The Dockhand's Assistant"
+  },
+  "11428": {
+    "id": 11428,
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "水仙十字之剑",
+    "icon": "UI_EquipIcon_Sword_Purewill",
+    "route": "Sword of Narzissenkreuz",
+    "beta": true
+  },
   "11501": {
     "id": 11501,
     "rank": 5,
@@ -294,6 +319,15 @@
     "name": "裁叶萃光",
     "icon": "UI_EquipIcon_Sword_Ayus",
     "route": "Light of Foliar Incision"
+  },
+  "11513": {
+    "id": 11513,
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "name": "静水流涌之辉",
+    "icon": "UI_EquipIcon_Sword_Regalis",
+    "route": "Splendor of Still Waters",
+    "beta": true
   },
   "12101": {
     "id": 12101,
@@ -503,6 +537,14 @@
     "icon": "UI_EquipIcon_Claymore_Vorpal",
     "route": "Tidal Shadow"
   },
+  "12427": {
+    "id": 12427,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "便携动力锯",
+    "icon": "UI_EquipIcon_Claymore_Mechanic",
+    "route": "Portable Power Saw"
+  },
   "12501": {
     "id": 12501,
     "rank": 5,
@@ -534,6 +576,14 @@
     "name": "无工之剑",
     "icon": "UI_EquipIcon_Claymore_Kunwu",
     "route": "The Unforged"
+  },
+  "12505": {
+    "id": 12505,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "",
+    "icon": "UI_EquipIcon_Claymore_Aniki",
+    "route": "Primordial Jade Greatsword"
   },
   "12510": {
     "id": 12510,
@@ -718,6 +768,14 @@
     "name": "公义的酬报",
     "icon": "UI_EquipIcon_Pole_Vorpal",
     "route": "Rightful Reward"
+  },
+  "13427": {
+    "id": 13427,
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "name": "勘探钻机",
+    "icon": "UI_EquipIcon_Pole_Mechanic",
+    "route": "Prospector's Drill"
   },
   "13501": {
     "id": 13501,
@@ -975,6 +1033,14 @@
     "icon": "UI_EquipIcon_Catalyst_Vorpal",
     "route": "Flowing Purity"
   },
+  "14426": {
+    "id": 14426,
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "name": "无垠蔚蓝之歌",
+    "icon": "UI_EquipIcon_Catalyst_DandelionPoem",
+    "route": "Ballad of the Boundless Blue"
+  },
   "14501": {
     "id": 14501,
     "rank": 5,
@@ -1038,6 +1104,22 @@
     "name": "图莱杜拉的回忆",
     "icon": "UI_EquipIcon_Catalyst_Alaya",
     "route": "Tulaytullah's Remembrance"
+  },
+  "14513": {
+    "id": 14513,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "金流监督",
+    "icon": "UI_EquipIcon_Catalyst_Wheatley",
+    "route": "Cashflow Supervision"
+  },
+  "14514": {
+    "id": 14514,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "万世流涌大典",
+    "icon": "UI_EquipIcon_Catalyst_Iudex",
+    "route": "Tome of the Eternal Flow"
   },
   "15101": {
     "id": 15101,
@@ -1263,6 +1345,14 @@
     "icon": "UI_EquipIcon_Bow_Vorpal",
     "route": "Song of Stillness"
   },
+  "15427": {
+    "id": 15427,
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "name": "测距规",
+    "icon": "UI_EquipIcon_Bow_Mechanic",
+    "route": "Range Gauge"
+  },
   "15501": {
     "id": 15501,
     "rank": 5,
@@ -1286,6 +1376,22 @@
     "name": "终末嗟叹之诗",
     "icon": "UI_EquipIcon_Bow_Widsith",
     "route": "Elegy for the End"
+  },
+  "15504": {
+    "id": 15504,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "",
+    "icon": "UI_EquipIcon_Bow_Hunters",
+    "route": "Kunwu's Wyrmbane"
+  },
+  "15505": {
+    "id": 15505,
+    "rank": 5,
+    "type": "WEAPON_BOW",
+    "name": "",
+    "icon": "UI_EquipIcon_Bow_Hunters",
+    "route": "Primordial Jade Vista"
   },
   "15507": {
     "id": 15507,

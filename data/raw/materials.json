@@ -1362,6 +1362,48 @@
       "rank": 1,
       "route": "Rainbow Rose"
     },
+    "101237": {
+      "id": 101237,
+      "name": "幽光星星",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101237",
+      "rank": 1,
+      "route": "Lumitoile"
+    },
+    "101238": {
+      "id": 101238,
+      "name": "湖光铃兰",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101238",
+      "rank": 1,
+      "route": "Lakelight Lily",
+      "beta": true
+    },
+    "101239": {
+      "id": 101239,
+      "name": "子探测单元",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101239",
+      "rank": 1,
+      "route": "Subdetection Unit"
+    },
+    "101240": {
+      "id": 101240,
+      "name": "初露之源",
+      "type": "localSpecialtyFontaine",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101240",
+      "rank": 1,
+      "route": "Spring of the First Dewdrop",
+      "beta": true
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -3672,6 +3714,36 @@
       "rank": 4,
       "route": "Alien Life Core"
     },
+    "112092": {
+      "id": 112092,
+      "name": "老旧的役人怀表",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112092",
+      "rank": 2,
+      "route": "Old Operative's Pocket Watch"
+    },
+    "112093": {
+      "id": 112093,
+      "name": "役人的制式怀表",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112093",
+      "rank": 3,
+      "route": "Operative's Standard Pocket Watch"
+    },
+    "112094": {
+      "id": 112094,
+      "name": "役人的时时刻刻",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112094",
+      "rank": 4,
+      "route": "Operative's Constancy"
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -4181,6 +4253,70 @@
       "icon": "UI_ItemIcon_113051",
       "rank": 4,
       "route": "Emperor's Resolution"
+    },
+    "113052": {
+      "id": 113052,
+      "name": "「图比昂装置」",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113052",
+      "rank": 4,
+      "route": "\"Tourbillon Device\""
+    },
+    "113053": {
+      "id": 113053,
+      "name": "原海麟角",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113053",
+      "rank": 4,
+      "route": "Fontemer Unihorn"
+    },
+    "113054": {
+      "id": 113054,
+      "name": "？？？",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "",
+      "rank": 5,
+      "route": "？？？",
+      "beta": true
+    },
+    "113055": {
+      "id": 113055,
+      "name": "？？？",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "",
+      "rank": 5,
+      "route": "？？？",
+      "beta": true
+    },
+    "113056": {
+      "id": 113056,
+      "name": "？？？",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "",
+      "rank": 5,
+      "route": "？？？",
+      "beta": true
+    },
+    "113057": {
+      "id": 113057,
+      "name": "未能达成超越之水",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113057",
+      "rank": 4,
+      "route": "Water That Failed To Transcend",
+      "beta": true
     },
     "114001": {
       "id": 114001,
@@ -5292,6 +5428,16 @@
       "rank": 4,
       "route": "Festive Drum"
     },
+    "220084": {
+      "id": 220084,
+      "name": "柔柔小章",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220084",
+      "rank": 4,
+      "route": "Itty Bitty Octobaby"
+    },
     "220086": {
       "id": 220086,
       "name": "水神瞳共鸣石",
@@ -5331,6 +5477,27 @@
       "icon": "UI_ItemIcon_220089",
       "rank": 4,
       "route": "Wind-Powered Wind Generator"
+    },
+    "220091": {
+      "id": 220091,
+      "name": "便携式空气动力胶质泡生发器",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220091",
+      "rank": 4,
+      "route": "Portable Aerodynamic Gelatinous Bubble Generator"
+    },
+    "220093": {
+      "id": 220093,
+      "name": "「特殊分析变焦镜头」",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220093",
+      "rank": 4,
+      "route": "\"Special Analysis Zoom Lens\"",
+      "beta": true
     }
   }
 }

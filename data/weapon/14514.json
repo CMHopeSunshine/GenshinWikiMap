@@ -1,0 +1,36 @@
+{
+  "id": "14514",
+  "name": "万世流涌大典",
+  "rank": 5,
+  "type": "法器",
+  "icon": {
+    "icon": "UI_EquipIcon_Catalyst_Iudex",
+    "awaken": "UI_EquipIcon_Catalyst_Iudex_Awaken",
+    "gacha": "UI_Gacha_EquipIcon_Catalyst_Iudex"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 44.3358,
+        "type": "GROW_CURVE_ATTACK_304"
+      },
+      "promote": [
+        31.1,
+        62.2,
+        93.4,
+        124.5,
+        155.60001,
+        186.7
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_CRITICAL_HURT",
+        "initValue": 0.192,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    }
+  ],
+  "buff": []
+}

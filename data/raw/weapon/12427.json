@@ -1,0 +1,168 @@
+{
+  "id": 12427,
+  "rank": 4,
+  "type": "双手剑",
+  "name": "便携动力锯",
+  "description": "如今几乎绝迹的旧式动力锯，曾是深受工人信赖的切割工具。",
+  "icon": "UI_EquipIcon_Claymore_Mechanic",
+  "storyId": 192427,
+  "affix": {
+    "112427": {
+      "name": "船工号子",
+      "upgrade": {
+        "0": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<color=#99FFFFFF>40<\/color>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<color=#99FFFFFF>2<\/color>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
+        "1": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<color=#99FFFFFF>50<\/color>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<color=#99FFFFFF>2.5<\/color>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
+        "2": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<color=#99FFFFFF>60<\/color>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<color=#99FFFFFF>3<\/color>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
+        "3": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<color=#99FFFFFF>70<\/color>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<color=#99FFFFFF>3.5<\/color>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
+        "4": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<color=#99FFFFFF>80<\/color>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<color=#99FFFFFF>4<\/color>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。"
+      }
+    }
+  },
+  "route": "Portable Power Saw",
+  "upgrade": {
+    "awakenCost": [
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 41.0671,
+        "type": "GROW_CURVE_ATTACK_204"
+      },
+      {
+        "propType": "FIGHT_PROP_HP_PERCENT",
+        "initValue": 0.12,
+        "type": "GROW_CURVE_CRITICAL_201"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112083": 2,
+          "112089": 3,
+          "114057": 3
+        },
+        "coinCost": 5000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 25.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112083": 8,
+          "112089": 12,
+          "114058": 3
+        },
+        "coinCost": 15000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 51.9,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112084": 6,
+          "112090": 6,
+          "114058": 6
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 77.8,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112084": 9,
+          "112090": 12,
+          "114059": 3
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 103.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112085": 6,
+          "112091": 9,
+          "114059": 6
+        },
+        "coinCost": 35000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 129.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112085": 12,
+          "112091": 18,
+          "114060": 4
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112083": 1,
+    "112084": 2,
+    "112085": 3,
+    "112089": 2,
+    "112090": 3,
+    "112091": 4,
+    "114057": 2,
+    "114058": 3,
+    "114059": 4,
+    "114060": 5
+  }
+}
