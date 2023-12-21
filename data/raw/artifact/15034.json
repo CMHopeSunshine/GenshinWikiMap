@@ -1,0 +1,47 @@
+{
+  "id": 15034,
+  "name": "回声之林夜话",
+  "levelList": [
+    4,
+    5
+  ],
+  "affixList": {
+    "2150340": "攻击力提高18%。",
+    "2150341": "施放元素战技后的10秒内，岩元素伤害加成提升20%；若处于结晶反应产生的护盾庇护下，上述效果提高150%，进一步提高的效果将在失去结晶护盾庇护的1秒后移除。"
+  },
+  "icon": "UI_RelicIcon_15034_4",
+  "route": "Nighttime Whispers in the Echoing Woods",
+  "suit": {
+    "EQUIP_BRACER": {
+      "name": "无私的妆饰花",
+      "description": "故事中的女巫所佩戴的胸花，与她所喜爱的其他装饰一样，用蝴蝶的造型作为点缀。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15034_4"
+    },
+    "EQUIP_NECKLACE": {
+      "name": "诚恳的蘸水笔",
+      "description": "故事中的女巫所使用的蘸水笔，流畅顺滑在它所有的优点中最不值得一提。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15034_2"
+    },
+    "EQUIP_SHOES": {
+      "name": "忠实的砂时计",
+      "description": "故事中的女巫所仰仗的砂时计，据说对它念出错误的咒语，时间的流逝就会格外迅速。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15034_5"
+    },
+    "EQUIP_RING": {
+      "name": "慷慨的墨水瓶",
+      "description": "故事中的女巫所借助的墨水瓶，有着不逊于蘸水笔的神奇魔法。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15034_1"
+    },
+    "EQUIP_DRESS": {
+      "name": "慈爱的淑女帽",
+      "description": "故事中的女巫所爱用的淑女帽，沉稳又不失俏皮的设计令她格外中意。",
+      "maxLevel": 17,
+      "icon": "UI_RelicIcon_15034_3"
+    }
+  },
+  "source": null
+}

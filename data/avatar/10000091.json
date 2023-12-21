@@ -1,0 +1,131 @@
+{
+  "id": 10000091,
+  "name": "娜维娅",
+  "element": "岩",
+  "weapon": "双手剑",
+  "rank": 5,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Navia",
+    "side": "UI_AvatarIcon_Side_Navia",
+    "card": "UI_AvatarIcon_Navia_Card",
+    "splash": "UI_Gacha_AvatarImg_Navia",
+    "slice": "UI_Gacha_AvatarIcon_Navia"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 984.77954,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        844.35944,
+        1444.29907,
+        2244.21851,
+        2844.15796,
+        3444.09766,
+        4044.03735
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 27.3714,
+        "type": "GROW_CURVE_ATTACK_S5"
+      },
+      "promote": [
+        23.46679,
+        40.14056,
+        62.37225,
+        79.04601,
+        95.71979,
+        112.39355
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 61.74456,
+        "type": "GROW_CURVE_HP_S5"
+      },
+      "promote": [
+        52.9416,
+        90.558,
+        140.7132,
+        178.32961,
+        215.946,
+        253.56239
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_CRITICAL_HURT",
+      "promote": [
+        0,
+        0.096,
+        0.192,
+        0.192,
+        0.288,
+        0.384
+      ]
+    }
+  ],
+  "talent": {
+    "10911": {
+      "name": "普通攻击·直率的辞绝",
+      "icon": "Skill_A_04"
+    },
+    "10912": {
+      "name": "典仪式晶火",
+      "icon": "Skill_S_Navia_01"
+    },
+    "10915": {
+      "name": "如霰澄天的鸣礼",
+      "icon": "Skill_E_Navia_01"
+    },
+    "912101": {
+      "name": "不明流通渠道",
+      "icon": "UI_Talent_S_Navia_05"
+    },
+    "912201": {
+      "name": "互助关系网",
+      "icon": "UI_Talent_S_Navia_06"
+    },
+    "912301": {
+      "name": "流程细致的交易",
+      "icon": "UI_Talent_S_Navia_07"
+    }
+  },
+  "constellation": {
+    "911": {
+      "name": "淑女的距离感守则",
+      "icon": "UI_Talent_S_Navia_01"
+    },
+    "912": {
+      "name": "总指挥的乘胜追击",
+      "icon": "UI_Talent_S_Navia_02"
+    },
+    "913": {
+      "name": "经营家的开阔视野",
+      "icon": "UI_Talent_U_Navia_01"
+    },
+    "914": {
+      "name": "铭誓者的绝不姑息",
+      "icon": "UI_Talent_S_Navia_03"
+    },
+    "915": {
+      "name": "协商人的坚决谈判",
+      "icon": "UI_Talent_U_Navia_02"
+    },
+    "916": {
+      "name": "刺玫会长的灵活手腕",
+      "icon": "UI_Talent_S_Navia_04"
+    }
+  },
+  "talent_fix": {
+    "10912": "典仪式晶火",
+    "10915": "如霰澄天的鸣礼"
+  },
+  "damage": [],
+  "buff": []
+}

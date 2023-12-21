@@ -1,0 +1,17 @@
+{
+  "name": "沉玉仙茗",
+  "description": "生长在沉玉谷温暖湿润之处的茶叶。经过数千年的精心筛选培育，如今的茶叶香气浓馥绵长，纵然相隔数条街，依然能够嗅到那沁人心脾的芬芳。",
+  "type": "食材",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101242",
+  "rank": 1,
+  "route": "",
+  "beta": true
+}

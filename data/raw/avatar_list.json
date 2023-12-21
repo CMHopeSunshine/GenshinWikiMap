@@ -1035,6 +1035,64 @@
     "release": 1699308000,
     "route": "Furina"
   },
+  "10000090": {
+    "id": 10000090,
+    "rank": 4,
+    "name": "夏沃蕾",
+    "element": "Fire",
+    "weaponType": "WEAPON_POLE",
+    "icon": "UI_AvatarIcon_Chevreuse",
+    "birthday": [
+      1,
+      10
+    ],
+    "release": 1704816000,
+    "route": "Chevreuse"
+  },
+  "10000091": {
+    "id": 10000091,
+    "rank": 5,
+    "name": "娜维娅",
+    "element": "Rock",
+    "weaponType": "WEAPON_CLAYMORE",
+    "icon": "UI_AvatarIcon_Navia",
+    "birthday": [
+      8,
+      16
+    ],
+    "release": 1702936800,
+    "route": "Navia"
+  },
+  "10000092": {
+    "id": 10000092,
+    "rank": 4,
+    "name": "嘉明",
+    "element": "Fire",
+    "weaponType": "WEAPON_CLAYMORE",
+    "icon": "UI_AvatarIcon_Gaming",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1705269600,
+    "route": "Gaming",
+    "beta": true
+  },
+  "10000093": {
+    "id": 10000093,
+    "rank": 5,
+    "name": "闲云",
+    "element": "Wind",
+    "weaponType": "WEAPON_CATALYST",
+    "icon": "UI_AvatarIcon_Liuyun",
+    "birthday": [
+      1,
+      1
+    ],
+    "release": 1705334400,
+    "route": "Xianyun",
+    "beta": true
+  },
   "10000005-hydro": {
     "id": "10000005-hydro",
     "rank": 5,

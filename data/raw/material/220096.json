@@ -1,0 +1,11 @@
+{
+  "name": "迷你仙灵·璨光",
+  "description": "「秘宝迷踪」活动的纪念，装备后可以获得迷你仙灵的陪伴。\\n拥有着璀璨色彩的迷你仙灵，在水下环境中依然可以活动自如。",
+  "type": "小道具",
+  "recipe": false,
+  "mapMark": false,
+  "source": null,
+  "icon": "UI_ItemIcon_220096",
+  "rank": 4,
+  "route": "Mini Seelie: Brilliance"
+}

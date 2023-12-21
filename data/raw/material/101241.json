@@ -1,0 +1,17 @@
+{
+  "name": "清水玉",
+  "description": "出产于沉玉谷的玉石。触感凉如清水，因此而得名。",
+  "type": "璃月区域特产",
+  "recipe": false,
+  "mapMark": false,
+  "source": [
+    {
+      "name": "野外采集",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_101241",
+  "rank": 1,
+  "route": "",
+  "beta": true
+}

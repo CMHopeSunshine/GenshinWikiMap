@@ -1,0 +1,33 @@
+{
+  "id": "15033",
+  "name": "昔时之歌",
+  "short_name": "昔时",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15033_4",
+  "part_list": {
+    "UI_RelicIcon_15033_4": {
+      "name": "昔时遗落之誓",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15033_2": {
+      "name": "昔时浮想之思",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15033_5": {
+      "name": "昔时回映之音",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15033_1": {
+      "name": "昔时应许之梦",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15033_3": {
+      "name": "昔时传奏之诗",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

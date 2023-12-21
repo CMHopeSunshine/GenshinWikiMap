@@ -1402,6 +1402,28 @@
       "rank": 1,
       "route": "Spring of the First Dewdrop"
     },
+    "101241": {
+      "id": 101241,
+      "name": "清水玉",
+      "type": "localSpecialtyLiyue",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101241",
+      "rank": 1,
+      "route": "",
+      "beta": true
+    },
+    "101242": {
+      "id": 101242,
+      "name": "沉玉仙茗",
+      "type": "cookingIngredient",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_101242",
+      "rank": 1,
+      "route": "",
+      "beta": true
+    },
     "101301": {
       "id": 101301,
       "name": "桦木",
@@ -3752,6 +3774,39 @@
       "rank": 4,
       "route": "Operative's Constancy"
     },
+    "112095": {
+      "id": 112095,
+      "name": "羽状鳍翅",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112095",
+      "rank": 2,
+      "route": "Feathery Fin",
+      "beta": true
+    },
+    "112096": {
+      "id": 112096,
+      "name": "月色鳍翅",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112096",
+      "rank": 3,
+      "route": "Lunar Fin",
+      "beta": true
+    },
+    "112097": {
+      "id": 112097,
+      "name": "渊光鳍翅",
+      "type": "characterandWeaponEnhancementMaterial",
+      "recipe": true,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_112097",
+      "rank": 4,
+      "route": "Chasmlight Fin",
+      "beta": true
+    },
     "113001": {
       "id": 113001,
       "name": "飓风之种",
@@ -4321,6 +4376,17 @@
       "icon": "UI_ItemIcon_113057",
       "rank": 4,
       "route": "Water That Failed To Transcend"
+    },
+    "113058": {
+      "id": 113058,
+      "name": "凝云鳞甲",
+      "type": "characterLevelUpMaterial",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_113058",
+      "rank": 4,
+      "route": "Cloudseam Scale",
+      "beta": true
     },
     "114001": {
       "id": 114001,
@@ -4942,6 +5008,16 @@
       "rank": 5,
       "route": "Silver Twig"
     },
+    "129001": {
+      "id": 129001,
+      "name": "星间之泪",
+      "type": "questItem",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_129001",
+      "rank": 5,
+      "route": "Tears Among the Stars"
+    },
     "220001": {
       "id": 220001,
       "name": "风神瞳共鸣石",
@@ -5501,6 +5577,16 @@
       "icon": "UI_ItemIcon_220093",
       "rank": 4,
       "route": "\"Special Analysis Zoom Lens\""
+    },
+    "220096": {
+      "id": 220096,
+      "name": "迷你仙灵·璨光",
+      "type": "gadget",
+      "recipe": false,
+      "mapMark": false,
+      "icon": "UI_ItemIcon_220096",
+      "rank": 4,
+      "route": "Mini Seelie: Brilliance"
     }
   }
 }

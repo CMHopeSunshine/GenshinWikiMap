@@ -1312,5 +1312,65 @@
     "suit_id": 15032,
     "suit_name": "黄金剧团",
     "part": "理之冠"
+  },
+  "UI_RelicIcon_15033_4": {
+    "name": "昔时遗落之誓",
+    "suit_id": 15033,
+    "suit_name": "昔时之歌",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15033_2": {
+    "name": "昔时浮想之思",
+    "suit_id": 15033,
+    "suit_name": "昔时之歌",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15033_5": {
+    "name": "昔时回映之音",
+    "suit_id": 15033,
+    "suit_name": "昔时之歌",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15033_1": {
+    "name": "昔时应许之梦",
+    "suit_id": 15033,
+    "suit_name": "昔时之歌",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15033_3": {
+    "name": "昔时传奏之诗",
+    "suit_id": 15033,
+    "suit_name": "昔时之歌",
+    "part": "理之冠"
+  },
+  "UI_RelicIcon_15034_4": {
+    "name": "无私的妆饰花",
+    "suit_id": 15034,
+    "suit_name": "回声之林夜话",
+    "part": "生之花"
+  },
+  "UI_RelicIcon_15034_2": {
+    "name": "诚恳的蘸水笔",
+    "suit_id": 15034,
+    "suit_name": "回声之林夜话",
+    "part": "死之羽"
+  },
+  "UI_RelicIcon_15034_5": {
+    "name": "忠实的砂时计",
+    "suit_id": 15034,
+    "suit_name": "回声之林夜话",
+    "part": "时之沙"
+  },
+  "UI_RelicIcon_15034_1": {
+    "name": "慷慨的墨水瓶",
+    "suit_id": 15034,
+    "suit_name": "回声之林夜话",
+    "part": "空之杯"
+  },
+  "UI_RelicIcon_15034_3": {
+    "name": "慈爱的淑女帽",
+    "suit_id": 15034,
+    "suit_name": "回声之林夜话",
+    "part": "理之冠"
   }
 }

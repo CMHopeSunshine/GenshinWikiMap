@@ -1,0 +1,33 @@
+{
+  "id": "15034",
+  "name": "回声之林夜话",
+  "short_name": "回声",
+  "level_list": [
+    4,
+    5
+  ],
+  "icon": "UI_RelicIcon_15034_4",
+  "part_list": {
+    "UI_RelicIcon_15034_4": {
+      "name": "无私的妆饰花",
+      "part": "生之花"
+    },
+    "UI_RelicIcon_15034_2": {
+      "name": "诚恳的蘸水笔",
+      "part": "死之羽"
+    },
+    "UI_RelicIcon_15034_5": {
+      "name": "忠实的砂时计",
+      "part": "时之沙"
+    },
+    "UI_RelicIcon_15034_1": {
+      "name": "慷慨的墨水瓶",
+      "part": "空之杯"
+    },
+    "UI_RelicIcon_15034_3": {
+      "name": "慈爱的淑女帽",
+      "part": "理之冠"
+    }
+  },
+  "buff": []
+}

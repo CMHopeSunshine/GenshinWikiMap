@@ -28,7 +28,7 @@ def update_constant():
     time.sleep(2)
 
     if avatar_detail := github_requests(
-            'https://raw.githubusercontent.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar.json'):
+            'https://raw.gitmirror.com/DGP-Studio/Snap.Metadata/main/Genshin/CHS/Avatar.json'):
         save_json(avatar_detail, RAW / 'Avatar.json')
         print('>>>角色信息raw更新完成')
     else:

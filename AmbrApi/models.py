@@ -1,6 +1,6 @@
 import re
 from collections import defaultdict
-from typing import Optional, Union
+from typing import Optional, Union, Any
 
 from pydantic import BaseModel, validator
 
@@ -359,7 +359,7 @@ class Weapon(BaseModel):
     type: str
     description: str
     icon: str
-    storyId: int
+    storyId: Any
     affix: Optional[dict[str, WeaponAffix]] = None
     route: str
     upgrade: WeaponUpgrade

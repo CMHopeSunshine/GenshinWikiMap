@@ -1,0 +1,32 @@
+{
+  "name": "月色鳍翅",
+  "description": "击败玄文兽后，从其背上取得的鳍翅。\\n其上隐隐折射着如月色般温润的幽光，不知为何给人一种宁谧感。",
+  "type": "角色与武器培养素材",
+  "recipe": {
+    "11061": {
+      "112095": {
+        "icon": "UI_ItemIcon_112095",
+        "count": 3
+      }
+    }
+  },
+  "mapMark": false,
+  "source": [
+    {
+      "name": "合成获得",
+      "type": "single"
+    },
+    {
+      "name": "40级以上玄文兽掉落",
+      "type": "single"
+    },
+    {
+      "name": "星尘兑换",
+      "type": "single"
+    }
+  ],
+  "icon": "UI_ItemIcon_112096",
+  "rank": 3,
+  "route": "Lunar Fin",
+  "beta": true
+}

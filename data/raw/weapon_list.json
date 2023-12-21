@@ -535,6 +535,14 @@
     "icon": "UI_EquipIcon_Claymore_Vorpal",
     "route": "Tidal Shadow"
   },
+  "12426": {
+    "id": 12426,
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "name": "「究极霸王超级魔剑」",
+    "icon": "UI_EquipIcon_Claymore_Champion",
+    "route": "\"Ultimate Overlord's Mega Magic Sword\""
+  },
   "12427": {
     "id": 12427,
     "rank": 4,
@@ -598,6 +606,14 @@
     "name": "苇海信标",
     "icon": "UI_EquipIcon_Claymore_Deshret",
     "route": "Beacon of the Reed Sea"
+  },
+  "12512": {
+    "id": 12512,
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "name": "裁断",
+    "icon": "UI_EquipIcon_Claymore_GoldenVerdict",
+    "route": "Verdict"
   },
   "13101": {
     "id": 13101,
@@ -1118,6 +1134,15 @@
     "name": "万世流涌大典",
     "icon": "UI_EquipIcon_Catalyst_Iudex",
     "route": "Tome of the Eternal Flow"
+  },
+  "14515": {
+    "id": 14515,
+    "rank": 5,
+    "type": "WEAPON_CATALYST",
+    "name": "鹤鸣余音",
+    "icon": "UI_EquipIcon_Catalyst_MountainGale",
+    "route": "Crane's Echoing Call",
+    "beta": true
   },
   "15101": {
     "id": 15101,

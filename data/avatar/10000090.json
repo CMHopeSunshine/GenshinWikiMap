@@ -1,0 +1,131 @@
+{
+  "id": 10000090,
+  "name": "夏沃蕾",
+  "element": "火",
+  "weapon": "长柄武器",
+  "rank": 4,
+  "region": "未知",
+  "icon": {
+    "avatar": "UI_AvatarIcon_Chevreuse",
+    "side": "UI_AvatarIcon_Side_Chevreuse",
+    "card": "UI_AvatarIcon_Chevreuse_Card",
+    "splash": "UI_Gacha_AvatarImg_Chevreuse",
+    "slice": "UI_Gacha_AvatarIcon_Chevreuse"
+  },
+  "property": [
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_HP",
+        "initValue": 1002.97009,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        749.27002,
+        1281.64612,
+        1991.48083,
+        2523.85693,
+        3056.23291,
+        3588.60913
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 16.20528,
+        "type": "GROW_CURVE_ATTACK_S4"
+      },
+      "promote": [
+        12.10646,
+        20.70841,
+        32.17769,
+        40.77965,
+        49.3816,
+        57.98356
+      ]
+    },
+    {
+      "base": {
+        "propType": "FIGHT_PROP_BASE_DEFENSE",
+        "initValue": 50.70135,
+        "type": "GROW_CURVE_HP_S4"
+      },
+      "promote": [
+        37.8765,
+        64.78875,
+        100.67175,
+        127.584,
+        154.49625,
+        181.40849
+      ]
+    },
+    {
+      "name": "FIGHT_PROP_HP_PERCENT",
+      "promote": [
+        0,
+        0.06,
+        0.12,
+        0.12,
+        0.18,
+        0.24
+      ]
+    }
+  ],
+  "talent": {
+    "10901": {
+      "name": "普通攻击·线列枪刺·改",
+      "icon": "Skill_A_03"
+    },
+    "10902": {
+      "name": "近迫式急促拦射",
+      "icon": "Skill_S_Chevreuse_01"
+    },
+    "10905": {
+      "name": "圆阵掷弹爆轰术",
+      "icon": "Skill_E_Chevreuse_01"
+    },
+    "902101": {
+      "name": "尖兵协同战法",
+      "icon": "UI_Talent_S_Chevreuse_05"
+    },
+    "902201": {
+      "name": "纵阵武力统筹",
+      "icon": "UI_Talent_S_Chevreuse_06"
+    },
+    "902301": {
+      "name": "迅捷行军策略",
+      "icon": "UI_Talent_Explosion_Sprint"
+    }
+  },
+  "constellation": {
+    "901": {
+      "name": "稳固阵线的魄力",
+      "icon": "UI_Talent_S_Chevreuse_01"
+    },
+    "902": {
+      "name": "诱导殉爆的狙击",
+      "icon": "UI_Talent_S_Chevreuse_02"
+    },
+    "903": {
+      "name": "娴熟复装的技巧",
+      "icon": "UI_Talent_U_Chevreuse_01"
+    },
+    "904": {
+      "name": "多重速射的秘诀",
+      "icon": "UI_Talent_S_Chevreuse_03"
+    },
+    "905": {
+      "name": "增量火力的毁伤",
+      "icon": "UI_Talent_U_Chevreuse_02"
+    },
+    "906": {
+      "name": "终结罪恶的追缉",
+      "icon": "UI_Talent_S_Chevreuse_04"
+    }
+  },
+  "talent_fix": {
+    "10902": "近迫式急促拦射",
+    "10905": "圆阵掷弹爆轰术"
+  },
+  "damage": [],
+  "buff": []
+}

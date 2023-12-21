@@ -1,0 +1,169 @@
+{
+  "id": 14515,
+  "rank": 5,
+  "type": "法器",
+  "name": "鹤鸣余音",
+  "description": "",
+  "icon": "UI_EquipIcon_Catalyst_MountainGale",
+  "storyId": null,
+  "affix": {
+    "114515": {
+      "name": "云笈降真要诀",
+      "upgrade": {
+        "0": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高28%，持续20秒；队伍中附近的其他角色的下落攻击命中敌人时，为装备者恢复2.5点元素能量，每0.7秒至多通过这种方式恢复一次元素能量。",
+        "1": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高41%，持续20秒；队伍中附近的其他角色的下落攻击命中敌人时，为装备者恢复2.75点元素能量，每0.7秒至多通过这种方式恢复一次元素能量。",
+        "2": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高54%，持续20秒；队伍中附近的其他角色的下落攻击命中敌人时，为装备者恢复3点元素能量，每0.7秒至多通过这种方式恢复一次元素能量。",
+        "3": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高67%，持续20秒；队伍中附近的其他角色的下落攻击命中敌人时，为装备者恢复3.25点元素能量，每0.7秒至多通过这种方式恢复一次元素能量。",
+        "4": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高80%，持续20秒；队伍中附近的其他角色的下落攻击命中敌人时，为装备者恢复3.5点元素能量，每0.7秒至多通过这种方式恢复一次元素能量。"
+      }
+    }
+  },
+  "route": "Crane's Echoing Call",
+  "upgrade": {
+    "awakenCost": [
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "prop": [
+      {
+        "propType": "FIGHT_PROP_BASE_ATTACK",
+        "initValue": 49.1377,
+        "type": "GROW_CURVE_ATTACK_303"
+      },
+      {
+        "propType": "FIGHT_PROP_ATTACK_PERCENT",
+        "initValue": 0.036,
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "promote": [
+      {
+        "unlockMaxLevel": 20,
+        "promoteLevel": 0
+      },
+      {
+        "promoteLevel": 1,
+        "costItems": {
+          "112008": 3,
+          "112095": 5,
+          "114017": 5
+        },
+        "coinCost": 10000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 31.1,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 40,
+        "requiredPlayerLevel": 15
+      },
+      {
+        "promoteLevel": 2,
+        "costItems": {
+          "112008": 12,
+          "112095": 18,
+          "114018": 5
+        },
+        "coinCost": 20000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 62.2,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 50,
+        "requiredPlayerLevel": 25
+      },
+      {
+        "promoteLevel": 3,
+        "costItems": {
+          "112009": 9,
+          "112096": 9,
+          "114018": 9
+        },
+        "coinCost": 30000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 93.4,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 60,
+        "requiredPlayerLevel": 30
+      },
+      {
+        "promoteLevel": 4,
+        "costItems": {
+          "112009": 14,
+          "112096": 18,
+          "114019": 5
+        },
+        "coinCost": 45000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 124.5,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 70,
+        "requiredPlayerLevel": 35
+      },
+      {
+        "promoteLevel": 5,
+        "costItems": {
+          "112010": 9,
+          "112097": 14,
+          "114019": 9
+        },
+        "coinCost": 55000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 155.60001,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 80,
+        "requiredPlayerLevel": 40
+      },
+      {
+        "promoteLevel": 6,
+        "costItems": {
+          "112010": 18,
+          "112097": 27,
+          "114020": 6
+        },
+        "coinCost": 65000,
+        "addProps": {
+          "FIGHT_PROP_BASE_ATTACK": 186.7,
+          "FIGHT_PROP_CRITICAL": 0,
+          "FIGHT_PROP_CRITICAL_HURT": 0,
+          "FIGHT_PROP_CHARGE_EFFICIENCY": 0,
+          "FIGHT_PROP_ELEMENT_MASTERY": 0
+        },
+        "unlockMaxLevel": 90,
+        "requiredPlayerLevel": 50
+      }
+    ]
+  },
+  "ascension": {
+    "112008": 1,
+    "112009": 2,
+    "112010": 3,
+    "112095": 2,
+    "112096": 3,
+    "112097": 4,
+    "114017": 2,
+    "114018": 3,
+    "114019": 4,
+    "114020": 5
+  },
+  "beta": true
+}
